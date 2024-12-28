@@ -1,0 +1,58 @@
+2024-11-23T11:30:10.031Z - info: Website generation (lazy) started at 19:30:08
+2024-11-23T11:30:10.368Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S1!website.git/book/_markbind/variables.md'
+2024-11-23T11:30:10.368Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S1!website.git/_markbind/variables.md'
+2024-11-23T11:30:10.387Z - info: Building assets...
+2024-11-23T11:30:11.733Z - info: Assets built
+2024-11-23T11:30:11.733Z - info: Generating landing page...
+2024-11-23T11:30:12.160Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-11-23T11:30:12.232Z - info: Site data built
+2024-11-23T11:30:12.232Z - info: Website generation (lazy) complete! Total build time: 3.24s
+2024-11-23T11:30:12.243Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2024-11-23T11:30:12.243Z - info: Press CTRL+C to stop ...
+2024-11-23T11:30:17.241Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams as some of its dependencies were changed since the last visit
+2024-11-23T11:30:17.408Z - info: Site data built
+2024-11-23T11:30:17.408Z - info: Lazy website regeneration complete! Total build time: 0.167s
+2024-11-23T15:14:54.020Z - info: Website generation started at 23:14:53
+2024-11-23T15:14:54.320Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S1!website.git/book/_markbind/variables.md'
+2024-11-23T15:14:54.321Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S1!website.git/_markbind/variables.md'
+2024-11-23T15:14:54.340Z - info: Building assets...
+2024-11-23T15:14:55.680Z - info: Assets built
+2024-11-23T15:14:55.681Z - info: Generating pages...
+2024-11-23T15:15:00.967Z - debug:  
+2024-11-23T15:15:00.967Z - debug: 2024-11-23 23:14:57.834 java[46918:2321569] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-23 23:14:57.834 java[46918:2321569] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-11-23T15:15:00.967Z - debug:  
+2024-11-23T15:15:00.967Z - debug:  
+2024-11-23T15:15:00.967Z - debug:  
+2024-11-23T15:15:01.159Z - debug:  
+2024-11-23T15:15:01.159Z - debug:  
+2024-11-23T15:15:01.159Z - debug:  
+2024-11-23T15:15:01.159Z - debug:  
+2024-11-23T15:15:01.159Z - debug:  
+2024-11-23T15:15:01.159Z - debug:  
+2024-11-23T15:15:01.159Z - debug: 2024-11-23 23:14:58.784 java[46952:2321851] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-23 23:14:58.784 java[46952:2321851] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-11-23T15:15:01.160Z - debug:  
+2024-11-23T15:15:01.160Z - debug:  
+2024-11-23T15:15:01.160Z - debug:  
+2024-11-23T15:15:01.160Z - debug:  
+2024-11-23T15:15:01.715Z - debug: 2024-11-23 23:15:01.273 java[46981:2322545] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-23 23:15:01.273 java[46981:2322545] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-11-23T15:15:09.139Z - debug: 2024-11-23 23:15:08.767 java[47009:2322835] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-23 23:15:08.767 java[47009:2322835] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-11-23T15:15:49.723Z - debug: 2024-11-23 23:15:47.493 java[47035:2323658] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-23 23:15:47.493 java[47035:2323658] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-11-23T15:15:59.211Z - debug:  
+2024-11-23T15:15:59.265Z - debug: 2024-11-23 23:15:58.833 java[47061:2324030] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-23 23:15:58.833 java[47061:2324030] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-11-23T15:16:05.452Z - info: Pages built
+2024-11-23T15:16:05.517Z - info: Site data built
+2024-11-23T15:16:05.517Z - info: Website generation complete! Total build time: 72.301s
+2024-11-23T15:16:05.517Z - info: Build success!
+2024-11-23T15:16:25.928Z - info: The website has been deployed at: https://nus-cs2103-ay2425s1.github.io/website

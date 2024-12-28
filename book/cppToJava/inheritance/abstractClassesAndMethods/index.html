@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 5.5.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Inheritance: Abstract Classes and Methods</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+<link rel="stylesheet" href="/website/css/main.css">
+<link rel="icon" href="/website/favicon.ico"></head>
+<script>
+  const baseUrl = '/website'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><div class="w-100 p-1 bg-warning text-center d-print-none"><span><strong>This is a draft version of the website! The final version will be available near the start of the semester.</strong></span></div> <div class="w-100 p-1 bg-success text-white text-center d-print-none"><span>This course will be delivered in <em>blended learning</em> mode (i.e., a mix of online and F2F activities) this semester.</span></div> <header sticky=""><div placement="top" data-v-7c0fd418><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-7c0fd418><div class="container-fluid" data-v-7c0fd418><div class="navbar-left" data-v-7c0fd418><a href="/website/index.html" title="Home" class="navbar-brand" data-v-7c0fd418><span class="badge rounded-pill bg-success" data-v-7c0fd418>CS2103/T <small data-v-7c0fd418>2025 Jan-Apr</small></span></a></div> <div class="navbar-default" data-v-7c0fd418><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-7c0fd418> <li class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Schedule</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <li data-v-99624572><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Full Timeline</strong></span></a></li> <li data-v-99624572><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 1</strong> [Mon, Jan 13th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 2</strong> [Mon, Jan 20th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 3</strong> [Mon, Jan 27th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 4</strong> [Mon, Feb 3rd] </span></a></li> <li data-v-99624572><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 5</strong> [Mon, Feb 10th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 6</strong> [Mon, Feb 17th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 7</strong> [Mon, Mar 3rd] </span></a></li> <li data-v-99624572><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 8</strong> [Mon, Mar 10th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 9</strong> [Mon, Mar 17th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 10</strong> [Mon, Mar 24th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 11</strong> [Mon, Mar 31st] </span></a></li> <li data-v-99624572><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 12</strong> [Mon, Apr 7th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 13</strong> [Mon, Apr 14th] </span></a></li></ul></li> <li data-v-7c0fd418><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Textbook</strong></span></a></li> <li data-v-7c0fd418><a href="/website/admin/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113" data-v-7c0fd418><a href="https://nus-cs2103-ay2425s2.github.io/dashboards" target="_blank" highlight-on="none" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113" class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Project Links</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <span data-v-99624572><strong data-v-99624572> Individual Project (iP):</strong></span> <li data-v-99624572><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-drafting-compass" data-v-99624572></span></span></span> Individual Project Info</a></li> <li data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/ip" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code-branch" data-v-99624572></span></span></span> iP Upstream Repo</a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-chart-area" data-v-99624572></span> iP Code Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> iP Progress Dashboard</span></a></li> <hr data-v-99624572> <span data-v-99624572><strong data-v-99624572> Team Project (tP):</strong></span> <li data-v-99624572><a href="/website/admin/tp-overview.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-drafting-compass" data-v-99624572></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/tp" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code-branch" data-v-99624572></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-99624572><a href="/website/admin/teamList.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-99624572></span> Team List</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-chart-area" data-v-99624572></span> tP Code Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Other Links</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-bug" data-v-99624572></span> Report Bugs</span></a></li> <li data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-comment" data-v-99624572></span> Forum</span></a></li> <li data-v-99624572><a href="/website/admin/instructors.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-user-tie" data-v-99624572></span> Instructors</span></a></li> <li data-v-99624572><a href="https://canvas.nus.edu.sg/courses/64945/announcements" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-99624572></span> Announcements</span></a></li> <li data-v-99624572><a href="https://canvas.nus.edu.sg/courses/64945/files" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-file-upload" data-v-99624572></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-99624572><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-99624572></span> Tutorial Schedule</span></a></li> <li data-v-99624572><a href="https://teams.microsoft.com/l/team/19%3Aaj8RdjikFFpW6iCVzHeVB0vAysFewSqHXErgros1wLc1%40thread.tacv2/conversations?groupId=a318604e-bb43-4ca5-addd-dbabc10b6766&amp;tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-users-cog" data-v-99624572></span> MS Teams link</span></a></li> <li data-v-99624572><a href="/website/git-trail/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-route" data-v-99624572></span> Git Learning Trail</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002" data-v-99624572><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code" data-v-99624572></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fab fa-git-square" data-v-99624572></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/forum-activities.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> Forum Activities Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> Participation Dashboard</span></a></li></ul></li></ul></div> <ul class="navbar-nav navbar-right" data-v-7c0fd418><li class="nav-link" data-v-7c0fd418><form class="navbar-form" data-v-7c0fd418><div class="dropdown" style="position:relative;" data-v-4f6e9aec><input data-bs-toggle="dropdown" type="text" placeholder="Search" autocomplete="off" value="" class="form-control" data-v-4f6e9aec> <div class="form-control placeholder-div-hidden" data-v-4f6e9aec>
+      Search
+    </div> <ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-4f6e9aec></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-7c0fd418><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div class="website-content"><p><span class="badge bg-light text-dark"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use abstract classes and methods</span></span></span></span></p><p></p><p></p> <p></p> <div><p><span class="dimmed"><strong><span>C++ to Java → Inheritance →
+</span></strong></span></p> <div id="title-and-body"><div><h4 id="abstract-classes-and-methods"><span>Abstract classes and methods</span><a href="#abstract-classes-and-methods" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4></div> <div id="main"><div><p>In Java, <strong>an <em>abstract method</em> is declared with the keyword <code class="line-numbers hljs inline no-lang">abstract</code> and given without an implementation</strong>. If a class includes abstract methods, then the class itself must be declared abstract.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The <code class="line-numbers hljs inline no-lang" data-v-474166ec>speak</code> method in this <code class="line-numbers hljs inline no-lang" data-v-474166ec>Animal</code> class is <code class="line-numbers hljs inline no-lang" data-v-474166ec>abstract</code>. Note how the method signature ends with a semicolon and there is no method body. This makes sense as the implementation of the <code class="line-numbers hljs inline no-lang" data-v-474166ec>speak</code> method depends on the type of the animal and it is meaningless to provide a common implementation for all animal types.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>abstract</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Animal</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-keyword" data-v-474166ec>protected</span> String name;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-title" data-v-474166ec>Animal</span><span class="hljs-params" data-v-474166ec>(String name)</span></span>{
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>this</span>.name = name;
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>abstract</span> String <span class="hljs-title" data-v-474166ec>speak</span><span class="hljs-params" data-v-474166ec>()</span></span>;
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec>As one method of the class is <code class="line-numbers hljs inline no-lang" data-v-474166ec>abstract</code>, the class itself is <code class="line-numbers hljs inline no-lang" data-v-474166ec>abstract</code>.</p></div> <!----></div></div></div> <p><strong>An <em>abstract class</em> is declared with the keyword <code class="line-numbers hljs inline no-lang">abstract</code>. Abstract classes can be used as reference type but cannot be instantiated.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This <code class="line-numbers hljs inline no-lang" data-v-474166ec>Account</code> class has been declared as abstract although it does not have any abstract methods. Attempting to instantiate <code class="line-numbers hljs inline no-lang" data-v-474166ec>Account</code> objects will result in a compile error.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>abstract</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Account</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-keyword" data-v-474166ec>int</span> number;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>close</span><span class="hljs-params" data-v-474166ec>()</span></span>{
+</span><span data-v-474166ec>        <span class="hljs-comment" data-v-474166ec>//...</span>
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><code class="line-numbers hljs inline no-lang" data-v-474166ec>Account a;</code> <span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-right" data-v-474166ec></span></span> <span style="color:green;" data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-check" data-v-474166ec></span></span></span> OK to use as a type <br data-v-474166ec> <code class="line-numbers hljs inline no-lang" data-v-474166ec>a = new Account();</code> <span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-right" data-v-474166ec></span></span> <span style="color:red;" data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-times" data-v-474166ec></span></span></span> Compile error!</p></div> <!----></div></div></div> <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> In Java, even <strong>a class that does not have any abstract methods <em>can</em> be declared as an abstract class.</strong></p> <p><strong>When an abstract class is subclassed, the subclass should provide implementations for all of the abstract methods in its superclass or else the subclass must also be declared abstract.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The <code class="line-numbers hljs inline no-lang" data-v-474166ec>Feline</code> class below inherits from the abstract class <code class="line-numbers hljs inline no-lang" data-v-474166ec>Animal</code> but it does not provide an implementation for the abstract method <code class="line-numbers hljs inline no-lang" data-v-474166ec>speak</code>. As a result, the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Feline</code> class needs to be abstract too.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>abstract</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Feline</span> <span class="hljs-keyword" data-v-474166ec>extends</span> <span class="hljs-title" data-v-474166ec>Animal</span> </span>{
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-title" data-v-474166ec>Feline</span><span class="hljs-params" data-v-474166ec>(String name)</span> </span>{
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>super</span>(name);
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec>The <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> class inherits the abstract <code class="line-numbers hljs inline no-lang" data-v-474166ec>Feline</code> class and provides the implementation for the abstract method <code class="line-numbers hljs inline no-lang" data-v-474166ec>speak</code>. As a result, it need not be (but <em data-v-474166ec>can</em> be) declared as abstract.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>DomesticCat</span> <span class="hljs-keyword" data-v-474166ec>extends</span> <span class="hljs-title" data-v-474166ec>Feline</span> </span>{
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-title" data-v-474166ec>DomesticCat</span><span class="hljs-params" data-v-474166ec>(String name)</span> </span>{
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>super</span>(name);
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-meta" data-v-474166ec>@Override</span>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> String <span class="hljs-title" data-v-474166ec>speak</span><span class="hljs-params" data-v-474166ec>()</span> </span>{
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>return</span> <span class="hljs-string" data-v-474166ec>&quot;Meow&quot;</span>;
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><ul data-v-474166ec><li data-v-474166ec><code class="line-numbers hljs inline java" data-v-474166ec>Animal a = <span class="hljs-keyword" data-v-474166ec>new</span> Feline(<span class="hljs-string" data-v-474166ec>&quot;Mittens&quot;</span>);</code><br data-v-474166ec><span style="color:red;" data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-times" data-v-474166ec></span></span></span> Compile error! <code class="line-numbers hljs inline no-lang" data-v-474166ec>Feline</code> is abstract.</li> <li data-v-474166ec><code class="line-numbers hljs inline java" data-v-474166ec>Animal a = <span class="hljs-keyword" data-v-474166ec>new</span> DomesticCat(<span class="hljs-string" data-v-474166ec>&quot;Mittens&quot;</span>);</code><br data-v-474166ec><span style="color:green;" data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-check" data-v-474166ec></span></span></span> OK. <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> can be instantiated and assigned to a variable of <code class="line-numbers hljs inline no-lang" data-v-474166ec>Animal</code> type <span class="dimmed" data-v-474166ec>(the assignment is allowed by polymorphism)</span>.</li></ul></div> <!----></div></div></div></div> <div><div><br> <h5 id="resources"><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:<a href="#resources" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><ul><li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html">Oracle’s Java Tutorials: Abstract Methods and Classes</a></li></ul></div></div> <div><br> <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card border-dark" data-v-c545cba4><div class="card-header header-toggle bg-dark border-dark" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-c545cba4><h3 id="key-exercise-print-area-with-abstract-shape" data-v-c545cba4><small data-v-c545cba4><small data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-c545cba4></span></span> [Key Exercise] print area with abstract <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Shape</code></small></small><a href="#key-exercise-print-area-with-abstract-shape" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h3></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <p data-v-c545cba4>The <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Main</code> class below keeps a list of <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Circle</code> and <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Rectangle</code> objects and prints the area (as an <code class="line-numbers hljs inline no-lang" data-v-c545cba4>int</code> value) of each shape when requested.</p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Main</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>static</span> Shape[] shapes = <span class="hljs-keyword" data-v-c545cba4>new</span> Shape[<span class="hljs-number" data-v-c545cba4>100</span>];
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>int</span> shapeCount = <span class="hljs-number" data-v-c545cba4>0</span>;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>addShape</span><span class="hljs-params" data-v-c545cba4>(Shape s)</span></span>{
+</span><span data-v-c545cba4>        shapes[shapeCount] = s;
+</span><span data-v-c545cba4>        shapeCount++;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>printAreas</span><span class="hljs-params" data-v-c545cba4>()</span></span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>for</span> (<span class="hljs-keyword" data-v-c545cba4>int</span> i = <span class="hljs-number" data-v-c545cba4>0</span>; i &lt; shapeCount; i++){
+</span><span data-v-c545cba4>            shapes[i].print();
+</span><span data-v-c545cba4>        }
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>main</span><span class="hljs-params" data-v-c545cba4>(String[] args)</span> </span>{
+</span><span data-v-c545cba4>        addShape(<span class="hljs-keyword" data-v-c545cba4>new</span> Circle(<span class="hljs-number" data-v-c545cba4>5</span>));
+</span><span data-v-c545cba4>        addShape(<span class="hljs-keyword" data-v-c545cba4>new</span> Rectangle(<span class="hljs-number" data-v-c545cba4>3</span>, <span class="hljs-number" data-v-c545cba4>4</span>));
+</span><span data-v-c545cba4>        addShape(<span class="hljs-keyword" data-v-c545cba4>new</span> Circle(<span class="hljs-number" data-v-c545cba4>10</span>));
+</span><span data-v-c545cba4>        addShape(<span class="hljs-keyword" data-v-c545cba4>new</span> Rectangle(<span class="hljs-number" data-v-c545cba4>4</span>, <span class="hljs-number" data-v-c545cba4>4</span>));
+</span><span data-v-c545cba4>        printAreas();
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-down" data-v-c545cba4></span></span></p> <pre data-v-c545cba4><code class="line-numbers hljs" data-v-c545cba4><span data-v-c545cba4>Circle of area 78
+</span><span data-v-c545cba4>Rectangle of area 12
+</span><span data-v-c545cba4>Circle of area 314
+</span><span data-v-c545cba4>Rectangle of area 16
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>Circle</code> class and <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Rectangle</code> class is given below:</p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Circle</span> <span class="hljs-keyword" data-v-c545cba4>extends</span> <span class="hljs-title" data-v-c545cba4>Shape</span> </span>{
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>int</span> radius;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Circle</span><span class="hljs-params" data-v-c545cba4>(<span class="hljs-keyword" data-v-c545cba4>int</span> radius)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.radius = radius;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-meta" data-v-c545cba4>@Override</span>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>int</span> <span class="hljs-title" data-v-c545cba4>area</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>return</span> (<span class="hljs-keyword" data-v-c545cba4>int</span>)(Math.PI * radius * radius);
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-meta" data-v-c545cba4>@Override</span>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>print</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;Circle of area &quot;</span> + area());
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Rectangle</span> <span class="hljs-keyword" data-v-c545cba4>extends</span> <span class="hljs-title" data-v-c545cba4>Shape</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>int</span> height;
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>int</span> width;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Rectangle</span><span class="hljs-params" data-v-c545cba4>(<span class="hljs-keyword" data-v-c545cba4>int</span> height, <span class="hljs-keyword" data-v-c545cba4>int</span> width)</span></span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.height = height;
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.width = width;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-meta" data-v-c545cba4>@Override</span>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>int</span> <span class="hljs-title" data-v-c545cba4>area</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>return</span> height * width;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-meta" data-v-c545cba4>@Override</span>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>print</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;Rectangle of area &quot;</span> + area());
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-c545cba4>Add the missing <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Shape</code> class <mark data-v-c545cba4>as an abstract class with two abstract methods</mark>.</p> <div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4>Partial solution</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div> <div><div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card" data-v-c545cba4><div class="card-header header-toggle bg-light" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-light" data-v-c545cba4><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-c545cba4></span></span><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-ok-sign" data-v-c545cba4></span></span> Statements about abstract classes</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-secondary" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.3</a>, generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]</small></div></footer></div>
+</body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-122519234-1');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "3DU4XTBX4T",
+      apiKey: "772d7386c7a785f7a60fec5a096311ef",
+      indexName: "nus-tic2002-2020a",
+      searchParameters: {"facetFilters":[["site:nus-cs2103-ay2425s2.github.io"],["tags:admin","tags:se-book-adapted","tags:schedule"]]}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+      } else {
+          classList.add('wrap')
+      }
+    }
+    </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    Vue.directive('datatable', {
+      inserted: function(el, binding) {
+        const options = binding.value || {};
+        const tableOptions = getTableOptions(el);
+        $(el).DataTable({ ...tableOptions, ...options });
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
+        const options = getTableOptions(this);
+        $(this).DataTable(options);
+      });
+    });
+  </script>
+
+    <script type="module">
+    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({});
+      Vue.directive('mermaid', {
+        inserted: function(el) {
+          mermaid.run({
+            nodes: [el]
+          });
+        }
+      });
+    });
+  </script>
+</html>

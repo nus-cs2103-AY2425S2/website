@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 5.5.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Some Useful Classes: The String Class</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+<link rel="stylesheet" href="/website/css/main.css">
+<link rel="icon" href="/website/favicon.ico"></head>
+<script>
+  const baseUrl = '/website'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><div class="w-100 p-1 bg-warning text-center d-print-none"><span><strong>This is a draft version of the website! The final version will be available near the start of the semester.</strong></span></div> <div class="w-100 p-1 bg-success text-white text-center d-print-none"><span>This course will be delivered in <em>blended learning</em> mode (i.e., a mix of online and F2F activities) this semester.</span></div> <header sticky=""><div placement="top" data-v-7c0fd418><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-7c0fd418><div class="container-fluid" data-v-7c0fd418><div class="navbar-left" data-v-7c0fd418><a href="/website/index.html" title="Home" class="navbar-brand" data-v-7c0fd418><span class="badge rounded-pill bg-success" data-v-7c0fd418>CS2103/T <small data-v-7c0fd418>2025 Jan-Apr</small></span></a></div> <div class="navbar-default" data-v-7c0fd418><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-7c0fd418> <li class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Schedule</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <li data-v-99624572><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Full Timeline</strong></span></a></li> <li data-v-99624572><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 1</strong> [Mon, Jan 13th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 2</strong> [Mon, Jan 20th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 3</strong> [Mon, Jan 27th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 4</strong> [Mon, Feb 3rd] </span></a></li> <li data-v-99624572><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 5</strong> [Mon, Feb 10th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 6</strong> [Mon, Feb 17th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 7</strong> [Mon, Mar 3rd] </span></a></li> <li data-v-99624572><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 8</strong> [Mon, Mar 10th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 9</strong> [Mon, Mar 17th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 10</strong> [Mon, Mar 24th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 11</strong> [Mon, Mar 31st] </span></a></li> <li data-v-99624572><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 12</strong> [Mon, Apr 7th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 13</strong> [Mon, Apr 14th] </span></a></li></ul></li> <li data-v-7c0fd418><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Textbook</strong></span></a></li> <li data-v-7c0fd418><a href="/website/admin/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113" data-v-7c0fd418><a href="https://nus-cs2103-ay2425s2.github.io/dashboards" target="_blank" highlight-on="none" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113" class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Project Links</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <span data-v-99624572><strong data-v-99624572> Individual Project (iP):</strong></span> <li data-v-99624572><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-drafting-compass" data-v-99624572></span></span></span> Individual Project Info</a></li> <li data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/ip" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code-branch" data-v-99624572></span></span></span> iP Upstream Repo</a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-chart-area" data-v-99624572></span> iP Code Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> iP Progress Dashboard</span></a></li> <hr data-v-99624572> <span data-v-99624572><strong data-v-99624572> Team Project (tP):</strong></span> <li data-v-99624572><a href="/website/admin/tp-overview.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-drafting-compass" data-v-99624572></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/tp" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code-branch" data-v-99624572></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-99624572><a href="/website/admin/teamList.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-99624572></span> Team List</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-chart-area" data-v-99624572></span> tP Code Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Other Links</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-bug" data-v-99624572></span> Report Bugs</span></a></li> <li data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-comment" data-v-99624572></span> Forum</span></a></li> <li data-v-99624572><a href="/website/admin/instructors.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-user-tie" data-v-99624572></span> Instructors</span></a></li> <li data-v-99624572><a href="https://canvas.nus.edu.sg/courses/64945/announcements" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-99624572></span> Announcements</span></a></li> <li data-v-99624572><a href="https://canvas.nus.edu.sg/courses/64945/files" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-file-upload" data-v-99624572></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-99624572><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-99624572></span> Tutorial Schedule</span></a></li> <li data-v-99624572><a href="https://teams.microsoft.com/l/team/19%3Aaj8RdjikFFpW6iCVzHeVB0vAysFewSqHXErgros1wLc1%40thread.tacv2/conversations?groupId=a318604e-bb43-4ca5-addd-dbabc10b6766&amp;tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-users-cog" data-v-99624572></span> MS Teams link</span></a></li> <li data-v-99624572><a href="/website/git-trail/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-route" data-v-99624572></span> Git Learning Trail</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002" data-v-99624572><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code" data-v-99624572></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fab fa-git-square" data-v-99624572></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/forum-activities.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> Forum Activities Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> Participation Dashboard</span></a></li></ul></li></ul></div> <ul class="navbar-nav navbar-right" data-v-7c0fd418><li class="nav-link" data-v-7c0fd418><form class="navbar-form" data-v-7c0fd418><div class="dropdown" style="position:relative;" data-v-4f6e9aec><input data-bs-toggle="dropdown" type="text" placeholder="Search" autocomplete="off" value="" class="form-control" data-v-4f6e9aec> <div class="form-control placeholder-div-hidden" data-v-4f6e9aec>
+      Search
+    </div> <ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-4f6e9aec></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-7c0fd418><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div class="website-content"><p><span class="badge bg-light text-dark"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use the String class</span></span></span></span></p><p></p><p></p> <p></p> <div><p><span class="dimmed"><strong><span>C++ to Java → Some Useful Classes →
+</span></strong></span></p> <div id="title-and-body"><div><h4 id="the-string-class"><span>The <code class="line-numbers hljs inline no-lang">String</code> class</span><a href="#the-string-class" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4></div> <div id="main"><div><p>String is a built-in Java class that you <span tabindex="0" class="trigger-click"><span>can use without importing</span></span>. Given below are some useful String methods:</p> <!----> <h5 id="find-characters-of-a-string">Find characters of a string<a href="#find-characters-of-a-string" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>Strings provide a method named <code class="line-numbers hljs inline no-lang">charAt</code>, which extracts a character. It returns a <code class="line-numbers hljs inline no-lang">char</code>, a primitive type that stores an individual character (as opposed to strings of them).</p> <pre><code class="line-numbers hljs java"><span>String fruit = <span class="hljs-string">&quot;banana&quot;</span>;
+</span><span><span class="hljs-keyword">char</span> letter = fruit.charAt(<span class="hljs-number">0</span>);
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p>The argument 0 means that we want the letter at position 0. Like array indexes, string indexes start at 0, so the character assigned to <code class="line-numbers hljs inline no-lang">letter</code> is <code class="line-numbers hljs inline no-lang">'b'</code>.</p> <p>You can convert a string to an array of characters using the <code class="line-numbers hljs inline no-lang">toCharArray</code> method.</p> <pre><code class="line-numbers hljs java"><span><span class="hljs-keyword">char</span>[] fruitChars = fruit.toCharArray()
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <h5 id="change-a-string-to-upper-lower-case">Change a string to upper/lower case<a href="#change-a-string-to-upper-lower-case" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>Strings provide methods, <code class="line-numbers hljs inline no-lang">toUpperCase</code> and <code class="line-numbers hljs inline no-lang">toLowerCase</code>, that convert from uppercase to lowercase and back.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> After these statements run, <code class="line-numbers hljs inline no-lang" data-v-474166ec>upperName</code> refers to the string <code class="line-numbers hljs inline no-lang" data-v-474166ec>&quot;ALAN TURING&quot;</code> but <code class="line-numbers hljs inline no-lang" data-v-474166ec>name</code> still refers to <code class="line-numbers hljs inline no-lang" data-v-474166ec>&quot;Alan Turing&quot;</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>String name = <span class="hljs-string" data-v-474166ec>&quot;Alan Turing&quot;</span>;
+</span><span data-v-474166ec>String upperName = name.toUpperCase();
+</span><span data-v-474166ec>System.out.println(name);
+</span><span data-v-474166ec>System.out.println(upperName);
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>Alan Turing
+</span><span data-v-474166ec>ALAN TURING
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p>Note that <strong>a string method cannot change the string object on which the method is invoked, because strings are <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span></strong>. For example, when you invoke <code class="line-numbers hljs inline no-lang">toUpperCase</code> on a string <code class="line-numbers hljs inline no-lang">&quot;abc&quot;</code>, you get a new string object <code class="line-numbers hljs inline no-lang">&quot;ABC&quot;</code> as the return value rather than the string <code class="line-numbers hljs inline no-lang">&quot;abc&quot;</code> being changed to <code class="line-numbers hljs inline no-lang">&quot;ABC&quot;</code>. As a result, for such string methods that <em>seemingly</em> modify the string but <em>actually</em> return a new string instead e.g., <code class="line-numbers hljs inline no-lang">toLowerCase</code>, <mark>invoking the method has no effect if you don’t assign the return value to a variable</mark>.</p> <pre><code class="line-numbers hljs java"><span>String s = <span class="hljs-string">&quot;Ada&quot;</span>;
+</span><span>s.toUpperCase(); <span class="hljs-comment">// no effect</span>
+</span><span>s = s.toUpperCase(); <span class="hljs-comment">// the correct way</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <h5 id="replacing-parts-of-a-string">Replacing parts of a string<a href="#replacing-parts-of-a-string" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>Another useful method is <code class="line-numbers hljs inline no-lang">replace</code>, which finds and replaces instances of one string within another.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This example replaces <code class="line-numbers hljs inline no-lang" data-v-474166ec>&quot;Computer Science&quot;</code> with <code class="line-numbers hljs inline no-lang" data-v-474166ec>&quot;CS&quot;</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>String text = <span class="hljs-string" data-v-474166ec>&quot;Computer Science is fun!&quot;</span>;
+</span><span data-v-474166ec>text = text.replace(<span class="hljs-string" data-v-474166ec>&quot;Computer Science&quot;</span>, <span class="hljs-string" data-v-474166ec>&quot;CS&quot;</span>);
+</span><span data-v-474166ec>System.out.println(text);
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>CS is fun!
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div></div> <h5 id="accessing-substrings">Accessing substrings<a href="#accessing-substrings" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>The <code class="line-numbers hljs inline no-lang">substring</code> method returns a new string that copies letters from an existing string, starting at the given index.</p> <ul><li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.substring(0)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">&quot;banana&quot;</code></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.substring(2)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">&quot;nana&quot;</code></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.substring(6)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">&quot;&quot;</code></li></ul> <p>If it’s invoked with two arguments, they are treated as a start and end index:</p> <ul><li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.substring(0, 3)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">&quot;ban&quot;</code></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.substring(2, 5)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">&quot;nan&quot;</code></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.substring(6, 6)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">&quot;&quot;</code></li></ul></div> <h5 id="searching-within-strings">Searching within strings<a href="#searching-within-strings" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>The <code class="line-numbers hljs inline no-lang">indexOf</code> method searches for a single character (or a substring) in a string and returns the index of the first occurrence. The method returns <code class="line-numbers hljs inline no-lang">-1</code> if there are no occurrences.</p> <ul><li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.indexOf('a')</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">1</code></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.indexOf('a', 2)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">3</code> <span class="dimmed">searches for <code class="line-numbers hljs inline no-lang">'a'</code>, starting from position 2</span></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.indexOf('x')</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">-1</code></li> <li><code class="line-numbers hljs inline no-lang">&quot;banana&quot;.indexOf(&quot;nan&quot;)</code> <span><span aria-hidden="true" class="fas fa-arrow-right"></span></span> <code class="line-numbers hljs inline no-lang">2</code> <span class="dimmed">searches for the substring <code class="line-numbers hljs inline no-lang">&quot;nan&quot;</code></span></li></ul></div> <h5 id="comparing-strings">Comparing strings<a href="#comparing-strings" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>To compare two strings, it is tempting to use the <code class="line-numbers hljs inline no-lang">==</code> and <code class="line-numbers hljs inline no-lang">!=</code> operators.</p> <pre><code class="line-numbers hljs java"><span>String name1 = <span class="hljs-string">&quot;Alan Turing&quot;</span>;
+</span><span>String name2 = <span class="hljs-string">&quot;Alan Turing&quot;</span>;
+</span><span>System.out.println(name1 == name2);
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p>This code compiles and runs, and most of the time it shows <code class="line-numbers hljs inline no-lang">true</code>. But it is not correct. The problem is, <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span>, the <code class="line-numbers hljs inline no-lang">==</code> operator checks whether the two variables refer to the same object (by comparing the references). If you give it two different string objects that contain the same letters, it is supposed to yield <code class="line-numbers hljs inline no-lang">false</code> because they are two distinct objects even if they contain the same text. However, because Java strings are immutable, <mark>in some cases (but not always)</mark> Java reuses existing string objects instead of creating multiple objects, which can cause the above code to yield <code class="line-numbers hljs inline no-lang">true</code>. Therefore, it is not safe to use <code class="line-numbers hljs inline no-lang">==</code> to compare strings if your intention is to check if they contain the same text.</p> <p><strong>The right way to compare strings is with the <code class="line-numbers hljs inline no-lang">equals</code> method.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This example invokes <code class="line-numbers hljs inline no-lang" data-v-474166ec>equals</code> on <code class="line-numbers hljs inline no-lang" data-v-474166ec>name1</code> and passes <code class="line-numbers hljs inline no-lang" data-v-474166ec>name2</code> as an argument. The <code class="line-numbers hljs inline no-lang" data-v-474166ec>equals</code> method returns <code class="line-numbers hljs inline no-lang" data-v-474166ec>true</code> if the strings contain the same characters; otherwise it returns <code class="line-numbers hljs inline no-lang" data-v-474166ec>false</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>if</span> (name1.equals(name2)) {
+</span><span data-v-474166ec>    System.out.println(<span class="hljs-string" data-v-474166ec>&quot;The names are the same.&quot;</span>);
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p>If the strings differ, you can use <code class="line-numbers hljs inline no-lang">compareTo</code> to see which comes first in alphabetical order. The return value from <code class="line-numbers hljs inline no-lang">compareTo</code> is the difference between the first characters in the strings that differ. If the strings are equal, their difference is zero. If the first string (the one on which the method is invoked) comes first in the alphabet, the difference is negative. Otherwise, the difference is positive.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> In this example, <code class="line-numbers hljs inline no-lang" data-v-474166ec>compareTo</code> returns positive 8, because the second letter of &quot;Alan&quot; comes 8 letters <em data-v-474166ec>after</em> the second letter of &quot;Ada&quot;.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>String name1 = <span class="hljs-string" data-v-474166ec>&quot;Alan&quot;</span>;
+</span><span data-v-474166ec>String name2 = <span class="hljs-string" data-v-474166ec>&quot;Ada&quot;</span>;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>int</span> diff = name1.compareTo(name2);
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>if</span> (diff == <span class="hljs-number" data-v-474166ec>0</span>) {
+</span><span data-v-474166ec>    System.out.println(<span class="hljs-string" data-v-474166ec>&quot;The names are the same.&quot;</span>);
+</span><span data-v-474166ec>} <span class="hljs-keyword" data-v-474166ec>else</span> <span class="hljs-keyword" data-v-474166ec>if</span> (diff &lt; <span class="hljs-number" data-v-474166ec>0</span>) {
+</span><span data-v-474166ec>    System.out.println(<span class="hljs-string" data-v-474166ec>&quot;name1 comes before name2.&quot;</span>);
+</span><span data-v-474166ec>} <span class="hljs-keyword" data-v-474166ec>else</span> <span class="hljs-keyword" data-v-474166ec>if</span> (diff &gt; <span class="hljs-number" data-v-474166ec>0</span>) {
+</span><span data-v-474166ec>    System.out.println(<span class="hljs-string" data-v-474166ec>&quot;name2 comes before name1.&quot;</span>);
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p>Both <code class="line-numbers hljs inline no-lang">equals</code> and <code class="line-numbers hljs inline no-lang">compareTo</code> are case-sensitive. The uppercase letters come before the lowercase letters, so <code class="line-numbers hljs inline no-lang">&quot;Ada&quot;</code> comes before <code class="line-numbers hljs inline no-lang">&quot;ada&quot;</code>. To check if two strings are similar irrespective of the differences in case, you can use the <code class="line-numbers hljs inline no-lang">equalsIgnoreCase</code> method.</p> <pre><code class="line-numbers hljs java"><span>String s1 = <span class="hljs-string">&quot;Apple&quot;</span>;
+</span><span>String s2 = <span class="hljs-string">&quot;apple&quot;</span>;
+</span><span>System.out.println(s1.equals(s2)); <span class="hljs-comment">//false</span>
+</span><span>System.out.println(s1.equalsIgnoreCase(s2)); <span class="hljs-comment">//true</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none">
+    <div class="function-btn-body">
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p>Some more comparison-related <code class="line-numbers hljs inline no-lang">String</code> methods:</p> <ul><li><code class="line-numbers hljs inline no-lang">contains</code>: checks if one string is a sub-string of the other e.g., <code class="line-numbers hljs inline no-lang">Snapple</code> and <code class="line-numbers hljs inline no-lang">app</code></li> <li><code class="line-numbers hljs inline no-lang">startsWith</code>: checks if one string has the other as a substring at the <em>beginning</em> e.g., <code class="line-numbers hljs inline no-lang">Apple</code> and <code class="line-numbers hljs inline no-lang">App</code></li> <li><code class="line-numbers hljs inline no-lang">endsWith</code>: checks if one string has the other as a substring at the <em>end</em> e.g., <code class="line-numbers hljs inline no-lang">Crab</code> and <code class="line-numbers hljs inline no-lang">ab</code></li></ul></div> <h5 id="printing-special-characters-line-breaks-tabs">Printing special characters (line breaks, tabs, ...)<a href="#printing-special-characters-line-breaks-tabs" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>You can embed a special character <span class="dimmed">e.g., line break, tab, backspace, etc.</span> in a string using an <em>escape sequence</em>.</p> <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead><tr><th>Escape sequence</th> <th>meaning</th></tr></thead> <tbody><tr><td><code class="line-numbers hljs inline no-lang">\n</code></td> <td>newline character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\t</code></td> <td>tab character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\b</code></td> <td>backspace character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\f</code></td> <td>form feed character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\r</code></td> <td>carriage return character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\&quot;</code></td> <td>&quot; (double quote) character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\'</code></td> <td>' (single quote) character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\\</code></td> <td>\ (back slash) character</td></tr> <tr><td><code class="line-numbers hljs inline no-lang">\uDDDD</code></td> <td>character from the Unicode character set, by specifying the Unicode as four hex digits in the place of <code class="line-numbers hljs inline no-lang">DDDD</code></td></tr></tbody></table></div><div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> An example of using escape sequences to print some special characters.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>System.out.println(<span class="hljs-string" data-v-474166ec>&quot;First line\nSecond \&quot;line\&quot;&quot;</span>);
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>First line
+</span><span data-v-474166ec>Second &quot;line&quot;
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p><span class="badge rounded-pill bg-success text-white"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> As the behavior of the <code class="line-numbers hljs inline no-lang">\n</code> <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span>, the recommended way to print a line break is using the <code class="line-numbers hljs inline no-lang">System.lineSeparator()</code> as it works the same in all platforms.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> Using <code class="line-numbers hljs inline no-lang" data-v-474166ec>System.lineSeparator()</code> to print a line break.</p> <pre data-v-474166ec><code class="no-line-numbers hljs java" data-v-474166ec><span data-v-474166ec>System.out.println(<span class="hljs-string" data-v-474166ec>&quot;First&quot;</span> + System.lineSeparator() + <span class="hljs-string" data-v-474166ec>&quot;Second&quot;</span>);
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="no-line-numbers hljs" data-v-474166ec><span data-v-474166ec>First
+</span><span data-v-474166ec>Second
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div></div> <h5 id="string-formatting">String formatting<a href="#string-formatting" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p>Sometimes programs need to create strings that are formatted in a certain way. <code class="line-numbers hljs inline no-lang">String.format</code> takes a <em>format specifier</em> followed by a sequence of values and returns a new string formatted as specified.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The following method returns a time string in 12-hour format. The format specifier <code class="line-numbers hljs inline no-lang" data-v-474166ec>\%02d</code> means “two digit integer padded with zeros”, so <code class="line-numbers hljs inline no-lang" data-v-474166ec>timeString(19, 5)</code> returns the string <code class="line-numbers hljs inline no-lang" data-v-474166ec>&quot;07:05 PM&quot;</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> String <span class="hljs-title" data-v-474166ec>timeString</span><span class="hljs-params" data-v-474166ec>(<span class="hljs-keyword" data-v-474166ec>int</span> hour, <span class="hljs-keyword" data-v-474166ec>int</span> minute)</span> </span>{
+</span><span data-v-474166ec>    String ampm;
+</span><span data-v-474166ec>    <span class="hljs-keyword" data-v-474166ec>if</span> (hour &lt; <span class="hljs-number" data-v-474166ec>12</span>) {
+</span><span data-v-474166ec>        ampm = <span class="hljs-string" data-v-474166ec>&quot;AM&quot;</span>;
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>if</span> (hour == <span class="hljs-number" data-v-474166ec>0</span>) {
+</span><span data-v-474166ec>            hour = <span class="hljs-number" data-v-474166ec>12</span>;  <span class="hljs-comment" data-v-474166ec>// midnight</span>
+</span><span data-v-474166ec>        }
+</span><span data-v-474166ec>    } <span class="hljs-keyword" data-v-474166ec>else</span> {
+</span><span data-v-474166ec>        ampm = <span class="hljs-string" data-v-474166ec>&quot;PM&quot;</span>;
+</span><span data-v-474166ec>        hour = hour - <span class="hljs-number" data-v-474166ec>12</span>;
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="highlighted" data-v-474166ec><span class="hljs-comment" data-v-474166ec>// returns &quot;07:05 PM&quot;</span></span>
+</span><span data-v-474166ec>    <span class="highlighted" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>return</span> String.format(<span class="hljs-string" data-v-474166ec>&quot;%02d:%02d %s&quot;</span>, hour, minute, ampm);</span>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div></div></div> <div><div><br> <h5 id="resources"><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:<a href="#resources" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><ul><li><a href="https://docs.oracle.com/javase/9/docs/api/java/lang/String.html"><code class="line-numbers hljs inline no-lang">String</code> API</a></li> <li><a href="https://docs.oracle.com/javase/tutorial/essential/io/formatting.html">Oracle's tutorial on string formatting</a></li></ul></div></div> <div><br> <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card border-dark" data-v-c545cba4><div class="card-header header-toggle bg-dark border-dark" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-c545cba4><h3 id="key-exercise-printprice-method" data-v-c545cba4><small data-v-c545cba4><small data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-c545cba4></span></span> [Key Exercise] <code class="line-numbers hljs inline no-lang" data-v-c545cba4>printPrice</code> method</small></small><a href="#key-exercise-printprice-method" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h3></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <p data-v-c545cba4>Implement the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>printPrice</code> method in the code below to produce the given output. Its behavior:</p> <ul data-v-c545cba4><li data-v-c545cba4>The parameter <code class="line-numbers hljs inline no-lang" data-v-c545cba4>item</code> is a string in the format <code class="line-numbers hljs inline no-lang" data-v-c545cba4>name--$price</code> i.e., a name and a price of an item separated using a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>--</code> e.g., <code class="line-numbers hljs inline no-lang" data-v-c545cba4>banana--$3/50</code></li> <li data-v-c545cba4>It prints the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>NAME: price</code> where the name is in upper case. The price does not have a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>$</code> sign and has <code class="line-numbers hljs inline no-lang" data-v-c545cba4>.</code> in place of the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>/</code><br data-v-c545cba4>
+e.g., <code class="line-numbers hljs inline no-lang" data-v-c545cba4>banana--$3/50</code> <span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-right" data-v-c545cba4></span></span> <code class="line-numbers hljs inline no-lang" data-v-c545cba4>BANANA: 3.50</code></li> <li data-v-c545cba4>The <code class="line-numbers hljs inline no-lang" data-v-c545cba4>name</code> part of the input can have trailing/leading spaces which should be omitted from the output.<br data-v-c545cba4>
+e.g., <code class="line-numbers hljs inline no-lang" data-v-c545cba4></code> <code class="line-numbers hljs inline no-lang" data-v-c545cba4>banana    --$3/50</code> <span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-right" data-v-c545cba4></span></span> <code class="line-numbers hljs inline no-lang" data-v-c545cba4>BANANA: 3.50</code></li></ul> <p data-v-c545cba4><span class="badge rounded-pill bg-success text-white" data-v-c545cba4><span aria-hidden="true" class="fas fa-lightbulb" data-v-c545cba4></span></span> Do a Web search to find how to remove leading/trailing spaces. Suggested search terms <code class="line-numbers hljs inline no-lang" data-v-c545cba4>java string remove leading trailing spaces</code></p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Main</span> </span>{
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>printPrice</span><span class="hljs-params" data-v-c545cba4>(String item)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-comment" data-v-c545cba4>// <span class="hljs-doctag" data-v-c545cba4>TODO:</span> add your code here</span>
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>main</span><span class="hljs-params" data-v-c545cba4>(String[] args)</span> </span>{
+</span><span data-v-c545cba4>        printPrice(<span class="hljs-string" data-v-c545cba4>&quot;sandwich  --$4/50&quot;</span>);
+</span><span data-v-c545cba4>        printPrice(<span class="hljs-string" data-v-c545cba4>&quot;  soda --$10/00&quot;</span>);
+</span><span data-v-c545cba4>        printPrice(<span class="hljs-string" data-v-c545cba4>&quot;  fries --$0/50&quot;</span>);
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-down" data-v-c545cba4></span></span></p> <pre data-v-c545cba4><code class="line-numbers hljs" data-v-c545cba4><span data-v-c545cba4>SANDWICH: 4.50
+</span><span data-v-c545cba4>SODA: 10.00
+</span><span data-v-c545cba4>FRIES: 0.50
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4>Hint</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.3</a>, generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]</small></div></footer></div>
+</body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-122519234-1');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "3DU4XTBX4T",
+      apiKey: "772d7386c7a785f7a60fec5a096311ef",
+      indexName: "nus-tic2002-2020a",
+      searchParameters: {"facetFilters":[["site:nus-cs2103-ay2425s2.github.io"],["tags:admin","tags:se-book-adapted","tags:schedule"]]}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+      } else {
+          classList.add('wrap')
+      }
+    }
+    </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    Vue.directive('datatable', {
+      inserted: function(el, binding) {
+        const options = binding.value || {};
+        const tableOptions = getTableOptions(el);
+        $(el).DataTable({ ...tableOptions, ...options });
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
+        const options = getTableOptions(this);
+        $(this).DataTable(options);
+      });
+    });
+  </script>
+
+    <script type="module">
+    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({});
+      Vue.directive('mermaid', {
+        inserted: function(el) {
+          mermaid.run({
+            nodes: [el]
+          });
+        }
+      });
+    });
+  </script>
+</html>

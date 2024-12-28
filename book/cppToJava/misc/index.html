@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 5.5.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Miscellaneous Topics</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+<link rel="stylesheet" href="/website/css/main.css">
+<link rel="icon" href="/website/favicon.ico"></head>
+<script>
+  const baseUrl = '/website'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><div class="w-100 p-1 bg-warning text-center d-print-none"><span><strong>This is a draft version of the website! The final version will be available near the start of the semester.</strong></span></div> <div class="w-100 p-1 bg-success text-white text-center d-print-none"><span>This course will be delivered in <em>blended learning</em> mode (i.e., a mix of online and F2F activities) this semester.</span></div> <header sticky=""><div placement="top" data-v-7c0fd418><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-7c0fd418><div class="container-fluid" data-v-7c0fd418><div class="navbar-left" data-v-7c0fd418><a href="/website/index.html" title="Home" class="navbar-brand" data-v-7c0fd418><span class="badge rounded-pill bg-success" data-v-7c0fd418>CS2103/T <small data-v-7c0fd418>2025 Jan-Apr</small></span></a></div> <div class="navbar-default" data-v-7c0fd418><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-7c0fd418> <li class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Schedule</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <li data-v-99624572><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Full Timeline</strong></span></a></li> <li data-v-99624572><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 1</strong> [Mon, Jan 13th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 2</strong> [Mon, Jan 20th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 3</strong> [Mon, Jan 27th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 4</strong> [Mon, Feb 3rd] </span></a></li> <li data-v-99624572><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 5</strong> [Mon, Feb 10th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 6</strong> [Mon, Feb 17th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 7</strong> [Mon, Mar 3rd] </span></a></li> <li data-v-99624572><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 8</strong> [Mon, Mar 10th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 9</strong> [Mon, Mar 17th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 10</strong> [Mon, Mar 24th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 11</strong> [Mon, Mar 31st] </span></a></li> <li data-v-99624572><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 12</strong> [Mon, Apr 7th] </span></a></li> <li data-v-99624572><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><strong data-v-99624572>Week 13</strong> [Mon, Apr 14th] </span></a></li></ul></li> <li data-v-7c0fd418><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Textbook</strong></span></a></li> <li data-v-7c0fd418><a href="/website/admin/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113" data-v-7c0fd418><a href="https://nus-cs2103-ay2425s2.github.io/dashboards" target="_blank" highlight-on="none" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113" class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Project Links</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <span data-v-99624572><strong data-v-99624572> Individual Project (iP):</strong></span> <li data-v-99624572><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-drafting-compass" data-v-99624572></span></span></span> Individual Project Info</a></li> <li data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/ip" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code-branch" data-v-99624572></span></span></span> iP Upstream Repo</a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-chart-area" data-v-99624572></span> iP Code Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> iP Progress Dashboard</span></a></li> <hr data-v-99624572> <span data-v-99624572><strong data-v-99624572> Team Project (tP):</strong></span> <li data-v-99624572><a href="/website/admin/tp-overview.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-drafting-compass" data-v-99624572></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/tp" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code-branch" data-v-99624572></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-99624572><a href="/website/admin/teamList.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-99624572></span> Team List</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-chart-area" data-v-99624572></span> tP Code Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-99624572><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-99624572><strong data-v-99624572>Other Links</strong> <span data-v-99624572></span></a> <ul class="dropdown-menu" data-v-99624572> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-bug" data-v-99624572></span> Report Bugs</span></a></li> <li data-v-99624572><a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-comment" data-v-99624572></span> Forum</span></a></li> <li data-v-99624572><a href="/website/admin/instructors.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-user-tie" data-v-99624572></span> Instructors</span></a></li> <li data-v-99624572><a href="https://canvas.nus.edu.sg/courses/64945/announcements" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-99624572></span> Announcements</span></a></li> <li data-v-99624572><a href="https://canvas.nus.edu.sg/courses/64945/files" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-file-upload" data-v-99624572></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-99624572><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-99624572></span> Tutorial Schedule</span></a></li> <li data-v-99624572><a href="https://teams.microsoft.com/l/team/19%3Aaj8RdjikFFpW6iCVzHeVB0vAysFewSqHXErgros1wLc1%40thread.tacv2/conversations?groupId=a318604e-bb43-4ca5-addd-dbabc10b6766&amp;tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-users-cog" data-v-99624572></span> MS Teams link</span></a></li> <li data-v-99624572><a href="/website/git-trail/index.html" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-route" data-v-99624572></span> Git Learning Trail</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002" data-v-99624572><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-code" data-v-99624572></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fab fa-git-square" data-v-99624572></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/forum-activities.html" target="_blank" class="dropdown-item" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> Forum Activities Dashboard</span></a></li> <li data-v-99624572><a href="https://nus-cs2103-ay2425s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-99624572><span data-v-99624572><span aria-hidden="true" class="fas fa-trophy" data-v-99624572></span> Participation Dashboard</span></a></li></ul></li></ul></div> <ul class="navbar-nav navbar-right" data-v-7c0fd418><li class="nav-link" data-v-7c0fd418><form class="navbar-form" data-v-7c0fd418><div class="dropdown" style="position:relative;" data-v-4f6e9aec><input data-bs-toggle="dropdown" type="text" placeholder="Search" autocomplete="off" value="" class="form-control" data-v-4f6e9aec> <div class="form-control placeholder-div-hidden" data-v-4f6e9aec>
+      Search
+    </div> <ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-4f6e9aec></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-7c0fd418><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div id="all" class="website-content"><p><span class="dimmed"><strong><span>C++ to Java →
+</span></strong></span></p> <div id="title"><h1 id="miscellaneous-topics"><span>Miscellaneous topics</span><a href="#miscellaneous-topics" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1></div> <div id="main"><div><div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="enumerations" data-v-c545cba4><span data-v-c545cba4>Enumerations</span><a href="#enumerations" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use Java enumerations</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>You can define an enum type by using the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>enum</code> keyword.</strong> Because they are constants, the names of an enum type's fields are in uppercase letters e.g., <code class="line-numbers hljs inline no-lang" data-v-c545cba4>FLAG_SUCCESS</code> by convention.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> Defining an enumeration to represent days of a week (code to be put in the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Day.java</code> file):</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>enum</span> <span class="hljs-title" data-v-474166ec>Day</span> </span>{
+</span><span data-v-474166ec>    SUNDAY, MONDAY, TUESDAY, WEDNESDAY,
+</span><span data-v-474166ec>    THURSDAY, FRIDAY, SATURDAY
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec>Some examples of using the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Day</code> enumeration defined above:</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>Day today = Day.MONDAY;
+</span><span data-v-474166ec>Day[] holidays = <span class="hljs-keyword" data-v-474166ec>new</span> Day[]{Day.SATURDAY, Day.SUNDAY};
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>switch</span> (today) {
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>case</span> SATURDAY:
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>case</span> SUNDAY:
+</span><span data-v-474166ec>    System.out.println(<span class="hljs-string" data-v-474166ec>&quot;It's the weekend&quot;</span>);
+</span><span data-v-474166ec>    <span class="hljs-keyword" data-v-474166ec>break</span>;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>default</span>:
+</span><span data-v-474166ec>    System.out.println(<span class="hljs-string" data-v-474166ec>&quot;It's a week day&quot;</span>);
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4>Note that while enumerations are usually a simple set of fixed values, <strong data-v-c545cba4>Java enumerations can have behaviors too</strong>, as explained in <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html" data-v-c545cba4>this tutorial from <small data-v-c545cba4><span style="opacity:0.5;" data-v-c545cba4><span class="badge bg-secondary" data-v-c545cba4>-- Java Tutorial</span></span></small></a></p></div> <div data-v-c545cba4><div data-v-c545cba4><br data-v-c545cba4> <h5 id="exercises" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-c545cba4></span></span><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-ok-sign" data-v-c545cba4></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h5> <div data-v-c545cba4><div data-v-c545cba4><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card border-dark" data-v-c545cba4><div class="card-header header-toggle bg-dark border-dark" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-c545cba4><h3 id="key-exercise-show-priority-color" data-v-c545cba4><small data-v-c545cba4><small data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-c545cba4></span></span> [Key Exercise] show priority color</small></small><a href="#key-exercise-show-priority-color" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h3></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <p data-v-c545cba4>Define an enumeration named <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Priority</code>. Add the missing <code class="line-numbers hljs inline no-lang" data-v-c545cba4>describe</code> method to the code below so that it produces the output given.</p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Main</span> </span>{
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-comment" data-v-c545cba4>// Add your method here</span>
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>main</span><span class="hljs-params" data-v-c545cba4>(String[] args)</span> </span>{
+</span><span data-v-c545cba4>        describe(<span class="hljs-string" data-v-c545cba4>&quot;Red&quot;</span>, Priority.HIGH);
+</span><span data-v-c545cba4>        describe(<span class="hljs-string" data-v-c545cba4>&quot;Orange&quot;</span>, Priority.MEDIUM);
+</span><span data-v-c545cba4>        describe(<span class="hljs-string" data-v-c545cba4>&quot;Blue&quot;</span>, Priority.MEDIUM);
+</span><span data-v-c545cba4>        describe(<span class="hljs-string" data-v-c545cba4>&quot;Green&quot;</span>, Priority.LOW);
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-down" data-v-c545cba4></span></span></p> <pre data-v-c545cba4><code class="line-numbers hljs" data-v-c545cba4><span data-v-c545cba4>Red indicates high priority
+</span><span data-v-c545cba4>Orange indicates medium priority
+</span><span data-v-c545cba4>Blue indicates medium priority
+</span><span data-v-c545cba4>Green indicates low priority
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-c545cba4></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4>Hint</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="packages" data-v-c545cba4><span data-v-c545cba4>Packages</span><a href="#packages" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use Java packages</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>You can organize your <em data-v-c545cba4>types</em> (i.e., classes, interfaces, enumerations, etc.) into <em data-v-c545cba4>packages</em></strong> for easier management (among <a href="https://www.tutorialspoint.com/Advantages-of-using-packages-in-Java" data-v-c545cba4>other benefits</a>).</p> <p data-v-c545cba4><strong data-v-c545cba4>To create a package, you put a package statement at the very top of every source file in that package.</strong> The package statement must be the first line in the source file and there can be no more than one package statement in each source file. Furthermore, <strong data-v-c545cba4>the package of a type should match the folder path of the source file.</strong> Similarly, the compiler will put the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>.class</code> files in a folder structure that matches the package names.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The <code class="line-numbers hljs inline no-lang" data-v-474166ec>Formatter</code> class below (in <code class="line-numbers hljs inline no-lang" data-v-474166ec>&lt;source folder&gt;/seedu/tojava/util/Formatter.java</code> file) is in the package <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.util</code>. When it is compiled, the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Formatter.class</code> file will be in the location <code class="line-numbers hljs inline no-lang" data-v-474166ec>&lt;compiler output folder&gt;/seedu/tojava/util</code>:</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>package</span> seedu.tojava.util;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Formatter</span> </span>{
+</span><span data-v-474166ec>    <span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>final</span> String PREFIX = <span class="hljs-string" data-v-474166ec>&quot;&gt;&gt;&quot;</span>;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> String <span class="hljs-title" data-v-474166ec>format</span><span class="hljs-params" data-v-474166ec>(String s)</span></span>{
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>return</span> PREFIX + s;
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>Package names are written in all lower case</strong> (not camelCase), using the dot as a separator. Packages in the Java language itself begin with <code class="line-numbers hljs inline no-lang" data-v-c545cba4>java</code>. or <code class="line-numbers hljs inline no-lang" data-v-c545cba4>javax</code>. Companies use their reversed Internet domain name to begin their package names.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> For example, <code class="line-numbers hljs inline no-lang" data-v-474166ec>com.foobar.doohickey.util</code> can be the name of a package created by a company with a domain name <code class="line-numbers hljs inline no-lang" data-v-474166ec>foobar.com</code></p></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>To use a public <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span> from outside its package, you must do one of the following:</strong></p> <ol data-v-c545cba4><li data-v-c545cba4><strong data-v-c545cba4>Use the <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span></strong> to refer to the member</li> <li data-v-c545cba4><strong data-v-c545cba4>Import</strong> the package or the specific package member</li></ol> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The <code class="line-numbers hljs inline no-lang" data-v-474166ec>Main</code> class below has two import statements:</p> <ul data-v-474166ec><li data-v-474166ec><code class="line-numbers hljs inline no-lang" data-v-474166ec>import seedu.tojava.util.StringParser</code>: imports the class <code class="line-numbers hljs inline no-lang" data-v-474166ec>StringParser</code> in the <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.util</code> package</li> <li data-v-474166ec><code class="line-numbers hljs inline no-lang" data-v-474166ec>import seedu.tojava.frontend.*</code>: imports all the classes in the <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.frontend</code> package</li></ul> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>package</span> seedu.tojava;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> seedu.tojava.util.StringParser;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> seedu.tojava.frontend.*;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Main</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>main</span><span class="hljs-params" data-v-474166ec>(String[] args)</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>        <span class="hljs-comment" data-v-474166ec>// Using the fully qualified name to access the Processor class</span>
+</span><span data-v-474166ec>        String status = seedu.tojava.logic.Processor.getStatus();
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>        <span class="hljs-comment" data-v-474166ec>// Using the StringParser previously imported</span>
+</span><span data-v-474166ec>        StringParser sp = <span class="hljs-keyword" data-v-474166ec>new</span> StringParser();
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>        <span class="hljs-comment" data-v-474166ec>// Using classes from the tojava.frontend package</span>
+</span><span data-v-474166ec>        Ui ui = <span class="hljs-keyword" data-v-474166ec>new</span> Ui();
+</span><span data-v-474166ec>        Message m = <span class="hljs-keyword" data-v-474166ec>new</span> Message();
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec>Note how the class can still use the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Processor</code> without importing it first, by using its fully qualified name <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.logic.Processor</code></p></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>Importing a package does not import its sub-packages</strong>, as packages do not behave as hierarchies despite appearances.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> <code class="line-numbers hljs inline no-lang" data-v-474166ec>import seedu.tojava.frontend.*</code> does not import the classes in the sub-package <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.frontend.widget</code>.</p></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>If you do not use a package statement, your type doesn't have a package</strong> -- a practice not recommended (except for small code examples) as it is not possible for a type in a package to import a type that is not in a package.</p> <p data-v-c545cba4><strong data-v-c545cba4>Optionally, a <em data-v-c545cba4>static import</em> can be used to import static members of a type</strong> so that the imported members can be used without specifying the type name.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The class below uses static imports to import the constant <code class="line-numbers hljs inline no-lang" data-v-474166ec>PREFIX</code> and the method <code class="line-numbers hljs inline no-lang" data-v-474166ec>format()</code> from the <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.util.Formatter</code> class.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> <span class="hljs-keyword" data-v-474166ec>static</span> seedu.tojava.util.Formatter.PREFIX;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> <span class="hljs-keyword" data-v-474166ec>static</span> seedu.tojava.util.Formatter.format;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Main</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>main</span><span class="hljs-params" data-v-474166ec>(String[] args)</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>        String formatted = format(<span class="hljs-string" data-v-474166ec>&quot;Hello&quot;</span>);
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>boolean</span> isFormatted = formatted.startsWith(PREFIX);
+</span><span data-v-474166ec>        System.out.println(formatted);
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>Formatter</code> class</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <p data-v-474166ec>Note how the class can use <code class="line-numbers hljs inline no-lang" data-v-474166ec>PREFIX</code> and <code class="line-numbers hljs inline no-lang" data-v-474166ec>format()</code> (instead of <code class="line-numbers hljs inline no-lang" data-v-474166ec>Formatter.PREFIX</code> and <code class="line-numbers hljs inline no-lang" data-v-474166ec>Formatter.format()</code>).</p></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>When using the commandline to compile/run Java, you should take the package into account.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> If the <code class="line-numbers hljs inline no-lang" data-v-474166ec>seedu.tojava.Main</code> class is defined in the file <code class="line-numbers hljs inline no-lang" data-v-474166ec>Main.java</code>,</p> <ul data-v-474166ec><li data-v-474166ec>when compiling from the <code class="line-numbers hljs inline no-lang" data-v-474166ec>&lt;source folder&gt;</code>, the command is:<br data-v-474166ec> <code class="line-numbers hljs inline no-lang" data-v-474166ec>javac seedu/tojava/Main.java</code></li> <li data-v-474166ec>when running it from the <code class="line-numbers hljs inline no-lang" data-v-474166ec>&lt;compiler output folder&gt;</code>, the command is:<br data-v-474166ec> <code class="line-numbers hljs inline no-lang" data-v-474166ec>java seedu.tojava.Main</code></li></ul></div> <!----></div></div></div></div> <div data-v-c545cba4><div data-v-c545cba4><br data-v-c545cba4> <h5 id="resources" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-paperclip" data-v-c545cba4></span></span> Resources:<a href="#resources" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h5> <div data-v-c545cba4><ul data-v-c545cba4><li data-v-c545cba4>Oracle's tutorial on packages: [<a href="https://docs.oracle.com/javase/tutorial/java/concepts/package.html" data-v-c545cba4>What is a Package?</a>] [<a href="https://docs.oracle.com/javase/tutorial/java/package/index.html" data-v-c545cba4>Creating and Using Packages</a>]</li></ul></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="access-modifiers" data-v-c545cba4><span data-v-c545cba4>Access modifiers</span><a href="#access-modifiers" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can explain access modifiers</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>Access level modifiers determine whether other classes can use a particular field or invoke a particular method.</strong></p> <p data-v-c545cba4>There are two levels of access control:</p> <ol data-v-c545cba4><li data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>At the class level</strong>:</p> <ul data-v-c545cba4><li data-v-c545cba4><strong data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>public</code></strong>: the class is visible to all classes everywhere</li> <li data-v-c545cba4><strong data-v-c545cba4>no modifier (the default, also known as <em data-v-c545cba4>package-private</em>)</strong>: it is visible only within its own package<br data-v-c545cba4><br data-v-c545cba4></li></ul></li> <li data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>At the member level</strong>:</p> <ul data-v-c545cba4><li data-v-c545cba4><strong data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>public</code></strong> or <strong data-v-c545cba4>no modifier (<em data-v-c545cba4>package-private</em>)</strong>: same meaning as when used with top-level classes</li> <li data-v-c545cba4><strong data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>private</code></strong>: the member can only be accessed in its own class</li> <li data-v-c545cba4><strong data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>protected</code></strong>: the member can only be accessed within its own package (as with package-private) and, in addition, by a subclass of its class in another package</li></ul></li></ol> <p data-v-c545cba4>The following table shows the access to members permitted by each modifier.</p> <div class="indented" data-v-c545cba4><div class="table-responsive" data-v-c545cba4><table class="markbind-table table table-bordered table-striped" data-v-c545cba4><thead data-v-c545cba4><tr data-v-c545cba4><th data-v-c545cba4>Modifier</th> <th data-v-c545cba4><span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span></th> <th data-v-c545cba4><span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span></th> <th data-v-c545cba4><span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span></th> <th data-v-c545cba4><span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span></th></tr></thead> <tbody data-v-c545cba4><tr data-v-c545cba4><td data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>public</code></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td></tr> <tr data-v-c545cba4><td data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>protected</code></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span></td></tr> <tr data-v-c545cba4><td data-v-c545cba4>no modifier</td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span></td></tr> <tr data-v-c545cba4><td data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>private</code></td> <td data-v-c545cba4><span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span></td> <td data-v-c545cba4><span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span></td></tr></tbody></table></div></div> <p data-v-c545cba4>Access levels affect you in two ways:</p> <ol data-v-c545cba4><li data-v-c545cba4>When you use classes that come from another source, such as the classes in the Java platform, access levels determine which members of those classes your own classes can use.</li> <li data-v-c545cba4>When you write a class, you need to decide what access level every member variable and every method in your class should have.</li></ol></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="constants" data-v-c545cba4><span data-v-c545cba4>Constants</span><a href="#constants" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use Java constants</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4>Java does not directly support constants. The convention is to use a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>static</code> <code class="line-numbers hljs inline no-lang" data-v-c545cba4>final</code> variable where a constant is needed. The <code class="line-numbers hljs inline no-lang" data-v-c545cba4>static</code> modifier causes the variable to be available without instantiating an object. The <code class="line-numbers hljs inline no-lang" data-v-c545cba4>final</code> modifier causes the variable to be unchangeable. Java constants are normally declared in ALL CAPS separated by underscores.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> Here is an example of a constant named <code class="line-numbers hljs inline no-lang" data-v-474166ec>MAX_BALANCE</code> which can be accessed as <code class="line-numbers hljs inline no-lang" data-v-474166ec>Account.MAX_BALANCE</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Account</span></span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>  <span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>final</span> <span class="hljs-keyword" data-v-474166ec>double</span> MAX_BALANCE = <span class="hljs-number" data-v-474166ec>1000000.0</span>;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/Math.html#PI" data-v-474166ec><code class="line-numbers hljs inline no-lang" data-v-474166ec>Math.PI</code></a> is an example constant that comes with Java.</p></div> <!----></div></div></div></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="casting" data-v-c545cba4><span data-v-c545cba4>Casting</span><a href="#casting" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use Java casting</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4><mark data-v-c545cba4><em data-v-c545cba4>Casting</em></mark> is the action of converting from one type to another</strong>. You can use the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>(newType)</code> syntax to cast a value to a type named <code class="line-numbers hljs inline no-lang" data-v-c545cba4>newType</code>.</p> <p data-v-c545cba4><strong data-v-c545cba4>When you cast a primitive value to another type, there may be a loss of precision.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The code below casts a <code class="line-numbers hljs inline no-lang" data-v-474166ec>double</code> value to an <code class="line-numbers hljs inline no-lang" data-v-474166ec>int</code> value and casts it back to a <code class="line-numbers hljs inline no-lang" data-v-474166ec>double</code>. Note the loss of precision.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>double</span> d = <span class="hljs-number" data-v-474166ec>5.3</span>;
+</span><span data-v-474166ec>System.out.println(<span class="hljs-string" data-v-474166ec>&quot;Before casting to an int: &quot;</span> + d);
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>int</span> i = (<span class="hljs-keyword" data-v-474166ec>int</span>)d; <span class="hljs-comment" data-v-474166ec>// cast d to an int</span>
+</span><span data-v-474166ec>System.out.println(<span class="hljs-string" data-v-474166ec>&quot;After casting to an int: &quot;</span> + i);
+</span><span data-v-474166ec>d = (<span class="hljs-keyword" data-v-474166ec>double</span>)i; <span class="hljs-comment" data-v-474166ec>// cast i back to a double</span>
+</span><span data-v-474166ec>System.out.println(<span class="hljs-string" data-v-474166ec>&quot;After casting back a double: &quot;</span> + d);
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>Before casting to an int: 5.3
+</span><span data-v-474166ec>After casting to an int: 5
+</span><span data-v-474166ec>After casting back a double: 5.0
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4><mark data-v-c545cba4><em data-v-c545cba4>Downcasting</em></mark> is when you cast an object reference from a superclass to a subclass.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> Assume the following class hierarchy:</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Animal</span></span>{
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>speak</span><span class="hljs-params" data-v-474166ec>()</span></span>{
+</span><span data-v-474166ec>        System.out.println(<span class="hljs-string" data-v-474166ec>&quot;I'm an animal&quot;</span>);
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>Cat</span> <span class="hljs-keyword" data-v-474166ec>extends</span> <span class="hljs-title" data-v-474166ec>Animal</span></span>{
+</span><span data-v-474166ec>    <span class="hljs-meta" data-v-474166ec>@Override</span>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>speak</span><span class="hljs-params" data-v-474166ec>()</span> </span>{
+</span><span data-v-474166ec>        System.out.println(<span class="hljs-string" data-v-474166ec>&quot;I'm a Cat&quot;</span>);
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>DomesticCat</span> <span class="hljs-keyword" data-v-474166ec>extends</span> <span class="hljs-title" data-v-474166ec>Cat</span></span>{
+</span><span data-v-474166ec>    <span class="hljs-meta" data-v-474166ec>@Override</span>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>speak</span><span class="hljs-params" data-v-474166ec>()</span> </span>{
+</span><span data-v-474166ec>        System.out.println(<span class="hljs-string" data-v-474166ec>&quot;I'm a DomesticCat&quot;</span>);
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>catchMice</span><span class="hljs-params" data-v-474166ec>()</span></span>{
+</span><span data-v-474166ec>        <span class="hljs-comment" data-v-474166ec>// ...</span>
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec>The <code class="line-numbers hljs inline no-lang" data-v-474166ec>foo</code> method below downcasts an <code class="line-numbers hljs inline no-lang" data-v-474166ec>Animal</code> object to its subclasses.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>foo</span><span class="hljs-params" data-v-474166ec>(Animal a)</span></span>{
+</span><span data-v-474166ec>    a.speak();
+</span><span data-v-474166ec>    Cat c = (Cat)a; <span class="hljs-comment" data-v-474166ec>// downcast a to a Cat</span>
+</span><span data-v-474166ec>    c.speak();
+</span><span data-v-474166ec>    DomesticCat dc = (DomesticCat)a; <span class="hljs-comment" data-v-474166ec>// downcast a to a DomesticCat</span>
+</span><span data-v-474166ec>    dc.speak();
+</span><span data-v-474166ec>    <span class="highlighted" data-v-474166ec>dc.catchMice();</span>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec>Note that the <code class="line-numbers hljs inline no-lang" data-v-474166ec>dc.catchMice()</code> line will not compile if <code class="line-numbers hljs inline no-lang" data-v-474166ec>a</code> is not downcast to a <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> object first. Reason: the <code class="line-numbers hljs inline no-lang" data-v-474166ec>catchMice</code> method is specific to the <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> class not not present in the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Animal</code> or the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Cat</code> classes.<br data-v-474166ec>
+Furthermore, the <code class="line-numbers hljs inline no-lang" data-v-474166ec>foo</code> method will fail at runtime if the argument <code class="line-numbers hljs inline no-lang" data-v-474166ec>a</code> is not a <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> object. Reason: an object cannot be cast to another class unless the object is of that class to begin with e.g., you cannot cast a <code class="line-numbers hljs inline no-lang" data-v-474166ec>Dog</code> object into a <code class="line-numbers hljs inline no-lang" data-v-474166ec>Cat</code> object.</p></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4><mark data-v-c545cba4><em data-v-c545cba4>Upcasting</em></mark> is when you cast an object reference from a subclass to a superclass.</strong> However, upcasting is done automatically by the compiler even if you do not specify it explicitly.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This example upcasts a <code class="line-numbers hljs inline no-lang" data-v-474166ec>Cat</code> object to its superclass <code class="line-numbers hljs inline no-lang" data-v-474166ec>Animal</code>:</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>Cat c = <span class="hljs-keyword" data-v-474166ec>new</span> Cat();
+</span><span data-v-474166ec>Animal a1 = (Animal)c; <span class="hljs-comment" data-v-474166ec>//upcasting c to the Animal class</span>
+</span><span data-v-474166ec>Animal a2 = c; <span class="hljs-comment" data-v-474166ec>//upcasting is implicit</span>
+</span><span data-v-474166ec>
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4>Note that due to polymorphism, the behavior of the object will reflect the actual type of the object irrespective of the type of the variable holding a reference to it.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The call to the <code class="line-numbers hljs inline no-lang" data-v-474166ec>speak()</code> method in the code below always executes the <code class="line-numbers hljs inline no-lang" data-v-474166ec>speak()</code> method of the <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> class because the actual type of the object remains <code class="line-numbers hljs inline no-lang" data-v-474166ec>DomesticCat</code> although the reference to it is being downcast/upcast to various other types.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>Animal a = <span class="hljs-keyword" data-v-474166ec>new</span> DomesticCat(); <span class="hljs-comment" data-v-474166ec>//implicit upcast</span>
+</span><span data-v-474166ec>a.speak();
+</span><span data-v-474166ec>Cat c = (Cat)a; <span class="hljs-comment" data-v-474166ec>//downcast</span>
+</span><span data-v-474166ec>c.speak();
+</span><span data-v-474166ec>DomesticCat dc = (DomesticCat)a; <span class="hljs-comment" data-v-474166ec>//downcast</span>
+</span><span data-v-474166ec>dc.speak();
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>I'm a DomesticCat
+</span><span data-v-474166ec>I'm a DomesticCat
+</span><span data-v-474166ec>I'm a DomesticCat
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>Casting to an incompatible type can result in a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>ClassCastException</code> at runtime.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This code will cause a <code class="line-numbers hljs inline no-lang" data-v-474166ec>ClassCastException</code>:</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>Object o = <span class="hljs-keyword" data-v-474166ec>new</span> Animal();
+</span><span data-v-474166ec>Integer x = (Integer)o;
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>Exception in thread &quot;main&quot; java.lang.ClassCastException: misc.casting.Animal cannot be
+</span><span data-v-474166ec>cast to java.lang.Integer at misc.casting.CastingExamples.main(CastingExamples.java:14)
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4>You can use the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>instanceof</code> operator to check if a cast is safe to perform.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This code checks if the object <code class="line-numbers hljs inline no-lang" data-v-474166ec>a</code> is an instance of the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Cat</code> class before casting it to a <code class="line-numbers hljs inline no-lang" data-v-474166ec>Cat</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>Cat c;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>if</span> (a <span class="hljs-keyword" data-v-474166ec>instanceof</span> Cat){
+</span><span data-v-474166ec>    c = (Cat)a;
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="file-access" data-v-c545cba4><span data-v-c545cba4>File access</span><a href="#file-access" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can read/write text files using Java</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>You can use the <a href="https://docs.oracle.com/javase/9/docs/api/java/io/File.html" data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>java.io.File</code></a> class to represent a file object</strong>. It can be used to access properties of the file object.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This code creates a <code class="line-numbers hljs inline no-lang" data-v-474166ec>File</code> object to represent a file <code class="line-numbers hljs inline no-lang" data-v-474166ec>fruits.txt</code> that exists in the <code class="line-numbers hljs inline no-lang" data-v-474166ec>data</code> directory <mark data-v-474166ec>relative to the current working directory</mark> and uses that object to print some properties of the file.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.io.File;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>FileClassDemo</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>main</span><span class="hljs-params" data-v-474166ec>(String[] args)</span> </span>{
+</span><span data-v-474166ec>        File f = <span class="hljs-keyword" data-v-474166ec>new</span> File(<span class="hljs-string" data-v-474166ec>&quot;data/fruits.txt&quot;</span>);
+</span><span data-v-474166ec>        System.out.println(<span class="hljs-string" data-v-474166ec>&quot;full path: &quot;</span> + f.getAbsolutePath());
+</span><span data-v-474166ec>        System.out.println(<span class="hljs-string" data-v-474166ec>&quot;file exists?: &quot;</span> + f.exists());
+</span><span data-v-474166ec>        System.out.println(<span class="hljs-string" data-v-474166ec>&quot;is Directory?: &quot;</span> + f.isDirectory());
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>full path: C:\sample-code\data\fruits.txt
+</span><span data-v-474166ec>file exists?: true
+</span><span data-v-474166ec>is Directory?: false
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-info-circle" data-v-c545cba4></span></span> If you use backslash to specify the file path in a Windows computer, you need to use an additional backslash as an escape character because the backslash by itself has a special meaning. e.g., use <span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span><code class="line-numbers hljs inline no-lang" data-v-c545cba4>&quot;data\\fruits.txt&quot;</code>, not <span style="color:red;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-times" data-v-c545cba4></span></span></span> <code class="line-numbers hljs inline no-lang" data-v-c545cba4>&quot;data\fruits.txt&quot;</code>. Alternatively, you can use forward slash <span style="color:green;" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-check" data-v-c545cba4></span></span></span> <code class="line-numbers hljs inline no-lang" data-v-c545cba4>&quot;data/fruits.txt&quot;</code> (even on Windows).</p> <p data-v-c545cba4><strong data-v-c545cba4>You can read from a file using a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Scanner</code> object that uses a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>File</code> object as the <em data-v-c545cba4>source</em> of data.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This code uses a <code class="line-numbers hljs inline no-lang" data-v-474166ec>Scanner</code> object to read (and print) contents of a text file line-by-line:</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.io.File;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.io.FileNotFoundException;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.util.Scanner;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>FileReadingDemo</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>private</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>printFileContents</span><span class="hljs-params" data-v-474166ec>(String filePath)</span> <span class="hljs-keyword" data-v-474166ec>throws</span> FileNotFoundException </span>{
+</span><span data-v-474166ec>        File f = <span class="hljs-keyword" data-v-474166ec>new</span> File(filePath); <span class="hljs-comment" data-v-474166ec>// create a File for the given file path</span>
+</span><span data-v-474166ec>        Scanner s = <span class="hljs-keyword" data-v-474166ec>new</span> Scanner(f); <span class="hljs-comment" data-v-474166ec>// create a Scanner using the File as the source</span>
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>while</span> (s.hasNext()) {
+</span><span data-v-474166ec>            System.out.println(s.nextLine());
+</span><span data-v-474166ec>        }
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>main</span><span class="hljs-params" data-v-474166ec>(String[] args)</span> </span>{
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>try</span> {
+</span><span data-v-474166ec>            printFileContents(<span class="hljs-string" data-v-474166ec>&quot;data/fruits.txt&quot;</span>);
+</span><span data-v-474166ec>        } <span class="hljs-keyword" data-v-474166ec>catch</span> (FileNotFoundException e) {
+</span><span data-v-474166ec>            System.out.println(<span class="hljs-string" data-v-474166ec>&quot;File not found&quot;</span>);
+</span><span data-v-474166ec>        }
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span> i.e., contents of the <code class="line-numbers hljs inline no-lang" data-v-474166ec>data/fruits.txt</code></p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>5 Apples
+</span><span data-v-474166ec>3 Bananas
+</span><span data-v-474166ec>6 Cherries
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>You can use a <a href="https://docs.oracle.com/javase/9/docs/api/java/io/FileWriter.html" data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>java.io.FileWriter</code></a> object to write to a file.</strong></p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The <code class="line-numbers hljs inline no-lang" data-v-474166ec>writeToFile</code> method below uses a <code class="line-numbers hljs inline no-lang" data-v-474166ec>FileWriter</code> object to write to a file. The method is being used to write two lines to the file <code class="line-numbers hljs inline no-lang" data-v-474166ec>temp/lines.txt</code>.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.io.FileWriter;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.io.IOException;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>FileWritingDemo</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>private</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>writeToFile</span><span class="hljs-params" data-v-474166ec>(String filePath, String textToAdd)</span> <span class="hljs-keyword" data-v-474166ec>throws</span> IOException </span>{
+</span><span data-v-474166ec>        FileWriter fw = <span class="hljs-keyword" data-v-474166ec>new</span> FileWriter(filePath);
+</span><span data-v-474166ec>        fw.write(textToAdd);
+</span><span data-v-474166ec>        fw.close();
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>main</span><span class="hljs-params" data-v-474166ec>(String[] args)</span> </span>{
+</span><span data-v-474166ec>        String file2 = <span class="hljs-string" data-v-474166ec>&quot;temp/lines.txt&quot;</span>;
+</span><span data-v-474166ec>        <span class="hljs-keyword" data-v-474166ec>try</span> {
+</span><span data-v-474166ec>            writeToFile(file2, <span class="hljs-string" data-v-474166ec>&quot;first line&quot;</span> + System.lineSeparator() + <span class="hljs-string" data-v-474166ec>&quot;second line&quot;</span>);
+</span><span data-v-474166ec>        } <span class="hljs-keyword" data-v-474166ec>catch</span> (IOException e) {
+</span><span data-v-474166ec>            System.out.println(<span class="hljs-string" data-v-474166ec>&quot;Something went wrong: &quot;</span> + e.getMessage());
+</span><span data-v-474166ec>        }
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-arrow-down" data-v-474166ec></span></span> Contents of the <code class="line-numbers hljs inline no-lang" data-v-474166ec>temp/lines.txt</code>:</p> <pre data-v-474166ec><code class="line-numbers hljs" data-v-474166ec><span data-v-474166ec>first line
+</span><span data-v-474166ec>second line
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4>Note that you <mark data-v-c545cba4>need to call the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>close()</code> method</mark> of the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>FileWriter</code> object for the writing operation to be completed.</p> <p data-v-c545cba4><strong data-v-c545cba4>You can create a <code class="line-numbers hljs inline no-lang" data-v-c545cba4>FileWriter</code> object that appends to the file</strong> (instead of overwriting the current content) by specifying an additional boolean parameter to the constructor.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The method below appends to the file rather than overwrites.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>private</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>appendToFile</span><span class="hljs-params" data-v-474166ec>(String filePath, String textToAppend)</span> <span class="hljs-keyword" data-v-474166ec>throws</span> IOException </span>{
+</span><span data-v-474166ec>    FileWriter fw = <span class="hljs-keyword" data-v-474166ec>new</span> FileWriter(filePath, <span class="hljs-keyword" data-v-474166ec>true</span>); <span class="hljs-comment" data-v-474166ec>// create a FileWriter in append mode</span>
+</span><span data-v-474166ec>    fw.write(textToAppend);
+</span><span data-v-474166ec>    fw.close();
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4>The <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Files.html" data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>java.nio.file.Files</code></a> is a utility class that provides several useful file operations.</strong> It relies on the <a href="https://docs.oracle.com/javase/9/docs/api/java/nio/file/Paths.html" data-v-c545cba4><code class="line-numbers hljs inline no-lang" data-v-c545cba4>java.nio.file.Paths</code></a> file to generate <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Path</code> objects that represent file paths.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> This example uses the <code class="line-numbers hljs inline no-lang" data-v-474166ec>Files</code> class to copy a file and delete a file.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.io.IOException;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.nio.file.Files;
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>import</span> java.nio.file.Paths;
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-class" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>class</span> <span class="hljs-title" data-v-474166ec>FilesClassDemo</span> </span>{
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>    <span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>main</span><span class="hljs-params" data-v-474166ec>(String[] args)</span> <span class="hljs-keyword" data-v-474166ec>throws</span> IOException</span>{
+</span><span data-v-474166ec>        Files.copy(Paths.get(<span class="hljs-string" data-v-474166ec>&quot;data/fruits.txt&quot;</span>), Paths.get(<span class="hljs-string" data-v-474166ec>&quot;temp/fruits2.txt&quot;</span>));
+</span><span data-v-474166ec>        Files.delete(Paths.get(<span class="hljs-string" data-v-474166ec>&quot;temp/fruits2.txt&quot;</span>));
+</span><span data-v-474166ec>    }
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4>The techniques above are good enough to manipulate simple text files. Note that <strong data-v-c545cba4>it is also possible to <a href="https://www.tutorialspoint.com/java/java_files_io.htm" data-v-c545cba4>perform file I/O operations using other classes</a></strong>.</p></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="using-jar-files" data-v-c545cba4><span data-v-c545cba4>Using JAR files</span><a href="#using-jar-files" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use JAR files</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>Java applications are typically delivered as JAR (short for <em data-v-c545cba4>Java Archive</em>) files.</strong> A JAR contains Java classes and other resources (icons, media files, etc.).</p> <p data-v-c545cba4>An executable JAR file can be launched using the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>java -jar</code> command e.g., <code class="line-numbers hljs inline no-lang" data-v-c545cba4>java -jar foo.jar</code> launches the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>foo.jar</code> file.</p> <p data-v-c545cba4>The IDE or build tools such as Gradle can help you to package your application as a JAR file.</p> <p data-v-c545cba4>See the tutorial <a href="https://se-education.org/guides/tutorials/jar.html" data-v-c545cba4><em data-v-c545cba4>Working with JAR files</em> @se-edu/guides</a> to learn how to create and use JAR files.</p></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="varargs" data-v-c545cba4><span data-v-c545cba4>Varargs</span><a href="#varargs" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use Java varargs feature</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4>Variable Arguments (Varargs) is a <em data-v-c545cba4>syntactic sugar</em> type feature that allows writing a method that can take a variable number of arguments.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> The <code class="line-numbers hljs inline no-lang" data-v-474166ec>search</code> method below can be called as <code class="line-numbers hljs inline no-lang" data-v-474166ec>search()</code>, <code class="line-numbers hljs inline no-lang" data-v-474166ec>search(&quot;book&quot;)</code>, <code class="line-numbers hljs inline no-lang" data-v-474166ec>search(&quot;book&quot;, &quot;paper&quot;)</code>, etc.</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec><span class="hljs-function" data-v-474166ec><span class="hljs-keyword" data-v-474166ec>public</span> <span class="hljs-keyword" data-v-474166ec>static</span> <span class="hljs-keyword" data-v-474166ec>void</span> <span class="hljs-title" data-v-474166ec>search</span><span class="hljs-params" data-v-474166ec>(String ... keywords)</span></span>{
+</span><span data-v-474166ec>   <span class="hljs-comment" data-v-474166ec>// method body</span>
+</span><span data-v-474166ec>}
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-paperclip" data-v-c545cba4></span></span> Resources:</p> <ul data-v-c545cba4><li data-v-c545cba4><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html" data-v-c545cba4>Java Varargs feature (from Oracle.com)</a></li> <li data-v-c545cba4><a href="https://www.javatpoint.com/varargs" data-v-c545cba4>Java Varargs tutorial (for javaTpoint.com)</a></li></ul></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="streams-basic" data-v-c545cba4><span data-v-c545cba4>Streams: Basic</span><a href="#streams-basic" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use Java8 streams</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p> <p data-v-c545cba4><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/" data-v-c545cba4>Here</a> is an overview of new Java 8 features <span class="dimmed" data-v-c545cba4>(written by Benjamin Winterberg)</span>.</p></div> <div data-v-c545cba4><div data-v-c545cba4><br data-v-c545cba4> <h5 id="resources-2" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-paperclip" data-v-c545cba4></span></span> Resources:<a href="#resources-2" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h5> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>Tutorials</strong>:</p> <div class="printable-tabs" data-v-05434e42><ul role="tablist" class="nav nav-tabs d-print-none nav-tabs" data-v-05434e42></ul> <div class="tab-content" data-v-05434e42><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-661c1b61><div class="nav-tabs printable-tab-header" data-v-661c1b61><div class="nav-link active" data-v-661c1b61><span data-v-661c1b61><span aria-hidden="true" class="far fa-file-alt" data-v-661c1b61></span></span></div></div>  <ul data-v-661c1b61><li data-v-661c1b61><p data-v-661c1b61><a href="https://www.tutorialspoint.com/java8/" data-v-661c1b61><strong data-v-661c1b61>Java 8 Tutorial</strong></a> -- from tutorialspoint.com. <span class="badge rounded-pill bg-success text-white" data-v-661c1b61><span aria-hidden="true" class="fas fa-lightbulb" data-v-661c1b61></span></span> Also provides a way to try out code online</p></li> <li data-v-661c1b61><p data-v-661c1b61><strong data-v-661c1b61>Tutorials from Oracle</strong>: [<a href="http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html" data-v-661c1b61>Lambdas</a>][<a href="http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html" data-v-661c1b61>Streams</a>]</p></li></ul> <hr data-v-661c1b61></div> <div role="tabpanel" class="tab-pane active printable-tab-pane d-print-none algolia-no-index tab-pane-hide" data-v-661c1b61><div class="nav-tabs printable-tab-header" data-v-661c1b61><div class="nav-link active" data-v-661c1b61><span data-v-661c1b61><span aria-hidden="true" class="glyphicon glyphicon-facetime-video" data-v-661c1b61></span></span></div></div>  <p data-v-661c1b61>A video tutorial by well-known Java coach Venkat Subramaniam</p> <div class="block-embed block-embed-service-youtube" style="position:relative;padding-bottom:60.9375%;" data-v-661c1b61><iframe type="text/html" src="//www.youtube.com/embed/Ee5t_EGjv0A" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="allowfullscreen" data-v-661c1b61></iframe></div> <div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4>A a more detailed version covering similar grounds</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <hr data-v-661c1b61></div></div></div></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="javafx" data-v-c545cba4><span data-v-c545cba4>JavaFX</span><a href="#javafx" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use JavaFX to build a simple GUI</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4>JavaFX is a technology for building Java-based GUIs. Previously it was a part Java itself, but has become a third-party dependency since then. It is now being maintained by <a href="https://wiki.openjdk.java.net/display/OpenJFX" data-v-c545cba4>OpenJDK</a>.</p> <p data-v-c545cba4>Refer to the <a href="https://se-education.org/guides/tutorials/javaFx.html" data-v-c545cba4><em data-v-c545cba4>JavaFX tutorial</em> @SE-EDU/guides</a> to learn how to get started with JavaFX.</p></div> <div data-v-c545cba4></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.3</a>, generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]</small></div></footer></div>
+</body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122519234-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-122519234-1');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "3DU4XTBX4T",
+      apiKey: "772d7386c7a785f7a60fec5a096311ef",
+      indexName: "nus-tic2002-2020a",
+      searchParameters: {"facetFilters":[["site:nus-cs2103-ay2425s2.github.io"],["tags:admin","tags:se-book-adapted","tags:schedule"]]}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+      } else {
+          classList.add('wrap')
+      }
+    }
+    </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    Vue.directive('datatable', {
+      inserted: function(el, binding) {
+        const options = binding.value || {};
+        const tableOptions = getTableOptions(el);
+        $(el).DataTable({ ...tableOptions, ...options });
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
+        const options = getTableOptions(this);
+        $(this).DataTable(options);
+      });
+    });
+  </script>
+
+    <script type="module">
+    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({});
+      Vue.directive('mermaid', {
+        inserted: function(el) {
+          mermaid.run({
+            nodes: [el]
+          });
+        }
+      });
+    });
+  </script>
+</html>
