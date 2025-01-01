@@ -878,3 +878,201 @@ Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
 2024-12-28T15:24:27.788Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-tee3201!2024.git/book/_markbind/variables.md'
 2024-12-28T15:24:27.788Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-tee3201!2024.git/_markbind/variables.md'
 2024-12-28T15:24:27.809Z - info: Building assets...
+2024-12-28T15:24:29.522Z - info: Assets built
+2024-12-28T15:24:29.523Z - info: Generating pages...
+2024-12-28T15:24:36.174Z - debug:  
+2024-12-28T15:24:36.733Z - debug: 2024-12-28 23:24:31.776 java[38334:1879775] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:24:31.776 java[38334:1879775] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug:  
+2024-12-28T15:24:36.734Z - debug: 2024-12-28 23:24:33.457 java[38381:1880168] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:24:33.457 java[38381:1880168] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:24:37.410Z - debug: 2024-12-28 23:24:37.053 java[38411:1880955] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:24:37.053 java[38411:1880955] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:25:01.642Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:25:12.336Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:25:12.336Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:25:25.159Z - debug: 2024-12-28 23:25:22.718 java[38460:1881994] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:25:22.718 java[38460:1881994] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:25:34.766Z - debug: 2024-12-28 23:25:34.099 java[38481:1882478] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:25:34.099 java[38481:1882478] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:25:34.932Z - debug:  
+2024-12-28T15:25:38.275Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:25:38.276Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:25:40.089Z - info: Pages built
+2024-12-28T15:25:40.153Z - info: Site data built
+2024-12-28T15:25:40.153Z - info: Website generation complete! Total build time: 73.392s
+2024-12-28T15:25:40.153Z - info: Build success!
+2024-12-28T15:26:05.704Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2024-12-28T15:45:26.924Z - info: Website generation (lazy) started at 23:45:26
+2024-12-28T15:45:27.182Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2024-12-28T15:45:27.183Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2024-12-28T15:45:27.201Z - info: Building assets...
+2024-12-28T15:45:28.843Z - info: Assets built
+2024-12-28T15:45:28.843Z - info: Generating landing page...
+2024-12-28T15:45:29.025Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-12-28T15:45:29.093Z - info: Site data built
+2024-12-28T15:45:29.094Z - info: Website generation (lazy) complete! Total build time: 3.067s
+2024-12-28T15:45:29.103Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2024-12-28T15:45:29.103Z - info: Press CTRL+C to stop ...
+2024-12-28T15:47:07.248Z - info: Website generation started at 23:47:06
+2024-12-28T15:47:07.441Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2024-12-28T15:47:07.441Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2024-12-28T15:47:07.461Z - info: Building assets...
+2024-12-28T15:47:10.019Z - info: Assets built
+2024-12-28T15:47:10.019Z - info: Generating pages...
+2024-12-28T15:47:14.908Z - debug:  
+2024-12-28T15:47:14.908Z - debug: 2024-12-28 23:47:11.982 java[40470:1912303] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:47:11.982 java[40470:1912303] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:47:14.908Z - debug:  
+2024-12-28T15:47:14.908Z - debug:  
+2024-12-28T15:47:14.908Z - debug: 2024-12-28 23:47:12.862 java[40488:1912502] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:47:12.862 java[40488:1912502] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.299Z - debug:  
+2024-12-28T15:47:15.304Z - debug:  
+2024-12-28T15:47:16.769Z - debug: 2024-12-28 23:47:16.415 java[40534:1913342] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:47:16.415 java[40534:1913342] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:47:39.458Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:47:39.458Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:47:39.801Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:47:49.912Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:47:49.912Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:47:53.491Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:48:00.189Z - debug: 2024-12-28 23:47:58.286 java[40572:1914841] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:47:58.286 java[40572:1914841] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:48:06.329Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w11.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:48:08.019Z - debug: 2024-12-28 23:48:07.373 java[40590:1915290] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:48:07.374 java[40590:1915290] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:48:08.170Z - debug:  
+2024-12-28T15:48:11.065Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:48:11.065Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:48:12.675Z - info: Pages built
+2024-12-28T15:48:12.740Z - info: Site data built
+2024-12-28T15:48:12.740Z - info: Website generation complete! Total build time: 66.123s
+2024-12-28T15:48:12.740Z - info: Build success!
+2024-12-28T15:53:03.078Z - info: Website generation started at 23:53:02
+2024-12-28T15:53:03.321Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2024-12-28T15:53:03.321Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2024-12-28T15:53:03.342Z - info: Building assets...
+2024-12-28T15:53:05.284Z - info: Assets built
+2024-12-28T15:53:05.284Z - info: Generating pages...
+2024-12-28T15:53:10.864Z - debug:  
+2024-12-28T15:53:10.864Z - debug: 2024-12-28 23:53:07.241 java[40793:1922807] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:53:07.241 java[40793:1922807] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:53:10.864Z - debug:  
+2024-12-28T15:53:11.280Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug: 2024-12-28 23:53:08.362 java[40817:1923020] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:53:08.362 java[40817:1923020] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:11.281Z - debug:  
+2024-12-28T15:53:13.088Z - debug: 2024-12-28 23:53:12.634 java[40874:1924067] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:53:12.634 java[40874:1924067] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:53:36.041Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:53:36.041Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:53:36.392Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:53:45.433Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:53:45.434Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:53:48.823Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:53:54.918Z - debug: 2024-12-28 23:53:53.201 java[40960:1925876] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:53:53.201 java[40960:1925876] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:54:01.261Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w11.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:54:03.417Z - debug: 2024-12-28 23:54:02.509 java[40967:1926382] +[IMKClient subclass]: chose IMKClient_Modern
+2024-12-28 23:54:02.509 java[40967:1926382] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2024-12-28T15:54:03.586Z - debug:  
+2024-12-28T15:54:06.718Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:54:06.718Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2024-12-28T15:54:08.270Z - info: Pages built
+2024-12-28T15:54:08.357Z - info: Site data built
+2024-12-28T15:54:08.357Z - info: Website generation complete! Total build time: 66.225s
+2024-12-28T15:54:08.357Z - info: Build success!
+2024-12-28T15:54:31.846Z - info: The website has been deployed at: https://nus-cs2113-ay2425s2.github.io/website

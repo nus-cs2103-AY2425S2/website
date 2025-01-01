@@ -93,18 +93,14 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 </svg>
 
     </div>
-    </button></div></pre></div> <!----></div></div></div> <!----> <p><strong>That said, it is sometimes possible to pack <em>two</em> levels of abstraction into the code</strong> without affecting readability that much, provided each step in the higher-level logic is clearly marked using comments and separated (e.g., using a blank line) from adjacent steps.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> Example: The following pseudocode has two levels of abstraction.</p> <pre data-v-474166ec><code class="line-numbers java hljs" data-v-474166ec><span data-v-474166ec><span class="highlighted" data-v-474166ec>//high-level step A</span>
-</span><span data-v-474166ec>low-level statement A1
+    </button></div></pre></div> <!----></div></div></div> <!----> <p><strong>Also ensure that the code is written at the highest level of abstraction possible</strong>.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span style="color:red;" data-v-474166ec><span data-v-474166ec><strong data-v-474166ec><span aria-hidden="true" class="fas fa-thumbs-down" data-v-474166ec></span> Bad</strong></span></span> (all statements are at a low levels of abstraction)</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>low-level statement A1
 </span><span data-v-474166ec>low-level statement A2
 </span><span data-v-474166ec>low-level statement A3
-</span><span data-v-474166ec>
-</span><span data-v-474166ec><span class="highlighted" data-v-474166ec>//high-level step B</span>
 </span><span data-v-474166ec>low-level statement B1
 </span><span data-v-474166ec>low-level statement B2
-</span><span data-v-474166ec>
-</span><span data-v-474166ec><span class="highlighted" data-v-474166ec>//high-level step C</span>
-</span><span data-v-474166ec>low-level statement C1
-</span><span data-v-474166ec>low-level statement C2
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>if</span> condition X :
+</span><span data-v-474166ec>    low-level statement C1
+</span><span data-v-474166ec>    low-level statement C2
 </span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
     <div class="function-btn-body" data-v-474166ec>
     
@@ -140,7 +136,94 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 </svg>
 
     </div>
-    </button></div></pre></div> <!----></div></div></div></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.3</a>, generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]</small></div></footer></div>
+    </button></div></pre><p data-v-474166ec><span style="color:green;" data-v-474166ec><span data-v-474166ec><strong data-v-474166ec><span aria-hidden="true" class="fas fa-thumbs-up" data-v-474166ec></span> Good</strong></span></span> (all statements are at the same high level of abstraction)</p> <pre data-v-474166ec><code class="line-numbers hljs java" data-v-474166ec><span data-v-474166ec>high-level step A
+</span><span data-v-474166ec>high-level step B
+</span><span data-v-474166ec><span class="hljs-keyword" data-v-474166ec>if</span> condition X:
+</span><span data-v-474166ec>  high-level step C
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div> <p><strong>That said, it is sometimes possible to pack <em>two</em> levels of abstraction into the code</strong> without affecting readability that much, provided each step in the higher-level logic is clearly marked using comments and separated (e.g., using a blank line) from adjacent steps.</p> <div class="alert box-container alert-default" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><!----> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec><span data-v-474166ec><span aria-hidden="true" class="fas fa-cube" data-v-474166ec></span></span> Example: The following pseudocode has two levels of abstraction.</p> <pre data-v-474166ec><code class="line-numbers java hljs" data-v-474166ec><span data-v-474166ec><span class="highlighted" data-v-474166ec>//high-level step A</span>
+</span><span data-v-474166ec>low-level statement A1
+</span><span data-v-474166ec>low-level statement A2
+</span><span data-v-474166ec>low-level statement A3
+</span><span data-v-474166ec>
+</span><span data-v-474166ec><span class="highlighted" data-v-474166ec>//high-level step B</span>
+</span><span data-v-474166ec>low-level statement B1
+</span><span data-v-474166ec>low-level statement B2
+</span><span data-v-474166ec>
+</span><span data-v-474166ec>if condition X :
+</span><span data-v-474166ec>    <span class="highlighted" data-v-474166ec>//high-level step C</span>
+</span><span data-v-474166ec>    low-level statement C1
+</span><span data-v-474166ec>    low-level statement C2
+</span></code><div class="function-btn-container" data-v-474166ec><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-474166ec>
+    <div class="function-btn-body" data-v-474166ec>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-474166ec>
+    <g id="surface1" data-v-474166ec>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-474166ec></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <!----></div></div></div></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.3</a>, generated on Wed, 1 Jan 2025, 15:00:13 GMT+8]</small></div></footer></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/website/markbind/js/polyfill.min.js"></script>
 <script src="/website/markbind/js/vue.min.js"></script>

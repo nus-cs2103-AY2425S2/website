@@ -23,6 +23,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"reference-frames"}},[_c('span'
 with(this){return _c('p',[_c('strong',[_v("UML uses "),_c('em',[_v("ref frame")]),_v(" to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.")]),_v(" Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 1 Jan 2025, 15:00:13 GMT+8]")])])])}
 }];
   

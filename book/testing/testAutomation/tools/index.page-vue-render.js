@@ -23,6 +23,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"test-automation-tools"}},[_c('
 with(this){return _c('p',[_c('strong',[_v("JUnit is a tool for automated testing of Java programs.")]),_v(" Similar tools are available for other languages and for automating different types of testing.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 1 Jan 2025, 15:00:13 GMT+8]")])])])}
 }];
   

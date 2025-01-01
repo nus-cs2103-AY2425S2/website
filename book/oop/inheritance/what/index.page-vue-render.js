@@ -32,10 +32,10 @@ with(this){return _c('p',[_c('strong',[_v("A superclass is said to be "),_c('em'
 with(this){return _c('p',[_c('strong',[_v("Applying inheritance on a group of similar classes can result in the common parts among classes being extracted into more general classes.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Inheritance implies the derived class can be considered as a "),_c('em',[_v("sub-type")]),_v(" of the base class (and the base class is a "),_c('em',[_v("super-type")]),_v(" of the derived class), resulting in an "),_c('em',[_v("is a")]),_v(" relationship.")])])}
+with(this){return _c('p',[_c('strong',[_v("Inheritance implies the derived class can be considered as a "),_c('em',[_v("subtype")]),_v(" of the base class (and the base class is a "),_c('em',[_v("super-type")]),_v(" of the derived class), resulting in an "),_c('em',[_v("is a")]),_v(" relationship.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('span',{staticClass:"dimmed"},[_c('span',[_c('span',{staticClass:"fas fa-info-circle",attrs:{"aria-hidden":"true"}})]),_v(" Inheritance does not necessarily mean a sub-type relationship exists. However, the two often go hand-in-hand. For simplicity, at this point let us assume inheritance implies a sub-type relationship.")])])}
+with(this){return _c('p',[_c('span',{staticClass:"dimmed"},[_c('span',[_c('span',{staticClass:"fas fa-info-circle",attrs:{"aria-hidden":"true"}})]),_v(" Inheritance does not necessarily mean a subtype relationship exists. However, the two often go hand-in-hand. For simplicity, at this point let us assume inheritance implies a subtype relationship.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Inheritance relationships through a chain of classes can result in inheritance "),_c('em',[_v("hierarchies")]),_v(" (aka inheritance "),_c('em',[_v("trees")]),_v(").")])])}
@@ -47,6 +47,6 @@ with(this){return _c('p',[_c('strong',[_c('em',[_v("Multiple Inheritance")]),_v(
 with(this){return _c('h5',{attrs:{"id":"exercises"}},[_c('span',[_c('span',{staticClass:"glyphicon glyphicon-question-sign",attrs:{"aria-hidden":"true"}})]),_c('span',[_c('span',{staticClass:"glyphicon glyphicon-ok-sign",attrs:{"aria-hidden":"true"}})]),_v(" Exercises:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exercises","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 1 Jan 2025, 15:00:13 GMT+8]")])])])}
 }];
   

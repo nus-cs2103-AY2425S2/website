@@ -675,23 +675,23 @@
       "headings": {
         "tp-timeline": "tP: Timeline ",
         "week-3-kickoff": "Week 3 Kickoff",
-        "week-4-set-direction": "Week 4 Set direction",
-        "week-5-gather-requirements": "Week 5 Gather requirements",
+        "week-4-set-direction": "Week 4 Set Direction",
+        "week-5-gather-requirements": "Week 5 Gather Requirements",
         "week-6-define-the-mvp": "Week 6 Define the MVP",
-        "w7-iter-1-practice-iteration-v1-1": "W7 Iter.1 [ Practice iteration → v1.1 ]",
-        "w8-iter-2-first-feature-increment-v1-2": " W8  Iter.2 [ First feature increment → v1.2 ]",
+        "w7-iter-1-practice-iteration-v1-1": "W7 Iter.1 [ Practice Iteration → v1.1 ]",
+        "w8-iter-2-first-feature-increment-v1-2": " W8  Iter.2 [ First Feature Increment → v1.2 ]",
         "w9-iter-3-mvp-v1-3": " W9  Iter.3 [ MVP → v1.3 ]",
-        "w10-iter-4-alpha-version-v1-4": "W10 Iter.4 [ Alpha version → v1.4 ]",
-        "w11-iter-5-release-candidate-v1-5": "W11  Iter.5 [ Release candidate → v1.5 ]",
-        "w12-iter-6-public-release-v1-6": "W12 Iter.6 [ Public release → v1.6 ]"
+        "w10-iter-4-alpha-version-v1-4": "W10 Iter.4 [ Alpha Version → v1.4 ]",
+        "w11-iter-5-release-candidate-v1-5": "W11  Iter.5 [ Release Candidate → v1.5 ]",
+        "w12-iter-6-public-release-v1-6": "W12 Iter.6 [ Public Release → v1.6 ]"
       },
       "headingKeywords": {}
     },
     {
       "src": "admin/tp-w10.md",
-      "title": "Admin: tP Week 10: Alpha version → v1.4",
+      "title": "Admin: tP Week 10: Alpha Version → v1.4",
       "headings": {
-        "tp-week-10-alpha-version-v1-4": "tP Week 10: Alpha version → v1.4 ",
+        "tp-week-10-alpha-version-v1-4": "tP Week 10: Alpha Version → v1.4 ",
         "intro-to-tp-week-10": "Intro to tP Week 10",
         "1-do-a-postmortem-of-the-previous-iteration-before-the-tutorial": "1  Do a postmortem of the previous iteration  before the tutorial",
         "2-plan-the-alpha-version-v1-4": "2  Plan the alpha version (v1.4)",
@@ -705,40 +705,40 @@
     },
     {
       "src": "admin/tp-w11.md",
-      "title": "Admin: tP Week 11: Release candidate → v1.5",
+      "title": "Admin: tP Week 11: Release Candidate → v1.5",
       "headings": {
-        "tp-week-11-release-candidate-v1-5": "tP Week 11: Release candidate → v1.5 ",
+        "tp-week-11-release-candidate-v1-5": "tP Week 11: Release Candidate → v1.5 ",
         "intro-to-tp-week-11": "Intro to tP Week 11",
         "1-alpha-test-the-product": "1  Alpha-test the product",
         "2-fix-alpha-test-bugs-fine-tune-features": "2  Fix alpha-test bugs, fine-tune features",
         "3-update-ug-and-dg": "3  Update UG and DG",
-        "4-release-v1-5-thu-apr-10th-23-59": "4  Release v1.5  Thu, Apr 10th 23:59"
+        "4-release-v1-5-thu-apr-3rd-23-59": "4  Release v1.5  Thu, Apr 3rd 23:59",
+        "5-attend-the-practical-exam-dry-run-fri-apr-4th-1600-1800-counted-for-participation": "5  Attend the practical exam dry run  Fri, Apr 4th 1600-1800 counted for participation"
       },
       "headingKeywords": {}
     },
     {
       "src": "admin/tp-w12.md",
-      "title": "Admin: tP Week 12: Extra week for v1.5",
+      "title": "Admin: tP Week 12: Public Release → v1.6",
       "headings": {
-        "tp-week-12-extra-week-for-v1-5": "tP Week 12: Extra week for v1.5 ",
+        "tp-week-12-public-release-v1-6": "tP Week 12: Public Release → v1.6 ",
         "intro-to-tp-week-12": "Intro to tP Week 12",
-        "1-finish-any-remaining-v1-5-tasks": "1 Finish any remaining v1.5 tasks",
-        "2-attend-the-practical-exam-dry-run-fri-apr-11th-1600-1800-counted-for-participation": "2  Attend the practical exam dry run  Fri, Apr 11th 1600-1800 counted for participation"
+        "1-fix-pe-d-bugs": "1  Fix PE-D bugs",
+        "2-submit-final-deliverables-tue-apr-8th-14-00": "2  Submit final deliverables  Tue, Apr 8th 14:00",
+        "3-prepare-for-the-practical-exam": "3  Prepare for the practical exam",
+        "4-ensure-the-code-is-reposense-compatible": "4  Ensure the code is RepoSense-compatible",
+        "5-attend-the-practical-exam-fri-apr-11th-1600-1800": "5  Attend the practical exam  Fri, Apr 11th 1600-1800",
+        "6-if-needed-attend-the-makeup-practical-exam-sun-apr-13th-1400-1600": "6  [if needed] Attend the makeup practical exam  Sun, Apr 13th 1400-1600"
       },
       "headingKeywords": {}
     },
     {
       "src": "admin/tp-w13.md",
-      "title": "Admin: tP Week 13: Public release → v1.6",
+      "title": "Admin: tP Week 13: Post-Release Tasks",
       "headings": {
-        "tp-week-13-public-release-v1-6": "tP Week 13: Public release → v1.6 ",
+        "tp-week-13-post-release-tasks": "tP Week 13: Post-Release Tasks ",
         "intro-to-tp-week-13": "Intro to tP Week 13",
-        "1-fix-pe-d-bugs": "1  Fix PE-D bugs",
-        "2-submit-final-deliverables-tue-apr-15th-14-00": "2  Submit final deliverables  Tue, Apr 15th 14:00",
-        "3-prepare-for-the-practical-exam": "3  Prepare for the practical exam",
-        "4-ensure-the-code-is-reposense-compatible": "4  Ensure the code is RepoSense-compatible",
-        "5-attend-the-practical-exam-fri-apr-18th-1600-1800": "5  Attend the practical exam  Fri, Apr 18th 1600-1800",
-        "6-if-needed-attend-the-makeup-practical-exam-sun-apr-20th-1400-1600": "6  [if needed] Attend the makeup practical exam  Sun, Apr 20th 1400-1600"
+        "1-attend-to-post-release-tasks": "1 / Attend to post-release tasks"
       },
       "headingKeywords": {}
     },
@@ -761,9 +761,9 @@
     },
     {
       "src": "admin/tp-w4.md",
-      "title": "Admin: tP Week 4: Set direction",
+      "title": "Admin: tP Week 4: Set Direction",
       "headings": {
-        "tp-week-4-set-direction": "tP Week 4: Set direction ",
+        "tp-week-4-set-direction": "tP Week 4: Set Direction ",
         "intro-to-tp-week-4": "Intro to tP Week 4",
         "1-start-weekly-project-meetings": "1  Start weekly project meetings",
         "2-start-a-collaborative-doc-to-take-project-notes-before-the-tutorial": "2  Start a collaborative doc to take project notes  before the tutorial",
@@ -777,9 +777,9 @@
     },
     {
       "src": "admin/tp-w5.md",
-      "title": "Admin: tP Week 5: Gather requirements",
+      "title": "Admin: tP Week 5: Gather Requirements",
       "headings": {
-        "tp-week-5-gather-requirements": "tP Week 5: Gather requirements ",
+        "tp-week-5-gather-requirements": "tP Week 5: Gather Requirements ",
         "intro-to-tp-week-5": "Intro to tP Week 5",
         "1-brainstorm-user-stories-before-the-tutorial": "1  Brainstorm user stories  before the tutorial",
         "2-choose-user-stories-for-the-mvp-version-before-during-the-tutorial": "2  Choose user stories for the MVP version  before/during the tutorial"
@@ -801,9 +801,9 @@
     },
     {
       "src": "admin/tp-w7.md",
-      "title": "Admin: tP Week 7: Practice iteration → v1.1",
+      "title": "Admin: tP Week 7: Practice Iteration → v1.1",
       "headings": {
-        "tp-week-7-practice-iteration-v1-1": "tP Week 7: Practice iteration → v1.1 ",
+        "tp-week-7-practice-iteration-v1-1": "tP Week 7: Practice Iteration → v1.1 ",
         "intro-to-tp-week-7": "Intro to tP Week 7",
         "1-do-a-workflow-practice-session-thu-mar-6th-23-59": "1  Do a 'workflow practice' session  Thu, Mar 6th 23:59",
         "adding-a-photo": "Adding a photo",
@@ -815,9 +815,9 @@
     },
     {
       "src": "admin/tp-w8.md",
-      "title": "Admin: tP Week 8: First feature increment → v1.2",
+      "title": "Admin: tP Week 8: First Feature Increment → v1.2",
       "headings": {
-        "tp-week-8-first-feature-increment-v1-2": "tP Week 8: First feature increment → v1.2 ",
+        "tp-week-8-first-feature-increment-v1-2": "tP Week 8: First Feature Increment → v1.2 ",
         "intro-to-tp-week-8": "Intro to tP Week 8",
         "1-divide-mvp-features-among-members": "1  Divide MVP features among members",
         "2-optional-rename-packages-classes": "2 / [Optional] Rename packages/classes",
@@ -1416,6 +1416,7 @@
         "debugging-basic": "Debugging: Basic",
         "refactoring": "Refactoring",
         "running-intellij-idea-for-the-first-time": "Running IntelliJ IDEA for the First Time",
+        "resources": " Resources:",
         "intellij-idea": "IntelliJ IDEA"
       },
       "headingKeywords": {}

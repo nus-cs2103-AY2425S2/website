@@ -29,12 +29,12 @@ with(this){return _c('p',[_c('strong',[_v("A "),_c('em',[_v("merge node")]),_v("
 with(this){return _c('p',[_v("Both branch nodes and merge nodes are "),_c('mark',[_v("diamond shapes")]),_v(". Guard conditions must be in "),_c('mark',[_v("square brackets")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Omitting the merge node if it doesn't cause any ambiguities.")]),_v(" "),_c('li',[_v("Multiple arrows can starting from the same corner of a branch node.")]),_v(" "),_c('li',[_v("Omitting the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("[Else]")]),_v(" condition.")])])}
+with(this){return _c('ul',[_c('li',[_v("Omitting the merge node if it doesn't cause any ambiguities.")]),_v(" "),_c('li',[_v("Multiple arrows can start from the same corner of a branch node.")]),_v(" "),_c('li',[_v("Omitting the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("[Else]")]),_v(" condition.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"exercises"}},[_c('span',[_c('span',{staticClass:"glyphicon glyphicon-question-sign",attrs:{"aria-hidden":"true"}})]),_c('span',[_c('span',{staticClass:"glyphicon glyphicon-ok-sign",attrs:{"aria-hidden":"true"}})]),_v(" Exercises:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exercises","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 28 Dec 2024, 23:24:29 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 1 Jan 2025, 15:00:13 GMT+8]")])])])}
 }];
   
