@@ -23,6 +23,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"minimal-notation"}},[_c('span'
 with(this){return _c('p',[_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" If method parameters don't matter to the purpose of the sequence diagram, you can omit them using "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("...")]),_v(" e.g., use "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("foo(...)")]),_v(" instead of "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("foo(int size, double weight)")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 4 Jan 2025, 0:22:34 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 4 Jan 2025, 2:34:42 GMT+8]")])])])}
 }];
   
