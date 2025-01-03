@@ -1,0 +1,197 @@
+2025-01-02T16:21:33.708Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseExpectations as some of its dependencies were changed since the last visit
+2025-01-02T16:21:33.835Z - info: Site data built
+2025-01-02T16:21:33.835Z - info: Lazy website regeneration complete! Total build time: 0.127s
+2025-01-02T16:38:34.515Z - info: [00:38:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/weeklySchedule.md
+2025-01-02T16:38:34.519Z - info: Synchronizing opened pages list before reload
+2025-01-02T16:38:34.521Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T16:38:34.521Z - info: 1. schedule/week1/admin
+2025-01-02T16:38:35.530Z - info: Rebuilding 1 pages
+2025-01-02T16:38:36.229Z - info: Site data built
+2025-01-02T16:38:36.229Z - info: Pages rebuilt
+2025-01-02T16:38:36.229Z - info: Website regeneration complete! Total build time: 0.701s
+2025-01-02T16:40:18.549Z - info: [00:40:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/admin-tasks-fragment.md
+2025-01-02T16:40:18.550Z - info: Synchronizing opened pages list before reload
+2025-01-02T16:40:18.550Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T16:40:18.550Z - info: 1. schedule/week1/admin
+2025-01-02T16:40:19.561Z - info: Rebuilding 1 pages
+2025-01-02T16:40:20.305Z - info: Site data built
+2025-01-02T16:40:20.305Z - info: Pages rebuilt
+2025-01-02T16:40:20.305Z - info: Website regeneration complete! Total build time: 0.747s
+2025-01-02T16:42:35.209Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/topics as some of its dependencies were changed since the last visit
+2025-01-02T16:42:37.149Z - debug: 2025-01-03 00:42:36.218 java[18972:5596680] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 00:42:36.218 java[18972:5596680] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-02T16:42:37.354Z - info: Site data built
+2025-01-02T16:42:37.354Z - info: Lazy website regeneration complete! Total build time: 2.146s
+2025-01-02T16:46:04.464Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/project as some of its dependencies were changed since the last visit
+2025-01-02T16:46:04.609Z - info: Site data built
+2025-01-02T16:46:04.610Z - info: Lazy website regeneration complete! Total build time: 0.147s
+2025-01-02T16:47:01.147Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/tutorial as some of its dependencies were changed since the last visit
+2025-01-02T16:47:01.270Z - info: Site data built
+2025-01-02T16:47:01.270Z - info: Lazy website regeneration complete! Total build time: 0.124s
+2025-01-02T16:47:50.994Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/index as some of its dependencies were changed since the last visit
+2025-01-02T16:47:51.267Z - info: Site data built
+2025-01-02T16:47:51.267Z - info: Lazy website regeneration complete! Total build time: 0.274s
+2025-01-02T16:49:58.185Z - info: [00:49:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/notices-cs2103-fragment.md
+2025-01-02T16:49:58.188Z - info: Synchronizing opened pages list before reload
+2025-01-02T16:49:58.189Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T16:49:58.190Z - info: 1. schedule/week2/index
+2025-01-02T16:49:59.197Z - info: Rebuilding 1 pages
+2025-01-02T16:49:59.462Z - info: Site data built
+2025-01-02T16:49:59.462Z - info: Pages rebuilt
+2025-01-02T16:49:59.462Z - info: Website regeneration complete! Total build time: 0.268s
+2025-01-02T17:22:07.898Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/admin as some of its dependencies were changed since the last visit
+2025-01-02T17:22:08.274Z - info: Site data built
+2025-01-02T17:22:08.274Z - info: Lazy website regeneration complete! Total build time: 0.377s
+2025-01-02T17:23:00.627Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/admin as some of its dependencies were changed since the last visit
+2025-01-02T17:23:01.012Z - info: Site data built
+2025-01-02T17:23:01.012Z - info: Lazy website regeneration complete! Total build time: 0.385s
+2025-01-02T17:23:12.713Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/topics as some of its dependencies were changed since the last visit
+2025-01-02T17:23:13.376Z - info: Site data built
+2025-01-02T17:23:13.376Z - info: Lazy website regeneration complete! Total build time: 0.663s
+2025-01-02T17:26:54.966Z - info: [01:26:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/textbooks.md
+2025-01-02T17:26:54.973Z - info: Synchronizing opened pages list before reload
+2025-01-02T17:26:54.975Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T17:26:54.975Z - info: 1. schedule/week2/topics
+2025-01-02T17:26:55.983Z - info: Rebuilding 1 pages
+2025-01-02T17:26:56.675Z - info: Site data built
+2025-01-02T17:26:56.675Z - info: Pages rebuilt
+2025-01-02T17:26:56.675Z - info: Website regeneration complete! Total build time: 0.695s
+2025-01-02T17:38:03.568Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project as some of its dependencies were changed since the last visit
+2025-01-02T17:38:04.425Z - info: Site data built
+2025-01-02T17:38:04.425Z - info: Lazy website regeneration complete! Total build time: 0.858s
+2025-01-02T17:42:11.750Z - info: [01:42:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-tasks-fragment.md
+2025-01-02T17:42:11.753Z - info: Synchronizing opened pages list before reload
+2025-01-02T17:42:11.755Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T17:42:11.756Z - info: 1. schedule/week2/project
+2025-01-02T17:42:12.764Z - info: Rebuilding 1 pages
+2025-01-02T17:42:13.927Z - info: Site data built
+2025-01-02T17:42:13.927Z - info: Pages rebuilt
+2025-01-02T17:42:13.927Z - info: Website regeneration complete! Total build time: 1.165s
+2025-01-02T17:44:00.582Z - info: [01:44:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-tasks-fragment.md
+2025-01-02T17:44:00.583Z - info: Synchronizing opened pages list before reload
+2025-01-02T17:44:00.584Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T17:44:00.584Z - info: 1. schedule/week2/project
+2025-01-02T17:44:01.603Z - info: Rebuilding 1 pages
+2025-01-02T17:44:02.435Z - info: Site data built
+2025-01-02T17:44:02.435Z - info: Pages rebuilt
+2025-01-02T17:44:02.435Z - info: Website regeneration complete! Total build time: 0.834s
+2025-01-02T17:48:00.764Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial as some of its dependencies were changed since the last visit
+2025-01-02T17:48:00.912Z - info: Site data built
+2025-01-02T17:48:00.913Z - info: Lazy website regeneration complete! Total build time: 0.15s
+2025-01-02T17:55:31.737Z - info: [01:55:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial-cs2103-fragment.md
+2025-01-02T17:55:31.738Z - info: Synchronizing opened pages list before reload
+2025-01-02T17:55:31.738Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T17:55:31.738Z - info: 1. schedule/week2/tutorial
+2025-01-02T17:55:32.756Z - info: Rebuilding 1 pages
+2025-01-02T17:55:32.845Z - warn: Empty file included in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial.md:
+File: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial-cs2103-fragment.md is empty or contains only whitespace
+2025-01-02T17:55:32.872Z - info: Site data built
+2025-01-02T17:55:32.872Z - info: Pages rebuilt
+2025-01-02T17:55:32.872Z - info: Website regeneration complete! Total build time: 0.121s
+2025-01-02T17:57:00.685Z - info: [01:57:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial-cs2103-fragment.md
+2025-01-02T17:57:00.686Z - info: Synchronizing opened pages list before reload
+2025-01-02T17:57:00.686Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T17:57:00.686Z - info: 1. schedule/week2/tutorial
+2025-01-02T17:57:01.699Z - info: Rebuilding 1 pages
+2025-01-02T17:57:01.799Z - info: Site data built
+2025-01-02T17:57:01.799Z - info: Pages rebuilt
+2025-01-02T17:57:01.799Z - info: Website regeneration complete! Total build time: 0.103s
+2025-01-02T17:57:46.718Z - info: [01:57:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial-cs2103-fragment.md
+2025-01-02T17:57:46.718Z - info: Synchronizing opened pages list before reload
+2025-01-02T17:57:46.718Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T17:57:46.718Z - info: 1. schedule/week2/tutorial
+2025-01-02T17:57:47.728Z - info: Rebuilding 1 pages
+2025-01-02T17:57:47.818Z - info: Site data built
+2025-01-02T17:57:47.818Z - info: Pages rebuilt
+2025-01-02T17:57:47.818Z - info: Website regeneration complete! Total build time: 0.092s
+2025-01-02T17:57:56.831Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index as some of its dependencies were changed since the last visit
+2025-01-02T17:57:57.184Z - info: Site data built
+2025-01-02T17:57:57.184Z - info: Lazy website regeneration complete! Total build time: 0.354s
+2025-01-02T18:05:31.950Z - info: [02:05:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial-cs2103-fragment.md
+2025-01-02T18:05:31.952Z - info: Synchronizing opened pages list before reload
+2025-01-02T18:05:31.952Z - info: Current opened pages, from most-to-least recent:
+2025-01-02T18:05:31.952Z - info: 1. schedule/week3/index
+2025-01-02T18:05:32.973Z - info: No pages needed to be rebuilt
+2025-01-03T13:24:19.016Z - info: Website generation (lazy) started at 21:24:18
+2025-01-03T13:24:19.282Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-03T13:24:19.283Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-03T13:24:19.301Z - info: Building assets...
+2025-01-03T13:24:20.615Z - info: Assets built
+2025-01-03T13:24:20.615Z - info: Generating landing page...
+2025-01-03T13:24:20.793Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-03T13:24:20.860Z - info: Site data built
+2025-01-03T13:24:20.860Z - info: Website generation (lazy) complete! Total build time: 2.668s
+2025-01-03T13:24:20.870Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-03T13:24:20.870Z - info: Press CTRL+C to stop ...
+2025-01-03T13:24:43.949Z - info: Website generation started at 21:24:43
+2025-01-03T13:24:44.152Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-03T13:24:44.152Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-03T13:24:44.174Z - info: Building assets...
+2025-01-03T13:24:45.466Z - info: Assets built
+2025-01-03T13:24:45.467Z - info: Generating pages...
+2025-01-03T13:24:51.608Z - debug:  
+2025-01-03T13:24:51.608Z - debug: 2025-01-03 21:24:47.479 java[33553:6327354] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 21:24:47.479 java[33553:6327354] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-03T13:24:51.608Z - debug:  
+2025-01-03T13:24:51.608Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.041Z - debug:  
+2025-01-03T13:24:52.049Z - debug:  
+2025-01-03T13:24:52.107Z - debug: 2025-01-03 21:24:48.436 java[33584:6327632] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 21:24:48.436 java[33584:6327632] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-03T13:24:53.519Z - debug: 2025-01-03 21:24:53.168 java[33622:6328638] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 21:24:53.168 java[33622:6328638] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-03T13:24:59.995Z - debug: 2025-01-03 21:24:59.642 java[33631:6328812] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 21:24:59.642 java[33631:6328812] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-03T13:25:15.921Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:15.922Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:16.265Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:24.864Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:24.864Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:28.433Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:34.132Z - debug: 2025-01-03 21:25:32.373 java[33652:6329361] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 21:25:32.373 java[33652:6329361] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-03T13:25:39.759Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w11.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:41.204Z - debug: 2025-01-03 21:25:40.824 java[33662:6329602] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-03 21:25:40.824 java[33662:6329602] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-03T13:25:41.561Z - debug:  
+2025-01-03T13:25:44.417Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:44.417Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-01-03T13:25:45.513Z - info: Pages built
+2025-01-03T13:25:45.582Z - info: Site data built
+2025-01-03T13:25:45.582Z - info: Website generation complete! Total build time: 62.369s
+2025-01-03T13:25:45.582Z - info: Build success!
+2025-01-03T13:26:06.221Z - info: The website has been deployed at: https://nus-cs2113-ay2425s2.github.io/website
