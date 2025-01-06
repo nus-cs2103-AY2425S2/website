@@ -335,3 +335,231 @@ Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
 2025-01-04T17:48:08.412Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-01-04T17:48:08.412Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-01-04T17:48:08.431Z - info: Building assets...
+2025-01-04T17:48:09.846Z - info: Assets built
+2025-01-04T17:48:09.846Z - info: Generating pages...
+2025-01-04T17:48:15.397Z - debug:  
+2025-01-04T17:48:15.397Z - debug: 2025-01-05 01:48:12.151 java[73694:7807363] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:48:12.151 java[73694:7807363] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:48:15.397Z - debug:  
+2025-01-04T17:48:15.397Z - debug:  
+2025-01-04T17:48:15.397Z - debug:  
+2025-01-04T17:48:15.397Z - debug:  
+2025-01-04T17:48:15.397Z - debug: 2025-01-05 01:48:13.168 java[73724:7807577] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:48:13.168 java[73724:7807577] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:48:15.397Z - debug:  
+2025-01-04T17:48:15.453Z - debug:  
+2025-01-04T17:48:15.931Z - debug:  
+2025-01-04T17:48:15.932Z - debug:  
+2025-01-04T17:48:15.932Z - debug:  
+2025-01-04T17:48:15.932Z - debug:  
+2025-01-04T17:48:15.932Z - debug:  
+2025-01-04T17:48:15.932Z - debug:  
+2025-01-04T17:48:15.932Z - debug:  
+2025-01-04T17:48:16.166Z - debug: 2025-01-05 01:48:15.745 java[73759:7808361] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:48:15.745 java[73759:7808361] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:48:24.436Z - debug: 2025-01-05 01:48:23.444 java[73788:7808696] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:48:23.444 java[73788:7808696] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:49:07.619Z - debug: 2025-01-05 01:49:07.253 java[73864:7811551] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:49:07.253 java[73864:7811551] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:49:21.458Z - debug: 2025-01-05 01:49:20.812 java[73882:7812152] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:49:20.812 java[73882:7812152] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:49:21.732Z - debug:  
+2025-01-04T17:49:26.798Z - info: Pages built
+2025-01-04T17:49:26.872Z - info: Site data built
+2025-01-04T17:49:26.872Z - info: Website generation complete! Total build time: 79.679s
+2025-01-04T17:49:26.872Z - info: Build success!
+2025-01-04T17:49:48.490Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-01-04T17:57:43.729Z - info: Website generation (lazy) started at 01:57:42
+2025-01-04T17:57:43.968Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-04T17:57:43.968Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-04T17:57:43.986Z - info: Building assets...
+2025-01-04T17:57:45.688Z - info: Assets built
+2025-01-04T17:57:45.689Z - info: Generating landing page...
+2025-01-04T17:57:45.875Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-04T17:57:45.939Z - info: Site data built
+2025-01-04T17:57:45.939Z - info: Website generation (lazy) complete! Total build time: 3.151s
+2025-01-04T17:57:45.948Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-04T17:57:45.948Z - info: Press CTRL+C to stop ...
+2025-01-04T17:57:57.393Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w10 as some of its dependencies were changed since the last visit
+2025-01-04T17:57:58.108Z - info: Site data built
+2025-01-04T17:57:58.108Z - info: Lazy website regeneration complete! Total build time: 0.717s
+2025-01-04T17:58:08.716Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w11 as some of its dependencies were changed since the last visit
+2025-01-04T17:58:10.170Z - info: Site data built
+2025-01-04T17:58:10.170Z - info: Lazy website regeneration complete! Total build time: 1.455s
+2025-01-04T17:59:21.690Z - info: Website generation started at 01:59:20
+2025-01-04T17:59:21.968Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-04T17:59:21.968Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-04T17:59:21.989Z - info: Building assets...
+2025-01-04T17:59:23.333Z - info: Assets built
+2025-01-04T17:59:23.334Z - info: Generating pages...
+2025-01-04T17:59:28.265Z - debug:  
+2025-01-04T17:59:28.589Z - debug: 2025-01-05 01:59:25.206 java[76100:7829775] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:59:25.206 java[76100:7829775] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:59:28.589Z - debug:  
+2025-01-04T17:59:28.589Z - debug:  
+2025-01-04T17:59:28.589Z - debug:  
+2025-01-04T17:59:28.627Z - debug:  
+2025-01-04T17:59:28.627Z - debug:  
+2025-01-04T17:59:29.010Z - debug:  
+2025-01-04T17:59:29.010Z - debug:  
+2025-01-04T17:59:29.011Z - debug:  
+2025-01-04T17:59:29.011Z - debug:  
+2025-01-04T17:59:29.011Z - debug:  
+2025-01-04T17:59:29.011Z - debug:  
+2025-01-04T17:59:29.011Z - debug:  
+2025-01-04T17:59:29.011Z - debug: 2025-01-05 01:59:26.212 java[76133:7830023] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:59:26.212 java[76133:7830023] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:59:29.011Z - debug:  
+2025-01-04T17:59:31.056Z - debug: 2025-01-05 01:59:30.087 java[76165:7830819] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:59:30.087 java[76165:7830819] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T17:59:38.305Z - debug: 2025-01-05 01:59:37.873 java[76188:7831063] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 01:59:37.873 java[76188:7831063] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T18:00:15.538Z - debug: 2025-01-05 02:00:13.849 java[76215:7832061] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 02:00:13.849 java[76215:7832061] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T18:00:23.625Z - debug: 2025-01-05 02:00:22.977 java[76223:7832320] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 02:00:22.977 java[76223:7832320] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T18:00:23.782Z - debug:  
+2025-01-04T18:00:27.915Z - info: Pages built
+2025-01-04T18:00:27.982Z - info: Site data built
+2025-01-04T18:00:27.982Z - info: Website generation complete! Total build time: 67.001s
+2025-01-04T18:00:27.982Z - info: Build success!
+2025-01-04T18:00:48.487Z - info: The website has been deployed at: https://nus-cs2113-ay2425s2.github.io/website
+2025-01-04T18:15:56.566Z - info: Website generation (lazy) started at 02:15:55
+2025-01-04T18:15:56.848Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2113-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-04T18:15:56.848Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2113-AY2425S2!website.git/_markbind/variables.md'
+2025-01-04T18:15:56.867Z - info: Building assets...
+2025-01-04T18:15:58.305Z - info: Assets built
+2025-01-04T18:15:58.306Z - info: Generating landing page...
+2025-01-04T18:15:58.502Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-04T18:15:58.572Z - info: Site data built
+2025-01-04T18:15:58.572Z - info: Website generation (lazy) complete! Total build time: 2.963s
+2025-01-04T18:15:58.580Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-04T18:15:58.580Z - info: Press CTRL+C to stop ...
+2025-01-04T18:16:10.819Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2025-01-04T18:16:10.957Z - info: Site data built
+2025-01-04T18:16:10.957Z - info: Lazy website regeneration complete! Total build time: 0.14s
+2025-01-04T18:16:14.849Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/refactoring as some of its dependencies were changed since the last visit
+2025-01-04T18:16:14.993Z - info: Site data built
+2025-01-04T18:16:14.993Z - info: Lazy website regeneration complete! Total build time: 0.145s
+2025-01-04T18:18:56.029Z - info: [02:18:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/what/text.md
+2025-01-04T18:18:56.032Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:18:56.032Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:18:56.032Z - info: 1. se-book-adapted/chapters/refactoring
+2025-01-04T18:18:57.042Z - info: Rebuilding 1 pages
+2025-01-04T18:18:57.217Z - info: Site data built
+2025-01-04T18:18:57.217Z - info: Pages rebuilt
+2025-01-04T18:18:57.217Z - info: Website regeneration complete! Total build time: 0.178s
+2025-01-04T18:21:30.512Z - info: [02:21:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:21:30.515Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:21:30.517Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:21:30.517Z - info: 1. se-book-adapted/chapters/refactoring
+2025-01-04T18:21:31.534Z - info: Assets built
+2025-01-04T18:21:36.180Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns as some of its dependencies were changed since the last visit
+2025-01-04T18:21:37.313Z - debug: 2025-01-05 02:21:36.919 java[76854:7858515] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-05 02:21:36.919 java[76854:7858515] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-04T18:21:37.362Z - info: Site data built
+2025-01-04T18:21:37.362Z - info: Lazy website regeneration complete! Total build time: 1.182s
+2025-01-04T18:21:58.320Z - info: [02:21:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:21:58.321Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:21:58.321Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:21:58.321Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:21:59.326Z - info: Rebuilding 1 pages
+2025-01-04T18:21:59.576Z - info: Site data built
+2025-01-04T18:21:59.576Z - info: Pages rebuilt
+2025-01-04T18:21:59.576Z - info: Website regeneration complete! Total build time: 0.252s
+2025-01-04T18:22:25.116Z - info: [02:22:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:22:25.119Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:22:25.120Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:22:25.120Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:22:26.129Z - info: Rebuilding 1 pages
+2025-01-04T18:22:26.402Z - info: Site data built
+2025-01-04T18:22:26.402Z - info: Pages rebuilt
+2025-01-04T18:22:26.403Z - info: Website regeneration complete! Total build time: 0.278s
+2025-01-04T18:22:58.623Z - info: [02:22:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:22:58.644Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:22:58.648Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:22:58.648Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:22:59.669Z - info: Rebuilding 1 pages
+2025-01-04T18:22:59.935Z - info: Site data built
+2025-01-04T18:22:59.935Z - info: Pages rebuilt
+2025-01-04T18:22:59.935Z - info: Website regeneration complete! Total build time: 0.276s
+2025-01-04T18:23:35.002Z - info: [02:23:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:23:35.003Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:23:35.004Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:23:35.004Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:23:36.022Z - info: Rebuilding 1 pages
+2025-01-04T18:23:36.302Z - info: Site data built
+2025-01-04T18:23:36.302Z - info: Pages rebuilt
+2025-01-04T18:23:36.302Z - info: Website regeneration complete! Total build time: 0.289s
+2025-01-04T18:24:10.018Z - info: [02:24:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:24:10.019Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:24:10.020Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:24:10.020Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:24:11.033Z - info: Rebuilding 1 pages
+2025-01-04T18:24:11.294Z - info: Site data built
+2025-01-04T18:24:11.294Z - info: Pages rebuilt
+2025-01-04T18:24:11.294Z - info: Website regeneration complete! Total build time: 0.264s
+2025-01-04T18:24:26.465Z - info: [02:24:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:24:26.466Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:24:26.466Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:24:26.466Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:24:27.473Z - info: Rebuilding 1 pages
+2025-01-04T18:24:27.743Z - info: Site data built
+2025-01-04T18:24:27.743Z - info: Pages rebuilt
+2025-01-04T18:24:27.743Z - info: Website regeneration complete! Total build time: 0.274s
+2025-01-04T18:26:56.113Z - info: [02:26:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/text.md
+2025-01-04T18:26:56.118Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:26:56.118Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:26:56.119Z - info: 1. se-book-adapted/chapters/designPatterns
+2025-01-04T18:26:57.128Z - info: Rebuilding 1 pages
+2025-01-04T18:26:57.395Z - info: Site data built
+2025-01-04T18:26:57.395Z - info: Pages rebuilt
+2025-01-04T18:26:57.395Z - info: Website regeneration complete! Total build time: 0.271s
+2025-01-04T18:30:02.693Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava as some of its dependencies were changed since the last visit
+2025-01-04T18:30:03.860Z - info: Site data built
+2025-01-04T18:30:03.860Z - info: Lazy website regeneration complete! Total build time: 1.168s
+2025-01-04T18:31:19.896Z - info: [02:31:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/running/q-runHelloWorld.md
+2025-01-04T18:31:19.899Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:31:19.901Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:31:19.901Z - info: 1. se-book-adapted/chapters/cppToJava
+2025-01-04T18:31:20.914Z - info: Rebuilding 1 pages
+2025-01-04T18:31:22.062Z - info: Site data built
+2025-01-04T18:31:22.062Z - info: Pages rebuilt
+2025-01-04T18:31:22.062Z - info: Website regeneration complete! Total build time: 1.151s
+2025-01-04T18:32:34.703Z - info: [02:32:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/running/q-runHelloWorld.md
+2025-01-04T18:32:34.706Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:32:34.707Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:32:34.707Z - info: 1. se-book-adapted/chapters/cppToJava
+2025-01-04T18:32:35.716Z - info: Rebuilding 1 pages
+2025-01-04T18:32:36.884Z - info: Site data built
+2025-01-04T18:32:36.884Z - info: Pages rebuilt
+2025-01-04T18:32:36.884Z - info: Website regeneration complete! Total build time: 1.171s
+2025-01-04T18:32:44.094Z - info: [02:32:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/running/q-runHelloWorld.md
+2025-01-04T18:32:44.101Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:32:44.103Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:32:44.103Z - info: 1. se-book-adapted/chapters/cppToJava
+2025-01-04T18:32:45.113Z - info: Rebuilding 1 pages
+2025-01-04T18:32:46.248Z - info: Site data built
+2025-01-04T18:32:46.248Z - info: Pages rebuilt
+2025-01-04T18:32:46.248Z - info: Website regeneration complete! Total build time: 1.135s
+2025-01-04T18:33:05.493Z - info: [02:33:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/running/q-runHelloWorld.md
+2025-01-04T18:33:05.501Z - info: Synchronizing opened pages list before reload
+2025-01-04T18:33:05.503Z - info: Current opened pages, from most-to-least recent:
+2025-01-04T18:33:05.503Z - info: 1. se-book-adapted/chapters/cppToJava
+2025-01-04T18:33:06.524Z - info: Rebuilding 1 pages
+2025-01-04T18:33:07.727Z - info: Site data built
+2025-01-04T18:33:07.727Z - info: Pages rebuilt
+2025-01-04T18:33:07.727Z - info: Website regeneration complete! Total build time: 1.21s

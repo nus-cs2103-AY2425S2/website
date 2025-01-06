@@ -1,0 +1,18 @@
+2025-01-06T12:33:46.460Z - info: Website generation (lazy) started at 20:33:45
+2025-01-06T12:33:46.801Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2113-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-06T12:33:46.802Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2113-AY2425S2!website.git/_markbind/variables.md'
+2025-01-06T12:33:46.822Z - info: Building assets...
+2025-01-06T12:33:48.039Z - info: Assets built
+2025-01-06T12:33:48.039Z - info: Generating landing page...
+2025-01-06T12:33:48.224Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-06T12:33:48.289Z - info: Site data built
+2025-01-06T12:33:48.289Z - info: Website generation (lazy) complete! Total build time: 2.464s
+2025-01-06T12:33:48.299Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-06T12:33:48.299Z - info: Press CTRL+C to stop ...
+2025-01-06T12:33:57.418Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index as some of its dependencies were changed since the last visit
+2025-01-06T12:33:57.715Z - info: Site data built
+2025-01-06T12:33:57.715Z - info: Lazy website regeneration complete! Total build time: 0.298s
+2025-01-06T12:37:41.537Z - info: Website generation started at 20:37:41
+2025-01-06T12:37:41.826Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2113-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-06T12:37:41.827Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2113-AY2425S2!website.git/_markbind/variables.md'
+2025-01-06T12:37:41.846Z - info: Building assets...
