@@ -20,6 +20,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"reading"}},[_c('span',[_v("Rea
 with(this){return _c('p',[_c('strong',[_v("Architecture diagrams are free-form diagrams.")]),_v(" There is no universally adopted standard notation for architecture diagrams. Any symbols that reasonably describe the architecture may be used.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 6 Jan 2025, 20:37:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 8 Jan 2025, 19:19:24 GMT+8]")])])])}
 }];
   

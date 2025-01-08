@@ -35,12 +35,12 @@ with(this){return _c('li',[_c('span',[_v("Learn about the course")])])}
 with(this){return _c('span',{staticClass:"badge bg-danger  font-weight-normal"},[_c('span',[_c('span',{staticClass:"far fa-clock",attrs:{"aria-hidden":"true"}}),_v(" Mon, Jan 20th 2359")])])}
 },function anonymous(
 ) {
-with(this){return _c('li',[_c('span',[_v("Set up the tools")]),_v(" "),_c('span',{staticClass:"badge bg-danger  font-weight-normal"},[_c('span',[_c('span',{staticClass:"far fa-clock",attrs:{"aria-hidden":"true"}}),_v(" by Friday")])])])}
+with(this){return _c('li',[_c('span',[_v("Set up the tools")]),_v(" "),_c('span',{staticClass:"badge bg-danger  font-weight-normal"},[_c('span',[_c('span',{staticClass:"far fa-clock",attrs:{"aria-hidden":"true"}}),_v(" Fri, Jan 17th ")])])])}
 },function anonymous(
 ) {
 with(this){return _c('li',[_c('span',[_v("[Optional] Follow the Git learning trail")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 6 Jan 2025, 20:37:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 8 Jan 2025, 19:19:24 GMT+8]")])])])}
 }];
   
