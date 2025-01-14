@@ -1,0 +1,18 @@
+2025-01-14T16:01:45.411Z - info: [00:01:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/q-drawPrintQuoteSd.md
+2025-01-14T16:01:45.447Z - info: Synchronizing opened pages list before reload
+2025-01-14T16:01:45.447Z - info: Current opened pages, from most-to-least recent:
+2025-01-14T16:01:45.447Z - info: 1. se-book-adapted/chapters/uml
+2025-01-14T16:01:46.454Z - info: Assets built
+2025-01-14T16:03:22.885Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/index as some of its dependencies were changed since the last visit
+2025-01-14T16:03:23.280Z - info: Site data built
+2025-01-14T16:03:23.280Z - info: Lazy website regeneration complete! Total build time: 0.396s
+2025-01-14T16:03:25.817Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics as some of its dependencies were changed since the last visit
+2025-01-14T16:03:26.163Z - info: Site data built
+2025-01-14T16:03:26.163Z - info: Lazy website regeneration complete! Total build time: 0.346s
+2025-01-14T16:03:46.456Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/selfInvocation/index as some of its dependencies were changed since the last visit
+2025-01-14T16:03:46.561Z - info: Site data built
+2025-01-14T16:03:46.561Z - info: Lazy website regeneration complete! Total build time: 0.106s
+2025-01-14T16:05:48.432Z - info: Website generation started at 00:05:47
+2025-01-14T16:05:48.678Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-14T16:05:48.679Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-14T16:05:48.700Z - info: Building assets...
