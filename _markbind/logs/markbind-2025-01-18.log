@@ -529,3 +529,296 @@
 2025-01-18T14:53:56.771Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-01-18T14:53:56.771Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-01-18T14:53:56.791Z - info: Building assets...
+2025-01-18T14:53:58.038Z - info: Assets built
+2025-01-18T14:53:58.038Z - info: Generating pages...
+2025-01-18T14:54:04.307Z - debug: 2025-01-18 22:54:00.330 java[10498:454129] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-18 22:54:00.330 java[10498:454129] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T14:54:04.307Z - debug:  
+2025-01-18T14:54:04.603Z - debug:  
+2025-01-18T14:54:04.603Z - debug:  
+2025-01-18T14:54:04.603Z - debug:  
+2025-01-18T14:54:04.603Z - debug:  
+2025-01-18T14:54:04.604Z - debug:  
+2025-01-18T14:54:04.604Z - debug:  
+2025-01-18T14:54:04.604Z - debug:  
+2025-01-18T14:54:04.689Z - debug:  
+2025-01-18T14:54:04.689Z - debug:  
+2025-01-18T14:54:04.689Z - debug:  
+2025-01-18T14:54:04.689Z - debug:  
+2025-01-18T14:54:04.689Z - debug:  
+2025-01-18T14:54:04.689Z - debug:  
+2025-01-18T14:54:04.689Z - debug: 2025-01-18 22:54:01.510 java[10530:454432] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-18 22:54:01.510 java[10530:454432] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T14:54:05.345Z - debug: 2025-01-18 22:54:04.977 java[10560:455158] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-18 22:54:04.977 java[10560:455158] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T14:54:13.329Z - debug: 2025-01-18 22:54:12.920 java[10594:455921] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-18 22:54:12.920 java[10594:455921] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T14:54:54.379Z - debug: 2025-01-18 22:54:52.204 java[10620:456880] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-18 22:54:52.204 java[10620:456880] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T14:55:04.164Z - debug: 2025-01-18 22:55:03.759 java[10630:457384] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-18 22:55:03.759 java[10630:457384] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T14:55:04.579Z - debug:  
+2025-01-18T14:55:09.369Z - info: Pages built
+2025-01-18T14:55:09.435Z - info: Site data built
+2025-01-18T14:55:09.435Z - info: Website generation complete! Total build time: 73.569s
+2025-01-18T14:55:09.435Z - info: Build success!
+2025-01-18T14:55:29.556Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-01-18T14:58:15.948Z - info: Website generation (lazy) started at 22:58:15
+2025-01-18T14:58:16.203Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-18T14:58:16.203Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-18T14:58:16.229Z - info: Building assets...
+2025-01-18T14:58:17.693Z - info: Assets built
+2025-01-18T14:58:17.694Z - info: Generating landing page...
+2025-01-18T14:58:18.005Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-18T14:58:18.066Z - info: Site data built
+2025-01-18T14:58:18.066Z - info: Website generation (lazy) complete! Total build time: 2.915s
+2025-01-18T14:58:18.075Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-18T14:58:18.076Z - info: Press CTRL+C to stop ...
+2025-01-18T14:58:49.009Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/index as some of its dependencies were changed since the last visit
+2025-01-18T14:58:49.184Z - info: Site data built
+2025-01-18T14:58:49.184Z - info: Lazy website regeneration complete! Total build time: 0.176s
+2025-01-18T14:59:22.435Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w7 as some of its dependencies were changed since the last visit
+2025-01-18T14:59:23.380Z - info: Site data built
+2025-01-18T14:59:23.380Z - info: Lazy website regeneration complete! Total build time: 0.946s
+2025-01-18T14:59:44.957Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w8 as some of its dependencies were changed since the last visit
+2025-01-18T14:59:45.788Z - info: Site data built
+2025-01-18T14:59:45.788Z - info: Lazy website regeneration complete! Total build time: 0.832s
+2025-01-18T15:00:05.404Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9 as some of its dependencies were changed since the last visit
+2025-01-18T15:00:06.152Z - info: Site data built
+2025-01-18T15:00:06.152Z - info: Lazy website regeneration complete! Total build time: 0.749s
+2025-01-18T15:01:30.833Z - info: [23:01:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-01-18T15:01:30.835Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:01:30.836Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:01:30.836Z - info: 1. admin/tp-w9
+2025-01-18T15:01:31.848Z - info: Rebuilding 1 pages
+2025-01-18T15:01:31.976Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 1509, Column 20]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 157, Column 9]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 940, Column 16]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 275, Column 127]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 79, Column 46]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md)
+  Error: Unable to call `show_expanded_faq`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:29:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Page.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:494:45)
+    at Generator.next (<anonymous>)
+2025-01-18T15:01:31.976Z - warn:  Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:927:27)
+    at Generator.throw (<anonymous>)
+    at rejected (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:29:65)
+2025-01-18T15:02:00.190Z - info: [23:02:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-01-18T15:02:00.190Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:02:00.190Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:02:00.190Z - info: 1. admin/tp-w9
+2025-01-18T15:02:01.194Z - info: No pages needed to be rebuilt
+2025-01-18T15:02:14.456Z - info: Website generation (lazy) started at 23:02:13
+2025-01-18T15:02:14.723Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-18T15:02:14.724Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-18T15:02:14.743Z - info: Building assets...
+2025-01-18T15:02:16.073Z - info: Assets built
+2025-01-18T15:02:16.073Z - info: Generating landing page...
+2025-01-18T15:02:16.415Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-18T15:02:16.488Z - info: Site data built
+2025-01-18T15:02:16.488Z - info: Website generation (lazy) complete! Total build time: 2.604s
+2025-01-18T15:02:16.494Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-18T15:02:16.494Z - info: Press CTRL+C to stop ...
+2025-01-18T15:02:22.209Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9 as some of its dependencies were changed since the last visit
+2025-01-18T15:02:22.910Z - info: Site data built
+2025-01-18T15:02:22.910Z - info: Lazy website regeneration complete! Total build time: 0.701s
+2025-01-18T15:02:54.722Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w8 as some of its dependencies were changed since the last visit
+2025-01-18T15:02:55.546Z - info: Site data built
+2025-01-18T15:02:55.547Z - info: Lazy website regeneration complete! Total build time: 0.826s
+2025-01-18T15:04:16.880Z - info: [23:04:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-01-18T15:04:16.881Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:04:16.881Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:04:16.881Z - info: 1. admin/tp-w8
+2025-01-18T15:04:16.882Z - info: 2. index
+2025-01-18T15:04:17.897Z - info: Rebuilding 1 pages
+2025-01-18T15:04:18.731Z - info: Site data built
+2025-01-18T15:04:18.731Z - info: Pages rebuilt
+2025-01-18T15:04:18.731Z - info: Website regeneration complete! Total build time: 0.837s
+2025-01-18T15:04:32.125Z - info: [23:04:32] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-01-18T15:04:32.125Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:04:32.125Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:04:32.126Z - info: 1. admin/tp-w8
+2025-01-18T15:04:32.126Z - info: 2. index
+2025-01-18T15:04:33.132Z - info: Rebuilding 1 pages
+2025-01-18T15:04:33.973Z - info: Site data built
+2025-01-18T15:04:33.973Z - info: Pages rebuilt
+2025-01-18T15:04:33.973Z - info: Website regeneration complete! Total build time: 0.844s
+2025-01-18T15:05:05.144Z - info: [23:05:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-01-18T15:05:05.145Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:05:05.145Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:05:05.145Z - info: 1. admin/tp-w8
+2025-01-18T15:05:05.145Z - info: 2. index
+2025-01-18T15:05:06.159Z - info: Rebuilding 1 pages
+2025-01-18T15:05:06.968Z - info: Site data built
+2025-01-18T15:05:06.968Z - info: Pages rebuilt
+2025-01-18T15:05:06.968Z - info: Website regeneration complete! Total build time: 0.812s
+2025-01-18T15:44:51.877Z - info: Website generation (lazy) started at 23:44:51
+2025-01-18T15:44:52.270Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-18T15:44:52.271Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-18T15:44:52.295Z - info: Building assets...
+2025-01-18T15:44:53.694Z - info: Assets built
+2025-01-18T15:44:53.695Z - info: Generating landing page...
+2025-01-18T15:44:54.024Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-18T15:44:54.094Z - info: Site data built
+2025-01-18T15:44:54.094Z - info: Website generation (lazy) complete! Total build time: 2.854s
+2025-01-18T15:44:54.106Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-18T15:44:54.107Z - info: Press CTRL+C to stop ...
+2025-01-18T15:48:14.072Z - info: [23:48:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md
+2025-01-18T15:48:14.073Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:48:14.074Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:48:14.074Z - info: 1. index
+2025-01-18T15:48:15.166Z - info: Rebuilding 1 pages
+2025-01-18T15:48:15.364Z - info: Site data built
+2025-01-18T15:48:15.364Z - info: Pages rebuilt
+2025-01-18T15:48:15.364Z - info: Website regeneration complete! Total build time: 0.198s
+2025-01-18T15:48:57.330Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/index as some of its dependencies were changed since the last visit
+2025-01-18T15:48:57.465Z - info: Site data built
+2025-01-18T15:48:57.465Z - info: Lazy website regeneration complete! Total build time: 0.136s
+2025-01-18T15:51:15.623Z - info: [23:51:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md
+2025-01-18T15:51:15.624Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:51:15.624Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:51:15.624Z - info: 1. admin/index
+2025-01-18T15:51:16.705Z - warn:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/css.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md) [Line 25, Column 78]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md) [Line 137, Column 105]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/schedule-layout.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md)
+  Error: Unable to call `show_stars_in_nav`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:96:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Layout.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Layout/Layout.js:70:61)
+    at Generator.next (<anonymous>)
+2025-01-18T15:52:16.910Z - info: [23:52:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md
+2025-01-18T15:52:16.910Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:52:16.914Z - info: No pages are currently opened
+2025-01-18T15:52:17.920Z - info: No pages needed to be rebuilt
+2025-01-18T15:57:43.423Z - info: [23:57:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md
+2025-01-18T15:57:43.426Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:57:43.427Z - info: No pages are currently opened
+2025-01-18T15:57:44.436Z - info: No pages needed to be rebuilt
+2025-01-18T15:57:47.334Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/index as some of its dependencies were changed since the last visit
+2025-01-18T15:57:47.465Z - info: Site data built
+2025-01-18T15:57:47.465Z - info: Lazy website regeneration complete! Total build time: 0.131s
+2025-01-18T15:58:06.985Z - info: Website generation (lazy) started at 23:58:06
+2025-01-18T15:58:07.253Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-18T15:58:07.253Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-18T15:58:07.273Z - info: Building assets...
+2025-01-18T15:58:08.449Z - info: Assets built
+2025-01-18T15:58:08.450Z - info: Generating landing page...
+2025-01-18T15:58:08.755Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-18T15:58:08.824Z - info: Site data built
+2025-01-18T15:58:08.824Z - info: Website generation (lazy) complete! Total build time: 1.85s
+2025-01-18T15:58:08.829Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-18T15:58:08.829Z - info: Press CTRL+C to stop ...
+2025-01-18T15:58:19.111Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w7 as some of its dependencies were changed since the last visit
+2025-01-18T15:58:19.337Z - info: Site data built
+2025-01-18T15:58:19.337Z - info: Lazy website regeneration complete! Total build time: 0.227s
+2025-01-18T15:59:29.154Z - info: [23:59:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/layouts/header.md
+2025-01-18T15:59:29.155Z - info: Synchronizing opened pages list before reload
+2025-01-18T15:59:29.155Z - info: Current opened pages, from most-to-least recent:
+2025-01-18T15:59:29.155Z - info: 1. admin/ip-w7
+2025-01-18T15:59:30.283Z - info: Rebuilding 1 pages
+2025-01-18T15:59:30.403Z - info: Site data built
+2025-01-18T15:59:30.403Z - info: Pages rebuilt
+2025-01-18T15:59:30.403Z - info: Website regeneration complete! Total build time: 0.121s
