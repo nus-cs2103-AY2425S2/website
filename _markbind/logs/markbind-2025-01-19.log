@@ -799,3 +799,118 @@
 2025-01-18T18:35:14.971Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-01-18T18:35:14.972Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-01-18T18:35:14.992Z - info: Building assets...
+2025-01-18T18:35:16.984Z - info: Assets built
+2025-01-18T18:35:16.985Z - info: Generating pages...
+2025-01-18T18:35:21.781Z - debug:  
+2025-01-18T18:35:22.189Z - debug: 2025-01-19 02:35:19.159 java[22278:757963] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-19 02:35:19.159 java[22278:757963] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T18:35:22.189Z - debug:  
+2025-01-18T18:35:22.189Z - debug:  
+2025-01-18T18:35:22.189Z - debug:  
+2025-01-18T18:35:22.189Z - debug:  
+2025-01-18T18:35:22.189Z - debug:  
+2025-01-18T18:35:22.189Z - debug:  
+2025-01-18T18:35:22.189Z - debug: 2025-01-19 02:35:20.041 java[22304:758248] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-19 02:35:20.041 java[22304:758248] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.690Z - debug:  
+2025-01-18T18:35:22.908Z - debug: 2025-01-19 02:35:22.485 java[22341:759005] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-19 02:35:22.485 java[22341:759005] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T18:35:32.202Z - debug: 2025-01-19 02:35:31.745 java[22374:759844] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-19 02:35:31.745 java[22374:759844] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T18:36:15.867Z - debug:  
+2025-01-18T18:36:26.190Z - debug: 2025-01-19 02:36:25.755 java[22437:761353] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-19 02:36:25.755 java[22437:761353] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-18T18:36:26.597Z - debug:  
+2025-01-18T18:36:31.773Z - info: Pages built
+2025-01-18T18:36:31.831Z - info: Site data built
+2025-01-18T18:36:31.831Z - info: Website generation complete! Total build time: 77.812s
+2025-01-18T18:36:31.831Z - info: Build success!
+2025-01-18T18:36:51.590Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-01-19T04:34:28.550Z - info: Website generation (lazy) started at 12:34:27
+2025-01-19T04:34:28.908Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-19T04:34:28.908Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-19T04:34:28.927Z - info: Building assets...
+2025-01-19T04:34:30.450Z - info: Assets built
+2025-01-19T04:34:30.451Z - info: Generating landing page...
+2025-01-19T04:34:30.783Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-19T04:34:30.839Z - info: Site data built
+2025-01-19T04:34:30.840Z - info: Website generation (lazy) complete! Total build time: 3.043s
+2025-01-19T04:34:30.851Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-19T04:34:30.851Z - info: Press CTRL+C to stop ...
+2025-01-19T04:34:48.215Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2025-01-19T04:34:48.367Z - info: Site data built
+2025-01-19T04:34:48.367Z - info: Lazy website regeneration complete! Total build time: 0.153s
+2025-01-19T04:34:52.267Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/projectDuke/index as some of its dependencies were changed since the last visit
+2025-01-19T04:34:52.571Z - info: Site data built
+2025-01-19T04:34:52.571Z - info: Lazy website regeneration complete! Total build time: 0.304s
+2025-01-19T04:35:56.480Z - info: [12:35:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/text.md
+2025-01-19T04:35:56.481Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:35:56.482Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:35:56.483Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:35:57.497Z - info: Rebuilding 1 pages
+2025-01-19T04:35:57.751Z - info: Site data built
+2025-01-19T04:35:57.751Z - info: Pages rebuilt
+2025-01-19T04:35:57.751Z - info: Website regeneration complete! Total build time: 0.257s
+2025-01-19T04:38:17.839Z - info: [12:38:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/extensions-fragment.md
+2025-01-19T04:38:17.841Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:38:17.844Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:38:17.844Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:38:18.861Z - info: Rebuilding 1 pages
+2025-01-19T04:38:19.104Z - info: Site data built
+2025-01-19T04:38:19.104Z - info: Pages rebuilt
+2025-01-19T04:38:19.104Z - info: Website regeneration complete! Total build time: 0.247s
+2025-01-19T04:41:03.003Z - info: [12:41:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/extensions-fragment.md
+2025-01-19T04:41:03.004Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:41:03.005Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:41:03.005Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:41:04.014Z - info: Rebuilding 1 pages
+2025-01-19T04:41:04.263Z - info: Site data built
+2025-01-19T04:41:04.263Z - info: Pages rebuilt
+2025-01-19T04:41:04.263Z - info: Website regeneration complete! Total build time: 0.251s
+2025-01-19T04:41:29.184Z - info: [12:41:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/extensions-fragment.md
+2025-01-19T04:41:29.185Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:41:29.185Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:41:29.185Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:41:30.199Z - info: Rebuilding 1 pages
+2025-01-19T04:41:30.443Z - info: Site data built
+2025-01-19T04:41:30.443Z - info: Pages rebuilt
+2025-01-19T04:41:30.443Z - info: Website regeneration complete! Total build time: 0.246s
+2025-01-19T04:43:28.955Z - info: [12:43:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/extensions-fragment.md
+2025-01-19T04:43:28.956Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:43:28.956Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:43:28.956Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:43:29.960Z - info: Rebuilding 1 pages
+2025-01-19T04:43:30.211Z - info: Site data built
+2025-01-19T04:43:30.211Z - info: Pages rebuilt
+2025-01-19T04:43:30.211Z - info: Website regeneration complete! Total build time: 0.253s
+2025-01-19T04:44:17.516Z - info: [12:44:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/extensions-fragment.md
+2025-01-19T04:44:17.517Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:44:17.517Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:44:17.517Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:44:18.533Z - info: Rebuilding 1 pages
+2025-01-19T04:44:18.771Z - info: Site data built
+2025-01-19T04:44:18.771Z - info: Pages rebuilt
+2025-01-19T04:44:18.771Z - info: Website regeneration complete! Total build time: 0.239s
+2025-01-19T04:46:43.479Z - info: [12:46:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/extensions-fragment.md
+2025-01-19T04:46:43.481Z - info: Synchronizing opened pages list before reload
+2025-01-19T04:46:43.482Z - info: Current opened pages, from most-to-least recent:
+2025-01-19T04:46:43.483Z - info: 1. se-book-adapted/projectDuke/index
+2025-01-19T04:46:44.491Z - info: Rebuilding 1 pages
+2025-01-19T04:46:44.738Z - info: Site data built
+2025-01-19T04:46:44.738Z - info: Pages rebuilt
+2025-01-19T04:46:44.738Z - info: Website regeneration complete! Total build time: 0.251s
+2025-01-19T04:47:00.092Z - info: Website generation started at 12:46:59
+2025-01-19T04:47:00.358Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-19T04:47:00.359Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-19T04:47:00.378Z - info: Building assets...
