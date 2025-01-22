@@ -20,6 +20,6 @@ with(this){return _c('p',[_c('strong',[_v("UML uses "),_c('code',{pre:true,attrs
 with(this){return _c('p',[_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" If you show parallel paths in a sequence diagram, the corresponding Java implementation is likely to be "),_c('em',[_v("multi-threaded")]),_v(" "),_c('span',{staticClass:"dimmed"},[_v("because a normal Java program cannot do multiple things at the same time")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 22 Jan 2025, 19:24:03 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 22 Jan 2025, 20:20:03 GMT+8]")])])])}
 }];
   
