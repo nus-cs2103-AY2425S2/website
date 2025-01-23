@@ -8,7 +8,7 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""
 with(this){return _c('h1',{attrs:{"id":"project-duke"}},[_v("Project Duke"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#project-duke","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Project Duke is a educational software project designed to take you through the steps of building a small software "),_c('em',[_v("incrementally")])]),_v(", while applying as many Java and SE techniques as possible along the way.")])}
+with(this){return _c('p',[_c('strong',[_v("Project Duke is an educational software project designed to take you through the steps of building a small software "),_c('em',[_v("incrementally")])]),_v(", while applying as many Java and SE techniques as possible along the way.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("The project aims to build a product named "),_c('em',[_v("Duke")]),_v(", a Personal Assistant Chatbot that helps a person to keep track of various things.")]),_v(" "),_c('span',{staticClass:"dimmed"},[_v("The name "),_c('em',[_v("Duke")]),_v(" was chosen as a placeholder name, in honor of "),_c('a',{attrs:{"href":"https://www.oracle.com/java/duke.html"}},[_v("Duke, the Java Mascot")]),_v(".")])])}
@@ -569,6 +569,6 @@ with(this){return _c('h3',{attrs:{"id":"d-merchandise"}},[_c('span',{staticClass
 with(this){return _c('p',[_v("Support managing info about merchandise "),_c('span',{staticClass:"dimmed"},[_v("e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 23 Jan 2025, 19:15:54 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 23 Jan 2025, 22:15:32 GMT+8]")])])])}
 }];
   
