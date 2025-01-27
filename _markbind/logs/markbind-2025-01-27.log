@@ -164,3 +164,227 @@
 2025-01-26T16:34:53.684Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-01-26T16:34:53.684Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-01-26T16:34:53.704Z - info: Building assets...
+2025-01-26T16:34:55.044Z - info: Assets built
+2025-01-26T16:34:55.044Z - info: Generating pages...
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug: 2025-01-27 00:34:57.179 java[26656:3019379] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-27 00:34:57.179 java[26656:3019379] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug: 2025-01-27 00:34:58.226 java[26691:3019659] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-27 00:34:58.226 java[26691:3019659] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.503Z - debug:  
+2025-01-26T16:35:00.575Z - debug:  
+2025-01-26T16:35:00.575Z - debug:  
+2025-01-26T16:35:01.188Z - debug: 2025-01-27 00:35:00.827 java[26734:3020418] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-27 00:35:00.827 java[26734:3020418] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-26T16:35:10.047Z - debug: 2025-01-27 00:35:09.689 java[26766:3020844] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-27 00:35:09.689 java[26766:3020844] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-26T16:35:53.758Z - debug: 2025-01-27 00:35:51.139 java[26791:3021935] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-27 00:35:51.139 java[26791:3021935] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-26T16:36:04.170Z - debug: 2025-01-27 00:36:03.544 java[26799:3022297] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-27 00:36:03.544 java[26799:3022297] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-01-26T16:36:04.396Z - debug:  
+2025-01-26T16:36:09.058Z - info: Pages built
+2025-01-26T16:36:09.126Z - info: Site data built
+2025-01-26T16:36:09.126Z - info: Website generation complete! Total build time: 76.336s
+2025-01-26T16:36:09.126Z - info: Build success!
+2025-01-26T16:40:04.818Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-01-27T15:48:11.689Z - info: Website generation (lazy) started at 23:48:10
+2025-01-27T15:48:11.995Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-27T15:48:11.996Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-27T15:48:12.015Z - info: Building assets...
+2025-01-27T15:48:13.526Z - info: Assets built
+2025-01-27T15:48:13.527Z - info: Generating landing page...
+2025-01-27T15:48:13.963Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-27T15:48:14.057Z - info: Site data built
+2025-01-27T15:48:14.057Z - info: Website generation (lazy) complete! Total build time: 3.185s
+2025-01-27T15:48:14.067Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-27T15:48:14.067Z - info: Press CTRL+C to stop ...
+2025-01-27T15:49:47.569Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials as some of its dependencies were changed since the last visit
+2025-01-27T15:49:48.011Z - info: Site data built
+2025-01-27T15:49:48.011Z - info: Lazy website regeneration complete! Total build time: 0.443s
+2025-01-27T15:52:11.644Z - info: [23:52:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/studentData-fragment.md
+2025-01-27T15:52:11.646Z - info: Synchronizing opened pages list before reload
+2025-01-27T15:52:11.650Z - info: Current opened pages, from most-to-least recent:
+2025-01-27T15:52:11.650Z - info: 1. admin/tutorials
+2025-01-27T15:52:12.664Z - info: Rebuilding 1 pages
+2025-01-27T15:52:12.813Z - error:  Error: No such segment '#Tzer Bin' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/timetables-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-01-27T15:52:13.084Z - info: Site data built
+2025-01-27T15:52:13.084Z - info: Pages rebuilt
+2025-01-27T15:52:13.084Z - info: Website regeneration complete! Total build time: 0.422s
+2025-01-27T15:53:51.987Z - info: Website generation (lazy) started at 23:53:51
+2025-01-27T15:53:52.243Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-01-27T15:53:52.243Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-01-27T15:53:52.263Z - info: Building assets...
+2025-01-27T15:53:53.841Z - info: Assets built
+2025-01-27T15:53:53.841Z - info: Generating landing page...
+2025-01-27T15:53:54.270Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-01-27T15:53:54.338Z - info: Site data built
+2025-01-27T15:53:54.338Z - info: Website generation (lazy) complete! Total build time: 2.873s
+2025-01-27T15:53:54.344Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-01-27T15:53:54.344Z - info: Press CTRL+C to stop ...
+2025-01-27T15:54:04.505Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials as some of its dependencies were changed since the last visit
+2025-01-27T15:54:04.631Z - error:  Error: No such segment '#Tzer Bin' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/timetables-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-01-27T15:54:04.941Z - info: Site data built
+2025-01-27T15:54:04.941Z - info: Lazy website regeneration complete! Total build time: 0.436s
+2025-01-27T15:55:49.323Z - info: [23:55:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+2025-01-27T15:55:49.324Z - info: Synchronizing opened pages list before reload
+2025-01-27T15:55:49.324Z - info: Current opened pages, from most-to-least recent:
+2025-01-27T15:55:49.324Z - info: 1. admin/tutorials
+2025-01-27T15:55:50.335Z - info: Rebuilding 1 pages
+2025-01-27T15:55:50.442Z - error:  Error: No such segment '#Tzer Bin' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/timetables-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-01-27T15:55:50.680Z - info: Site data built
+2025-01-27T15:55:50.680Z - info: Pages rebuilt
+2025-01-27T15:55:50.680Z - info: Website regeneration complete! Total build time: 0.347s
+2025-01-27T15:55:54.896Z - info: [23:55:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+2025-01-27T15:55:54.896Z - info: Synchronizing opened pages list before reload
+2025-01-27T15:55:54.897Z - info: Current opened pages, from most-to-least recent:
+2025-01-27T15:55:54.897Z - info: 1. admin/tutorials
+2025-01-27T15:55:55.911Z - info: Rebuilding 1 pages
+2025-01-27T15:55:55.990Z - error:  Error: No such segment '#Tzer Bin' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/timetables-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-01-27T15:55:56.207Z - info: Site data built
+2025-01-27T15:55:56.207Z - info: Pages rebuilt
+2025-01-27T15:55:56.207Z - info: Website regeneration complete! Total build time: 0.298s
+2025-01-27T15:55:59.237Z - info: [23:55:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+2025-01-27T15:55:59.237Z - info: Synchronizing opened pages list before reload
+2025-01-27T15:55:59.237Z - info: Current opened pages, from most-to-least recent:
+2025-01-27T15:55:59.237Z - info: 1. admin/tutorials
+2025-01-27T15:56:00.240Z - info: Rebuilding 1 pages
+2025-01-27T15:56:00.315Z - error:  Error: No such segment '#Tzer Bin' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/timetables-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-01-27T15:56:00.505Z - info: Site data built
+2025-01-27T15:56:00.505Z - info: Pages rebuilt
+2025-01-27T15:56:00.505Z - info: Website regeneration complete! Total build time: 0.267s
+2025-01-27T15:56:38.043Z - info: [23:56:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+2025-01-27T15:56:38.043Z - info: Synchronizing opened pages list before reload
+2025-01-27T15:56:38.043Z - info: Current opened pages, from most-to-least recent:
+2025-01-27T15:56:38.043Z - info: 1. admin/tutorials
+2025-01-27T15:56:39.048Z - info: Rebuilding 1 pages
+2025-01-27T15:56:39.156Z - error:  Error: No such segment '#Tzer Bin' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/timetables-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-01-27T15:56:39.382Z - info: Site data built
+2025-01-27T15:56:39.383Z - info: Pages rebuilt
+2025-01-27T15:56:39.383Z - info: Website regeneration complete! Total build time: 0.337s
+2025-01-27T15:57:04.880Z - info: [23:57:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/studentData-fragment.md
+2025-01-27T15:57:04.880Z - info: Synchronizing opened pages list before reload
+2025-01-27T15:57:04.880Z - info: Current opened pages, from most-to-least recent:
+2025-01-27T15:57:04.880Z - info: 1. admin/tutorials
+2025-01-27T15:57:05.890Z - info: Rebuilding 1 pages
+2025-01-27T15:57:06.201Z - info: Site data built
+2025-01-27T15:57:06.201Z - info: Pages rebuilt
+2025-01-27T15:57:06.201Z - info: Website regeneration complete! Total build time: 0.313s
