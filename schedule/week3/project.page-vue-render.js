@@ -107,6 +107,6 @@ with(this){return _c('ul',[_c('li',[_v("Check with all team members if any of th
 with(this){return _c('ul',[_c('li',[_c('span',{staticClass:"mkb-text-red"},[_c('strong',[_v("Submission:")])]),_v(" via Canvas. Submission will open Friday evening, after team forming is complete for all tutorials. We'll let you know when it is open.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 30 Jan 2025, 3:12:27 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 30 Jan 2025, 17:09:49 GMT+8]")])])])}
 }];
   
