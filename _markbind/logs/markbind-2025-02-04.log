@@ -1,0 +1,18 @@
+2025-02-04T11:26:38.637Z - info: Website generation (lazy) started at 19:26:37
+2025-02-04T11:26:38.984Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-04T11:26:38.984Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-04T11:26:39.003Z - info: Building assets...
+2025-02-04T11:26:40.622Z - info: Assets built
+2025-02-04T11:26:40.622Z - info: Generating landing page...
+2025-02-04T11:26:41.106Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-04T11:26:41.172Z - info: Site data built
+2025-02-04T11:26:41.173Z - info: Website generation (lazy) complete! Total build time: 3.369s
+2025-02-04T11:26:41.182Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-04T11:26:41.182Z - info: Press CTRL+C to stop ...
+2025-02-04T11:26:45.973Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial as some of its dependencies were changed since the last visit
+2025-02-04T11:26:46.116Z - info: Site data built
+2025-02-04T11:26:46.116Z - info: Lazy website regeneration complete! Total build time: 0.143s
+2025-02-04T11:27:10.429Z - info: Website generation started at 19:27:09
+2025-02-04T11:27:10.615Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-04T11:27:10.616Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-04T11:27:10.635Z - info: Building assets...
