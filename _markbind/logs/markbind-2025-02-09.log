@@ -1,0 +1,251 @@
+2025-02-08T18:29:03.184Z - info: Website generation (lazy) started at 02:29:01
+2025-02-08T18:29:03.469Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-08T18:29:03.469Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-08T18:29:03.488Z - info: Building assets...
+2025-02-08T18:29:04.847Z - info: Assets built
+2025-02-08T18:29:04.847Z - info: Generating landing page...
+2025-02-08T18:29:05.297Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-08T18:29:05.369Z - info: Site data built
+2025-02-08T18:29:05.369Z - info: Website generation (lazy) complete! Total build time: 3.69s
+2025-02-08T18:29:05.378Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-08T18:29:05.379Z - info: Press CTRL+C to stop ...
+2025-02-08T18:29:27.188Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/project as some of its dependencies were changed since the last visit
+2025-02-08T18:29:28.100Z - info: Site data built
+2025-02-08T18:29:28.100Z - info: Lazy website regeneration complete! Total build time: 0.913s
+2025-02-08T18:29:40.934Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial as some of its dependencies were changed since the last visit
+2025-02-08T18:29:41.527Z - info: Site data built
+2025-02-08T18:29:41.527Z - info: Lazy website regeneration complete! Total build time: 0.593s
+2025-02-08T18:30:31.898Z - info: [02:30:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-08T18:30:31.901Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:30:31.902Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:30:31.903Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:30:32.910Z - info: Rebuilding 1 pages
+2025-02-08T18:30:33.392Z - info: Site data built
+2025-02-08T18:30:33.392Z - info: Pages rebuilt
+2025-02-08T18:30:33.392Z - info: Website regeneration complete! Total build time: 0.485s
+2025-02-08T18:34:37.219Z - info: [02:34:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-08T18:34:37.220Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:34:37.221Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:34:37.221Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:34:38.227Z - info: Rebuilding 1 pages
+2025-02-08T18:34:38.722Z - error: Invalid HTML in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial.md.
+Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
+
+2025-02-08T18:34:38.778Z - info: Site data built
+2025-02-08T18:34:38.778Z - info: Pages rebuilt
+2025-02-08T18:34:38.778Z - info: Website regeneration complete! Total build time: 0.554s
+2025-02-08T18:35:04.405Z - info: [02:35:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-08T18:35:04.406Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:35:04.406Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:35:04.406Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:35:05.420Z - info: Rebuilding 1 pages
+2025-02-08T18:35:05.932Z - info: Site data built
+2025-02-08T18:35:05.932Z - info: Pages rebuilt
+2025-02-08T18:35:05.932Z - info: Website regeneration complete! Total build time: 0.514s
+2025-02-08T18:37:18.484Z - info: [02:37:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-02-08T18:37:18.507Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:37:18.507Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:37:18.507Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:37:19.516Z - info: Rebuilding 1 pages
+2025-02-08T18:37:20.090Z - info: Site data built
+2025-02-08T18:37:20.090Z - info: Pages rebuilt
+2025-02-08T18:37:20.090Z - info: Website regeneration complete! Total build time: 0.576s
+2025-02-08T18:39:55.282Z - info: [02:39:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/managePRs/text.md
+2025-02-08T18:39:55.284Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:39:55.285Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:39:55.285Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:39:55.293Z - info: [02:39:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/varargs/text.md
+2025-02-08T18:39:55.293Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:39:55.293Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:39:55.293Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:39:56.299Z - info: No pages needed to be rebuilt
+2025-02-08T18:39:56.303Z - info: Assets built
+2025-02-08T18:40:05.264Z - info: [02:40:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/managePRs/text.md
+2025-02-08T18:40:05.265Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:40:05.265Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:40:05.265Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:40:06.270Z - info: No pages needed to be rebuilt
+2025-02-08T18:44:20.330Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2025-02-08T18:44:20.339Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.341Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.342Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.345Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+2025-02-08T18:44:20.345Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.345Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.346Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.354Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/site.json
+2025-02-08T18:44:20.354Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.356Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.357Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.358Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-02-08T18:44:20.359Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.359Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.359Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.361Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial-cs2103-fragment.md
+2025-02-08T18:44:20.362Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.362Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.362Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.385Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2025-02-08T18:44:20.385Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.386Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.386Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.387Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyAdminTasks-fragment.md
+2025-02-08T18:44:20.387Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.387Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.387Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.388Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-08T18:44:20.388Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.388Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.388Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.388Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-02-08T18:44:20.388Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.388Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.388Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.389Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_markbind/variables.md
+2025-02-08T18:44:20.389Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.389Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.389Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:20.637Z - info: [02:44:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/managePRs/text.md
+2025-02-08T18:44:20.637Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:20.637Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:20.637Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:21.502Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-08T18:44:21.502Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-08T18:44:21.515Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2025-02-08T18:44:21.516Z - info: Rebuilding 1 pages
+2025-02-08T18:44:21.807Z - info: Assets built
+2025-02-08T18:44:21.834Z - info: Pages or site config modified, updating pages...
+2025-02-08T18:44:21.956Z - info: Site data built
+2025-02-08T18:44:21.956Z - info: Pages rebuilt
+2025-02-08T18:44:21.956Z - info: Website regeneration complete! Total build time: 0.457s
+2025-02-08T18:44:22.914Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial as some of its dependencies were changed since the last visit
+2025-02-08T18:44:23.290Z - info: Site data built
+2025-02-08T18:44:23.290Z - info: Lazy website regeneration complete! Total build time: 0.376s
+2025-02-08T18:44:23.291Z - info: Site data built
+2025-02-08T18:44:37.946Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2025-02-08T18:44:37.947Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.947Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.947Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:37.948Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial-cs2103-fragment.md
+2025-02-08T18:44:37.948Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.948Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.948Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:37.949Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-02-08T18:44:37.949Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.949Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.949Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:37.949Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTpTasks-fragment.md
+2025-02-08T18:44:37.950Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.950Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.950Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:37.950Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyAdminTasks-fragment.md
+2025-02-08T18:44:37.950Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.950Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.950Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:37.951Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-08T18:44:37.951Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.951Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.951Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:37.951Z - info: [02:44:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-02-08T18:44:37.951Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:37.951Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:37.951Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:39.035Z - info: Assets built
+2025-02-08T18:44:39.048Z - info: Rebuilding 1 pages
+2025-02-08T18:44:39.510Z - info: Site data built
+2025-02-08T18:44:39.510Z - info: Pages rebuilt
+2025-02-08T18:44:39.510Z - info: Website regeneration complete! Total build time: 0.463s
+2025-02-08T18:44:53.203Z - info: [02:44:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-02-08T18:44:53.204Z - info: Synchronizing opened pages list before reload
+2025-02-08T18:44:53.204Z - info: Current opened pages, from most-to-least recent:
+2025-02-08T18:44:53.204Z - info: 1. schedule/week5/tutorial
+2025-02-08T18:44:54.211Z - info: Rebuilding 1 pages
+2025-02-08T18:44:54.676Z - info: Site data built
+2025-02-08T18:44:54.676Z - info: Pages rebuilt
+2025-02-08T18:44:54.676Z - info: Website regeneration complete! Total build time: 0.467s
+2025-02-09T03:27:36.609Z - info: Website generation (lazy) started at 11:27:35
+2025-02-09T03:27:36.964Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-09T03:27:36.964Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-09T03:27:36.983Z - info: Building assets...
+2025-02-09T03:27:38.310Z - info: Assets built
+2025-02-09T03:27:38.310Z - info: Generating landing page...
+2025-02-09T03:27:38.596Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 954, Column 16]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 275, Column 127]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 79, Column 46]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md) [Line 494, Column 16]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:29:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+2025-02-09T03:27:38.681Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-09T03:27:38.750Z - info: Site data built
+2025-02-09T03:27:38.750Z - info: Website generation (lazy) complete! Total build time: 2.815s
+2025-02-09T03:27:38.762Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-09T03:27:38.762Z - info: Press CTRL+C to stop ...
+2025-02-09T03:29:53.876Z - info: [11:29:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/studentData-fragment.md
+2025-02-09T03:29:53.881Z - info: Synchronizing opened pages list before reload
+2025-02-09T03:29:53.887Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T03:29:53.887Z - info: 1. index
+2025-02-09T03:29:54.892Z - info: Rebuilding 1 pages
+2025-02-09T03:29:55.316Z - info: Site data built
+2025-02-09T03:29:55.316Z - info: Pages rebuilt
+2025-02-09T03:29:55.316Z - info: Website regeneration complete! Total build time: 0.425s
+2025-02-09T03:30:19.999Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList as some of its dependencies were changed since the last visit
+2025-02-09T03:30:20.629Z - info: Site data built
+2025-02-09T03:30:20.629Z - info: Lazy website regeneration complete! Total build time: 0.631s
+2025-02-09T03:30:59.528Z - info: Website generation started at 11:30:58
+2025-02-09T03:30:59.785Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-09T03:30:59.785Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-09T03:30:59.807Z - info: Building assets...
