@@ -249,3 +249,247 @@ Table must have a tbody tag. Please correct this to avoid Vue hydration issues.
 2025-02-09T03:30:59.785Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-02-09T03:30:59.785Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-02-09T03:30:59.807Z - info: Building assets...
+2025-02-09T03:31:01.331Z - info: Assets built
+2025-02-09T03:31:01.331Z - info: Generating pages...
+2025-02-09T03:31:07.722Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:07.723Z - debug:  
+2025-02-09T03:31:08.037Z - debug: 2025-02-09 11:31:03.992 java[61570:6907079] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-09 11:31:03.992 java[61570:6907079] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-02-09T03:31:08.037Z - debug:  
+2025-02-09T03:31:08.037Z - debug:  
+2025-02-09T03:31:08.037Z - debug:  
+2025-02-09T03:31:08.037Z - debug:  
+2025-02-09T03:31:08.037Z - debug:  
+2025-02-09T03:31:08.038Z - debug: 2025-02-09 11:31:05.207 java[61603:6907391] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-09 11:31:05.207 java[61603:6907391] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-02-09T03:31:08.038Z - debug:  
+2025-02-09T03:31:08.677Z - debug:  
+2025-02-09T03:31:19.071Z - debug: 2025-02-09 11:31:18.149 java[61658:6908529] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-09 11:31:18.149 java[61658:6908529] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-02-09T03:32:03.124Z - debug: 2025-02-09 11:32:00.903 java[61695:6909445] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-09 11:32:00.903 java[61695:6909445] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-02-09T03:32:14.074Z - debug: 2025-02-09 11:32:13.599 java[61708:6909923] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-09 11:32:13.599 java[61708:6909923] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-02-09T03:32:14.429Z - debug:  
+2025-02-09T03:32:21.557Z - info: Pages built
+2025-02-09T03:32:21.623Z - info: Site data built
+2025-02-09T03:32:21.623Z - info: Website generation complete! Total build time: 82.688s
+2025-02-09T03:32:21.623Z - info: Build success!
+2025-02-09T03:32:42.020Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-02-09T03:44:20.206Z - info: Website generation (lazy) started at 11:44:19
+2025-02-09T03:44:20.483Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-09T03:44:20.483Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-09T03:44:20.502Z - info: Building assets...
+2025-02-09T03:44:21.844Z - info: Assets built
+2025-02-09T03:44:21.845Z - info: Generating landing page...
+2025-02-09T03:44:22.281Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-09T03:44:22.344Z - info: Site data built
+2025-02-09T03:44:22.344Z - info: Website generation (lazy) complete! Total build time: 2.927s
+2025-02-09T03:44:22.353Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-09T03:44:22.353Z - info: Press CTRL+C to stop ...
+2025-02-09T03:44:27.424Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/index as some of its dependencies were changed since the last visit
+2025-02-09T03:44:27.781Z - info: Site data built
+2025-02-09T03:44:27.781Z - info: Lazy website regeneration complete! Total build time: 0.358s
+2025-02-09T03:44:30.057Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project as some of its dependencies were changed since the last visit
+2025-02-09T03:44:31.251Z - info: Site data built
+2025-02-09T03:44:31.251Z - info: Lazy website regeneration complete! Total build time: 1.194s
+2025-02-09T03:45:58.164Z - info: [11:45:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-02-09T03:45:58.166Z - info: Synchronizing opened pages list before reload
+2025-02-09T03:45:58.167Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T03:45:58.167Z - info: 1. schedule/week4/project
+2025-02-09T03:45:59.184Z - info: Rebuilding 1 pages
+2025-02-09T03:46:00.399Z - info: Site data built
+2025-02-09T03:46:00.399Z - info: Pages rebuilt
+2025-02-09T03:46:00.399Z - info: Website regeneration complete! Total build time: 1.22s
+2025-02-09T03:48:54.572Z - info: [11:48:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-tasks-fragment.md
+2025-02-09T03:48:54.576Z - info: Synchronizing opened pages list before reload
+2025-02-09T03:48:54.589Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T03:48:54.590Z - info: 1. schedule/week4/project
+2025-02-09T03:48:55.613Z - info: Rebuilding 1 pages
+2025-02-09T03:48:56.825Z - info: Site data built
+2025-02-09T03:48:56.825Z - info: Pages rebuilt
+2025-02-09T03:48:56.825Z - info: Website regeneration complete! Total build time: 1.216s
+2025-02-09T13:28:35.661Z - info: Website generation (lazy) started at 21:28:35
+2025-02-09T13:28:35.938Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-09T13:28:35.938Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-09T13:28:35.958Z - info: Building assets...
+2025-02-09T13:28:37.284Z - info: Assets built
+2025-02-09T13:28:37.285Z - info: Generating landing page...
+2025-02-09T13:28:37.745Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-09T13:28:37.807Z - info: Site data built
+2025-02-09T13:28:37.808Z - info: Website generation (lazy) complete! Total build time: 2.71s
+2025-02-09T13:28:37.816Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-09T13:28:37.816Z - info: Press CTRL+C to stop ...
+2025-02-09T13:28:45.074Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial as some of its dependencies were changed since the last visit
+2025-02-09T13:28:45.790Z - info: Site data built
+2025-02-09T13:28:45.791Z - info: Lazy website regeneration complete! Total build time: 0.717s
+2025-02-09T13:34:03.758Z - info: [21:34:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:34:03.759Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:34:03.760Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:34:03.761Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:34:04.770Z - info: Rebuilding 1 pages
+2025-02-09T13:34:05.477Z - info: Site data built
+2025-02-09T13:34:05.477Z - info: Pages rebuilt
+2025-02-09T13:34:05.477Z - info: Website regeneration complete! Total build time: 0.709s
+2025-02-09T13:35:13.479Z - info: [21:35:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:35:13.480Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:35:13.480Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:35:13.480Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:35:14.490Z - info: Rebuilding 1 pages
+2025-02-09T13:35:14.589Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/slapHard/unit-inElsewhere-asPanelBody.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+2025-02-09T13:35:14.958Z - info: Site data built
+2025-02-09T13:35:14.958Z - info: Pages rebuilt
+2025-02-09T13:35:14.958Z - info: Website regeneration complete! Total build time: 0.47s
+2025-02-09T13:36:03.480Z - info: [21:36:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:36:03.480Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:36:03.480Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:36:03.480Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:36:04.489Z - info: Rebuilding 1 pages
+2025-02-09T13:36:05.021Z - info: Site data built
+2025-02-09T13:36:05.021Z - info: Pages rebuilt
+2025-02-09T13:36:05.021Z - info: Website regeneration complete! Total build time: 0.534s
+2025-02-09T13:37:47.383Z - info: [21:37:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:37:47.383Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:37:47.383Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:37:47.383Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:37:48.388Z - info: Rebuilding 1 pages
+2025-02-09T13:37:48.511Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_markbind/boilerplates/unit-inElsewhere-asPanel.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+2025-02-09T13:37:48.914Z - info: Site data built
+2025-02-09T13:37:48.914Z - info: Pages rebuilt
+2025-02-09T13:37:48.914Z - info: Website regeneration complete! Total build time: 0.528s
+2025-02-09T13:38:24.739Z - info: [21:38:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:38:24.739Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:38:24.739Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:38:24.740Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:38:25.745Z - info: Rebuilding 1 pages
+2025-02-09T13:38:26.280Z - info: Site data built
+2025-02-09T13:38:26.280Z - info: Pages rebuilt
+2025-02-09T13:38:26.280Z - info: Website regeneration complete! Total build time: 0.537s
+2025-02-09T13:42:03.769Z - info: [21:42:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:42:03.770Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:42:03.770Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:42:03.771Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:42:04.782Z - info: Rebuilding 1 pages
+2025-02-09T13:42:04.943Z - error:  Error: Empty src attribute in include in: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:172:23)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:42
+2025-02-09T13:42:05.346Z - info: Site data built
+2025-02-09T13:42:05.346Z - info: Pages rebuilt
+2025-02-09T13:42:05.346Z - info: Website regeneration complete! Total build time: 0.567s
+2025-02-09T13:42:27.838Z - info: [21:42:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:42:27.838Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:42:27.838Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:42:27.839Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:42:28.843Z - info: Rebuilding 1 pages
+2025-02-09T13:42:28.996Z - error:  Error: Empty src attribute in include in: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:172:23)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:42
+2025-02-09T13:42:29.385Z - info: Site data built
+2025-02-09T13:42:29.386Z - info: Pages rebuilt
+2025-02-09T13:42:29.386Z - info: Website regeneration complete! Total build time: 0.545s
+2025-02-09T13:43:19.111Z - info: [21:43:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:43:19.112Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:43:19.112Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:43:19.112Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:43:20.119Z - info: Rebuilding 1 pages
+2025-02-09T13:43:20.678Z - info: Site data built
+2025-02-09T13:43:20.678Z - info: Pages rebuilt
+2025-02-09T13:43:20.678Z - info: Website regeneration complete! Total build time: 0.561s
+2025-02-09T13:46:07.024Z - info: [21:46:07] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/images/arrowVsDeepNesting.png
+2025-02-09T13:46:07.025Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:46:07.025Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:46:07.025Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:46:08.176Z - info: Assets built
+2025-02-09T13:47:15.794Z - info: [21:47:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:47:15.794Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:47:15.794Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:47:15.794Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:47:16.802Z - info: Rebuilding 1 pages
+2025-02-09T13:47:17.367Z - info: Site data built
+2025-02-09T13:47:17.367Z - info: Pages rebuilt
+2025-02-09T13:47:17.367Z - info: Website regeneration complete! Total build time: 0.568s
+2025-02-09T13:47:30.162Z - info: [21:47:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial-cs2103-fragment.md
+2025-02-09T13:47:30.162Z - info: Synchronizing opened pages list before reload
+2025-02-09T13:47:30.163Z - info: Current opened pages, from most-to-least recent:
+2025-02-09T13:47:30.163Z - info: 1. schedule/week5/tutorial
+2025-02-09T13:47:31.167Z - info: Rebuilding 1 pages
+2025-02-09T13:47:31.716Z - info: Site data built
+2025-02-09T13:47:31.716Z - info: Pages rebuilt
+2025-02-09T13:47:31.716Z - info: Website regeneration complete! Total build time: 0.551s
+2025-02-09T13:50:34.216Z - info: Website generation started at 21:50:33
+2025-02-09T13:50:34.496Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-09T13:50:34.496Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-09T13:50:34.515Z - info: Building assets...
