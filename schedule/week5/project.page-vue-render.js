@@ -143,6 +143,6 @@ with(this){return _c('li',[_c('p',[_c('strong',[_v("In the interest of keeping t
 with(this){return _c('li',[_c('p',[_c('strong',[_v("Suggested workflow:")])]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("First stage")]),_v(":\n"),_c('ul',[_c('li',[_v("Divide the user stories among team members.")]),_v(" "),_c('li',[_v("Each member will go through their user stories to discard (e.g., cross out, or move to a different location, but not delete) which are "),_c('em',[_v("definitely not needed")]),_v(" for MVP.")])])]),_v(" "),_c('li',[_c('strong',[_v("Second stage")]),_v(":\n"),_c('ul',[_c('li',[_v("All members discuss the remaining user stories (i.e., the ones not discarded in the first stage), and try to trim the list further.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 10 Feb 2025, 14:42:44 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 10 Feb 2025, 19:58:08 GMT+8]")])])])}
 }];
   
