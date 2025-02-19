@@ -23,6 +23,6 @@ with(this){return _c('p',[_v("Often, state-dependent behavior displayed by an ob
 with(this){return _c('p',[_v("Occasionally, objects may exhibit state-dependent behavior that is complex enough such that it needs to be captured in a separate model. Such state-dependent behavior can be modeled using UML "),_c('em',[_v("state machine diagrams")]),_v(" (SMD for short, sometimes also called ‘state charts’, ‘state diagrams’ or ‘state machines’).")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 17 Feb 2025, 22:45:02 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 19 Feb 2025, 13:39:15 GMT+8]")])])])}
 }];
   
