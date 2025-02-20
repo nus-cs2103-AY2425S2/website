@@ -20,6 +20,6 @@ with(this){return _c('p',[_c('strong',[_v("You can declare a class as "),_c('em'
 with(this){return _c('p',[_c('strong',[_v("A class that has an abstract method becomes an abstract class")]),_v(" because the class definition is incomplete (due to the missing method body) and it is not possible to create objects using an incomplete class definition.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 19 Feb 2025, 21:20:32 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 20 Feb 2025, 17:14:59 GMT+8]")])])])}
 }];
   
