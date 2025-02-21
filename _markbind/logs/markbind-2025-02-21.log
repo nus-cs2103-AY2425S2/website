@@ -1,0 +1,18 @@
+2025-02-21T05:45:33.288Z - info: Website generation (lazy) started at 13:45:32
+2025-02-21T05:45:33.615Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-21T05:45:33.616Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-21T05:45:33.635Z - info: Building assets...
+2025-02-21T05:45:35.025Z - info: Assets built
+2025-02-21T05:45:35.025Z - info: Generating landing page...
+2025-02-21T05:45:35.472Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-21T05:45:35.538Z - info: Site data built
+2025-02-21T05:45:35.538Z - info: Website generation (lazy) complete! Total build time: 2.986s
+2025-02-21T05:45:35.547Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-21T05:45:35.547Z - info: Press CTRL+C to stop ...
+2025-02-21T05:45:39.463Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/project as some of its dependencies were changed since the last visit
+2025-02-21T05:45:40.598Z - info: Site data built
+2025-02-21T05:45:40.598Z - info: Lazy website regeneration complete! Total build time: 1.136s
+2025-02-21T05:46:05.449Z - info: Website generation started at 13:46:04
+2025-02-21T05:46:05.640Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-21T05:46:05.640Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-21T05:46:05.659Z - info: Building assets...
