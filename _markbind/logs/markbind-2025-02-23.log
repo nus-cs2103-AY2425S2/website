@@ -1,0 +1,564 @@
+2025-02-23T09:15:12.263Z - info: Website generation (lazy) started at 17:15:11
+2025-02-23T09:15:12.596Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-23T09:15:12.596Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-23T09:15:12.615Z - info: Building assets...
+2025-02-23T09:15:14.028Z - info: Assets built
+2025-02-23T09:15:14.029Z - info: Generating landing page...
+2025-02-23T09:15:14.566Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-23T09:15:14.644Z - info: Site data built
+2025-02-23T09:15:14.644Z - info: Website generation (lazy) complete! Total build time: 3.169s
+2025-02-23T09:15:14.656Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-23T09:15:14.656Z - info: Press CTRL+C to stop ...
+2025-02-23T09:15:53.884Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues as some of its dependencies were changed since the last visit
+2025-02-23T09:15:54.032Z - info: Site data built
+2025-02-23T09:15:54.032Z - info: Lazy website regeneration complete! Total build time: 0.149s
+2025-02-23T09:17:59.224Z - info: [17:17:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:17:59.225Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:17:59.226Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:17:59.227Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:18:00.242Z - info: Rebuilding 1 pages
+2025-02-23T09:18:00.323Z - info: Site data built
+2025-02-23T09:18:00.324Z - info: Pages rebuilt
+2025-02-23T09:18:00.324Z - info: Website regeneration complete! Total build time: 0.085s
+2025-02-23T09:18:55.647Z - info: [17:18:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:18:55.648Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:18:55.648Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:18:55.648Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:18:56.658Z - info: Rebuilding 1 pages
+2025-02-23T09:18:56.750Z - info: Site data built
+2025-02-23T09:18:56.750Z - info: Pages rebuilt
+2025-02-23T09:18:56.750Z - info: Website regeneration complete! Total build time: 0.094s
+2025-02-23T09:19:56.931Z - info: [17:19:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:19:56.932Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:19:56.932Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:19:56.932Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:19:57.944Z - info: Rebuilding 1 pages
+2025-02-23T09:19:58.019Z - info: Site data built
+2025-02-23T09:19:58.019Z - info: Pages rebuilt
+2025-02-23T09:19:58.019Z - info: Website regeneration complete! Total build time: 0.077s
+2025-02-23T09:21:26.505Z - info: [17:21:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:21:26.506Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:21:26.506Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:21:26.506Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:21:27.515Z - info: Rebuilding 1 pages
+2025-02-23T09:21:27.610Z - info: Site data built
+2025-02-23T09:21:27.610Z - info: Pages rebuilt
+2025-02-23T09:21:27.610Z - info: Website regeneration complete! Total build time: 0.099s
+2025-02-23T09:22:15.231Z - info: [17:22:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:22:15.232Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:22:15.232Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:22:15.233Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:22:16.252Z - info: Rebuilding 1 pages
+2025-02-23T09:22:16.329Z - info: Site data built
+2025-02-23T09:22:16.329Z - info: Pages rebuilt
+2025-02-23T09:22:16.329Z - info: Website regeneration complete! Total build time: 0.079s
+2025-02-23T09:22:26.143Z - info: [17:22:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:22:26.143Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:22:26.143Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:22:26.143Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:22:27.153Z - info: Rebuilding 1 pages
+2025-02-23T09:22:27.225Z - info: Site data built
+2025-02-23T09:22:27.225Z - info: Pages rebuilt
+2025-02-23T09:22:27.225Z - info: Website regeneration complete! Total build time: 0.074s
+2025-02-23T09:24:40.899Z - info: [17:24:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:24:40.899Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:24:40.899Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:24:40.899Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:24:41.919Z - info: Rebuilding 1 pages
+2025-02-23T09:24:41.992Z - info: Site data built
+2025-02-23T09:24:41.992Z - info: Pages rebuilt
+2025-02-23T09:24:41.992Z - info: Website regeneration complete! Total build time: 0.075s
+2025-02-23T09:25:13.093Z - info: [17:25:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:25:13.093Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:25:13.093Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:25:13.094Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:25:14.099Z - info: Rebuilding 1 pages
+2025-02-23T09:25:14.185Z - info: Site data built
+2025-02-23T09:25:14.185Z - info: Pages rebuilt
+2025-02-23T09:25:14.185Z - info: Website regeneration complete! Total build time: 0.09s
+2025-02-23T09:29:10.749Z - info: [17:29:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:29:10.749Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:29:10.750Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:29:10.750Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:29:11.759Z - info: Rebuilding 1 pages
+2025-02-23T09:29:11.838Z - info: Site data built
+2025-02-23T09:29:11.838Z - info: Pages rebuilt
+2025-02-23T09:29:11.838Z - info: Website regeneration complete! Total build time: 0.081s
+2025-02-23T09:29:35.580Z - info: [17:29:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:29:35.580Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:29:35.580Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:29:35.581Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:29:36.595Z - info: Rebuilding 1 pages
+2025-02-23T09:29:36.703Z - info: Site data built
+2025-02-23T09:29:36.704Z - info: Pages rebuilt
+2025-02-23T09:29:36.704Z - info: Website regeneration complete! Total build time: 0.11s
+2025-02-23T09:30:40.920Z - info: [17:30:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:30:40.921Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:30:40.921Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:30:40.921Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:30:41.929Z - info: Rebuilding 1 pages
+2025-02-23T09:30:42.026Z - info: Site data built
+2025-02-23T09:30:42.026Z - info: Pages rebuilt
+2025-02-23T09:30:42.026Z - info: Website regeneration complete! Total build time: 0.1s
+2025-02-23T09:32:01.363Z - info: [17:32:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:32:01.365Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:32:01.366Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:32:01.367Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:32:02.375Z - info: Rebuilding 1 pages
+2025-02-23T09:32:02.457Z - info: Site data built
+2025-02-23T09:32:02.457Z - info: Pages rebuilt
+2025-02-23T09:32:02.457Z - info: Website regeneration complete! Total build time: 0.084s
+2025-02-23T09:34:58.390Z - info: [17:34:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:34:58.392Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:34:58.392Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:34:58.392Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:34:59.401Z - info: Rebuilding 1 pages
+2025-02-23T09:34:59.470Z - info: Site data built
+2025-02-23T09:34:59.470Z - info: Pages rebuilt
+2025-02-23T09:34:59.470Z - info: Website regeneration complete! Total build time: 0.072s
+2025-02-23T09:35:27.146Z - info: [17:35:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:35:27.147Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:35:27.147Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:35:27.147Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:35:28.160Z - info: Rebuilding 1 pages
+2025-02-23T09:35:28.237Z - info: Site data built
+2025-02-23T09:35:28.237Z - info: Pages rebuilt
+2025-02-23T09:35:28.237Z - info: Website regeneration complete! Total build time: 0.078s
+2025-02-23T09:35:53.185Z - info: [17:35:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:35:53.185Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:35:53.186Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:35:53.186Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:35:54.204Z - info: Rebuilding 1 pages
+2025-02-23T09:35:54.282Z - info: Site data built
+2025-02-23T09:35:54.282Z - info: Pages rebuilt
+2025-02-23T09:35:54.282Z - info: Website regeneration complete! Total build time: 0.08s
+2025-02-23T09:41:40.874Z - info: [17:41:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:41:40.875Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:41:40.876Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:41:40.876Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:41:41.886Z - info: Rebuilding 1 pages
+2025-02-23T09:41:41.998Z - info: Site data built
+2025-02-23T09:41:41.998Z - info: Pages rebuilt
+2025-02-23T09:41:41.998Z - info: Website regeneration complete! Total build time: 0.114s
+2025-02-23T09:42:06.820Z - info: [17:42:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:42:06.820Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:42:06.821Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:42:06.821Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:42:07.830Z - info: Rebuilding 1 pages
+2025-02-23T09:42:07.914Z - info: Site data built
+2025-02-23T09:42:07.914Z - info: Pages rebuilt
+2025-02-23T09:42:07.914Z - info: Website regeneration complete! Total build time: 0.085s
+2025-02-23T09:50:54.288Z - info: [17:50:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:50:54.305Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:50:54.313Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:50:54.314Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:50:55.325Z - info: Rebuilding 1 pages
+2025-02-23T09:50:55.429Z - info: Site data built
+2025-02-23T09:50:55.429Z - info: Pages rebuilt
+2025-02-23T09:50:55.429Z - info: Website regeneration complete! Total build time: 0.107s
+2025-02-23T09:52:24.702Z - info: [17:52:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T09:52:24.703Z - info: Synchronizing opened pages list before reload
+2025-02-23T09:52:24.703Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T09:52:24.703Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T09:52:25.717Z - info: Rebuilding 1 pages
+2025-02-23T09:52:25.796Z - info: Site data built
+2025-02-23T09:52:25.796Z - info: Pages rebuilt
+2025-02-23T09:52:25.796Z - info: Website regeneration complete! Total build time: 0.081s
+2025-02-23T11:29:35.297Z - info: [19:29:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:29:35.298Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:29:35.299Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:29:35.299Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:29:36.313Z - info: Rebuilding 1 pages
+2025-02-23T11:29:36.395Z - info: Site data built
+2025-02-23T11:29:36.395Z - info: Pages rebuilt
+2025-02-23T11:29:36.395Z - info: Website regeneration complete! Total build time: 0.094s
+2025-02-23T11:39:30.824Z - info: [19:39:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:39:30.825Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:39:30.825Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:39:30.827Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:39:31.840Z - info: Rebuilding 1 pages
+2025-02-23T11:39:31.920Z - info: Site data built
+2025-02-23T11:39:31.920Z - info: Pages rebuilt
+2025-02-23T11:39:31.920Z - info: Website regeneration complete! Total build time: 0.083s
+2025-02-23T11:41:45.980Z - info: [19:41:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:41:45.981Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:41:45.981Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:41:45.981Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:41:46.989Z - info: Rebuilding 1 pages
+2025-02-23T11:41:47.066Z - info: Site data built
+2025-02-23T11:41:47.066Z - info: Pages rebuilt
+2025-02-23T11:41:47.066Z - info: Website regeneration complete! Total build time: 0.079s
+2025-02-23T11:44:42.636Z - info: [19:44:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:44:42.636Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:44:42.636Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:44:42.636Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:44:43.644Z - info: Rebuilding 1 pages
+2025-02-23T11:44:43.727Z - info: Site data built
+2025-02-23T11:44:43.727Z - info: Pages rebuilt
+2025-02-23T11:44:43.727Z - info: Website regeneration complete! Total build time: 0.086s
+2025-02-23T11:52:31.189Z - info: [19:52:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:52:31.190Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:52:31.190Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:52:31.190Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:52:32.203Z - info: Rebuilding 1 pages
+2025-02-23T11:52:32.293Z - info: Site data built
+2025-02-23T11:52:32.293Z - info: Pages rebuilt
+2025-02-23T11:52:32.293Z - info: Website regeneration complete! Total build time: 0.092s
+2025-02-23T11:52:55.302Z - info: [19:52:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:52:55.302Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:52:55.302Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:52:55.302Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:52:56.309Z - info: Rebuilding 1 pages
+2025-02-23T11:52:56.396Z - info: Site data built
+2025-02-23T11:52:56.396Z - info: Pages rebuilt
+2025-02-23T11:52:56.396Z - info: Website regeneration complete! Total build time: 0.089s
+2025-02-23T11:56:36.895Z - info: [19:56:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:56:36.895Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:56:36.895Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:56:36.895Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:56:37.906Z - info: Rebuilding 1 pages
+2025-02-23T11:56:38.008Z - info: Site data built
+2025-02-23T11:56:38.008Z - info: Pages rebuilt
+2025-02-23T11:56:38.008Z - info: Website regeneration complete! Total build time: 0.107s
+2025-02-23T11:57:08.296Z - info: [19:57:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:57:08.296Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:57:08.296Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:57:08.296Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:57:09.310Z - info: Rebuilding 1 pages
+2025-02-23T11:57:09.428Z - info: Site data built
+2025-02-23T11:57:09.428Z - info: Pages rebuilt
+2025-02-23T11:57:09.428Z - info: Website regeneration complete! Total build time: 0.12s
+2025-02-23T11:58:39.850Z - info: [19:58:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T11:58:39.850Z - info: Synchronizing opened pages list before reload
+2025-02-23T11:58:39.850Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T11:58:39.851Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T11:58:40.862Z - info: Rebuilding 1 pages
+2025-02-23T11:58:40.944Z - info: Site data built
+2025-02-23T11:58:40.944Z - info: Pages rebuilt
+2025-02-23T11:58:40.944Z - info: Website regeneration complete! Total build time: 0.083s
+2025-02-23T12:00:33.304Z - info: [20:00:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:00:33.305Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:00:33.305Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:00:33.305Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:00:34.317Z - info: Rebuilding 1 pages
+2025-02-23T12:00:34.402Z - info: Site data built
+2025-02-23T12:00:34.402Z - info: Pages rebuilt
+2025-02-23T12:00:34.402Z - info: Website regeneration complete! Total build time: 0.087s
+2025-02-23T12:00:50.052Z - info: [20:00:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:00:50.052Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:00:50.052Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:00:50.052Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:00:51.067Z - info: Rebuilding 1 pages
+2025-02-23T12:00:51.143Z - info: Site data built
+2025-02-23T12:00:51.143Z - info: Pages rebuilt
+2025-02-23T12:00:51.143Z - info: Website regeneration complete! Total build time: 0.078s
+2025-02-23T12:04:40.332Z - info: [20:04:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:04:40.336Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:04:40.337Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:04:40.337Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:04:41.349Z - info: Rebuilding 1 pages
+2025-02-23T12:04:41.450Z - info: Site data built
+2025-02-23T12:04:41.450Z - info: Pages rebuilt
+2025-02-23T12:04:41.450Z - info: Website regeneration complete! Total build time: 0.104s
+2025-02-23T12:06:40.954Z - info: [20:06:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:06:40.955Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:06:40.956Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:06:40.956Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:06:41.963Z - info: Rebuilding 1 pages
+2025-02-23T12:06:42.037Z - info: Site data built
+2025-02-23T12:06:42.037Z - info: Pages rebuilt
+2025-02-23T12:06:42.037Z - info: Website regeneration complete! Total build time: 0.076s
+2025-02-23T12:10:53.516Z - info: [20:10:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:10:53.525Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:10:53.526Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:10:53.527Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:10:54.535Z - info: Rebuilding 1 pages
+2025-02-23T12:10:54.625Z - info: Site data built
+2025-02-23T12:10:54.625Z - info: Pages rebuilt
+2025-02-23T12:10:54.625Z - info: Website regeneration complete! Total build time: 0.093s
+2025-02-23T12:12:38.476Z - info: [20:12:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:12:38.481Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:12:38.484Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:12:38.484Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:12:39.488Z - info: Rebuilding 1 pages
+2025-02-23T12:12:39.563Z - info: Site data built
+2025-02-23T12:12:39.563Z - info: Pages rebuilt
+2025-02-23T12:12:39.563Z - info: Website regeneration complete! Total build time: 0.076s
+2025-02-23T12:15:46.494Z - info: [20:15:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:15:46.496Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:15:46.497Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:15:46.499Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:15:47.517Z - info: Rebuilding 1 pages
+2025-02-23T12:15:47.600Z - info: Site data built
+2025-02-23T12:15:47.600Z - info: Pages rebuilt
+2025-02-23T12:15:47.600Z - info: Website regeneration complete! Total build time: 0.087s
+2025-02-23T12:15:53.957Z - info: [20:15:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:15:53.957Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:15:53.958Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:15:53.958Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:15:54.968Z - info: Rebuilding 1 pages
+2025-02-23T12:15:55.041Z - info: Site data built
+2025-02-23T12:15:55.042Z - info: Pages rebuilt
+2025-02-23T12:15:55.042Z - info: Website regeneration complete! Total build time: 0.076s
+2025-02-23T12:16:04.647Z - info: [20:16:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:16:04.647Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:16:04.647Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:16:04.647Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:16:05.650Z - info: Rebuilding 1 pages
+2025-02-23T12:16:05.743Z - info: Site data built
+2025-02-23T12:16:05.743Z - info: Pages rebuilt
+2025-02-23T12:16:05.743Z - info: Website regeneration complete! Total build time: 0.095s
+2025-02-23T12:16:28.040Z - info: [20:16:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:16:28.040Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:16:28.040Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:16:28.040Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:16:29.053Z - info: Rebuilding 1 pages
+2025-02-23T12:16:29.166Z - info: Site data built
+2025-02-23T12:16:29.166Z - info: Pages rebuilt
+2025-02-23T12:16:29.166Z - info: Website regeneration complete! Total build time: 0.114s
+2025-02-23T12:17:04.598Z - info: [20:17:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:17:04.599Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:17:04.599Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:17:04.600Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:17:05.608Z - info: Rebuilding 1 pages
+2025-02-23T12:17:05.701Z - info: Site data built
+2025-02-23T12:17:05.701Z - info: Pages rebuilt
+2025-02-23T12:17:05.701Z - info: Website regeneration complete! Total build time: 0.096s
+2025-02-23T12:17:20.542Z - info: [20:17:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:17:20.542Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:17:20.542Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:17:20.542Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:17:21.558Z - info: Rebuilding 1 pages
+2025-02-23T12:17:21.638Z - info: Site data built
+2025-02-23T12:17:21.638Z - info: Pages rebuilt
+2025-02-23T12:17:21.638Z - info: Website regeneration complete! Total build time: 0.082s
+2025-02-23T12:18:52.389Z - info: [20:18:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:18:52.390Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:18:52.390Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:18:52.390Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:18:53.403Z - info: Rebuilding 1 pages
+2025-02-23T12:18:53.497Z - info: Site data built
+2025-02-23T12:18:53.497Z - info: Pages rebuilt
+2025-02-23T12:18:53.497Z - info: Website regeneration complete! Total build time: 0.096s
+2025-02-23T12:19:02.691Z - info: [20:19:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:19:02.691Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:19:02.691Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:19:02.691Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:19:03.705Z - info: Rebuilding 1 pages
+2025-02-23T12:19:03.787Z - info: Site data built
+2025-02-23T12:19:03.787Z - info: Pages rebuilt
+2025-02-23T12:19:03.787Z - info: Website regeneration complete! Total build time: 0.083s
+2025-02-23T12:20:11.703Z - info: [20:20:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:20:11.703Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:20:11.703Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:20:11.703Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:20:12.721Z - info: Rebuilding 1 pages
+2025-02-23T12:20:12.800Z - info: Site data built
+2025-02-23T12:20:12.800Z - info: Pages rebuilt
+2025-02-23T12:20:12.800Z - info: Website regeneration complete! Total build time: 0.081s
+2025-02-23T12:20:49.556Z - info: [20:20:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:20:49.556Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:20:49.557Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:20:49.557Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:20:50.572Z - info: Rebuilding 1 pages
+2025-02-23T12:20:50.660Z - info: Site data built
+2025-02-23T12:20:50.660Z - info: Pages rebuilt
+2025-02-23T12:20:50.660Z - info: Website regeneration complete! Total build time: 0.09s
+2025-02-23T12:22:19.075Z - info: [20:22:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:22:19.075Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:22:19.076Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:22:19.076Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:22:20.083Z - info: Rebuilding 1 pages
+2025-02-23T12:22:20.162Z - info: Site data built
+2025-02-23T12:22:20.162Z - info: Pages rebuilt
+2025-02-23T12:22:20.162Z - info: Website regeneration complete! Total build time: 0.081s
+2025-02-23T12:23:14.045Z - info: [20:23:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:23:14.045Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:23:14.045Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:23:14.045Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:23:15.059Z - info: Rebuilding 1 pages
+2025-02-23T12:23:15.141Z - info: Site data built
+2025-02-23T12:23:15.141Z - info: Pages rebuilt
+2025-02-23T12:23:15.141Z - info: Website regeneration complete! Total build time: 0.085s
+2025-02-23T12:24:56.084Z - info: [20:24:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:24:56.085Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:24:56.086Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:24:56.086Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:24:57.091Z - info: Rebuilding 1 pages
+2025-02-23T12:24:57.168Z - info: Site data built
+2025-02-23T12:24:57.168Z - info: Pages rebuilt
+2025-02-23T12:24:57.168Z - info: Website regeneration complete! Total build time: 0.079s
+2025-02-23T12:26:50.005Z - info: [20:26:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:26:50.005Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:26:50.006Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:26:50.006Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:26:51.025Z - info: Rebuilding 1 pages
+2025-02-23T12:26:51.111Z - info: Site data built
+2025-02-23T12:26:51.111Z - info: Pages rebuilt
+2025-02-23T12:26:51.111Z - info: Website regeneration complete! Total build time: 0.089s
+2025-02-23T12:27:12.009Z - info: [20:27:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:27:12.009Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:27:12.010Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:27:12.010Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:27:13.013Z - info: Rebuilding 1 pages
+2025-02-23T12:27:13.089Z - info: Site data built
+2025-02-23T12:27:13.089Z - info: Pages rebuilt
+2025-02-23T12:27:13.089Z - info: Website regeneration complete! Total build time: 0.078s
+2025-02-23T12:28:32.325Z - info: [20:28:32] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:28:32.328Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:28:32.331Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:28:32.332Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:28:33.338Z - info: Rebuilding 1 pages
+2025-02-23T12:28:33.424Z - info: Site data built
+2025-02-23T12:28:33.424Z - info: Pages rebuilt
+2025-02-23T12:28:33.424Z - info: Website regeneration complete! Total build time: 0.088s
+2025-02-23T12:40:07.317Z - info: [20:40:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:40:07.318Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:40:07.318Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:40:07.319Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:40:08.324Z - info: Rebuilding 1 pages
+2025-02-23T12:40:08.415Z - info: Site data built
+2025-02-23T12:40:08.415Z - info: Pages rebuilt
+2025-02-23T12:40:08.415Z - info: Website regeneration complete! Total build time: 0.094s
+2025-02-23T12:40:29.339Z - info: [20:40:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:40:29.340Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:40:29.340Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:40:29.340Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:40:30.342Z - info: Rebuilding 1 pages
+2025-02-23T12:40:30.436Z - info: Site data built
+2025-02-23T12:40:30.436Z - info: Pages rebuilt
+2025-02-23T12:40:30.436Z - info: Website regeneration complete! Total build time: 0.096s
+2025-02-23T12:43:20.069Z - info: [20:43:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:43:20.070Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:43:20.070Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:43:20.071Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:43:21.079Z - info: Rebuilding 1 pages
+2025-02-23T12:43:21.174Z - info: Site data built
+2025-02-23T12:43:21.174Z - info: Pages rebuilt
+2025-02-23T12:43:21.174Z - info: Website regeneration complete! Total build time: 0.099s
+2025-02-23T12:45:48.670Z - info: [20:45:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:45:48.673Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:45:48.674Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:45:48.674Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:45:49.683Z - info: Rebuilding 1 pages
+2025-02-23T12:45:49.809Z - info: Site data built
+2025-02-23T12:45:49.809Z - info: Pages rebuilt
+2025-02-23T12:45:49.809Z - info: Website regeneration complete! Total build time: 0.13s
+2025-02-23T12:48:19.083Z - info: [20:48:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:48:19.085Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:48:19.085Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:48:19.085Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:48:20.092Z - info: Rebuilding 1 pages
+2025-02-23T12:48:20.187Z - info: Site data built
+2025-02-23T12:48:20.187Z - info: Pages rebuilt
+2025-02-23T12:48:20.187Z - info: Website regeneration complete! Total build time: 0.098s
+2025-02-23T12:52:00.938Z - info: [20:52:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:52:00.940Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:52:00.940Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:52:00.940Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:52:01.949Z - info: Rebuilding 1 pages
+2025-02-23T12:52:02.042Z - info: Site data built
+2025-02-23T12:52:02.042Z - info: Pages rebuilt
+2025-02-23T12:52:02.042Z - info: Website regeneration complete! Total build time: 0.096s
+2025-02-23T12:52:17.202Z - info: [20:52:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:52:17.202Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:52:17.203Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:52:17.203Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:52:18.218Z - info: Rebuilding 1 pages
+2025-02-23T12:52:18.317Z - info: Site data built
+2025-02-23T12:52:18.317Z - info: Pages rebuilt
+2025-02-23T12:52:18.317Z - info: Website regeneration complete! Total build time: 0.101s
+2025-02-23T12:54:21.990Z - info: [20:54:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:54:21.991Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:54:21.992Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:54:21.993Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:54:22.999Z - info: Rebuilding 1 pages
+2025-02-23T12:54:23.099Z - info: Site data built
+2025-02-23T12:54:23.099Z - info: Pages rebuilt
+2025-02-23T12:54:23.099Z - info: Website regeneration complete! Total build time: 0.103s
+2025-02-23T12:56:29.655Z - info: [20:56:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:56:29.656Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:56:29.656Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:56:29.656Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:56:30.669Z - info: Rebuilding 1 pages
+2025-02-23T12:56:30.761Z - info: Site data built
+2025-02-23T12:56:30.761Z - info: Pages rebuilt
+2025-02-23T12:56:30.761Z - info: Website regeneration complete! Total build time: 0.094s
+2025-02-23T12:57:14.579Z - info: [20:57:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T12:57:14.580Z - info: Synchronizing opened pages list before reload
+2025-02-23T12:57:14.581Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T12:57:14.581Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T12:57:15.590Z - info: Rebuilding 1 pages
+2025-02-23T12:57:15.708Z - info: Site data built
+2025-02-23T12:57:15.708Z - info: Pages rebuilt
+2025-02-23T12:57:15.708Z - info: Website regeneration complete! Total build time: 0.12s
+2025-02-23T14:58:56.433Z - info: Website generation (lazy) started at 22:58:55
+2025-02-23T14:58:56.775Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-02-23T14:58:56.776Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-02-23T14:58:56.797Z - info: Building assets...
+2025-02-23T14:58:58.136Z - info: Assets built
+2025-02-23T14:58:58.136Z - info: Generating landing page...
+2025-02-23T14:58:58.601Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-02-23T14:58:58.676Z - info: Site data built
+2025-02-23T14:58:58.676Z - info: Website generation (lazy) complete! Total build time: 2.862s
+2025-02-23T14:58:58.686Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-02-23T14:58:58.686Z - info: Press CTRL+C to stop ...
+2025-02-23T15:01:24.018Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues as some of its dependencies were changed since the last visit
+2025-02-23T15:01:24.203Z - info: Site data built
+2025-02-23T15:01:24.204Z - info: Lazy website regeneration complete! Total build time: 0.187s
+2025-02-23T15:06:24.296Z - info: [23:06:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:06:24.299Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:06:24.301Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:06:24.302Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:06:25.326Z - info: Rebuilding 1 pages
+2025-02-23T15:06:25.428Z - info: Site data built
+2025-02-23T15:06:25.428Z - info: Pages rebuilt
+2025-02-23T15:06:25.428Z - info: Website regeneration complete! Total build time: 0.106s
+2025-02-23T15:21:48.401Z - info: [23:21:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:21:48.405Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:21:48.406Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:21:48.407Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:21:49.415Z - info: Rebuilding 1 pages
+2025-02-23T15:21:49.519Z - info: Site data built
+2025-02-23T15:21:49.519Z - info: Pages rebuilt
+2025-02-23T15:21:49.519Z - info: Website regeneration complete! Total build time: 0.109s
+2025-02-23T15:28:31.270Z - info: [23:28:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:28:31.272Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:28:31.273Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:28:31.273Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:28:32.282Z - info: Rebuilding 1 pages
+2025-02-23T15:28:32.407Z - info: Site data built
+2025-02-23T15:28:32.407Z - info: Pages rebuilt
+2025-02-23T15:28:32.407Z - info: Website regeneration complete! Total build time: 0.129s
+2025-02-23T15:29:44.768Z - info: [23:29:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:29:44.769Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:29:44.770Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:29:44.770Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:29:45.776Z - info: Rebuilding 1 pages
+2025-02-23T15:29:45.876Z - info: Site data built
+2025-02-23T15:29:45.876Z - info: Pages rebuilt
+2025-02-23T15:29:45.876Z - info: Website regeneration complete! Total build time: 0.101s
+2025-02-23T15:33:29.024Z - info: [23:33:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:33:29.024Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:33:29.025Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:33:29.025Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:33:30.030Z - info: Rebuilding 1 pages
+2025-02-23T15:33:30.139Z - info: Site data built
+2025-02-23T15:33:30.139Z - info: Pages rebuilt
+2025-02-23T15:33:30.139Z - info: Website regeneration complete! Total build time: 0.112s
+2025-02-23T15:35:58.142Z - info: [23:35:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:35:58.142Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:35:58.142Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:35:58.143Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:35:59.149Z - info: Rebuilding 1 pages
+2025-02-23T15:35:59.248Z - info: Site data built
+2025-02-23T15:35:59.248Z - info: Pages rebuilt
+2025-02-23T15:35:59.248Z - info: Website regeneration complete! Total build time: 0.101s
+2025-02-23T15:50:48.788Z - info: [23:50:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-02-23T15:50:48.790Z - info: Synchronizing opened pages list before reload
+2025-02-23T15:50:48.792Z - info: Current opened pages, from most-to-least recent:
+2025-02-23T15:50:48.793Z - info: 1. admin/appendixF-teamworkIssues
+2025-02-23T15:50:49.804Z - info: Rebuilding 1 pages
+2025-02-23T15:50:49.899Z - info: Site data built
+2025-02-23T15:50:49.899Z - info: Pages rebuilt
+2025-02-23T15:50:49.899Z - info: Website regeneration complete! Total build time: 0.097s
