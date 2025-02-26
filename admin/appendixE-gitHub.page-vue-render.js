@@ -119,7 +119,7 @@ with(this){return _c('ul',[_c('li',[_c('p',[_c('strong',[_v("Create "),_c('a',{a
 with(this){return _c('p',[_c('strong',[_c('strong',[_v("Creating PRs")])]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('mark',[_c('span',{staticClass:"badge rounded-pill bg-danger text-light"},[_c('span',{staticClass:"fas fa-exclamation",attrs:{"aria-hidden":"true"}}),_v(" ALERT")]),_v(" This means each PR should come from a separate branch of your fork (i.e., not the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("master")]),_v(" branch), as that is an essential part of the forking workflow.")])}
+with(this){return _c('mark',[_c('span',{staticClass:"badge rounded-pill bg-danger text-light"},[_c('span',{staticClass:"fas fa-exclamation",attrs:{"aria-hidden":"true"}}),_v(" ALERT")]),_v(" This means each PR should come from a "),_c('em',[_v("separate branch")]),_v(" (i.e., not the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("master")]),_v(" branch) of your "),_c('em',[_v("own fork")]),_v(" (not the team repo), as that is an essential part of the forking workflow.")])}
 },function anonymous(
 ) {
 with(this){return _c('li',[_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" You can use GitHub's "),_c('a',{attrs:{"href":"https://github.blog/2019-02-14-introducing-draft-pull-requests/"}},[_c('em',[_v("draft PRs")])]),_v(" feature to indicate that a PR is not yet ready for merging.")])}
@@ -173,6 +173,6 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_v("Update the milestone to mat
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/appendixD-help.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Apdx D: Getting Help")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/appendixF-teamworkIssues.html"}},[_c('span',[_v("Apdx F: Handling Team Issues "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 24 Feb 2025, 11:49:42 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 26 Feb 2025, 18:57:29 GMT+8]")])])])}
 }];
   
