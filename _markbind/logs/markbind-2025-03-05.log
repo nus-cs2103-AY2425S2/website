@@ -1,0 +1,351 @@
+2025-03-04T16:11:08.973Z - info: [00:11:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T16:11:08.981Z - info: Synchronizing opened pages list before reload
+2025-03-04T16:11:08.981Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T16:11:08.982Z - info: 1. admin/tutorials
+2025-03-04T16:11:08.982Z - info: 2. admin/mid-semester-survey-results
+2025-03-04T16:11:09.988Z - info: Rebuilding 1 pages
+2025-03-04T16:11:10.391Z - info: Site data built
+2025-03-04T16:11:10.391Z - info: Pages rebuilt
+2025-03-04T16:11:10.391Z - info: Website regeneration complete! Total build time: 0.405s
+2025-03-04T16:16:33.968Z - info: [00:16:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T16:16:33.990Z - info: Synchronizing opened pages list before reload
+2025-03-04T16:16:33.991Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T16:16:33.992Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T16:16:35.006Z - info: Rebuilding 1 pages
+2025-03-04T16:16:35.418Z - info: Site data built
+2025-03-04T16:16:35.418Z - info: Pages rebuilt
+2025-03-04T16:16:35.418Z - info: Website regeneration complete! Total build time: 0.414s
+2025-03-04T16:17:04.562Z - info: [00:17:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T16:17:04.562Z - info: Synchronizing opened pages list before reload
+2025-03-04T16:17:04.562Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T16:17:04.562Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T16:17:05.569Z - info: Rebuilding 1 pages
+2025-03-04T16:17:05.959Z - info: Site data built
+2025-03-04T16:17:05.959Z - info: Pages rebuilt
+2025-03-04T16:17:05.959Z - info: Website regeneration complete! Total build time: 0.392s
+2025-03-04T16:18:08.818Z - info: [00:18:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T16:18:08.828Z - info: Synchronizing opened pages list before reload
+2025-03-04T16:18:08.833Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T16:18:08.833Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T16:18:09.855Z - info: Rebuilding 1 pages
+2025-03-04T16:18:10.257Z - info: Site data built
+2025-03-04T16:18:10.257Z - info: Pages rebuilt
+2025-03-04T16:18:10.257Z - info: Website regeneration complete! Total build time: 0.406s
+2025-03-04T17:44:41.075Z - info: Website generation (lazy) started at 01:44:40
+2025-03-04T17:44:41.450Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-04T17:44:41.451Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-04T17:44:41.470Z - info: Building assets...
+2025-03-04T17:44:42.904Z - info: Assets built
+2025-03-04T17:44:42.904Z - info: Generating landing page...
+2025-03-04T17:44:43.362Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-04T17:44:43.432Z - info: Site data built
+2025-03-04T17:44:43.432Z - info: Website generation (lazy) complete! Total build time: 2.984s
+2025-03-04T17:44:43.443Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-04T17:44:43.443Z - info: Press CTRL+C to stop ...
+2025-03-04T17:44:54.431Z - info: [01:44:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T17:44:54.432Z - info: Synchronizing opened pages list before reload
+2025-03-04T17:44:54.432Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T17:44:54.433Z - info: 1. index
+2025-03-04T17:44:55.439Z - info: Assets built
+2025-03-04T17:44:56.854Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results as some of its dependencies were changed since the last visit
+2025-03-04T17:44:57.303Z - info: Site data built
+2025-03-04T17:44:57.303Z - info: Lazy website regeneration complete! Total build time: 0.45s
+2025-03-04T17:45:20.213Z - info: [01:45:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T17:45:20.214Z - info: Synchronizing opened pages list before reload
+2025-03-04T17:45:20.214Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T17:45:20.214Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T17:45:20.214Z - info: 2. index
+2025-03-04T17:45:21.229Z - info: Rebuilding 1 pages
+2025-03-04T17:45:21.625Z - info: Site data built
+2025-03-04T17:45:21.625Z - info: Pages rebuilt
+2025-03-04T17:45:21.625Z - info: Website regeneration complete! Total build time: 0.398s
+2025-03-04T17:45:51.836Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq as some of its dependencies were changed since the last visit
+2025-03-04T17:45:53.455Z - info: Site data built
+2025-03-04T17:45:53.455Z - info: Lazy website regeneration complete! Total build time: 1.619s
+2025-03-04T17:48:36.608Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseOverview as some of its dependencies were changed since the last visit
+2025-03-04T17:48:36.787Z - info: Site data built
+2025-03-04T17:48:36.787Z - info: Lazy website regeneration complete! Total build time: 0.181s
+2025-03-04T17:49:04.985Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2025-03-04T17:49:05.123Z - info: Site data built
+2025-03-04T17:49:05.123Z - info: Lazy website regeneration complete! Total build time: 0.138s
+2025-03-04T17:49:38.999Z - info: [01:49:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T17:49:39.000Z - info: Synchronizing opened pages list before reload
+2025-03-04T17:49:39.000Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T17:49:39.000Z - info: 1. se-book-adapted/index
+2025-03-04T17:49:39.000Z - info: 2. admin/mid-semester-survey-results
+2025-03-04T17:49:40.019Z - info: Rebuilding 1 pages
+2025-03-04T17:49:40.683Z - info: Site data built
+2025-03-04T17:49:40.684Z - info: Pages rebuilt
+2025-03-04T17:49:40.684Z - info: Website regeneration complete! Total build time: 0.667s
+2025-03-04T17:50:24.116Z - info: [01:50:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T17:50:24.117Z - info: Synchronizing opened pages list before reload
+2025-03-04T17:50:24.117Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T17:50:24.117Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T17:50:24.117Z - info: 2. se-book-adapted/index
+2025-03-04T17:50:25.127Z - info: Rebuilding 1 pages
+2025-03-04T17:50:25.658Z - info: Site data built
+2025-03-04T17:50:25.658Z - info: Pages rebuilt
+2025-03-04T17:50:25.658Z - info: Website regeneration complete! Total build time: 0.533s
+2025-03-04T18:03:50.214Z - info: [02:03:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:03:50.215Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:03:50.216Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:03:50.216Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:03:50.216Z - info: 2. se-book-adapted/index
+2025-03-04T18:03:51.227Z - info: Rebuilding 1 pages
+2025-03-04T18:03:51.663Z - info: Site data built
+2025-03-04T18:03:51.663Z - info: Pages rebuilt
+2025-03-04T18:03:51.663Z - info: Website regeneration complete! Total build time: 0.439s
+2025-03-04T18:18:52.276Z - info: [02:18:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:18:52.277Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:18:52.277Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:18:52.277Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:18:53.281Z - info: Rebuilding 1 pages
+2025-03-04T18:18:53.727Z - info: Site data built
+2025-03-04T18:18:53.728Z - info: Pages rebuilt
+2025-03-04T18:18:53.728Z - info: Website regeneration complete! Total build time: 0.449s
+2025-03-04T18:19:12.175Z - info: [02:19:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:19:12.175Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:19:12.175Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:19:12.175Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:19:13.187Z - info: Rebuilding 1 pages
+2025-03-04T18:19:13.602Z - info: Site data built
+2025-03-04T18:19:13.602Z - info: Pages rebuilt
+2025-03-04T18:19:13.602Z - info: Website regeneration complete! Total build time: 0.416s
+2025-03-04T18:20:24.753Z - info: [02:20:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:20:24.753Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:20:24.754Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:20:24.754Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:20:24.754Z - info: 2. se-book-adapted/index
+2025-03-04T18:20:25.765Z - info: Rebuilding 1 pages
+2025-03-04T18:20:26.226Z - info: Site data built
+2025-03-04T18:20:26.226Z - info: Pages rebuilt
+2025-03-04T18:20:26.226Z - info: Website regeneration complete! Total build time: 0.462s
+2025-03-04T18:20:54.770Z - info: [02:20:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:20:54.770Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:20:54.771Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:20:54.771Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:20:55.774Z - info: Rebuilding 1 pages
+2025-03-04T18:20:56.226Z - info: Site data built
+2025-03-04T18:20:56.226Z - info: Pages rebuilt
+2025-03-04T18:20:56.226Z - info: Website regeneration complete! Total build time: 0.454s
+2025-03-04T18:21:26.370Z - info: [02:21:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:21:26.371Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:21:26.371Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:21:26.371Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:21:27.377Z - info: Rebuilding 1 pages
+2025-03-04T18:21:27.818Z - info: Site data built
+2025-03-04T18:21:27.819Z - info: Pages rebuilt
+2025-03-04T18:21:27.819Z - info: Website regeneration complete! Total build time: 0.443s
+2025-03-04T18:21:38.329Z - info: [02:21:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:21:38.329Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:21:38.330Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:21:38.330Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:21:39.340Z - info: Rebuilding 1 pages
+2025-03-04T18:21:39.783Z - info: Site data built
+2025-03-04T18:21:39.784Z - info: Pages rebuilt
+2025-03-04T18:21:39.784Z - info: Website regeneration complete! Total build time: 0.446s
+2025-03-04T18:22:14.781Z - info: [02:22:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:22:14.782Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:22:14.782Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:22:14.782Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:22:15.797Z - info: Rebuilding 1 pages
+2025-03-04T18:22:16.222Z - info: Site data built
+2025-03-04T18:22:16.222Z - info: Pages rebuilt
+2025-03-04T18:22:16.222Z - info: Website regeneration complete! Total build time: 0.427s
+2025-03-04T18:23:16.447Z - info: [02:23:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:23:16.448Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:23:16.448Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:23:16.448Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:23:17.463Z - info: Rebuilding 1 pages
+2025-03-04T18:23:17.887Z - info: Site data built
+2025-03-04T18:23:17.887Z - info: Pages rebuilt
+2025-03-04T18:23:17.887Z - info: Website regeneration complete! Total build time: 0.426s
+2025-03-04T18:24:00.965Z - info: [02:24:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:24:00.966Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:24:00.966Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:24:00.966Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:24:01.981Z - info: Rebuilding 1 pages
+2025-03-04T18:24:02.401Z - info: Site data built
+2025-03-04T18:24:02.401Z - info: Pages rebuilt
+2025-03-04T18:24:02.401Z - info: Website regeneration complete! Total build time: 0.422s
+2025-03-04T18:24:52.955Z - info: [02:24:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:24:52.956Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:24:52.956Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:24:52.956Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:24:53.961Z - info: Rebuilding 1 pages
+2025-03-04T18:24:54.428Z - info: Site data built
+2025-03-04T18:24:54.428Z - info: Pages rebuilt
+2025-03-04T18:24:54.428Z - info: Website regeneration complete! Total build time: 0.469s
+2025-03-04T18:25:20.948Z - info: [02:25:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:25:20.949Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:25:20.949Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:25:20.950Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:25:21.966Z - info: Rebuilding 1 pages
+2025-03-04T18:25:22.380Z - info: Site data built
+2025-03-04T18:25:22.380Z - info: Pages rebuilt
+2025-03-04T18:25:22.380Z - info: Website regeneration complete! Total build time: 0.417s
+2025-03-04T18:34:04.645Z - info: [02:34:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:34:04.646Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:34:04.647Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:34:04.647Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:34:05.655Z - info: Rebuilding 1 pages
+2025-03-04T18:34:06.103Z - info: Site data built
+2025-03-04T18:34:06.103Z - info: Pages rebuilt
+2025-03-04T18:34:06.103Z - info: Website regeneration complete! Total build time: 0.451s
+2025-03-04T18:37:03.357Z - info: [02:37:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T18:37:03.358Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:37:03.358Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:37:03.359Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:37:04.365Z - info: Rebuilding 1 pages
+2025-03-04T18:37:04.805Z - info: Site data built
+2025-03-04T18:37:04.805Z - info: Pages rebuilt
+2025-03-04T18:37:04.805Z - info: Website regeneration complete! Total build time: 0.442s
+2025-03-04T18:49:21.316Z - info: [02:49:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:49:21.317Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:49:21.317Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:49:21.317Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:49:21.317Z - info: 2. se-book-adapted/index
+2025-03-04T18:49:22.320Z - info: Rebuilding 1 pages
+2025-03-04T18:49:22.795Z - info: Site data built
+2025-03-04T18:49:22.796Z - info: Pages rebuilt
+2025-03-04T18:49:22.796Z - info: Website regeneration complete! Total build time: 0.477s
+2025-03-04T18:51:12.260Z - info: [02:51:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T18:51:12.261Z - info: Synchronizing opened pages list before reload
+2025-03-04T18:51:12.262Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T18:51:12.262Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T18:51:13.280Z - info: Rebuilding 1 pages
+2025-03-04T18:51:13.715Z - info: Site data built
+2025-03-04T18:51:13.715Z - info: Pages rebuilt
+2025-03-04T18:51:13.715Z - info: Website regeneration complete! Total build time: 0.437s
+2025-03-05T02:57:23.876Z - info: [10:57:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T02:57:23.878Z - info: Synchronizing opened pages list before reload
+2025-03-05T02:57:23.879Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T02:57:23.879Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T02:57:24.884Z - info: Rebuilding 1 pages
+2025-03-05T02:57:25.326Z - info: Site data built
+2025-03-05T02:57:25.326Z - info: Pages rebuilt
+2025-03-05T02:57:25.326Z - info: Website regeneration complete! Total build time: 0.444s
+2025-03-05T02:58:46.444Z - info: [10:58:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T02:58:46.445Z - info: Synchronizing opened pages list before reload
+2025-03-05T02:58:46.446Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T02:58:46.446Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T02:58:47.462Z - info: Rebuilding 1 pages
+2025-03-05T02:58:47.920Z - info: Site data built
+2025-03-05T02:58:47.920Z - info: Pages rebuilt
+2025-03-05T02:58:47.920Z - info: Website regeneration complete! Total build time: 0.463s
+2025-03-05T02:59:34.014Z - info: [10:59:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T02:59:34.015Z - info: Synchronizing opened pages list before reload
+2025-03-05T02:59:34.015Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T02:59:34.015Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T02:59:35.024Z - info: Rebuilding 1 pages
+2025-03-05T02:59:35.457Z - info: Site data built
+2025-03-05T02:59:35.457Z - info: Pages rebuilt
+2025-03-05T02:59:35.457Z - info: Website regeneration complete! Total build time: 0.435s
+2025-03-05T03:01:20.193Z - info: [11:01:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:01:20.194Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:01:20.195Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:01:20.195Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:01:21.206Z - info: Rebuilding 1 pages
+2025-03-05T03:01:21.664Z - info: Site data built
+2025-03-05T03:01:21.664Z - info: Pages rebuilt
+2025-03-05T03:01:21.664Z - info: Website regeneration complete! Total build time: 0.461s
+2025-03-05T03:02:48.943Z - info: [11:02:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:02:48.944Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:02:48.945Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:02:48.945Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:02:49.954Z - info: Rebuilding 1 pages
+2025-03-05T03:02:50.391Z - info: Site data built
+2025-03-05T03:02:50.391Z - info: Pages rebuilt
+2025-03-05T03:02:50.391Z - info: Website regeneration complete! Total build time: 0.439s
+2025-03-05T03:07:26.443Z - info: [11:07:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:07:26.444Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:07:26.444Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:07:26.444Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:07:27.452Z - info: Rebuilding 1 pages
+2025-03-05T03:07:27.892Z - info: Site data built
+2025-03-05T03:07:27.892Z - info: Pages rebuilt
+2025-03-05T03:07:27.892Z - info: Website regeneration complete! Total build time: 0.442s
+2025-03-05T03:13:21.422Z - info: [11:13:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:13:21.423Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:13:21.424Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:13:21.424Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:13:22.437Z - info: Rebuilding 1 pages
+2025-03-05T03:13:22.870Z - info: Site data built
+2025-03-05T03:13:22.870Z - info: Pages rebuilt
+2025-03-05T03:13:22.870Z - info: Website regeneration complete! Total build time: 0.435s
+2025-03-05T03:18:20.018Z - info: [11:18:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:18:20.019Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:18:20.020Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:18:20.020Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:18:21.028Z - info: Rebuilding 1 pages
+2025-03-05T03:18:21.482Z - info: Site data built
+2025-03-05T03:18:21.482Z - info: Pages rebuilt
+2025-03-05T03:18:21.482Z - info: Website regeneration complete! Total build time: 0.456s
+2025-03-05T03:23:43.344Z - info: [11:23:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:23:43.346Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:23:43.346Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:23:43.346Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:23:44.354Z - info: Rebuilding 1 pages
+2025-03-05T03:23:44.798Z - info: Site data built
+2025-03-05T03:23:44.799Z - info: Pages rebuilt
+2025-03-05T03:23:44.799Z - info: Website regeneration complete! Total build time: 0.447s
+2025-03-05T03:24:28.980Z - info: [11:24:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:24:28.980Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:24:28.981Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:24:28.981Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:24:29.989Z - info: Rebuilding 1 pages
+2025-03-05T03:24:30.415Z - info: Site data built
+2025-03-05T03:24:30.415Z - info: Pages rebuilt
+2025-03-05T03:24:30.415Z - info: Website regeneration complete! Total build time: 0.427s
+2025-03-05T03:26:21.810Z - info: [11:26:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:26:21.810Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:26:21.810Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:26:21.811Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:26:22.823Z - info: Rebuilding 1 pages
+2025-03-05T03:26:23.281Z - info: Site data built
+2025-03-05T03:26:23.281Z - info: Pages rebuilt
+2025-03-05T03:26:23.281Z - info: Website regeneration complete! Total build time: 0.46s
+2025-03-05T03:42:41.048Z - info: [11:42:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:42:41.050Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:42:41.050Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:42:41.050Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:42:42.062Z - info: Rebuilding 1 pages
+2025-03-05T03:42:42.657Z - info: Site data built
+2025-03-05T03:42:42.658Z - info: Pages rebuilt
+2025-03-05T03:42:42.658Z - info: Website regeneration complete! Total build time: 0.598s
+2025-03-05T03:45:15.877Z - info: [11:45:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:45:15.878Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:45:15.879Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:45:15.879Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:45:16.889Z - info: Rebuilding 1 pages
+2025-03-05T03:45:17.379Z - info: Site data built
+2025-03-05T03:45:17.379Z - info: Pages rebuilt
+2025-03-05T03:45:17.379Z - info: Website regeneration complete! Total build time: 0.492s
+2025-03-05T03:45:56.310Z - info: [11:45:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:45:56.312Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:45:56.313Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:45:56.313Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:45:57.322Z - info: Rebuilding 1 pages
+2025-03-05T03:45:57.772Z - info: Site data built
+2025-03-05T03:45:57.772Z - info: Pages rebuilt
+2025-03-05T03:45:57.772Z - info: Website regeneration complete! Total build time: 0.453s
+2025-03-05T03:56:10.475Z - info: [11:56:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:56:10.480Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:56:10.481Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:56:10.481Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:56:11.502Z - info: Rebuilding 1 pages
+2025-03-05T03:56:12.004Z - info: Site data built
+2025-03-05T03:56:12.004Z - info: Pages rebuilt
+2025-03-05T03:56:12.004Z - info: Website regeneration complete! Total build time: 0.504s
+2025-03-05T03:57:06.165Z - info: [11:57:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-05T03:57:06.166Z - info: Synchronizing opened pages list before reload
+2025-03-05T03:57:06.166Z - info: Current opened pages, from most-to-least recent:
+2025-03-05T03:57:06.166Z - info: 1. admin/mid-semester-survey-results
+2025-03-05T03:57:07.177Z - info: Rebuilding 1 pages
+2025-03-05T03:57:07.693Z - info: Site data built
+2025-03-05T03:57:07.693Z - info: Pages rebuilt
+2025-03-05T03:57:07.693Z - info: Website regeneration complete! Total build time: 0.518s
+2025-03-05T04:09:02.090Z - info: Website generation started at 12:09:01
+2025-03-05T04:09:02.423Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-05T04:09:02.423Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-05T04:09:02.443Z - info: Building assets...

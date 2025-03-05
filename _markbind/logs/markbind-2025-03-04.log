@@ -1,0 +1,513 @@
+2025-03-04T09:11:26.762Z - info: Website generation (lazy) started at 17:11:26
+2025-03-04T09:11:27.097Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-04T09:11:27.098Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-04T09:11:27.117Z - info: Building assets...
+2025-03-04T09:11:28.390Z - info: Assets built
+2025-03-04T09:11:28.390Z - info: Generating landing page...
+2025-03-04T09:11:28.981Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-04T09:11:29.149Z - info: Site data built
+2025-03-04T09:11:29.149Z - info: Website generation (lazy) complete! Total build time: 3s
+2025-03-04T09:11:29.164Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-04T09:11:29.164Z - info: Press CTRL+C to stop ...
+2025-03-04T09:11:58.114Z - info: [17:11:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T09:11:58.115Z - info: Synchronizing opened pages list before reload
+2025-03-04T09:11:58.116Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T09:11:58.116Z - info: 1. index
+2025-03-04T09:11:59.125Z - info: Assets built
+2025-03-04T09:12:02.563Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results as some of its dependencies were changed since the last visit
+2025-03-04T09:12:02.842Z - info: Site data built
+2025-03-04T09:12:02.843Z - info: Lazy website regeneration complete! Total build time: 0.287s
+2025-03-04T09:14:55.836Z - info: [17:14:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T09:14:55.837Z - info: Synchronizing opened pages list before reload
+2025-03-04T09:14:55.838Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T09:14:55.838Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T09:14:55.838Z - info: 2. index
+2025-03-04T09:14:56.853Z - info: Rebuilding 1 pages
+2025-03-04T09:14:57.057Z - info: Site data built
+2025-03-04T09:14:57.058Z - info: Pages rebuilt
+2025-03-04T09:14:57.058Z - info: Website regeneration complete! Total build time: 0.209s
+2025-03-04T10:15:45.194Z - info: [18:15:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T10:15:45.200Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:15:45.201Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:15:45.201Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T10:15:45.201Z - info: 2. index
+2025-03-04T10:15:46.221Z - info: Rebuilding 1 pages
+2025-03-04T10:15:46.439Z - info: Site data built
+2025-03-04T10:15:46.439Z - info: Pages rebuilt
+2025-03-04T10:15:46.439Z - info: Website regeneration complete! Total build time: 0.233s
+2025-03-04T10:25:10.960Z - info: [18:25:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T10:25:10.970Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:25:10.973Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:25:10.973Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T10:25:10.975Z - info: [18:25:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-04T10:25:10.976Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:25:10.980Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:25:10.983Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T10:25:11.989Z - info: Rebuilding 1 pages
+2025-03-04T10:25:12.178Z - info: Assets built
+2025-03-04T10:25:12.201Z - info: Site data built
+2025-03-04T10:25:12.201Z - info: Pages rebuilt
+2025-03-04T10:25:12.201Z - info: Website regeneration complete! Total build time: 0.214s
+2025-03-04T10:25:24.234Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials as some of its dependencies were changed since the last visit
+2025-03-04T10:25:24.541Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md) [Line 16, Column 11]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Error: Unable to call `show_faq`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:76:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+2025-03-04T10:25:24.546Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md) [Line 16, Column 11]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Error: Unable to call `show_faq`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:76:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:85:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+2025-03-04T10:25:24.620Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md) [Line 16, Column 11]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md)
+  Error: Unable to call `show_faq`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:76:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:85:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+2025-03-04T10:25:24.767Z - info: Site data built
+2025-03-04T10:25:24.767Z - info: Lazy website regeneration complete! Total build time: 0.534s
+2025-03-04T10:25:47.085Z - info: [18:25:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-04T10:25:47.085Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:25:47.086Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:25:47.086Z - info: 1. admin/tutorials
+2025-03-04T10:25:48.097Z - info: Rebuilding 1 pages
+2025-03-04T10:25:48.624Z - info: Site data built
+2025-03-04T10:25:48.624Z - info: Pages rebuilt
+2025-03-04T10:25:48.624Z - info: Website regeneration complete! Total build time: 0.529s
+2025-03-04T10:26:30.369Z - info: [18:26:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-04T10:26:30.370Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:26:30.370Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:26:30.370Z - info: 1. admin/tutorials
+2025-03-04T10:26:31.377Z - info: Rebuilding 1 pages
+2025-03-04T10:26:31.881Z - info: Site data built
+2025-03-04T10:26:31.881Z - info: Pages rebuilt
+2025-03-04T10:26:31.881Z - info: Website regeneration complete! Total build time: 0.505s
+2025-03-04T10:26:57.422Z - info: [18:26:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-04T10:26:57.422Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:26:57.423Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:26:57.423Z - info: 1. admin/tutorials
+2025-03-04T10:26:58.428Z - info: Rebuilding 1 pages
+2025-03-04T10:26:58.922Z - info: Site data built
+2025-03-04T10:26:58.922Z - info: Pages rebuilt
+2025-03-04T10:26:58.922Z - info: Website regeneration complete! Total build time: 0.497s
+2025-03-04T10:32:54.916Z - info: [18:32:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T10:32:54.917Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:32:54.932Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:32:54.933Z - info: 1. admin/tutorials
+2025-03-04T10:32:54.933Z - info: 2. index
+2025-03-04T10:32:55.940Z - info: Rebuilding 1 pages
+2025-03-04T10:32:56.440Z - info: Site data built
+2025-03-04T10:32:56.440Z - info: Pages rebuilt
+2025-03-04T10:32:56.440Z - info: Website regeneration complete! Total build time: 0.503s
+2025-03-04T10:46:21.978Z - info: [18:46:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2025-03-04T10:46:21.980Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:46:21.980Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:46:21.980Z - info: 1. admin/tutorials
+2025-03-04T10:46:21.983Z - info: [18:46:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T10:46:21.983Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:46:21.984Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:46:21.984Z - info: 1. admin/tutorials
+2025-03-04T10:46:22.991Z - info: Rebuilding 1 pages
+2025-03-04T10:46:23.489Z - info: Site data built
+2025-03-04T10:46:23.489Z - info: Pages rebuilt
+2025-03-04T10:46:23.489Z - info: Website regeneration complete! Total build time: 0.501s
+2025-03-04T10:46:29.783Z - info: [18:46:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2025-03-04T10:46:29.783Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:46:29.783Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:46:29.783Z - info: 1. admin/tutorials
+2025-03-04T10:46:30.789Z - info: No pages needed to be rebuilt
+2025-03-04T10:48:06.136Z - info: [18:48:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-04T10:48:06.136Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:48:06.137Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:48:06.137Z - info: 1. admin/tutorials
+2025-03-04T10:48:07.142Z - info: Rebuilding 1 pages
+2025-03-04T10:48:07.666Z - info: Site data built
+2025-03-04T10:48:07.666Z - info: Pages rebuilt
+2025-03-04T10:48:07.666Z - info: Website regeneration complete! Total build time: 0.527s
+2025-03-04T10:59:10.094Z - info: [18:59:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-04T10:59:10.096Z - info: Synchronizing opened pages list before reload
+2025-03-04T10:59:10.099Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T10:59:10.101Z - info: 1. admin/tutorials
+2025-03-04T10:59:11.122Z - info: Rebuilding 1 pages
+2025-03-04T10:59:11.669Z - info: Site data built
+2025-03-04T10:59:11.669Z - info: Pages rebuilt
+2025-03-04T10:59:11.669Z - info: Website regeneration complete! Total build time: 0.557s
+2025-03-04T11:02:43.727Z - info: [19:02:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T11:02:43.728Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:02:43.728Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:02:43.728Z - info: 1. admin/tutorials
+2025-03-04T11:02:44.743Z - info: Rebuilding 1 pages
+2025-03-04T11:02:45.272Z - info: Site data built
+2025-03-04T11:02:45.273Z - info: Pages rebuilt
+2025-03-04T11:02:45.273Z - info: Website regeneration complete! Total build time: 0.532s
+2025-03-04T11:03:58.814Z - info: [19:03:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T11:03:58.814Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:03:58.814Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:03:58.815Z - info: 1. admin/tutorials
+2025-03-04T11:03:58.815Z - info: 2. index
+2025-03-04T11:03:59.831Z - info: Rebuilding 1 pages
+2025-03-04T11:04:00.351Z - info: Site data built
+2025-03-04T11:04:00.351Z - info: Pages rebuilt
+2025-03-04T11:04:00.351Z - info: Website regeneration complete! Total build time: 0.522s
+2025-03-04T11:10:20.899Z - info: [19:10:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T11:10:20.900Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:10:20.900Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:10:20.901Z - info: 1. admin/tutorials
+2025-03-04T11:10:20.901Z - info: 2. index
+2025-03-04T11:10:21.907Z - info: Rebuilding 1 pages
+2025-03-04T11:10:22.439Z - info: Site data built
+2025-03-04T11:10:22.439Z - info: Pages rebuilt
+2025-03-04T11:10:22.439Z - info: Website regeneration complete! Total build time: 0.534s
+2025-03-04T11:10:39.997Z - info: [19:10:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T11:10:39.997Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:10:39.998Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:10:39.998Z - info: 1. admin/tutorials
+2025-03-04T11:10:41.001Z - info: Rebuilding 1 pages
+2025-03-04T11:10:41.529Z - info: Site data built
+2025-03-04T11:10:41.529Z - info: Pages rebuilt
+2025-03-04T11:10:41.529Z - info: Website regeneration complete! Total build time: 0.53s
+2025-03-04T11:13:07.732Z - info: [19:13:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T11:13:07.734Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:13:07.734Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:13:07.735Z - info: 1. admin/tutorials
+2025-03-04T11:13:08.740Z - info: Rebuilding 1 pages
+2025-03-04T11:13:09.270Z - info: Site data built
+2025-03-04T11:13:09.270Z - info: Pages rebuilt
+2025-03-04T11:13:09.270Z - info: Website regeneration complete! Total build time: 0.531s
+2025-03-04T11:15:42.824Z - info: [19:15:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials.md
+2025-03-04T11:15:42.825Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:15:42.825Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:15:42.825Z - info: 1. admin/tutorials
+2025-03-04T11:15:43.836Z - info: Rebuilding 1 pages
+2025-03-04T11:15:44.360Z - info: Site data built
+2025-03-04T11:15:44.360Z - info: Pages rebuilt
+2025-03-04T11:15:44.360Z - info: Website regeneration complete! Total build time: 0.526s
+2025-03-04T11:16:57.702Z - info: [19:16:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixD-help.md
+2025-03-04T11:16:57.703Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:16:57.703Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:16:57.703Z - info: 1. admin/tutorials
+2025-03-04T11:16:57.703Z - info: 2. index
+2025-03-04T11:16:58.707Z - info: Rebuilding 1 pages
+2025-03-04T11:16:59.237Z - info: Site data built
+2025-03-04T11:16:59.237Z - info: Pages rebuilt
+2025-03-04T11:16:59.237Z - info: Website regeneration complete! Total build time: 0.531s
+2025-03-04T11:19:15.252Z - info: [19:19:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixD-help.md
+2025-03-04T11:19:15.253Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:19:15.253Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:19:15.254Z - info: 1. admin/tutorials
+2025-03-04T11:19:15.257Z - info: [19:19:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials.md
+2025-03-04T11:19:15.258Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:19:15.258Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:19:15.258Z - info: 1. admin/tutorials
+2025-03-04T11:19:16.265Z - info: Rebuilding 1 pages
+2025-03-04T11:19:16.807Z - info: Site data built
+2025-03-04T11:19:16.807Z - info: Pages rebuilt
+2025-03-04T11:19:16.807Z - info: Website regeneration complete! Total build time: 0.544s
+2025-03-04T11:19:28.799Z - info: [19:19:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials.md
+2025-03-04T11:19:28.799Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:19:28.799Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:19:28.799Z - info: 1. admin/tutorials
+2025-03-04T11:19:29.808Z - info: Rebuilding 1 pages
+2025-03-04T11:19:30.345Z - info: Site data built
+2025-03-04T11:19:30.345Z - info: Pages rebuilt
+2025-03-04T11:19:30.345Z - info: Website regeneration complete! Total build time: 0.538s
+2025-03-04T11:22:18.277Z - info: [19:22:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:22:18.278Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:22:18.279Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:22:18.279Z - info: 1. admin/tutorials
+2025-03-04T11:22:19.288Z - info: No pages needed to be rebuilt
+2025-03-04T11:22:25.958Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results as some of its dependencies were changed since the last visit
+2025-03-04T11:22:26.119Z - error:  Error: No such segment '#faq-tutorialWhyTutorsCannotGiveProjectFeed-Q' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-03-04T11:22:26.139Z - error:  Error: No such segment '#faq-tutorialWhyTutorsCannotGiveProjectFeed-A' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-03-04T11:22:26.252Z - info: Site data built
+2025-03-04T11:22:26.252Z - info: Lazy website regeneration complete! Total build time: 0.294s
+2025-03-04T11:23:57.432Z - info: [19:23:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:23:57.432Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:23:57.433Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:23:57.433Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:23:57.433Z - info: 2. admin/tutorials
+2025-03-04T11:23:58.444Z - info: Rebuilding 1 pages
+2025-03-04T11:23:58.659Z - info: Site data built
+2025-03-04T11:23:58.659Z - info: Pages rebuilt
+2025-03-04T11:23:58.659Z - info: Website regeneration complete! Total build time: 0.219s
+2025-03-04T11:27:49.616Z - info: [19:27:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2025-03-04T11:27:49.617Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:27:49.618Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:27:49.618Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:27:49.618Z - info: 2. admin/tutorials
+2025-03-04T11:27:50.631Z - info: No pages needed to be rebuilt
+2025-03-04T11:28:19.077Z - info: [19:28:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:28:19.078Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:28:19.078Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:28:19.078Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:28:19.078Z - info: 2. admin/tutorials
+2025-03-04T11:28:20.089Z - info: Rebuilding 1 pages
+2025-03-04T11:28:20.354Z - info: Site data built
+2025-03-04T11:28:20.354Z - info: Pages rebuilt
+2025-03-04T11:28:20.354Z - info: Website regeneration complete! Total build time: 0.266s
+2025-03-04T11:29:03.781Z - info: [19:29:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:29:03.783Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:29:03.783Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:29:03.784Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:29:03.784Z - info: 2. admin/tutorials
+2025-03-04T11:29:04.790Z - info: Rebuilding 1 pages
+2025-03-04T11:29:05.063Z - info: Site data built
+2025-03-04T11:29:05.063Z - info: Pages rebuilt
+2025-03-04T11:29:05.063Z - info: Website regeneration complete! Total build time: 0.276s
+2025-03-04T11:30:54.854Z - info: [19:30:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials.md
+2025-03-04T11:30:54.855Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:30:54.855Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:30:54.855Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:30:54.856Z - info: 2. admin/tutorials
+2025-03-04T11:30:54.856Z - info: 3. index
+2025-03-04T11:30:54.856Z - info: [19:30:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T11:30:54.856Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:30:54.857Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:30:54.857Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:30:54.857Z - info: 2. admin/tutorials
+2025-03-04T11:30:54.857Z - info: 3. index
+2025-03-04T11:30:54.921Z - info: [19:30:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixD-help.md
+2025-03-04T11:30:54.921Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:30:54.921Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:30:54.922Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:30:54.922Z - info: 2. admin/tutorials
+2025-03-04T11:30:54.922Z - info: 3. index
+2025-03-04T11:30:54.923Z - info: [19:30:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2025-03-04T11:30:54.923Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:30:54.923Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:30:54.923Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:30:54.923Z - info: 2. admin/tutorials
+2025-03-04T11:30:54.923Z - info: 3. index
+2025-03-04T11:30:54.953Z - info: [19:30:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:30:54.953Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:30:54.953Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:30:54.953Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:30:54.953Z - info: 2. admin/tutorials
+2025-03-04T11:30:54.953Z - info: 3. index
+2025-03-04T11:30:55.865Z - info: Rebuilding 2 pages
+2025-03-04T11:30:56.541Z - info: Site data built
+2025-03-04T11:30:56.541Z - info: Pages rebuilt
+2025-03-04T11:30:56.541Z - info: Website regeneration complete! Total build time: 0.679s
+2025-03-04T11:32:02.992Z - info: [19:32:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:32:02.993Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:32:02.994Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:32:02.994Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:32:02.994Z - info: 2. admin/tutorials
+2025-03-04T11:32:04.010Z - info: Rebuilding 1 pages
+2025-03-04T11:32:04.284Z - info: Site data built
+2025-03-04T11:32:04.285Z - info: Pages rebuilt
+2025-03-04T11:32:04.285Z - info: Website regeneration complete! Total build time: 0.278s
+2025-03-04T11:32:15.566Z - info: [19:32:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T11:32:15.567Z - info: Synchronizing opened pages list before reload
+2025-03-04T11:32:15.568Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T11:32:15.568Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T11:32:15.568Z - info: 2. admin/tutorials
+2025-03-04T11:32:16.581Z - info: Rebuilding 1 pages
+2025-03-04T11:32:16.783Z - info: Site data built
+2025-03-04T11:32:16.783Z - info: Pages rebuilt
+2025-03-04T11:32:16.783Z - info: Website regeneration complete! Total build time: 0.204s
+2025-03-04T12:01:15.660Z - info: [20:01:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T12:01:15.664Z - info: Synchronizing opened pages list before reload
+2025-03-04T12:01:15.665Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T12:01:15.665Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T12:01:15.665Z - info: 2. admin/tutorials
+2025-03-04T12:01:16.696Z - info: Rebuilding 1 pages
+2025-03-04T12:01:16.989Z - info: Site data built
+2025-03-04T12:01:16.989Z - info: Pages rebuilt
+2025-03-04T12:01:16.989Z - info: Website regeneration complete! Total build time: 0.311s
+2025-03-04T12:07:08.679Z - info: [20:07:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T12:07:08.680Z - info: Synchronizing opened pages list before reload
+2025-03-04T12:07:08.680Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T12:07:08.681Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T12:07:09.696Z - info: Rebuilding 1 pages
+2025-03-04T12:07:09.932Z - info: Site data built
+2025-03-04T12:07:09.932Z - info: Pages rebuilt
+2025-03-04T12:07:09.932Z - info: Website regeneration complete! Total build time: 0.239s
+2025-03-04T12:57:58.538Z - info: Website generation (lazy) started at 20:57:57
+2025-03-04T12:57:58.853Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-04T12:57:58.853Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-04T12:57:58.873Z - info: Building assets...
+2025-03-04T12:58:00.209Z - info: Assets built
+2025-03-04T12:58:00.210Z - info: Generating landing page...
+2025-03-04T12:58:00.653Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-04T12:58:00.768Z - info: Site data built
+2025-03-04T12:58:00.769Z - info: Website generation (lazy) complete! Total build time: 2.833s
+2025-03-04T12:58:00.782Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-04T12:58:00.782Z - info: Press CTRL+C to stop ...
+2025-03-04T12:58:12.044Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results as some of its dependencies were changed since the last visit
+2025-03-04T12:58:12.366Z - info: Site data built
+2025-03-04T12:58:12.366Z - info: Lazy website regeneration complete! Total build time: 0.323s
+2025-03-04T13:10:33.428Z - info: [21:10:33] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T13:10:33.429Z - info: Synchronizing opened pages list before reload
+2025-03-04T13:10:33.430Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T13:10:33.430Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T13:10:34.438Z - info: Rebuilding 1 pages
+2025-03-04T13:10:34.653Z - info: Site data built
+2025-03-04T13:10:34.653Z - info: Pages rebuilt
+2025-03-04T13:10:34.653Z - info: Website regeneration complete! Total build time: 0.219s
+2025-03-04T14:19:49.776Z - info: [22:19:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T14:19:49.778Z - info: Synchronizing opened pages list before reload
+2025-03-04T14:19:49.778Z - info: No pages are currently opened
+2025-03-04T14:19:50.796Z - info: No pages needed to be rebuilt
+2025-03-04T14:23:05.821Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results as some of its dependencies were changed since the last visit
+2025-03-04T14:23:06.134Z - info: Site data built
+2025-03-04T14:23:06.134Z - info: Lazy website regeneration complete! Total build time: 0.314s
+2025-03-04T14:45:40.417Z - info: [22:45:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T14:45:40.419Z - info: Synchronizing opened pages list before reload
+2025-03-04T14:45:40.419Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T14:45:40.420Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T14:45:41.432Z - info: Rebuilding 1 pages
+2025-03-04T14:45:41.733Z - info: Site data built
+2025-03-04T14:45:41.733Z - info: Pages rebuilt
+2025-03-04T14:45:41.733Z - info: Website regeneration complete! Total build time: 0.304s
+2025-03-04T15:04:05.593Z - info: [23:04:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T15:04:05.596Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:04:05.596Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:04:05.596Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T15:04:06.624Z - info: Rebuilding 1 pages
+2025-03-04T15:04:06.926Z - info: Site data built
+2025-03-04T15:04:06.927Z - info: Pages rebuilt
+2025-03-04T15:04:06.927Z - info: Website regeneration complete! Total build time: 0.323s
+2025-03-04T15:22:49.330Z - info: [23:22:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T15:22:49.333Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:22:49.334Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:22:49.336Z - info: 1. admin/mid-semester-survey-results
+2025-03-04T15:22:50.364Z - info: Rebuilding 1 pages
+2025-03-04T15:22:50.741Z - info: Site data built
+2025-03-04T15:22:50.742Z - info: Pages rebuilt
+2025-03-04T15:22:50.742Z - info: Website regeneration complete! Total build time: 0.397s
+2025-03-04T15:23:58.284Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials as some of its dependencies were changed since the last visit
+2025-03-04T15:23:58.875Z - info: Site data built
+2025-03-04T15:23:58.875Z - info: Lazy website regeneration complete! Total build time: 0.592s
+2025-03-04T15:27:42.576Z - info: [23:27:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T15:27:42.582Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:27:42.604Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:27:42.604Z - info: 1. admin/tutorials
+2025-03-04T15:27:42.604Z - info: 2. admin/mid-semester-survey-results
+2025-03-04T15:27:43.616Z - info: Rebuilding 2 pages
+2025-03-04T15:27:44.381Z - info: Site data built
+2025-03-04T15:27:44.381Z - info: Pages rebuilt
+2025-03-04T15:27:44.381Z - info: Website regeneration complete! Total build time: 0.769s
+2025-03-04T15:33:05.097Z - info: [23:33:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T15:33:05.099Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:33:05.100Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:33:05.100Z - info: 1. admin/tutorials
+2025-03-04T15:33:05.100Z - info: 2. admin/mid-semester-survey-results
+2025-03-04T15:33:06.109Z - info: Rebuilding 2 pages
+2025-03-04T15:33:06.893Z - info: Site data built
+2025-03-04T15:33:06.893Z - info: Pages rebuilt
+2025-03-04T15:33:06.893Z - info: Website regeneration complete! Total build time: 0.787s
+2025-03-04T15:37:17.437Z - info: [23:37:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T15:37:17.439Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:37:17.440Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:37:17.441Z - info: 1. admin/tutorials
+2025-03-04T15:37:18.451Z - info: Rebuilding 1 pages
+2025-03-04T15:37:19.031Z - info: Site data built
+2025-03-04T15:37:19.032Z - info: Pages rebuilt
+2025-03-04T15:37:19.032Z - info: Website regeneration complete! Total build time: 0.585s
+2025-03-04T15:37:41.621Z - info: [23:37:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T15:37:41.621Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:37:41.622Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:37:41.622Z - info: 1. admin/tutorials
+2025-03-04T15:37:42.637Z - info: Rebuilding 1 pages
+2025-03-04T15:37:43.184Z - info: Site data built
+2025-03-04T15:37:43.184Z - info: Pages rebuilt
+2025-03-04T15:37:43.184Z - info: Website regeneration complete! Total build time: 0.549s
+2025-03-04T15:39:51.081Z - info: [23:39:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/faq-fragment.md
+2025-03-04T15:39:51.085Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:39:51.086Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:39:51.087Z - info: 1. admin/tutorials
+2025-03-04T15:39:52.095Z - info: Rebuilding 1 pages
+2025-03-04T15:39:52.681Z - info: Site data built
+2025-03-04T15:39:52.682Z - info: Pages rebuilt
+2025-03-04T15:39:52.682Z - info: Website regeneration complete! Total build time: 0.591s
+2025-03-04T15:53:11.136Z - info: [23:53:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/mid-semester-survey-results.md
+2025-03-04T15:53:11.137Z - info: Synchronizing opened pages list before reload
+2025-03-04T15:53:11.138Z - info: Current opened pages, from most-to-least recent:
+2025-03-04T15:53:11.138Z - info: 1. admin/tutorials
+2025-03-04T15:53:12.169Z - info: No pages needed to be rebuilt
+2025-03-04T15:53:13.321Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results as some of its dependencies were changed since the last visit
+2025-03-04T15:53:13.677Z - info: Site data built
+2025-03-04T15:53:13.677Z - info: Lazy website regeneration complete! Total build time: 0.357s
