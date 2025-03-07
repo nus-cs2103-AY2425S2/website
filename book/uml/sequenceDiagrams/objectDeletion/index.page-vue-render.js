@@ -20,6 +20,6 @@ with(this){return _c('p',[_c('strong',[_v("UML uses an "),_c('code',{pre:true,at
 with(this){return _c('p',[_v("Although languages such as Java do not support a "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("delete")]),_v(" operation (because they use automatic memory management), "),_c('strong',[_v("you can use the object deletion notation to indicate the point at which the object becomes "),_c('em',[_v("ready to be garbage-collected")])]),_v(" (i.e., the point at which it ceases to be referenced).")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 7 Mar 2025, 18:14:26 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 7 Mar 2025, 23:28:37 GMT+8]")])])])}
 }];
   
