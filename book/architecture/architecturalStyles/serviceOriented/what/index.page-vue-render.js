@@ -20,6 +20,6 @@ with(this){return _c('p',[_c('strong',[_v("The "),_c('em',[_v("service-oriented 
 with(this){return _c('div',[_c('div',[_c('br'),_v(" "),_c('h5',{attrs:{"id":"resources"}},[_c('span',[_c('span',{staticClass:"fas fa-paperclip",attrs:{"aria-hidden":"true"}})]),_v(" Resources:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#resources","onclick":"event.stopPropagation()"}})]),_v(" "),_c('div',[_c('ul',[_c('li',[_c('a',{attrs:{"href":"https://www.devteam.space/blog/microservices-vs-soa-comparison/"}},[_c('strong',[_v("Microservices vs SOA Comparison")])]),_v(" -- an article by Jamie Maguire")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 7 Mar 2025, 23:28:37 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 8 Mar 2025, 16:50:12 GMT+8]")])])])}
 }];
   
