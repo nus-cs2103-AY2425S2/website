@@ -1,0 +1,537 @@
+2025-03-12T06:38:35.447Z - info: Website generation (lazy) started at 14:38:34
+2025-03-12T06:38:35.802Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-12T06:38:35.803Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-12T06:38:35.823Z - info: Building assets...
+2025-03-12T06:38:37.279Z - info: Assets built
+2025-03-12T06:38:37.279Z - info: Generating landing page...
+2025-03-12T06:38:37.785Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-12T06:38:37.858Z - info: Site data built
+2025-03-12T06:38:37.858Z - info: Website generation (lazy) complete! Total build time: 3.304s
+2025-03-12T06:38:37.870Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-12T06:38:37.871Z - info: Press CTRL+C to stop ...
+2025-03-12T07:23:17.353Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues as some of its dependencies were changed since the last visit
+2025-03-12T07:23:17.584Z - info: Site data built
+2025-03-12T07:23:17.584Z - info: Lazy website regeneration complete! Total build time: 0.232s
+2025-03-12T07:27:54.357Z - info: [15:27:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:27:54.359Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:27:54.360Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:27:54.360Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:27:55.369Z - info: Rebuilding 1 pages
+2025-03-12T07:27:55.546Z - info: Site data built
+2025-03-12T07:27:55.546Z - info: Pages rebuilt
+2025-03-12T07:27:55.546Z - info: Website regeneration complete! Total build time: 0.179s
+2025-03-12T07:28:52.924Z - info: [15:28:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:28:52.924Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:28:52.925Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:28:52.925Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:28:53.942Z - info: Rebuilding 1 pages
+2025-03-12T07:28:54.046Z - info: Site data built
+2025-03-12T07:28:54.046Z - info: Pages rebuilt
+2025-03-12T07:28:54.046Z - info: Website regeneration complete! Total build time: 0.107s
+2025-03-12T07:37:55.743Z - info: [15:37:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:37:55.744Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:37:55.744Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:37:55.745Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:37:56.750Z - info: Rebuilding 1 pages
+2025-03-12T07:37:56.921Z - info: Site data built
+2025-03-12T07:37:56.921Z - info: Pages rebuilt
+2025-03-12T07:37:56.921Z - info: Website regeneration complete! Total build time: 0.174s
+2025-03-12T07:39:44.094Z - info: [15:39:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:39:44.095Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:39:44.096Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:39:44.096Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:39:45.109Z - info: Rebuilding 1 pages
+2025-03-12T07:39:45.221Z - info: Site data built
+2025-03-12T07:39:45.221Z - info: Pages rebuilt
+2025-03-12T07:39:45.221Z - info: Website regeneration complete! Total build time: 0.117s
+2025-03-12T07:43:38.923Z - info: [15:43:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:43:38.924Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:43:38.925Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:43:38.925Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:43:39.934Z - info: Rebuilding 1 pages
+2025-03-12T07:43:40.054Z - info: Site data built
+2025-03-12T07:43:40.054Z - info: Pages rebuilt
+2025-03-12T07:43:40.054Z - info: Website regeneration complete! Total build time: 0.123s
+2025-03-12T07:48:21.336Z - info: [15:48:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:48:21.337Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:48:21.337Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:48:21.338Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:48:22.344Z - info: Rebuilding 1 pages
+2025-03-12T07:48:22.468Z - info: Site data built
+2025-03-12T07:48:22.468Z - info: Pages rebuilt
+2025-03-12T07:48:22.468Z - info: Website regeneration complete! Total build time: 0.128s
+2025-03-12T07:49:23.703Z - info: [15:49:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:49:23.703Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:49:23.703Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:49:23.703Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:49:24.716Z - info: Rebuilding 1 pages
+2025-03-12T07:49:24.856Z - info: Site data built
+2025-03-12T07:49:24.856Z - info: Pages rebuilt
+2025-03-12T07:49:24.856Z - info: Website regeneration complete! Total build time: 0.141s
+2025-03-12T07:50:41.105Z - info: [15:50:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:50:41.106Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:50:41.106Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:50:41.106Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:50:42.122Z - info: Rebuilding 1 pages
+2025-03-12T07:50:42.229Z - info: Site data built
+2025-03-12T07:50:42.229Z - info: Pages rebuilt
+2025-03-12T07:50:42.229Z - info: Website regeneration complete! Total build time: 0.11s
+2025-03-12T07:51:15.316Z - info: [15:51:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:51:15.317Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:51:15.317Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:51:15.317Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:51:16.332Z - info: Rebuilding 1 pages
+2025-03-12T07:51:16.465Z - info: Site data built
+2025-03-12T07:51:16.465Z - info: Pages rebuilt
+2025-03-12T07:51:16.465Z - info: Website regeneration complete! Total build time: 0.134s
+2025-03-12T07:52:08.730Z - info: [15:52:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:52:08.737Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:52:08.738Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:52:08.738Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:52:09.746Z - info: Rebuilding 1 pages
+2025-03-12T07:52:09.857Z - info: Site data built
+2025-03-12T07:52:09.858Z - info: Pages rebuilt
+2025-03-12T07:52:09.858Z - info: Website regeneration complete! Total build time: 0.115s
+2025-03-12T07:53:42.088Z - info: [15:53:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:53:42.089Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:53:42.089Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:53:42.089Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:53:43.098Z - info: Rebuilding 1 pages
+2025-03-12T07:53:43.237Z - info: Site data built
+2025-03-12T07:53:43.237Z - info: Pages rebuilt
+2025-03-12T07:53:43.237Z - info: Website regeneration complete! Total build time: 0.142s
+2025-03-12T07:54:28.038Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixB-policies as some of its dependencies were changed since the last visit
+2025-03-12T07:54:28.404Z - info: Site data built
+2025-03-12T07:54:28.404Z - info: Lazy website regeneration complete! Total build time: 0.366s
+2025-03-12T07:57:04.627Z - info: [15:57:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:57:04.628Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:57:04.628Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:57:04.628Z - info: 1. admin/appendixB-policies
+2025-03-12T07:57:04.629Z - info: [15:57:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-03-12T07:57:04.629Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:57:04.629Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:57:04.629Z - info: 1. admin/appendixB-policies
+2025-03-12T07:57:05.645Z - info: Rebuilding 1 pages
+2025-03-12T07:57:05.960Z - info: Site data built
+2025-03-12T07:57:05.960Z - info: Pages rebuilt
+2025-03-12T07:57:05.960Z - info: Website regeneration complete! Total build time: 0.318s
+2025-03-12T07:57:13.827Z - info: [15:57:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:57:13.828Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:57:13.828Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:57:13.829Z - info: 1. admin/appendixB-policies
+2025-03-12T07:57:14.840Z - info: No pages needed to be rebuilt
+2025-03-12T07:57:20.898Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues as some of its dependencies were changed since the last visit
+2025-03-12T07:57:21.070Z - info: Site data built
+2025-03-12T07:57:21.070Z - info: Lazy website regeneration complete! Total build time: 0.173s
+2025-03-12T07:59:29.272Z - info: [15:59:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T07:59:29.273Z - info: Synchronizing opened pages list before reload
+2025-03-12T07:59:29.273Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T07:59:29.273Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T07:59:30.287Z - info: Rebuilding 1 pages
+2025-03-12T07:59:30.341Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Error: cannot import 'embed_topic'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:51:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Page.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:494:45)
+    at Generator.next (<anonymous>)
+2025-03-12T07:59:30.341Z - warn:  Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:927:27)
+    at Generator.throw (<anonymous>)
+    at rejected (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:29:65)
+2025-03-12T08:00:36.894Z - info: [16:00:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:00:36.901Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:00:36.902Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:00:36.904Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:00:37.926Z - info: Rebuilding 1 pages
+2025-03-12T08:00:37.985Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Error: cannot import 'embed_topic'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:53:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Page.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:494:45)
+    at Generator.next (<anonymous>)
+2025-03-12T08:00:37.986Z - warn:  Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:927:27)
+    at Generator.throw (<anonymous>)
+    at rejected (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:29:65)
+2025-03-12T08:01:07.658Z - info: [16:01:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:01:07.658Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:01:07.658Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:01:07.658Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:01:08.661Z - info: Rebuilding 1 pages
+2025-03-12T08:01:08.700Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md) [Line 61, Column 49]
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md)
+  Error: cannot import 'embed_topic'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:53:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Page.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:494:45)
+    at Generator.next (<anonymous>)
+2025-03-12T08:01:08.700Z - warn:  Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:927:27)
+    at Generator.throw (<anonymous>)
+    at rejected (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:29:65)
+2025-03-12T08:04:03.712Z - info: [16:04:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:04:03.717Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:04:03.720Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:04:03.720Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:04:04.728Z - info: Rebuilding 1 pages
+2025-03-12T08:04:04.839Z - info: Site data built
+2025-03-12T08:04:04.839Z - info: Pages rebuilt
+2025-03-12T08:04:04.839Z - info: Website regeneration complete! Total build time: 0.115s
+2025-03-12T08:05:23.547Z - info: [16:05:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:05:23.550Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:05:23.551Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:05:23.551Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:05:24.555Z - info: Rebuilding 1 pages
+2025-03-12T08:05:24.708Z - info: Site data built
+2025-03-12T08:05:24.708Z - info: Pages rebuilt
+2025-03-12T08:05:24.708Z - info: Website regeneration complete! Total build time: 0.155s
+2025-03-12T08:05:39.931Z - info: [16:05:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:05:39.931Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:05:39.931Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:05:39.931Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:05:40.943Z - info: Rebuilding 1 pages
+2025-03-12T08:05:41.071Z - info: Site data built
+2025-03-12T08:05:41.071Z - info: Pages rebuilt
+2025-03-12T08:05:41.071Z - info: Website regeneration complete! Total build time: 0.129s
+2025-03-12T08:05:48.718Z - info: [16:05:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:05:48.719Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:05:48.719Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:05:48.719Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:05:49.725Z - info: Rebuilding 1 pages
+2025-03-12T08:05:49.848Z - info: Site data built
+2025-03-12T08:05:49.848Z - info: Pages rebuilt
+2025-03-12T08:05:49.848Z - info: Website regeneration complete! Total build time: 0.126s
+2025-03-12T08:06:04.074Z - info: [16:06:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:06:04.075Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:06:04.075Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:06:04.075Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:06:05.081Z - info: Rebuilding 1 pages
+2025-03-12T08:06:05.200Z - info: Site data built
+2025-03-12T08:06:05.201Z - info: Pages rebuilt
+2025-03-12T08:06:05.201Z - info: Website regeneration complete! Total build time: 0.121s
+2025-03-12T08:06:35.562Z - info: [16:06:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:06:35.562Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:06:35.562Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:06:35.563Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:06:36.577Z - info: Rebuilding 1 pages
+2025-03-12T08:06:36.700Z - info: Site data built
+2025-03-12T08:06:36.700Z - info: Pages rebuilt
+2025-03-12T08:06:36.700Z - info: Website regeneration complete! Total build time: 0.126s
+2025-03-12T08:08:04.932Z - info: [16:08:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:08:04.935Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:08:04.935Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:08:04.935Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:08:05.943Z - info: Rebuilding 1 pages
+2025-03-12T08:08:06.107Z - info: Site data built
+2025-03-12T08:08:06.107Z - info: Pages rebuilt
+2025-03-12T08:08:06.107Z - info: Website regeneration complete! Total build time: 0.167s
+2025-03-12T08:09:46.020Z - info: [16:09:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:09:46.022Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:09:46.024Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:09:46.025Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:09:47.055Z - info: Rebuilding 1 pages
+2025-03-12T08:09:47.181Z - info: Site data built
+2025-03-12T08:09:47.181Z - info: Pages rebuilt
+2025-03-12T08:09:47.181Z - info: Website regeneration complete! Total build time: 0.13s
+2025-03-12T08:10:06.152Z - info: [16:10:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:10:06.152Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:10:06.153Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:10:06.153Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:10:07.155Z - info: Rebuilding 1 pages
+2025-03-12T08:10:07.286Z - info: Site data built
+2025-03-12T08:10:07.287Z - info: Pages rebuilt
+2025-03-12T08:10:07.287Z - info: Website regeneration complete! Total build time: 0.133s
+2025-03-12T08:10:34.516Z - info: [16:10:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:10:34.516Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:10:34.516Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:10:34.516Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:10:35.525Z - info: Rebuilding 1 pages
+2025-03-12T08:10:35.660Z - info: Site data built
+2025-03-12T08:10:35.660Z - info: Pages rebuilt
+2025-03-12T08:10:35.660Z - info: Website regeneration complete! Total build time: 0.136s
+2025-03-12T08:11:38.829Z - info: [16:11:38] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:11:38.829Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:11:38.829Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:11:38.829Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:11:39.844Z - info: Rebuilding 1 pages
+2025-03-12T08:11:39.995Z - info: Site data built
+2025-03-12T08:11:39.995Z - info: Pages rebuilt
+2025-03-12T08:11:39.995Z - info: Website regeneration complete! Total build time: 0.154s
+2025-03-12T08:12:51.801Z - info: [16:12:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:12:51.802Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:12:51.802Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:12:51.802Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:12:52.811Z - info: Rebuilding 1 pages
+2025-03-12T08:12:52.939Z - info: Site data built
+2025-03-12T08:12:52.939Z - info: Pages rebuilt
+2025-03-12T08:12:52.939Z - info: Website regeneration complete! Total build time: 0.132s
+2025-03-12T08:13:10.186Z - info: [16:13:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:13:10.187Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:13:10.189Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:13:10.189Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:13:11.195Z - info: Rebuilding 1 pages
+2025-03-12T08:13:11.339Z - info: Site data built
+2025-03-12T08:13:11.339Z - info: Pages rebuilt
+2025-03-12T08:13:11.339Z - info: Website regeneration complete! Total build time: 0.146s
+2025-03-12T08:14:03.907Z - info: [16:14:03] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md~
+2025-03-12T08:14:03.908Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:14:03.909Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:14:03.909Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:14:04.121Z - info: [16:14:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2025-03-12T08:14:04.121Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:14:04.121Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:14:04.121Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:14:04.124Z - info: [16:14:04] Reload for file deletion: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md~
+2025-03-12T08:14:04.124Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:14:04.124Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:14:04.124Z - info: 1. admin/appendixF-teamworkIssues
+2025-03-12T08:14:05.125Z - info: Rebuilding 1 pages
+2025-03-12T08:14:05.188Z - error: ENOENT: no such file or directory, stat '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md~'
+2025-03-12T08:14:05.219Z - debug: Assets removed
+2025-03-12T08:14:05.241Z - info: Site data built
+2025-03-12T08:14:05.241Z - info: Pages rebuilt
+2025-03-12T08:14:05.241Z - info: Website regeneration complete! Total build time: 0.118s
+2025-03-12T08:15:31.474Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/index as some of its dependencies were changed since the last visit
+2025-03-12T08:15:31.888Z - info: Site data built
+2025-03-12T08:15:31.888Z - info: Lazy website regeneration complete! Total build time: 0.415s
+2025-03-12T08:15:38.676Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:15:38.864Z - info: Site data built
+2025-03-12T08:15:38.864Z - info: Lazy website regeneration complete! Total build time: 0.188s
+2025-03-12T08:16:15.286Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/index as some of its dependencies were changed since the last visit
+2025-03-12T08:16:15.953Z - info: Site data built
+2025-03-12T08:16:15.953Z - info: Lazy website regeneration complete! Total build time: 0.667s
+2025-03-12T08:17:14.169Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:17:14.465Z - info: Site data built
+2025-03-12T08:17:14.465Z - info: Lazy website regeneration complete! Total build time: 0.297s
+2025-03-12T08:18:18.618Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:18:18.619Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:18:18.780Z - info: Site data built
+2025-03-12T08:18:18.780Z - info: Lazy website regeneration complete! Total build time: 0.162s
+2025-03-12T08:18:24.118Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index as some of its dependencies were changed since the last visit
+2025-03-12T08:18:24.531Z - info: Site data built
+2025-03-12T08:18:24.532Z - info: Lazy website regeneration complete! Total build time: 0.414s
+2025-03-12T08:27:39.165Z - info: [16:27:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/notices-cs2103-fragment.md
+2025-03-12T08:27:39.166Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:27:39.167Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:27:39.168Z - info: 1. schedule/week11/index
+2025-03-12T08:27:40.180Z - info: Rebuilding 1 pages
+2025-03-12T08:27:40.669Z - info: Site data built
+2025-03-12T08:27:40.669Z - info: Pages rebuilt
+2025-03-12T08:27:40.669Z - info: Website regeneration complete! Total build time: 0.496s
+2025-03-12T08:28:51.149Z - info: [16:28:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/notices-cs2103-fragment.md
+2025-03-12T08:28:51.152Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:28:51.153Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:28:51.154Z - info: 1. schedule/week11/index
+2025-03-12T08:28:52.166Z - info: Rebuilding 1 pages
+2025-03-12T08:28:52.288Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/notices-cs2103-fragment.md) [Line 9, Column 16]
+  expected block end in if statement
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:358:19)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+2025-03-12T08:28:52.665Z - info: Site data built
+2025-03-12T08:28:52.665Z - info: Pages rebuilt
+2025-03-12T08:28:52.665Z - info: Website regeneration complete! Total build time: 0.503s
+2025-03-12T08:29:45.845Z - info: [16:29:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/notices-cs2103-fragment.md
+2025-03-12T08:29:45.848Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:29:45.849Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:29:45.849Z - info: 1. schedule/week11/index
+2025-03-12T08:29:46.857Z - info: Rebuilding 1 pages
+2025-03-12T08:29:47.309Z - info: Site data built
+2025-03-12T08:29:47.309Z - info: Pages rebuilt
+2025-03-12T08:29:47.309Z - info: Website regeneration complete! Total build time: 0.455s
+2025-03-12T08:36:41.829Z - info: [16:36:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/notices-cs2103-fragment.md
+2025-03-12T08:36:41.831Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:36:41.831Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:36:41.831Z - info: 1. schedule/week11/index
+2025-03-12T08:36:42.843Z - info: Rebuilding 1 pages
+2025-03-12T08:36:43.280Z - info: Site data built
+2025-03-12T08:36:43.280Z - info: Pages rebuilt
+2025-03-12T08:36:43.280Z - info: Website regeneration complete! Total build time: 0.441s
+2025-03-12T08:37:41.316Z - info: [16:37:41] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/notices-cs2103-fragment.md
+2025-03-12T08:37:41.323Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:37:41.324Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:37:41.324Z - info: 1. schedule/week11/index
+2025-03-12T08:37:41.485Z - error: ENOENT: no such file or directory, stat '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md~'
+2025-03-12T08:38:22.000Z - info: [16:38:21] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/notices-cs2103-fragment.md
+2025-03-12T08:38:22.002Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:38:22.002Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:38:22.003Z - info: 1. schedule/week11/index
+2025-03-12T08:38:22.009Z - error: ENOENT: no such file or directory, stat '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md~'
+2025-03-12T08:38:47.832Z - info: [16:38:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/notices-cs2103-fragment.md
+2025-03-12T08:38:47.833Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:38:47.833Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:38:47.833Z - info: 1. schedule/week10/index
+2025-03-12T08:38:47.835Z - error: ENOENT: no such file or directory, stat '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md~'
+2025-03-12T08:40:44.185Z - info: Website generation (lazy) started at 16:40:43
+2025-03-12T08:40:44.456Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-12T08:40:44.456Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-12T08:40:44.476Z - info: Building assets...
+2025-03-12T08:40:45.891Z - info: Assets built
+2025-03-12T08:40:45.891Z - info: Generating landing page...
+2025-03-12T08:40:46.331Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-12T08:40:46.401Z - info: Site data built
+2025-03-12T08:40:46.401Z - info: Website generation (lazy) complete! Total build time: 2.922s
+2025-03-12T08:40:46.411Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-12T08:40:46.412Z - info: Press CTRL+C to stop ...
+2025-03-12T08:41:01.774Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:41:02.098Z - info: Site data built
+2025-03-12T08:41:02.099Z - info: Lazy website regeneration complete! Total build time: 0.326s
+2025-03-12T08:41:06.275Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/index as some of its dependencies were changed since the last visit
+2025-03-12T08:41:06.584Z - info: Site data built
+2025-03-12T08:41:06.584Z - info: Lazy website regeneration complete! Total build time: 0.309s
+2025-03-12T08:41:14.133Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/index as some of its dependencies were changed since the last visit
+2025-03-12T08:41:14.475Z - info: Site data built
+2025-03-12T08:41:14.475Z - info: Lazy website regeneration complete! Total build time: 0.343s
+2025-03-12T08:41:39.958Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:41:40.253Z - info: Site data built
+2025-03-12T08:41:40.253Z - info: Lazy website regeneration complete! Total build time: 0.296s
+2025-03-12T08:43:01.504Z - info: [16:43:01] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial-cs2103-fragment.md
+2025-03-12T08:43:01.505Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:43:01.506Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:43:01.506Z - info: 1. schedule/week10/index
+2025-03-12T08:43:02.518Z - info: No pages needed to be rebuilt
+2025-03-12T08:43:17.143Z - info: [16:43:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/notices-cs2103-fragment.md
+2025-03-12T08:43:17.144Z - info: Synchronizing opened pages list before reload
+2025-03-12T08:43:17.144Z - info: Current opened pages, from most-to-least recent:
+2025-03-12T08:43:17.144Z - info: 1. schedule/week10/index
+2025-03-12T08:43:18.155Z - info: Rebuilding 1 pages
+2025-03-12T08:43:18.552Z - info: Site data built
+2025-03-12T08:43:18.552Z - info: Pages rebuilt
+2025-03-12T08:43:18.552Z - info: Website regeneration complete! Total build time: 0.399s
+2025-03-12T08:43:23.297Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/admin as some of its dependencies were changed since the last visit
+2025-03-12T08:43:23.419Z - info: Site data built
+2025-03-12T08:43:23.419Z - info: Lazy website regeneration complete! Total build time: 0.123s
+2025-03-12T08:43:52.898Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:43:53.172Z - info: Site data built
+2025-03-12T08:43:53.172Z - info: Lazy website regeneration complete! Total build time: 0.274s
+2025-03-12T08:44:24.949Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index as some of its dependencies were changed since the last visit
+2025-03-12T08:44:25.373Z - info: Site data built
+2025-03-12T08:44:25.373Z - info: Lazy website regeneration complete! Total build time: 0.424s
+2025-03-12T08:44:42.417Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial as some of its dependencies were changed since the last visit
+2025-03-12T08:44:42.576Z - info: Site data built
+2025-03-12T08:44:42.576Z - info: Lazy website regeneration complete! Total build time: 0.16s
+2025-03-12T08:45:54.276Z - info: Website generation started at 16:45:53
+2025-03-12T08:45:54.532Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-12T08:45:54.532Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-12T08:45:54.555Z - info: Building assets...
+2025-03-12T08:45:55.883Z - info: Assets built
+2025-03-12T08:45:55.884Z - info: Generating pages...
+2025-03-12T08:46:02.345Z - debug:  
+2025-03-12T08:46:02.911Z - debug: 2025-03-12 16:45:58.746 java[30097:1116711] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-12 16:45:58.746 java[30097:1116711] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-12T08:46:02.911Z - debug:  
+2025-03-12T08:46:02.911Z - debug:  
+2025-03-12T08:46:02.911Z - debug:  
+2025-03-12T08:46:02.911Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug: 2025-03-12 16:45:59.983 java[30124:1116987] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-12 16:45:59.983 java[30124:1116987] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:02.912Z - debug:  
+2025-03-12T08:46:03.999Z - debug: 2025-03-12 16:46:03.209 java[30167:1117865] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-12 16:46:03.209 java[30167:1117865] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-12T08:46:13.570Z - debug: 2025-03-12 16:46:13.050 java[30198:1118354] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-12 16:46:13.050 java[30198:1118354] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-12T08:46:59.212Z - debug: 2025-03-12 16:46:58.879 java[30217:1119672] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-12 16:46:58.879 java[30217:1119672] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-12T08:47:13.504Z - debug:  
+2025-03-12T08:47:13.526Z - debug: 2025-03-12 16:47:12.690 java[30228:1120173] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-12 16:47:12.690 java[30228:1120173] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-12T08:47:20.955Z - info: Pages built
+2025-03-12T08:47:21.021Z - info: Site data built
+2025-03-12T08:47:21.022Z - info: Website generation complete! Total build time: 87.226s
+2025-03-12T08:47:21.022Z - info: Build success!
+2025-03-12T08:50:33.584Z - info: Website generation started at 16:50:32
+2025-03-12T08:50:33.874Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-12T08:50:33.875Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-12T08:50:33.897Z - info: Building assets...
