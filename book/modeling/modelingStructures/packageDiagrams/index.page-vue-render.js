@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"package-diagrams"}},[_c('span'
 with(this){return _c('p',[_c('strong',[_v("A "),_c('em',[_v("package diagram")]),_v(" shows packages and their dependencies.")]),_v(" A package is a grouping construct for grouping UML elements (classes, use cases, etc.).")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Wed, 12 Mar 2025, 16:50:35 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 14 Mar 2025, 2:18:23 GMT+8]")])])])}
 }];
   
