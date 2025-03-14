@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"introduction"}},[_c('span',[_v
 with(this){return _c('p',[_c('strong',[_v("A UML sequence diagram "),_c('em',[_v("captures the interactions between multiple entities for a given scenario.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 14 Mar 2025, 2:18:23 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 14 Mar 2025, 15:37:57 GMT+8]")])])])}
 }];
   
