@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"communication-diagrams"}},[_c(
 with(this){return _c('p',[_c('strong',[_c('em',[_v("Communication diagrams")]),_v(" are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 14 Mar 2025, 18:43:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 18 Mar 2025, 19:43:48 GMT+8]")])])])}
 }];
   

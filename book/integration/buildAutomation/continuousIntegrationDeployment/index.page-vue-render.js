@@ -20,6 +20,6 @@ with(this){return _c('p',[_c('strong',[_v("An extreme application of build autom
 with(this){return _c('p',[_c('strong',[_v("A natural extension of CI is "),_c('em',[_v("Continuous Deployment (CD)")]),_v(" where the changes are not only integrated continuously, but also deployed to end-users at the same time.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 14 Mar 2025, 18:43:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 18 Mar 2025, 19:43:48 GMT+8]")])])])}
 }];
   

@@ -41,6 +41,6 @@ with(this){return _c('div',{attrs:{"id":"section-forking"}},[_c('p',[_c('strong'
 with(this){return _c('strong',[_v("A "),_c('mark',[_c('em',[_v("pull request")])]),_v(" (PR for short) is a mechanism for contributing code to a remote repo")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 14 Mar 2025, 18:43:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 18 Mar 2025, 19:43:48 GMT+8]")])])])}
 }];
   

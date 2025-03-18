@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 5.5.3">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - Admin: tP: Constraints</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"> <link rel="stylesheet" href="/website/markbind/css/octicons.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="generator" content="MarkBind 5.6.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - Admin: tP: Constraints</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"> <link rel="stylesheet" href="/website/markbind/css/octicons.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/website/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
 <link rel="stylesheet" href="/website/css/main.css">
 <link rel="stylesheet" href="/website/css/admin.css">
@@ -30,7 +30,7 @@ In case of services, requiring the user to create an account on a third-party se
 Some suggestions:</p> <ul><li>Check if the assets (e.g., images, audio, data) included in the JAR files are all strictly necessary and the quality is not unnecessarily high (e.g., images with higher resolution than necessary).</li> <li>Check if the third-party libraries in the JAR file are strictly necessary or whether they have lighter versions that are still enough for your purpose.</li></ul> <p><span style="color:red;"><big><span><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></span></big></span> <strong>Using <a href="http://tutorials.jenkov.com/javafx/webview.html">JavaFX WebView</a></strong> allows you to display a Web page within your application, but it is very likely to cause you to violate this constraint. If you decide to use that library, ensure the benefit is worth the increase in size (in particular, using it just to show an HTML view of the User Guide is not worth the increase in size it causes).</p></div></div> <div id="Constraint-PDF-Friendly"><h4 id="constraint-pdf-friendly"><span class="badge bg-warning text-dark text-monospace"><span aria-hidden="true" class="fas fa-ban"></span> Constraint-PDF-Friendly</span><a href="#constraint-pdf-friendly" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div class="indented-level2"><p>The DG and UG should be PDF-friendly. Don't use expandable panels, embedded videos, animated GIFs etc. <br></p> <p><span class="dimmed"><strong>Reason:</strong> The UG and DG used in the final grading will be in PDF format</span></p></div></div> <hr> <p><strong>In addition, you are strongly encouraged to follow these recommendations</strong> as they can help increase your project score.</p> <div id="Recommendation-Minimal-Network"><h4 id="recommendation-minimal-network"><span class="badge bg-info text-monospace"><span aria-hidden="true" class="far fa-thumbs-up"></span> Recommendation-Minimal-Network</span><a href="#recommendation-minimal-network" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div class="indented-level2"><p>It is OK to use a reliable public API <span class="dimmed">e.g., Google Search</span>, but we recommend that you have a fallback mechanism (e.g., able to load data using a data file if the network is down).<br> <span class="dimmed"><strong>Reason:</strong> During the mass peer-testing session, the network access can be intermittent due to high load. If your feature cannot be tested due to lack of Internet, that will have to be counted as a major bug, to be fair to those whose app is being tested and bugs found being penalized.</span><br> <mark>If you use NUS data</mark> (e.g., scrape data from an NUS website), please work with <a href="https://nusit.nus.edu.sg/contact/">NUS IT</a> directly to get their approval first. Even well-intentioned use of NUS data without approval can get you into serious trouble (has happened before). The teaching team will not be able to get approval for you as the use of NUS data is not a course requirement.</p></div></div> <div id="Recommendation-Testability"><h4 id="recommendation-testability"><span class="badge bg-info text-monospace"><span aria-hidden="true" class="far fa-thumbs-up"></span> Recommendation-Testability</span><a href="#recommendation-testability" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div class="indented-level2"><p>Avoid implementing hard-to-test (both for manual testing as well as automated testing) features or features that make your product hard-to-test.<br> <span class="dimmed"><strong>Reason</strong>: <mark><em>testability</em> is a grading criterion.</mark> If you choose to implement such a feature, you will need to spend an extra effort to reach an acceptable level of testability.</span>
 Here are some examples of features that are hard-to-test:</p> <ul><li>Features that depend heavily on remote APIs: Those APIs can block your access if they mistake your automated tests as a bot attack. Some remote APIs require setting up accounts, keys, login etc., that will irritate the testers of your product and give a low rating to the testability of your work.</li> <li>Audio-related features: The peer testing of your product is done under exam conditions where it is not appropriate to play audio.</li> <li>Features that require creating user accounts, login, logout etc.</li></ul></div></div> <div id="Recommendation-CLI-First"><h4 id="recommendation-cli-first"><span class="badge bg-info text-monospace"><span aria-hidden="true" class="far fa-thumbs-up"></span> Recommendation-CLI-First</span><a href="#recommendation-cli-first" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div class="indented-level2"><p>Following from the <em>Constraint-Typing-Preferred</em>, if the app is optimized for the target user (graded under the <em>product design</em> criterion), <mark>a user who can type fast should be able to accomplish most tasks faster via a command line interface (CLI), compared to a hypothetical GUI-only version of the app.</mark> <span class="dimmed">For example, adding a new entity via the CLI should be faster than entering the same data through a GUI form.</span><br>
 Therefore, the input to the app needs to be primarily CLI. <span tags="m--cs2103">The GUI is used primarily to give visual feedback to the user. This does not mean the app need to have a text UI (CLI is not the same as text UI) or it needs to work in a command console -- it simply means the input to the app should be a text command, which can even be entered using a GUI (similar to how AB3 does it).</span> While we don't prohibit non-CLI inputs (e.g., clicking of a button), note that such inputs will reduce the suitability of the product to target users. Therefore, give CLI alternatives to mouse/GUI inputs, if applicable.<br>
-Also keep in mind:</p> <ul><li>Regular typing is usually faster than using key combinations.</li> <li><span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span> are faster over <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span>. If you provide a multistep command to help new users, it is recommended that you also provide a one-shot equivalent for regular/expert users.<br></li></ul> <div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><p data-v-c545cba4><span class="badge rounded-pill bg-info" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="far fa-question" data-v-c545cba4></span> FAQ</span></span> <span data-v-c545cba4>Why not allow user to input the command one field at a time?</span></p></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <p></p></div></div> <div id="Recommendation-Realistic"><h4 id="recommendation-realistic"><span class="badge bg-info text-monospace"><span aria-hidden="true" class="far fa-thumbs-up"></span> Recommendation-Realistic</span><a href="#recommendation-realistic" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div class="indented-level2"><p>Keeping the target usage of the application 'realistic' can be helpful when making product design decisions later. For example, <em>a patient tracking app for a big hospital</em> is not realistic usage scenario because a big hospital is unlikely to use a small standalone desktop application for that purpose. However, it is more realistic for an independent home-based healthcare worker (e.g., a physical therapist) to use such an app to keep track of his/her patients.</p></div></div> <div class="alert box-container alert-warning" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><div class="icon-wrapper" data-v-474166ec><i class="fas fa-exclamation" data-v-474166ec></i></div> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec>If you are not sure if your product complies with a certain constraint/recommendation, please seek clarification by posting in the <a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" data-v-474166ec>forum</a> (preferred) or email prof.</p></div> <!----></div></div></div></div> <br> <p><span class="float-start algolia-no-index"><a href="/website/admin/tp-timeline.html" class="badge bg-light text-dark"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP: Timeline</span></a></span><span class="float-end algolia-no-index"><a href="/website/admin/tp-teams.html" class="badge bg-light text-dark"><span>tP: Forming Teams <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-e6005420><a class="nav-link py-1" href="#tp-constraints" data-v-e6005420>tP: Constraints ‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap" data-v-e6005420><a class="nav-link py-1" href="#constraint-brownfield" data-v-e6005420> Constraint-Brownfield‎</a> <a class="nav-link py-1" href="#constraint-typing-preferred" data-v-e6005420> Constraint-Typing-Preferred‎</a> <a class="nav-link py-1" href="#constraint-single-user" data-v-e6005420> Constraint-Single-User‎</a> <a class="nav-link py-1" href="#constraint-incremental" data-v-e6005420> Constraint-Incremental‎</a> <a class="nav-link py-1" href="#constraint-human-editable-file" data-v-e6005420> Constraint-Human-Editable-File‎</a> <a class="nav-link py-1" href="#constraint-no-dbms" data-v-e6005420> Constraint-No-DBMS‎</a> <a class="nav-link py-1" href="#constraint-oo" data-v-e6005420> Constraint-OO‎</a> <a class="nav-link py-1" href="#constraint-platform-independent" data-v-e6005420> Constraint-Platform-Independent‎</a> <a class="nav-link py-1" href="#constraint-java-version" data-v-e6005420> Constraint-Java-Version‎</a> <a class="nav-link py-1" href="#constraint-portable" data-v-e6005420> Constraint-Portable‎</a> <a class="nav-link py-1" href="#constraint-no-remote-server" data-v-e6005420> Constraint-No-Remote-Server‎</a> <a class="nav-link py-1" href="#constraint-external-software" data-v-e6005420> Constraint-External-Software‎</a> <a class="nav-link py-1" href="#constraint-screen-resolution" data-v-e6005420> Constraint-Screen-Resolution‎</a> <a class="nav-link py-1" href="#constraint-single-file" data-v-e6005420> Constraint-Single-File‎</a> <a class="nav-link py-1" href="#constraint-file-size" data-v-e6005420> Constraint-File-Size‎</a> <a class="nav-link py-1" href="#constraint-pdf-friendly" data-v-e6005420> Constraint-PDF-Friendly‎</a> <a class="nav-link py-1" href="#recommendation-minimal-network" data-v-e6005420> Recommendation-Minimal-Network‎</a> <a class="nav-link py-1" href="#recommendation-testability" data-v-e6005420> Recommendation-Testability‎</a> <a class="nav-link py-1" href="#recommendation-cli-first" data-v-e6005420> Recommendation-CLI-First‎</a> <a class="nav-link py-1" href="#recommendation-realistic" data-v-e6005420> Recommendation-Realistic‎</a></nav> <!----></nav></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.3</a>, generated on Fri, 14 Mar 2025, 18:43:55 GMT+8]</small></div></footer></div>
+Also keep in mind:</p> <ul><li>Regular typing is usually faster than using key combinations.</li> <li><span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span> are faster over <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span>. If you provide a multistep command to help new users, it is recommended that you also provide a one-shot equivalent for regular/expert users.<br></li></ul> <div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><p data-v-c545cba4><span class="badge rounded-pill bg-info" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="far fa-question" data-v-c545cba4></span> FAQ</span></span> <span data-v-c545cba4>Why not allow user to input the command one field at a time?</span></p></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <p></p></div></div> <div id="Recommendation-Realistic"><h4 id="recommendation-realistic"><span class="badge bg-info text-monospace"><span aria-hidden="true" class="far fa-thumbs-up"></span> Recommendation-Realistic</span><a href="#recommendation-realistic" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <div class="indented-level2"><p>Keeping the target usage of the application 'realistic' can be helpful when making product design decisions later. For example, <em>a patient tracking app for a big hospital</em> is not realistic usage scenario because a big hospital is unlikely to use a small standalone desktop application for that purpose. However, it is more realistic for an independent home-based healthcare worker (e.g., a physical therapist) to use such an app to keep track of his/her patients.</p></div></div> <div class="alert box-container alert-warning" data-v-474166ec><!----> <div class="header-and-body" data-v-474166ec><!----> <div class="box-body-wrapper" data-v-474166ec><div class="icon-wrapper" data-v-474166ec><i class="fas fa-exclamation" data-v-474166ec></i></div> <!----> <div class="contents" data-v-474166ec><p data-v-474166ec>If you are not sure if your product complies with a certain constraint/recommendation, please seek clarification by posting in the <a href="https://github.com/nus-cs2103-AY2425S2/forum/issues" data-v-474166ec>forum</a> (preferred) or email prof.</p></div> <!----></div></div></div></div> <br> <p><span class="float-start algolia-no-index"><a href="/website/admin/tp-timeline.html" class="badge bg-light text-dark"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> tP: Timeline</span></a></span><span class="float-end algolia-no-index"><a href="/website/admin/tp-teams.html" class="badge bg-light text-dark"><span>tP: Forming Teams <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-e6005420><a class="nav-link py-1" href="#tp-constraints" data-v-e6005420>tP: Constraints ‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap" data-v-e6005420><a class="nav-link py-1" href="#constraint-brownfield" data-v-e6005420> Constraint-Brownfield‎</a> <a class="nav-link py-1" href="#constraint-typing-preferred" data-v-e6005420> Constraint-Typing-Preferred‎</a> <a class="nav-link py-1" href="#constraint-single-user" data-v-e6005420> Constraint-Single-User‎</a> <a class="nav-link py-1" href="#constraint-incremental" data-v-e6005420> Constraint-Incremental‎</a> <a class="nav-link py-1" href="#constraint-human-editable-file" data-v-e6005420> Constraint-Human-Editable-File‎</a> <a class="nav-link py-1" href="#constraint-no-dbms" data-v-e6005420> Constraint-No-DBMS‎</a> <a class="nav-link py-1" href="#constraint-oo" data-v-e6005420> Constraint-OO‎</a> <a class="nav-link py-1" href="#constraint-platform-independent" data-v-e6005420> Constraint-Platform-Independent‎</a> <a class="nav-link py-1" href="#constraint-java-version" data-v-e6005420> Constraint-Java-Version‎</a> <a class="nav-link py-1" href="#constraint-portable" data-v-e6005420> Constraint-Portable‎</a> <a class="nav-link py-1" href="#constraint-no-remote-server" data-v-e6005420> Constraint-No-Remote-Server‎</a> <a class="nav-link py-1" href="#constraint-external-software" data-v-e6005420> Constraint-External-Software‎</a> <a class="nav-link py-1" href="#constraint-screen-resolution" data-v-e6005420> Constraint-Screen-Resolution‎</a> <a class="nav-link py-1" href="#constraint-single-file" data-v-e6005420> Constraint-Single-File‎</a> <a class="nav-link py-1" href="#constraint-file-size" data-v-e6005420> Constraint-File-Size‎</a> <a class="nav-link py-1" href="#constraint-pdf-friendly" data-v-e6005420> Constraint-PDF-Friendly‎</a> <a class="nav-link py-1" href="#recommendation-minimal-network" data-v-e6005420> Recommendation-Minimal-Network‎</a> <a class="nav-link py-1" href="#recommendation-testability" data-v-e6005420> Recommendation-Testability‎</a> <a class="nav-link py-1" href="#recommendation-cli-first" data-v-e6005420> Recommendation-CLI-First‎</a> <a class="nav-link py-1" href="#recommendation-realistic" data-v-e6005420> Recommendation-Realistic‎</a></nav> <!----></nav></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.6.0</a>, generated on Tue, 18 Mar 2025, 19:43:48 GMT+8]</small></div></footer></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/website/markbind/js/polyfill.min.js"></script>
 <script src="/website/markbind/js/vue.min.js"></script>
@@ -69,6 +69,7 @@ Also keep in mind:</p> <ul><li>Regular typing is usually faster than using key c
     function copyCodeBlock(element) {
         const pre = element.parentElement.parentElement;
         const codeElement = pre.querySelector('code');
+        const copyButton = element;
 
         // create dummy text element to select() the text field
         const textElement = document.createElement('textarea');
@@ -78,6 +79,33 @@ Also keep in mind:</p> <ul><li>Regular typing is usually faster than using key c
 
         document.execCommand('copy');
         document.body.removeChild(textElement);
+        copyButton.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        setTimeout(() => {
+            copyButton.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+        }, 3000);
     }
     </script>
     <script>
@@ -113,33 +141,152 @@ Also keep in mind:</p> <ul><li>Regular typing is usually faster than using key c
       return options;
     }
 
-    Vue.directive('datatable', {
-      inserted: function(el, binding) {
-        const options = binding.value || {};
-        const tableOptions = getTableOptions(el);
-        $(el).DataTable({ ...tableOptions, ...options });
-      }
-    });
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
 
     document.addEventListener('DOMContentLoaded', function() {
-      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
-        const options = getTableOptions(this);
-        $(this).DataTable(options);
-      });
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
     });
+
   </script>
 
     <script type="module">
-    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
-    document.addEventListener('DOMContentLoaded', () => {
-      mermaid.initialize({});
-      Vue.directive('mermaid', {
-        inserted: function(el) {
-          mermaid.run({
-            nodes: [el]
+    window.mermaidPromise = null;
+    
+    const loadMermaid = () => {
+      if (window.mermaidPromise === null) {
+        window.mermaidPromise = import('https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs')
+          .then(({ default: mermaid }) => {
+            mermaid.initialize({
+              startOnLoad: false,
+            });
+            console.log('Mermaid loaded successfully');
+            return mermaid;
+          })
+          .catch((error) => {
+            console.error('Mermaid failed to load:', error);
+            window.mermaidPromise = false;
+            return null;
           });
+      }
+      return window.mermaidPromise;
+    };
+
+    const renderMermaidDiagrams = (elements) => {
+      if (!elements || elements.length === 0) {
+        return Promise.resolve();
+      }
+
+      return loadMermaid().then(mermaid => {
+        if (!mermaid) return;
+        return mermaid.run({ nodes: Array.from(elements) })
+          .catch(err => console.error('Error rendering mermaid diagrams:', err));
+      });
+    };
+
+    const setupMermaidObserver = () => {
+      const observer = new MutationObserver((mutations) => {
+        let newMermaidElements = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+              if (node.nodeType === 1 && node.classList && 
+                  node.classList.contains('mermaid')) {
+                newMermaidElements.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const mermaidInNode = node.querySelectorAll('.mermaid');
+                if (mermaidInNode.length) {
+                  newMermaidElements = [...newMermaidElements, ...mermaidInNode];
+                }
+              }
+            });
+          }
+        });
+        
+        if (newMermaidElements.length > 0) {
+          renderMermaidDiagrams(newMermaidElements);
         }
       });
+      
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    };
+
+    // Initialize on DOM content loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      const existingDiagrams = document.querySelectorAll('.mermaid');
+      if (existingDiagrams.length > 0) {
+        renderMermaidDiagrams(existingDiagrams);
+      }
+      
+      setupMermaidObserver();
     });
+
   </script>
 </html>

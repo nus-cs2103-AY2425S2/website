@@ -1,0 +1,43 @@
+2025-03-16T14:24:48.716Z - info: Website generation (lazy) started at 22:24:47
+2025-03-16T14:24:49.013Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-16T14:24:49.013Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-16T14:24:49.032Z - info: Building assets...
+2025-03-16T14:24:50.456Z - info: Assets built
+2025-03-16T14:24:50.456Z - info: Generating landing page...
+2025-03-16T14:24:50.846Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-16T14:24:50.920Z - info: Site data built
+2025-03-16T14:24:50.920Z - info: Website generation (lazy) complete! Total build time: 3.118s
+2025-03-16T14:24:50.930Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-16T14:24:50.930Z - info: Press CTRL+C to stop ...
+2025-03-16T14:25:07.511Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index as some of its dependencies were changed since the last visit
+2025-03-16T14:25:07.668Z - info: Site data built
+2025-03-16T14:25:07.668Z - info: Lazy website regeneration complete! Total build time: 0.158s
+2025-03-16T14:25:12.154Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/projectDuke/index as some of its dependencies were changed since the last visit
+2025-03-16T14:25:12.383Z - info: Site data built
+2025-03-16T14:25:12.383Z - info: Lazy website regeneration complete! Total build time: 0.229s
+2025-03-16T14:31:27.992Z - info: [22:31:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/text.md
+2025-03-16T14:31:28.009Z - info: Synchronizing opened pages list before reload
+2025-03-16T14:31:28.027Z - info: No pages are currently opened
+2025-03-16T14:31:28.090Z - info: [22:31:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/text.md
+2025-03-16T14:31:28.090Z - info: Synchronizing opened pages list before reload
+2025-03-16T14:31:28.090Z - info: No pages are currently opened
+2025-03-16T14:31:29.050Z - info: No pages needed to be rebuilt
+2025-03-16T14:31:37.077Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/projectDuke/index as some of its dependencies were changed since the last visit
+2025-03-16T14:31:37.334Z - info: Site data built
+2025-03-16T14:31:37.334Z - info: Lazy website regeneration complete! Total build time: 0.258s
+2025-03-16T14:31:50.526Z - info: [22:31:50] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/text.md
+2025-03-16T14:31:50.527Z - info: Synchronizing opened pages list before reload
+2025-03-16T14:31:50.527Z - info: Current opened pages, from most-to-least recent:
+2025-03-16T14:31:50.527Z - info: 1. se-book-adapted/projectDuke/index
+2025-03-16T14:31:51.536Z - info: Rebuilding 1 pages
+2025-03-16T14:31:51.787Z - info: Site data built
+2025-03-16T14:31:51.787Z - info: Pages rebuilt
+2025-03-16T14:31:51.787Z - info: Website regeneration complete! Total build time: 0.253s
+2025-03-16T14:32:00.924Z - info: [22:32:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/text.md
+2025-03-16T14:32:00.925Z - info: Synchronizing opened pages list before reload
+2025-03-16T14:32:00.925Z - info: Current opened pages, from most-to-least recent:
+2025-03-16T14:32:00.925Z - info: 1. se-book-adapted/projectDuke/index
+2025-03-16T14:32:01.935Z - info: Rebuilding 1 pages
+2025-03-16T14:32:02.163Z - info: Site data built
+2025-03-16T14:32:02.163Z - info: Pages rebuilt
+2025-03-16T14:32:02.163Z - info: Website regeneration complete! Total build time: 0.23s
