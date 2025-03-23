@@ -40,3 +40,41 @@
 2025-03-23T06:31:16.519Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-03-23T06:31:16.520Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-03-23T06:31:16.539Z - info: Building assets...
+2025-03-23T06:31:17.851Z - info: Assets built
+2025-03-23T06:31:17.851Z - info: Generating pages...
+2025-03-23T06:31:25.690Z - debug:  
+2025-03-23T06:31:25.690Z - debug:  
+2025-03-23T06:31:25.690Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.691Z - debug:  
+2025-03-23T06:31:25.692Z - debug:  
+2025-03-23T06:31:25.692Z - debug: 2025-03-23 14:31:21.925 java[48197:964552] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-23 14:31:21.925 java[48197:964552] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-23T06:31:26.348Z - debug: 2025-03-23 14:31:25.991 java[48235:965363] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-23 14:31:25.991 java[48235:965363] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-23T06:31:35.447Z - debug: 2025-03-23 14:31:35.108 java[48258:965684] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-23 14:31:35.108 java[48258:965684] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-23T06:32:17.893Z - debug: 2025-03-23 14:32:17.536 java[48321:967003] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-23 14:32:17.536 java[48321:967003] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-23T06:32:31.185Z - debug: 2025-03-23 14:32:30.393 java[48333:967353] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-23 14:32:30.393 java[48333:967353] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-03-23T06:32:31.206Z - debug:  
+2025-03-23T06:32:38.304Z - info: Pages built
+2025-03-23T06:32:38.373Z - info: Site data built
+2025-03-23T06:32:38.373Z - info: Website generation complete! Total build time: 82.519s
+2025-03-23T06:32:38.373Z - info: Build success!
+2025-03-23T06:33:00.329Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
