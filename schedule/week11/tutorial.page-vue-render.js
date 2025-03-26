@@ -23,6 +23,6 @@ with(this){return _c('ul',[_c('li',[_v("Do the following exercise similar to the
 with(this){return _c('ol',[_c('li',[_v("Does AB3 use the "),_c('em',[_v("MVC")]),_v(" pattern?")]),_v(" "),_c('li',[_v("Does AB3 use the "),_c('em',[_v("Observer")]),_v(" pattern?")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 24 Mar 2025, 1:25:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Wed, 26 Mar 2025, 12:25:11 GMT+8]")])])])}
 }];
   
