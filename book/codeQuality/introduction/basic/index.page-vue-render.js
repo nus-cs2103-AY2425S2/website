@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"what"}},[_c('span',[_v("What")
 with(this){return _c('blockquote',[_c('p',[_c('span',[_c('span',{staticClass:"fas fa-quote-left",attrs:{"aria-hidden":"true"}})]),_v(" Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live. "),_c('span',[_c('span',{staticClass:"fas fa-quote-right",attrs:{"aria-hidden":"true"}})]),_v(" "),_c('sub',[_v("-- Martin Golding")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 27 Mar 2025, 20:08:17 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 27 Mar 2025, 21:52:21 GMT+8]")])])])}
 }];
   
