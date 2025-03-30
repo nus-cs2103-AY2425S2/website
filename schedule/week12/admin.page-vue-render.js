@@ -50,6 +50,6 @@ with(this){return _c('span',{staticClass:"badge bg-secondary  font-weight-normal
 with(this){return _c('div',[_c('ul',[_c('li',[_v("Submit this quiz (on Canvas) to confirm that you know important details about the PE.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 28 Mar 2025, 17:56:45 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Sun, 30 Mar 2025, 20:07:06 GMT+8]")])])])}
 }];
   
