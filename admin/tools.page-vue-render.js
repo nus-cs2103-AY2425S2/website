@@ -119,7 +119,7 @@ with(this){return _c('li',[_v("Go to the "),_c('a',{attrs:{"href":"/website/admi
 with(this){return _c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})])}
 },function anonymous(
 ) {
-with(this){return _c('li',[_v("You can switch the view from "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Currently active")]),_v(" to "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("All contributions")]),_v(" to view all issues/PRs contributed by each member for the entire project.")])}
+with(this){return _c('li',[_v("You can switch the view from "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Currently active")]),_v(" to "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Contributions")]),_v(" to view all issues/PRs contributed by each member for the entire project.")])}
 },function anonymous(
 ) {
 with(this){return _c('li',[_v("The filters at the top of the dashboard can be used to tweak the view further."),_c('br'),_v(" "),_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" The page URL changes to match the view, which means you can share/bookmark the current view using the current URL of your Browser.")])}
@@ -128,6 +128,6 @@ with(this){return _c('li',[_v("The filters at the top of the dashboard can be us
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/peerEvaluations.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Peer Evaluations")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/exams.html"}},[_c('span',[_v("Exams "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 31 Mar 2025, 23:45:36 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 1 Apr 2025, 0:42:48 GMT+8]")])])])}
 }];
   
