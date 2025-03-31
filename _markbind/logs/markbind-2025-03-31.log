@@ -1,0 +1,398 @@
+2025-03-31T13:28:45.237Z - info: Website generation (lazy) started at 21:28:43
+2025-03-31T13:28:45.554Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-31T13:28:45.554Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-31T13:28:45.573Z - info: Building assets...
+2025-03-31T13:28:47.644Z - info: Assets built
+2025-03-31T13:28:47.644Z - info: Generating landing page...
+2025-03-31T13:28:48.273Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-03-31T13:28:48.338Z - info: Site data built
+2025-03-31T13:28:48.338Z - info: Website generation (lazy) complete! Total build time: 4.724s
+2025-03-31T13:28:48.349Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-03-31T13:28:48.349Z - info: Press CTRL+C to stop ...
+2025-03-31T13:28:54.632Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList as some of its dependencies were changed since the last visit
+2025-03-31T13:28:55.258Z - info: Site data built
+2025-03-31T13:28:55.258Z - info: Lazy website regeneration complete! Total build time: 0.627s
+2025-03-31T13:30:34.400Z - info: [21:30:34] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:30:34.401Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:30:34.403Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:30:34.404Z - info: 1. admin/teamList
+2025-03-31T13:30:35.414Z - info: Rebuilding 1 pages
+2025-03-31T13:30:35.988Z - info: Site data built
+2025-03-31T13:30:35.988Z - info: Pages rebuilt
+2025-03-31T13:30:35.989Z - info: Website regeneration complete! Total build time: 0.578s
+2025-03-31T13:31:10.911Z - info: [21:31:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:31:10.911Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:31:10.914Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:31:10.915Z - info: 1. admin/teamList
+2025-03-31T13:31:11.927Z - info: Rebuilding 1 pages
+2025-03-31T13:31:12.503Z - info: Site data built
+2025-03-31T13:31:12.503Z - info: Pages rebuilt
+2025-03-31T13:31:12.503Z - info: Website regeneration complete! Total build time: 0.58s
+2025-03-31T13:31:31.987Z - info: [21:31:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:31:31.987Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:31:31.987Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:31:31.987Z - info: 1. admin/teamList
+2025-03-31T13:31:32.991Z - info: Rebuilding 1 pages
+2025-03-31T13:31:33.570Z - info: Site data built
+2025-03-31T13:31:33.570Z - info: Pages rebuilt
+2025-03-31T13:31:33.570Z - info: Website regeneration complete! Total build time: 0.581s
+2025-03-31T13:32:07.908Z - info: [21:32:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:32:07.911Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:32:07.911Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:32:07.912Z - info: 1. admin/teamList
+2025-03-31T13:32:08.929Z - info: Rebuilding 1 pages
+2025-03-31T13:32:09.500Z - info: Site data built
+2025-03-31T13:32:09.500Z - info: Pages rebuilt
+2025-03-31T13:32:09.500Z - info: Website regeneration complete! Total build time: 0.574s
+2025-03-31T13:33:16.708Z - info: [21:33:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:33:16.725Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:33:16.726Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:33:16.726Z - info: 1. admin/teamList
+2025-03-31T13:33:17.734Z - info: Rebuilding 1 pages
+2025-03-31T13:33:18.321Z - info: Site data built
+2025-03-31T13:33:18.321Z - info: Pages rebuilt
+2025-03-31T13:33:18.321Z - info: Website regeneration complete! Total build time: 0.591s
+2025-03-31T13:35:17.401Z - info: [21:35:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:35:17.402Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:35:17.402Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:35:17.403Z - info: 1. admin/teamList
+2025-03-31T13:35:18.413Z - info: Rebuilding 1 pages
+2025-03-31T13:35:18.924Z - info: Site data built
+2025-03-31T13:35:18.924Z - info: Pages rebuilt
+2025-03-31T13:35:18.924Z - info: Website regeneration complete! Total build time: 0.512s
+2025-03-31T13:35:53.832Z - info: [21:35:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T13:35:53.833Z - info: Synchronizing opened pages list before reload
+2025-03-31T13:35:53.833Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T13:35:53.833Z - info: 1. admin/teamList
+2025-03-31T13:35:54.837Z - info: Rebuilding 1 pages
+2025-03-31T13:35:55.399Z - info: Site data built
+2025-03-31T13:35:55.399Z - info: Pages rebuilt
+2025-03-31T13:35:55.399Z - info: Website regeneration complete! Total build time: 0.564s
+2025-03-31T14:13:11.509Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools as some of its dependencies were changed since the last visit
+2025-03-31T14:13:11.776Z - info: Site data built
+2025-03-31T14:13:11.776Z - info: Lazy website regeneration complete! Total build time: 0.269s
+2025-03-31T14:37:51.175Z - info: [22:37:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:37:51.176Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:37:51.178Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:37:51.179Z - info: 1. admin/tools
+2025-03-31T14:37:52.191Z - info: Rebuilding 1 pages
+2025-03-31T14:37:52.383Z - info: Site data built
+2025-03-31T14:37:52.383Z - info: Pages rebuilt
+2025-03-31T14:37:52.383Z - info: Website regeneration complete! Total build time: 0.196s
+2025-03-31T14:38:03.476Z - info: [22:38:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:38:03.476Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:38:03.476Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:38:03.476Z - info: 1. admin/tools
+2025-03-31T14:38:04.487Z - info: Rebuilding 1 pages
+2025-03-31T14:38:04.688Z - info: Site data built
+2025-03-31T14:38:04.688Z - info: Pages rebuilt
+2025-03-31T14:38:04.688Z - info: Website regeneration complete! Total build time: 0.204s
+2025-03-31T14:38:12.476Z - info: [22:38:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:38:12.476Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:38:12.476Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:38:12.476Z - info: 1. admin/tools
+2025-03-31T14:38:13.478Z - info: Rebuilding 1 pages
+2025-03-31T14:38:13.651Z - info: Site data built
+2025-03-31T14:38:13.651Z - info: Pages rebuilt
+2025-03-31T14:38:13.651Z - info: Website regeneration complete! Total build time: 0.174s
+2025-03-31T14:40:02.287Z - info: [22:40:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:40:02.287Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:40:02.288Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:40:02.288Z - info: 1. admin/tools
+2025-03-31T14:40:03.305Z - info: Rebuilding 1 pages
+2025-03-31T14:40:03.495Z - info: Site data built
+2025-03-31T14:40:03.495Z - info: Pages rebuilt
+2025-03-31T14:40:03.495Z - info: Website regeneration complete! Total build time: 0.194s
+2025-03-31T14:40:16.328Z - info: [22:40:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:40:16.328Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:40:16.329Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:40:16.329Z - info: 1. admin/tools
+2025-03-31T14:40:17.335Z - info: Rebuilding 1 pages
+2025-03-31T14:40:17.486Z - info: Site data built
+2025-03-31T14:40:17.486Z - info: Pages rebuilt
+2025-03-31T14:40:17.486Z - info: Website regeneration complete! Total build time: 0.155s
+2025-03-31T14:40:26.765Z - info: [22:40:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:40:26.766Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:40:26.766Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:40:26.766Z - info: 1. admin/tools
+2025-03-31T14:40:27.775Z - info: Rebuilding 1 pages
+2025-03-31T14:40:27.957Z - info: Site data built
+2025-03-31T14:40:27.957Z - info: Pages rebuilt
+2025-03-31T14:40:27.957Z - info: Website regeneration complete! Total build time: 0.185s
+2025-03-31T14:43:14.833Z - info: [22:43:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:43:14.834Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:43:14.834Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:43:14.835Z - info: 1. admin/tools
+2025-03-31T14:43:15.841Z - info: Rebuilding 1 pages
+2025-03-31T14:43:16.042Z - info: Site data built
+2025-03-31T14:43:16.042Z - info: Pages rebuilt
+2025-03-31T14:43:16.042Z - info: Website regeneration complete! Total build time: 0.204s
+2025-03-31T14:45:06.484Z - info: [22:45:06] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:45:06.486Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:45:06.486Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:45:06.487Z - info: 1. admin/tools
+2025-03-31T14:45:07.500Z - info: Rebuilding 1 pages
+2025-03-31T14:45:07.709Z - info: Site data built
+2025-03-31T14:45:07.709Z - info: Pages rebuilt
+2025-03-31T14:45:07.709Z - info: Website regeneration complete! Total build time: 0.215s
+2025-03-31T14:45:37.079Z - info: [22:45:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:45:37.080Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:45:37.080Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:45:37.080Z - info: 1. admin/tools
+2025-03-31T14:45:38.085Z - info: Rebuilding 1 pages
+2025-03-31T14:45:38.311Z - info: Site data built
+2025-03-31T14:45:38.311Z - info: Pages rebuilt
+2025-03-31T14:45:38.311Z - info: Website regeneration complete! Total build time: 0.228s
+2025-03-31T14:46:31.500Z - info: [22:46:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T14:46:31.503Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:46:31.503Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:46:31.503Z - info: 1. admin/tools
+2025-03-31T14:46:32.519Z - info: Rebuilding 1 pages
+2025-03-31T14:46:32.733Z - info: Site data built
+2025-03-31T14:46:32.733Z - info: Pages rebuilt
+2025-03-31T14:46:32.733Z - info: Website regeneration complete! Total build time: 0.217s
+2025-03-31T14:58:57.812Z - info: [22:58:57] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/images/WATcher-dashboard.png
+2025-03-31T14:58:57.817Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:58:57.818Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:58:57.818Z - info: 1. admin/teamList
+2025-03-31T14:58:57.818Z - info: 2. admin/tools
+2025-03-31T14:58:59.048Z - info: Assets built
+2025-03-31T14:59:32.360Z - info: [22:59:32] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/images/WATcher-authorization.png
+2025-03-31T14:59:32.361Z - info: Synchronizing opened pages list before reload
+2025-03-31T14:59:32.361Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T14:59:32.361Z - info: 1. admin/teamList
+2025-03-31T14:59:32.361Z - info: 2. admin/tools
+2025-03-31T14:59:33.455Z - info: Assets built
+2025-03-31T15:01:24.003Z - info: [23:01:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:01:24.008Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:01:24.010Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:01:24.011Z - info: 1. admin/teamList
+2025-03-31T15:01:24.011Z - info: 2. admin/tools
+2025-03-31T15:01:25.038Z - info: Rebuilding 1 pages
+2025-03-31T15:01:25.251Z - info: Site data built
+2025-03-31T15:01:25.251Z - info: Pages rebuilt
+2025-03-31T15:01:25.251Z - info: Website regeneration complete! Total build time: 0.228s
+2025-03-31T15:02:28.522Z - info: [23:02:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:02:28.522Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:02:28.523Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:02:28.523Z - info: 1. admin/teamList
+2025-03-31T15:02:29.533Z - info: No pages needed to be rebuilt
+2025-03-31T15:02:37.447Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools as some of its dependencies were changed since the last visit
+2025-03-31T15:02:37.663Z - info: Site data built
+2025-03-31T15:02:37.663Z - info: Lazy website regeneration complete! Total build time: 0.217s
+2025-03-31T15:03:00.664Z - info: [23:03:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:03:00.665Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:03:00.666Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:03:00.666Z - info: 1. admin/teamList
+2025-03-31T15:03:00.666Z - info: 2. admin/tools
+2025-03-31T15:03:01.671Z - info: Rebuilding 1 pages
+2025-03-31T15:03:01.873Z - info: Site data built
+2025-03-31T15:03:01.873Z - info: Pages rebuilt
+2025-03-31T15:03:01.873Z - info: Website regeneration complete! Total build time: 0.205s
+2025-03-31T15:04:43.844Z - info: [23:04:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:04:43.846Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:04:43.846Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:04:43.846Z - info: 1. admin/teamList
+2025-03-31T15:04:43.847Z - info: 2. admin/tools
+2025-03-31T15:04:44.853Z - info: Rebuilding 1 pages
+2025-03-31T15:04:45.060Z - info: Site data built
+2025-03-31T15:04:45.060Z - info: Pages rebuilt
+2025-03-31T15:04:45.060Z - info: Website regeneration complete! Total build time: 0.209s
+2025-03-31T15:04:53.115Z - info: [23:04:53] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:04:53.115Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:04:53.115Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:04:53.115Z - info: 1. admin/teamList
+2025-03-31T15:04:53.115Z - info: 2. admin/tools
+2025-03-31T15:04:54.129Z - info: Rebuilding 1 pages
+2025-03-31T15:04:54.326Z - info: Site data built
+2025-03-31T15:04:54.326Z - info: Pages rebuilt
+2025-03-31T15:04:54.326Z - info: Website regeneration complete! Total build time: 0.2s
+2025-03-31T15:07:02.540Z - info: [23:07:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:07:02.540Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:07:02.540Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:07:02.540Z - info: 1. admin/teamList
+2025-03-31T15:07:02.540Z - info: 2. admin/tools
+2025-03-31T15:07:03.543Z - info: Rebuilding 1 pages
+2025-03-31T15:07:03.777Z - info: Site data built
+2025-03-31T15:07:03.777Z - info: Pages rebuilt
+2025-03-31T15:07:03.777Z - info: Website regeneration complete! Total build time: 0.236s
+2025-03-31T15:13:40.127Z - info: [23:13:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:13:40.136Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:13:40.137Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:13:40.137Z - info: 1. admin/teamList
+2025-03-31T15:13:40.137Z - info: 2. admin/tools
+2025-03-31T15:13:41.157Z - info: Rebuilding 1 pages
+2025-03-31T15:13:41.340Z - info: Site data built
+2025-03-31T15:13:41.340Z - info: Pages rebuilt
+2025-03-31T15:13:41.340Z - info: Website regeneration complete! Total build time: 0.186s
+2025-03-31T15:14:11.779Z - info: [23:14:11] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:14:11.782Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:14:11.786Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:14:11.789Z - info: 1. admin/tools
+2025-03-31T15:14:12.803Z - info: Rebuilding 1 pages
+2025-03-31T15:14:13.033Z - info: Site data built
+2025-03-31T15:14:13.033Z - info: Pages rebuilt
+2025-03-31T15:14:13.033Z - info: Website regeneration complete! Total build time: 0.238s
+2025-03-31T15:15:39.056Z - info: [23:15:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:15:39.058Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:15:39.062Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:15:39.062Z - info: 1. admin/teamList
+2025-03-31T15:15:39.063Z - info: 2. admin/tools
+2025-03-31T15:15:40.085Z - info: Rebuilding 1 pages
+2025-03-31T15:15:40.359Z - info: Site data built
+2025-03-31T15:15:40.359Z - info: Pages rebuilt
+2025-03-31T15:15:40.359Z - info: Website regeneration complete! Total build time: 0.277s
+2025-03-31T15:16:52.071Z - info: [23:16:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/images/WATcher-dashboard.png
+2025-03-31T15:16:52.072Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:16:52.072Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:16:52.072Z - info: 1. admin/teamList
+2025-03-31T15:16:52.072Z - info: 2. admin/tools
+2025-03-31T15:16:53.083Z - info: Assets built
+2025-03-31T15:20:36.924Z - info: [23:20:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:20:36.926Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:20:36.926Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:20:36.927Z - info: 1. admin/teamList
+2025-03-31T15:20:36.927Z - info: 2. admin/tools
+2025-03-31T15:20:38.170Z - info: Rebuilding 1 pages
+2025-03-31T15:20:38.399Z - info: Site data built
+2025-03-31T15:20:38.399Z - info: Pages rebuilt
+2025-03-31T15:20:38.399Z - info: Website regeneration complete! Total build time: 0.258s
+2025-03-31T15:21:00.135Z - info: [23:21:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:21:00.137Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:21:00.138Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:21:00.138Z - info: 1. admin/teamList
+2025-03-31T15:21:00.138Z - info: 2. admin/tools
+2025-03-31T15:21:01.143Z - info: Rebuilding 1 pages
+2025-03-31T15:21:01.346Z - info: Site data built
+2025-03-31T15:21:01.346Z - info: Pages rebuilt
+2025-03-31T15:21:01.346Z - info: Website regeneration complete! Total build time: 0.206s
+2025-03-31T15:21:07.686Z - info: [23:21:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:21:07.687Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:21:07.687Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:21:07.687Z - info: 1. admin/teamList
+2025-03-31T15:21:07.687Z - info: 2. admin/tools
+2025-03-31T15:21:08.691Z - info: Rebuilding 1 pages
+2025-03-31T15:21:08.853Z - info: Site data built
+2025-03-31T15:21:08.853Z - info: Pages rebuilt
+2025-03-31T15:21:08.853Z - info: Website regeneration complete! Total build time: 0.164s
+2025-03-31T15:21:17.213Z - info: [23:21:17] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:21:17.214Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:21:17.214Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:21:17.214Z - info: 1. admin/teamList
+2025-03-31T15:21:17.214Z - info: 2. admin/tools
+2025-03-31T15:21:18.230Z - info: Rebuilding 1 pages
+2025-03-31T15:21:18.433Z - info: Site data built
+2025-03-31T15:21:18.433Z - info: Pages rebuilt
+2025-03-31T15:21:18.433Z - info: Website regeneration complete! Total build time: 0.206s
+2025-03-31T15:21:39.939Z - info: [23:21:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:21:39.939Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:21:39.939Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:21:39.939Z - info: 1. admin/teamList
+2025-03-31T15:21:39.939Z - info: 2. admin/tools
+2025-03-31T15:21:40.960Z - info: Rebuilding 1 pages
+2025-03-31T15:21:41.159Z - info: Site data built
+2025-03-31T15:21:41.159Z - info: Pages rebuilt
+2025-03-31T15:21:41.159Z - info: Website regeneration complete! Total build time: 0.2s
+2025-03-31T15:21:58.202Z - info: [23:21:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:21:58.202Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:21:58.202Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:21:58.202Z - info: 1. admin/teamList
+2025-03-31T15:21:58.202Z - info: 2. admin/tools
+2025-03-31T15:21:59.213Z - info: Rebuilding 1 pages
+2025-03-31T15:21:59.412Z - info: Site data built
+2025-03-31T15:21:59.412Z - info: Pages rebuilt
+2025-03-31T15:21:59.412Z - info: Website regeneration complete! Total build time: 0.201s
+2025-03-31T15:22:35.223Z - info: [23:22:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:22:35.225Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:22:35.225Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:22:35.225Z - info: 1. admin/teamList
+2025-03-31T15:22:35.225Z - info: 2. admin/tools
+2025-03-31T15:22:36.229Z - info: Rebuilding 1 pages
+2025-03-31T15:22:36.426Z - info: Site data built
+2025-03-31T15:22:36.426Z - info: Pages rebuilt
+2025-03-31T15:22:36.426Z - info: Website regeneration complete! Total build time: 0.199s
+2025-03-31T15:23:37.810Z - info: [23:23:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:23:37.814Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:23:37.815Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:23:37.815Z - info: 1. admin/teamList
+2025-03-31T15:23:37.815Z - info: 2. admin/tools
+2025-03-31T15:23:38.829Z - info: Rebuilding 1 pages
+2025-03-31T15:23:39.035Z - info: Site data built
+2025-03-31T15:23:39.035Z - info: Pages rebuilt
+2025-03-31T15:23:39.035Z - info: Website regeneration complete! Total build time: 0.212s
+2025-03-31T15:24:13.665Z - info: [23:24:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:24:13.666Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:24:13.666Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:24:13.666Z - info: 1. admin/teamList
+2025-03-31T15:24:13.666Z - info: 2. admin/tools
+2025-03-31T15:24:14.675Z - info: Rebuilding 1 pages
+2025-03-31T15:24:14.881Z - info: Site data built
+2025-03-31T15:24:14.881Z - info: Pages rebuilt
+2025-03-31T15:24:14.881Z - info: Website regeneration complete! Total build time: 0.208s
+2025-03-31T15:25:04.140Z - info: [23:25:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:25:04.140Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:25:04.141Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:25:04.142Z - info: 1. admin/tools
+2025-03-31T15:25:05.150Z - info: Rebuilding 1 pages
+2025-03-31T15:25:05.349Z - info: Site data built
+2025-03-31T15:25:05.349Z - info: Pages rebuilt
+2025-03-31T15:25:05.349Z - info: Website regeneration complete! Total build time: 0.201s
+2025-03-31T15:25:49.370Z - info: [23:25:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:25:49.370Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:25:49.370Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:25:49.371Z - info: 1. admin/tools
+2025-03-31T15:25:50.381Z - info: Rebuilding 1 pages
+2025-03-31T15:25:50.584Z - info: Site data built
+2025-03-31T15:25:50.584Z - info: Pages rebuilt
+2025-03-31T15:25:50.584Z - info: Website regeneration complete! Total build time: 0.206s
+2025-03-31T15:26:28.860Z - info: [23:26:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:26:28.861Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:26:28.861Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:26:28.861Z - info: 1. admin/tools
+2025-03-31T15:26:29.875Z - info: Rebuilding 1 pages
+2025-03-31T15:26:30.070Z - info: Site data built
+2025-03-31T15:26:30.070Z - info: Pages rebuilt
+2025-03-31T15:26:30.070Z - info: Website regeneration complete! Total build time: 0.196s
+2025-03-31T15:26:59.628Z - info: [23:26:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:26:59.629Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:26:59.629Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:26:59.629Z - info: 1. admin/teamList
+2025-03-31T15:26:59.630Z - info: 2. admin/tools
+2025-03-31T15:27:00.635Z - info: Rebuilding 1 pages
+2025-03-31T15:27:00.844Z - info: Site data built
+2025-03-31T15:27:00.844Z - info: Pages rebuilt
+2025-03-31T15:27:00.844Z - info: Website regeneration complete! Total build time: 0.213s
+2025-03-31T15:29:12.761Z - info: [23:29:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2025-03-31T15:29:12.762Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:29:12.763Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:29:12.763Z - info: 1. admin/tools
+2025-03-31T15:29:13.769Z - info: No pages needed to be rebuilt
+2025-03-31T15:29:15.760Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList as some of its dependencies were changed since the last visit
+2025-03-31T15:29:16.306Z - info: Site data built
+2025-03-31T15:29:16.306Z - info: Lazy website regeneration complete! Total build time: 0.547s
+2025-03-31T15:32:08.650Z - info: [23:32:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:32:08.654Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:32:08.656Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:32:08.657Z - info: 1. admin/teamList
+2025-03-31T15:32:09.667Z - info: No pages needed to be rebuilt
+2025-03-31T15:32:45.104Z - info: [23:32:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:32:45.104Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:32:45.104Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:32:45.104Z - info: 1. admin/teamList
+2025-03-31T15:32:46.109Z - info: No pages needed to be rebuilt
+2025-03-31T15:32:49.865Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools as some of its dependencies were changed since the last visit
+2025-03-31T15:32:50.090Z - info: Site data built
+2025-03-31T15:32:50.090Z - info: Lazy website regeneration complete! Total build time: 0.225s
+2025-03-31T15:33:16.440Z - info: [23:33:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2025-03-31T15:33:16.440Z - info: Synchronizing opened pages list before reload
+2025-03-31T15:33:16.441Z - info: Current opened pages, from most-to-least recent:
+2025-03-31T15:33:16.441Z - info: 1. admin/tools
+2025-03-31T15:33:16.441Z - info: 2. admin/teamList
+2025-03-31T15:33:17.444Z - info: Rebuilding 1 pages
+2025-03-31T15:33:17.644Z - info: Site data built
+2025-03-31T15:33:17.644Z - info: Pages rebuilt
+2025-03-31T15:33:17.644Z - info: Website regeneration complete! Total build time: 0.202s
+2025-03-31T15:34:31.034Z - info: Website generation started at 23:34:30
+2025-03-31T15:34:31.393Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-03-31T15:34:31.393Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-03-31T15:34:31.413Z - info: Building assets...

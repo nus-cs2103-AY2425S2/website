@@ -101,6 +101,6 @@ with(this){return _c('span',{staticClass:"badge bg-secondary  font-weight-normal
 with(this){return _c('ul',[_c('li',[_v("The practical exam dry run (PE-D) will be held in this weekly briefing. It is "),_c('mark',[_v("graded")]),_v(". See the panel below for more info.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Sun, 30 Mar 2025, 20:07:06 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 31 Mar 2025, 23:34:33 GMT+8]")])])])}
 }];
   
