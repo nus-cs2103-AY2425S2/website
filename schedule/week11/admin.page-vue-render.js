@@ -23,6 +23,6 @@ with(this){return _c('span',{staticClass:"badge bg-secondary  font-weight-normal
 with(this){return _c('ul',[_c('li',[_v("Submit the Canvas survey to declare which mode (i.e., remote or F2F) you intend to use for the PE. The panel below has some information you can use to make the decision."),_c('br'),_v("\nPlease consider carefully before choosing, and stick to the selected mode afterward --\nit will be "),_c('span',{staticClass:"text-danger"},[_v("difficult to change your PE mode after the deadline")]),_v(" given above.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 31 Mar 2025, 23:34:33 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 31 Mar 2025, 23:45:36 GMT+8]")])])])}
 }];
   
