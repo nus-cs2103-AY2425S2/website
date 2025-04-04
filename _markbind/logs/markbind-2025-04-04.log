@@ -1,0 +1,34 @@
+2025-04-04T04:09:13.828Z - info: Website generation (lazy) started at 12:09:13
+2025-04-04T04:09:14.121Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-04T04:09:14.122Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-04T04:09:14.141Z - info: Building assets...
+2025-04-04T04:09:15.754Z - info: Assets built
+2025-04-04T04:09:15.754Z - info: Generating landing page...
+2025-04-04T04:09:16.242Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-04-04T04:09:16.310Z - info: Site data built
+2025-04-04T04:09:16.310Z - info: Website generation (lazy) complete! Total build time: 3.266s
+2025-04-04T04:09:16.319Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-04-04T04:09:16.319Z - info: Press CTRL+C to stop ...
+2025-04-04T04:09:24.229Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-ped as some of its dependencies were changed since the last visit
+2025-04-04T04:09:25.265Z - info: Site data built
+2025-04-04T04:09:25.265Z - info: Lazy website regeneration complete! Total build time: 1.036s
+2025-04-04T04:24:37.283Z - info: [12:24:37] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-ped-fragment.md
+2025-04-04T04:24:37.291Z - info: Synchronizing opened pages list before reload
+2025-04-04T04:24:37.293Z - info: Current opened pages, from most-to-least recent:
+2025-04-04T04:24:37.293Z - info: 1. admin/tp-ped
+2025-04-04T04:24:38.308Z - info: Rebuilding 1 pages
+2025-04-04T04:24:39.119Z - info: Site data built
+2025-04-04T04:24:39.120Z - info: Pages rebuilt
+2025-04-04T04:24:39.120Z - info: Website regeneration complete! Total build time: 0.817s
+2025-04-04T04:26:05.925Z - info: [12:26:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-ped-fragment.md
+2025-04-04T04:26:05.927Z - info: Synchronizing opened pages list before reload
+2025-04-04T04:26:05.927Z - info: Current opened pages, from most-to-least recent:
+2025-04-04T04:26:05.929Z - info: 1. admin/tp-ped
+2025-04-04T04:26:06.942Z - info: Rebuilding 1 pages
+2025-04-04T04:26:07.762Z - info: Site data built
+2025-04-04T04:26:07.763Z - info: Pages rebuilt
+2025-04-04T04:26:07.763Z - info: Website regeneration complete! Total build time: 0.825s
+2025-04-04T04:26:58.217Z - info: Website generation started at 12:26:57
+2025-04-04T04:26:58.484Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-04T04:26:58.484Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-04T04:26:58.503Z - info: Building assets...
