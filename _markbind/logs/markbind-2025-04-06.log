@@ -342,3 +342,49 @@ Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/
 2025-04-06T09:54:18.101Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-04-06T09:54:18.102Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-04-06T09:54:18.123Z - info: Building assets...
+2025-04-06T09:54:19.576Z - info: Assets built
+2025-04-06T09:54:19.577Z - info: Generating pages...
+2025-04-06T09:54:26.067Z - debug:  
+2025-04-06T09:54:26.067Z - debug: 2025-04-06 17:54:22.445 java[93779:5764173] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:54:22.445 java[93779:5764173] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug: 2025-04-06 17:54:23.116 java[93800:5764343] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:54:23.116 java[93800:5764343] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug: 2025-04-06 17:54:23.552 java[93813:5764473] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:54:23.552 java[93813:5764473] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.068Z - debug:  
+2025-04-06T09:54:26.620Z - debug: 2025-04-06 17:54:26.269 java[93850:5765242] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:54:26.269 java[93850:5765242] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:54:36.499Z - debug: 2025-04-06 17:54:35.595 java[93872:5765526] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:54:35.595 java[93872:5765526] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:55:23.915Z - debug: 2025-04-06 17:55:21.171 java[93995:5767351] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:55:21.171 java[93995:5767351] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:55:35.006Z - debug:  
+2025-04-06T09:55:35.034Z - debug: 2025-04-06 17:55:34.075 java[94010:5767710] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-06 17:55:34.075 java[94010:5767710] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-06T09:55:42.313Z - info: Pages built
+2025-04-06T09:55:42.393Z - info: Site data built
+2025-04-06T09:55:42.394Z - info: Website generation complete! Total build time: 85.411s
+2025-04-06T09:55:42.394Z - info: Build success!
+2025-04-06T09:56:03.190Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-04-06T13:27:46.408Z - info: Website generation started at 21:27:45
+2025-04-06T13:27:46.752Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-06T13:27:46.752Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-06T13:27:46.772Z - info: Building assets...
