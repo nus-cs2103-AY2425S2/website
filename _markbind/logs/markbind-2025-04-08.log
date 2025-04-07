@@ -1,0 +1,59 @@
+2025-04-07T16:19:55.710Z - info: Website generation started at 00:19:55
+2025-04-07T16:19:56.027Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-07T16:19:56.027Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-07T16:19:56.047Z - info: Building assets...
+2025-04-07T16:19:57.596Z - info: Assets built
+2025-04-07T16:19:57.596Z - info: Generating pages...
+2025-04-07T16:20:05.340Z - debug:  
+2025-04-07T16:20:05.867Z - debug:  
+2025-04-07T16:20:05.868Z - debug:  
+2025-04-07T16:20:05.868Z - debug:  
+2025-04-07T16:20:05.868Z - debug:  
+2025-04-07T16:20:05.868Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug: 2025-04-08 00:20:01.930 java[50816:7274859] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:20:01.930 java[50816:7274859] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:05.869Z - debug:  
+2025-04-07T16:20:07.088Z - debug: 2025-04-08 00:20:06.206 java[50854:7275704] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:20:06.206 java[50854:7275704] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:20:16.836Z - debug: 2025-04-08 00:20:16.099 java[50879:7275993] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:20:16.099 java[50879:7275993] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:21:04.902Z - debug:  
+2025-04-07T16:21:16.674Z - debug:  
+2025-04-07T16:21:16.710Z - debug:  
+2025-04-07T16:21:24.719Z - info: Pages built
+2025-04-07T16:21:24.795Z - info: Site data built
+2025-04-07T16:21:24.796Z - info: Website generation complete! Total build time: 89.724s
+2025-04-07T16:21:24.796Z - info: Build success!
+2025-04-07T16:38:07.477Z - error: uncaughtException: Cloning into '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git'...
+error: RPC failed; curl 56 Recv failure: Connection reset by peer
+error: 285 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+ date=Tue Apr 08 2025 00:38:07 GMT+0800 (Singapore Standard Time), pid=50732, uid=502, gid=20, cwd=/Users/damithch/Repos/nus-cs2103/cs2103-website-base, execPath=/opt/homebrew/Cellar/node@20/20.18.1/bin/node, version=v20.18.1, argv=[/opt/homebrew/Cellar/node@20/20.18.1/bin/node, /opt/homebrew/bin/markbind, deploy], rss=31899648, heapTotal=712130560, heapUsed=529148784, external=3424920, arrayBuffers=1191657, loadavg=[26.2734375, 15.26220703125, 9.158203125], uptime=517805
+ProcessError: Cloning into '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git'...
+error: RPC failed; curl 56 Recv failure: Connection reset by peer
+error: 285 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+    at ChildProcess.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/gh-pages/lib/git.js:42:16)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:343:12)
+2025-04-07T16:38:38.254Z - info: Website generation started at 00:38:37
+2025-04-07T16:38:38.456Z - info: Building assets...
