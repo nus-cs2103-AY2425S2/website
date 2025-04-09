@@ -57,3 +57,43 @@ fatal: fetch-pack: invalid index-pack output
     at Pipe.<anonymous> (node:net:343:12)
 2025-04-07T16:38:38.254Z - info: Website generation started at 00:38:37
 2025-04-07T16:38:38.456Z - info: Building assets...
+2025-04-07T16:38:38.674Z - info: Assets built
+2025-04-07T16:38:38.674Z - info: Generating pages...
+2025-04-07T16:38:45.888Z - debug:  
+2025-04-07T16:38:45.888Z - debug: 2025-04-08 00:38:41.636 java[51305:7286392] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:38:41.636 java[51305:7286392] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:38:45.888Z - debug:  
+2025-04-07T16:38:45.888Z - debug:  
+2025-04-07T16:38:45.888Z - debug:  
+2025-04-07T16:38:45.888Z - debug:  
+2025-04-07T16:38:45.888Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug: 2025-04-08 00:38:42.686 java[51338:7286712] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:38:42.686 java[51338:7286712] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:45.889Z - debug:  
+2025-04-07T16:38:47.286Z - debug: 2025-04-08 00:38:46.237 java[51371:7287461] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:38:46.237 java[51371:7287461] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:38:57.091Z - debug: 2025-04-08 00:38:56.317 java[51404:7288290] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:38:56.317 java[51404:7288290] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:39:44.818Z - debug: 2025-04-08 00:39:42.184 java[51477:7290115] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:39:42.184 java[51477:7290115] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:39:56.555Z - debug: 2025-04-08 00:39:55.775 java[51497:7290593] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-08 00:39:55.775 java[51497:7290593] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-07T16:39:56.571Z - debug:  
+2025-04-07T16:40:04.381Z - info: Pages built
+2025-04-07T16:40:04.451Z - info: Site data built
+2025-04-07T16:40:04.451Z - info: Website generation complete! Total build time: 86.937s
+2025-04-07T16:40:04.451Z - info: Build success!
+2025-04-07T16:40:25.508Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
