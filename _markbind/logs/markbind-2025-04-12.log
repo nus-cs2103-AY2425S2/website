@@ -2,3 +2,430 @@
 2025-04-11T18:15:00.643Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-04-11T18:15:00.644Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-04-11T18:15:00.664Z - info: Building assets...
+2025-04-11T18:15:02.212Z - info: Assets built
+2025-04-11T18:15:02.213Z - info: Generating pages...
+2025-04-11T18:15:09.809Z - debug: 2025-04-12 02:15:05.437 java[48871:2102539] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:15:05.437 java[48871:2102539] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:15:10.274Z - debug:  
+2025-04-11T18:15:10.274Z - debug:  
+2025-04-11T18:15:10.274Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug: 2025-04-12 02:15:07.310 java[48908:2102862] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:15:07.310 java[48908:2102862] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.275Z - debug:  
+2025-04-11T18:15:10.931Z - debug: 2025-04-12 02:15:10.547 java[48937:2103773] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:15:10.547 java[48937:2103773] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:15:21.538Z - debug: 2025-04-12 02:15:20.663 java[48984:2104539] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:15:20.663 java[48984:2104539] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:16:10.000Z - debug: 2025-04-12 02:16:07.336 java[49055:2105805] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:16:07.336 java[49055:2105805] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:16:21.755Z - debug: 2025-04-12 02:16:20.844 java[49067:2106158] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:16:20.844 java[49067:2106158] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:16:21.770Z - debug:  
+2025-04-11T18:16:29.316Z - info: Pages built
+2025-04-11T18:16:29.388Z - info: Site data built
+2025-04-11T18:16:29.388Z - info: Website generation complete! Total build time: 89.896s
+2025-04-11T18:16:29.388Z - info: Build success!
+2025-04-11T18:16:49.734Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-04-11T18:21:03.611Z - info: Website generation started at 02:21:02
+2025-04-11T18:21:03.898Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-11T18:21:03.898Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-11T18:21:03.918Z - info: Building assets...
+2025-04-11T18:21:06.059Z - info: Assets built
+2025-04-11T18:21:06.059Z - info: Generating pages...
+2025-04-11T18:21:12.062Z - debug:  
+2025-04-11T18:21:12.435Z - debug: 2025-04-12 02:21:08.930 java[49339:2113762] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:21:08.931 java[49339:2113762] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:21:12.435Z - debug:  
+2025-04-11T18:21:12.435Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug: 2025-04-12 02:21:10.092 java[49363:2113993] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:21:10.092 java[49363:2113993] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.436Z - debug:  
+2025-04-11T18:21:12.549Z - debug:  
+2025-04-11T18:21:12.550Z - debug:  
+2025-04-11T18:21:13.033Z - debug: 2025-04-12 02:21:12.680 java[49402:2114710] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:21:12.680 java[49402:2114710] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:21:22.604Z - debug: 2025-04-12 02:21:22.252 java[49429:2115122] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:21:22.252 java[49429:2115122] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:22:06.434Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:22:06.470Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:22:06.968Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:22:07.003Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:22:07.842Z - debug: 2025-04-12 02:22:07.397 java[49456:2116268] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:22:07.397 java[49456:2116268] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:22:39.499Z - info: Website generation (lazy) started at 02:22:38
+2025-04-11T18:22:39.771Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-11T18:22:39.771Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-11T18:22:39.791Z - info: Building assets...
+2025-04-11T18:22:41.176Z - info: Assets built
+2025-04-11T18:22:41.176Z - info: Generating landing page...
+2025-04-11T18:22:41.476Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-04-11T18:22:41.543Z - info: Site data built
+2025-04-11T18:22:41.543Z - info: Website generation (lazy) complete! Total build time: 2.674s
+2025-04-11T18:22:41.552Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-04-11T18:22:41.552Z - info: Press CTRL+C to stop ...
+2025-04-11T18:23:03.261Z - info: Website generation started at 02:23:02
+2025-04-11T18:23:03.452Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-11T18:23:03.452Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-11T18:23:03.472Z - info: Building assets...
+2025-04-11T18:23:04.806Z - info: Assets built
+2025-04-11T18:23:04.807Z - info: Generating pages...
+2025-04-11T18:23:11.124Z - debug: 2025-04-12 02:23:07.837 java[49649:2119160] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:23:07.837 java[49649:2119160] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:23:11.516Z - debug:  
+2025-04-11T18:23:11.517Z - debug:  
+2025-04-11T18:23:11.517Z - debug:  
+2025-04-11T18:23:11.517Z - debug:  
+2025-04-11T18:23:11.517Z - debug:  
+2025-04-11T18:23:11.517Z - debug:  
+2025-04-11T18:23:11.518Z - debug:  
+2025-04-11T18:23:11.518Z - debug:  
+2025-04-11T18:23:11.518Z - debug:  
+2025-04-11T18:23:11.518Z - debug:  
+2025-04-11T18:23:11.519Z - debug: 2025-04-12 02:23:09.204 java[49675:2119416] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:23:09.204 java[49675:2119416] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:23:11.519Z - debug:  
+2025-04-11T18:23:11.519Z - debug:  
+2025-04-11T18:23:11.519Z - debug:  
+2025-04-11T18:23:11.519Z - debug:  
+2025-04-11T18:23:12.131Z - debug: 2025-04-12 02:23:11.744 java[49704:2120130] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:23:11.744 java[49704:2120130] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:23:21.529Z - debug: 2025-04-12 02:23:20.755 java[49719:2120347] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:23:20.755 java[49719:2120347] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:24:04.267Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:24:04.305Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:24:04.861Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:24:04.898Z - error:  Error: No such segment '#exam-briefing-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:24:07.588Z - debug: 2025-04-12 02:24:05.258 java[49752:2121687] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:24:05.258 java[49752:2121687] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:24:16.927Z - info: Website generation started at 02:24:16
+2025-04-11T18:24:17.122Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-11T18:24:17.123Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-11T18:24:17.142Z - info: Building assets...
+2025-04-11T18:24:18.545Z - info: Assets built
+2025-04-11T18:24:18.546Z - info: Generating pages...
+2025-04-11T18:24:24.354Z - debug:  
+2025-04-11T18:24:24.950Z - debug: 2025-04-12 02:24:21.465 java[49835:2122621] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:24:21.465 java[49835:2122621] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug: 2025-04-12 02:24:22.738 java[49852:2122749] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:24:22.738 java[49852:2122749] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.950Z - debug:  
+2025-04-11T18:24:24.951Z - debug:  
+2025-04-11T18:24:26.197Z - debug: 2025-04-12 02:24:25.228 java[49906:2123707] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:24:25.228 java[49906:2123707] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:24:35.399Z - debug: 2025-04-12 02:24:35.041 java[49944:2124131] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:24:35.041 java[49944:2124131] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:25:20.607Z - error:  Error: No such segment '#topics-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:25:21.253Z - error:  Error: No such segment '#topics-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:25:24.062Z - debug: 2025-04-12 02:25:21.586 java[50097:2126560] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:25:21.587 java[50097:2126560] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:25:35.528Z - debug: 2025-04-12 02:25:34.565 java[50110:2126984] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:25:34.565 java[50110:2126984] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:25:35.548Z - debug:  
+2025-04-11T18:25:42.939Z - error:  Error: No such segment '#topics-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+2025-04-11T18:25:43.073Z - error:  Error: No such segment '#topics-video' in file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:238:27)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:342:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:42
+2025-04-11T18:25:43.522Z - info: Pages built
+2025-04-11T18:25:43.614Z - info: Site data built
+2025-04-11T18:25:43.614Z - info: Website generation complete! Total build time: 87.281s
+2025-04-11T18:25:43.614Z - info: Build success!
+2025-04-11T18:27:29.218Z - info: Website generation started at 02:27:28
+2025-04-11T18:27:29.503Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-11T18:27:29.503Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-11T18:27:29.523Z - info: Building assets...
+2025-04-11T18:27:30.944Z - info: Assets built
+2025-04-11T18:27:30.945Z - info: Generating pages...
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug: 2025-04-12 02:27:34.088 java[50228:2130778] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:27:34.088 java[50228:2130778] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:37.951Z - debug: 2025-04-12 02:27:35.334 java[50260:2131041] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:27:35.334 java[50260:2131041] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:27:37.951Z - debug:  
+2025-04-11T18:27:38.606Z - debug: 2025-04-12 02:27:38.240 java[50292:2131756] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:27:38.240 java[50292:2131756] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:27:48.056Z - debug: 2025-04-12 02:27:47.702 java[50306:2132076] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:27:47.702 java[50306:2132076] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:28:36.805Z - debug: 2025-04-12 02:28:34.481 java[50350:2133383] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:28:34.481 java[50350:2133383] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:28:48.215Z - debug:  
+2025-04-11T18:28:48.238Z - debug: 2025-04-12 02:28:47.322 java[50391:2134045] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-12 02:28:47.322 java[50391:2134045] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-11T18:28:54.740Z - info: Pages built
+2025-04-11T18:28:54.806Z - info: Site data built
+2025-04-11T18:28:54.806Z - info: Website generation complete! Total build time: 86.392s
+2025-04-11T18:28:54.806Z - info: Build success!
+2025-04-11T18:29:01.745Z - info: Website generation started at 02:29:01
+2025-04-11T18:29:01.946Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-11T18:29:01.947Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-11T18:29:01.969Z - info: Building assets...
