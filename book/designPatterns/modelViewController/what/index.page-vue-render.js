@@ -35,6 +35,6 @@ with(this){return _c('p',[_v("The relationship between the components can be obs
 with(this){return _c('p',[_v("Note that in a simple UI where there’s only one view, "),_c('em',[_v("Controller")]),_v(" and "),_c('em',[_v("View")]),_v(" can be combined as one class.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 17 Apr 2025, 22:56:07 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 17 Apr 2025, 23:50:45 GMT+8]")])])])}
 }];
   
