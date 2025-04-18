@@ -23,6 +23,6 @@ with(this){return _c('blockquote',[_c('p',[_v("There are a number of situations 
 with(this){return _c('p',[_c('strong',[_v("A class implementing an interface results in an "),_c('em',[_v("is-a")]),_v(" relationship")]),_v(", just like in class inheritance.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 17 Apr 2025, 23:50:45 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 18 Apr 2025, 19:03:36 GMT+8]")])])])}
 }];
   
