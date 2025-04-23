@@ -936,3 +936,98 @@ Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.
 2025-04-23T08:49:39.870Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
 2025-04-23T08:49:39.870Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
 2025-04-23T08:49:39.900Z - info: Building assets...
+2025-04-23T08:49:41.437Z - info: Assets built
+2025-04-23T08:49:41.438Z - info: Generating pages...
+2025-04-23T08:49:48.892Z - debug:  
+2025-04-23T08:49:49.367Z - debug:  
+2025-04-23T08:49:49.367Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.368Z - debug:  
+2025-04-23T08:49:49.986Z - debug: 2025-04-23 16:49:49.573 java[82829:10220717] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-23 16:49:49.573 java[82829:10220717] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-23T08:49:59.892Z - debug:  
+2025-04-23T08:50:47.075Z - debug: 2025-04-23 16:50:44.697 java[82890:10222241] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-23 16:50:44.697 java[82890:10222241] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-23T08:50:58.416Z - debug:  
+2025-04-23T08:50:58.432Z - debug:  
+2025-04-23T08:51:05.217Z - info: Pages built
+2025-04-23T08:51:05.290Z - info: Site data built
+2025-04-23T08:51:05.290Z - info: Website generation complete! Total build time: 86.35s
+2025-04-23T08:51:05.290Z - info: Build success!
+2025-04-23T08:51:26.537Z - info: The website has been deployed at: https://nus-cs2103-ay2425s2.github.io/website
+2025-04-23T09:05:27.864Z - info: Website generation (lazy) started at 17:05:27
+2025-04-23T09:05:28.133Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-23T09:05:28.133Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-23T09:05:28.153Z - info: Building assets...
+2025-04-23T09:05:29.586Z - info: Assets built
+2025-04-23T09:05:29.587Z - info: Generating landing page...
+2025-04-23T09:05:29.896Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-04-23T09:05:29.972Z - info: Site data built
+2025-04-23T09:05:29.972Z - info: Website generation (lazy) complete! Total build time: 2.892s
+2025-04-23T09:05:29.980Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-04-23T09:05:29.980Z - info: Press CTRL+C to stop ...
+2025-04-23T09:05:41.081Z - info: [17:05:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2025-04-23T09:05:41.089Z - info: Synchronizing opened pages list before reload
+2025-04-23T09:05:41.089Z - info: Current opened pages, from most-to-least recent:
+2025-04-23T09:05:41.090Z - info: 1. index
+2025-04-23T09:05:42.102Z - info: Rebuilding 1 pages
+2025-04-23T09:05:42.358Z - info: Site data built
+2025-04-23T09:05:42.358Z - info: Pages rebuilt
+2025-04-23T09:05:42.358Z - info: Website regeneration complete! Total build time: 0.26s
+2025-04-23T09:11:24.377Z - info: [17:11:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2025-04-23T09:11:24.379Z - info: Synchronizing opened pages list before reload
+2025-04-23T09:11:24.381Z - info: Current opened pages, from most-to-least recent:
+2025-04-23T09:11:24.382Z - info: 1. index
+2025-04-23T09:11:25.391Z - info: Rebuilding 1 pages
+2025-04-23T09:11:25.618Z - info: Site data built
+2025-04-23T09:11:25.618Z - info: Pages rebuilt
+2025-04-23T09:11:25.618Z - info: Website regeneration complete! Total build time: 0.23s
+2025-04-23T09:13:46.106Z - info: [17:13:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2025-04-23T09:13:46.111Z - info: Synchronizing opened pages list before reload
+2025-04-23T09:13:46.113Z - info: Current opened pages, from most-to-least recent:
+2025-04-23T09:13:46.113Z - info: 1. index
+2025-04-23T09:13:47.119Z - info: Rebuilding 1 pages
+2025-04-23T09:13:47.397Z - info: Site data built
+2025-04-23T09:13:47.397Z - info: Pages rebuilt
+2025-04-23T09:13:47.397Z - info: Website regeneration complete! Total build time: 0.281s
+2025-04-23T09:14:30.156Z - info: [17:14:30] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2025-04-23T09:14:30.165Z - info: Synchronizing opened pages list before reload
+2025-04-23T09:14:30.167Z - info: Current opened pages, from most-to-least recent:
+2025-04-23T09:14:30.167Z - info: 1. index
+2025-04-23T09:14:31.221Z - info: Rebuilding 1 pages
+2025-04-23T09:14:31.435Z - info: Site data built
+2025-04-23T09:14:31.435Z - info: Pages rebuilt
+2025-04-23T09:14:31.435Z - info: Website regeneration complete! Total build time: 0.237s
+2025-04-23T09:14:40.002Z - info: [17:14:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2025-04-23T09:14:40.003Z - info: Synchronizing opened pages list before reload
+2025-04-23T09:14:40.003Z - info: Current opened pages, from most-to-least recent:
+2025-04-23T09:14:40.003Z - info: 1. index
+2025-04-23T09:14:41.016Z - info: Rebuilding 1 pages
+2025-04-23T09:14:41.244Z - info: Site data built
+2025-04-23T09:14:41.244Z - info: Pages rebuilt
+2025-04-23T09:14:41.244Z - info: Website regeneration complete! Total build time: 0.23s
+2025-04-23T09:15:08.123Z - info: [17:15:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2025-04-23T09:15:08.133Z - info: Synchronizing opened pages list before reload
+2025-04-23T09:15:08.136Z - info: Current opened pages, from most-to-least recent:
+2025-04-23T09:15:08.136Z - info: 1. index
+2025-04-23T09:15:09.144Z - info: Rebuilding 1 pages
+2025-04-23T09:15:09.367Z - info: Site data built
+2025-04-23T09:15:09.367Z - info: Pages rebuilt
+2025-04-23T09:15:09.367Z - info: Website regeneration complete! Total build time: 0.227s
+2025-04-23T09:15:20.179Z - info: Website generation started at 17:15:19
+2025-04-23T09:15:20.456Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-23T09:15:20.457Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-23T09:15:20.476Z - info: Building assets...
