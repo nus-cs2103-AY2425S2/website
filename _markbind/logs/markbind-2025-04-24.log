@@ -1,0 +1,39 @@
+2025-04-23T16:23:01.722Z - info: Website generation (lazy) started at 00:23:00
+2025-04-23T16:23:01.965Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-04-23T16:23:01.965Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-04-23T16:23:01.984Z - info: Building assets...
+2025-04-23T16:23:03.413Z - info: Assets built
+2025-04-23T16:23:03.413Z - info: Generating landing page...
+2025-04-23T16:23:03.721Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-04-23T16:23:03.793Z - info: Site data built
+2025-04-23T16:23:03.793Z - info: Website generation (lazy) complete! Total build time: 2.867s
+2025-04-23T16:23:04.810Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:52152
+2025-04-23T16:23:04.811Z - info: Press CTRL+C to stop ...
+2025-04-23T16:23:11.961Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/index as some of its dependencies were changed since the last visit
+2025-04-23T16:23:12.440Z - info: Site data built
+2025-04-23T16:23:12.440Z - info: Lazy website regeneration complete! Total build time: 0.48s
+2025-04-23T16:23:15.401Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/topics as some of its dependencies were changed since the last visit
+2025-04-23T16:23:15.932Z - info: Site data built
+2025-04-23T16:23:15.932Z - info: Lazy website regeneration complete! Total build time: 0.532s
+2025-04-23T16:23:40.719Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/topics as some of its dependencies were changed since the last visit
+2025-04-23T16:23:44.529Z - debug:  
+2025-04-23T16:23:44.551Z - debug:  
+2025-04-23T16:23:44.556Z - debug:  
+2025-04-23T16:23:44.561Z - debug:  
+2025-04-23T16:23:44.607Z - debug:  
+2025-04-23T16:23:44.615Z - debug:  
+2025-04-23T16:23:44.649Z - debug:  
+2025-04-23T16:23:44.651Z - debug:  
+2025-04-23T16:23:44.685Z - debug:  
+2025-04-23T16:23:44.741Z - debug: 2025-04-24 00:23:41.957 java[94635:10626867] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-24 00:23:41.957 java[94635:10626867] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-23T16:23:44.789Z - debug:  
+2025-04-23T16:23:44.953Z - debug:  
+2025-04-23T16:23:45.097Z - debug:  
+2025-04-23T16:23:45.137Z - debug: 2025-04-24 00:23:43.114 java[94652:10627522] +[IMKClient subclass]: chose IMKClient_Modern
+2025-04-24 00:23:43.114 java[94652:10627522] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+2025-04-23T16:23:45.177Z - debug:  
+2025-04-23T16:23:45.275Z - info: Site data built
+2025-04-23T16:23:45.275Z - info: Lazy website regeneration complete! Total build time: 4.557s

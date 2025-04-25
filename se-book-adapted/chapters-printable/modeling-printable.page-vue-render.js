@@ -119,7 +119,7 @@ with(this){return _c('div',[_c('h2',{attrs:{"id":"modeling-behaviors"}},[_c('spa
 with(this){return _c('strong',[_v("Software projects often involve "),_c('em',[_v("workflows")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('span',{staticClass:"dimmed"},[_c('small',[_c('span',[_c('span',{staticClass:"fas fa-info-circle",attrs:{"aria-hidden":"true"}})]),_v(" Contents related to UML diagrams in the panels given below belong to a different chapter (i.e., the chapter dedicated to UML); they have been embedded here for convenience.")])])])}
+with(this){return _c('p',[_c('span',{staticClass:"dimmed"},[_c('small',[_c('span',[_c('span',{staticClass:"fas fa-info-circle",attrs:{"aria-hidden":"true"}})]),_v(" Contents related to UML diagrams in the panels given below belong to a different chapter (i.e., the chapter dedicated to UML); they have been embedded here in the Web version of the textbook (for convenience), but "),_c('mark',[_v("omitted in the printable version")]),_v(" (to avoid repetition).")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Sequence diagrams model the interactions between various entities in a system, in a specific scenario.")]),_v(" Modelling such scenarios is useful, for example, to verify the design of the internal interactions is able to provide the expected outcomes.")])}
@@ -161,6 +161,6 @@ with(this){return _c('p',[_v("Note that the behavior of the "),_c('code',{pre:tr
 with(this){return _c('p',[_v("Given below are the interactions between the player and the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("TextUi")]),_v(" for the whole game.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Wed, 23 Apr 2025, 17:22:50 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 25 Apr 2025, 11:01:55 GMT+8]")])])])}
 }];
   
