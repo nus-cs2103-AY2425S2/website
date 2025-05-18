@@ -1,0 +1,805 @@
+2025-05-01T08:28:47.842Z - info: Website generation (lazy) started at 16:28:47
+2025-05-01T08:28:48.184Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T08:28:48.184Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T08:28:48.204Z - info: Building assets...
+2025-05-01T08:28:49.573Z - info: Assets built
+2025-05-01T08:28:49.574Z - info: Generating landing page...
+2025-05-01T08:28:49.949Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-05-01T08:28:50.014Z - info: Site data built
+2025-05-01T08:28:50.014Z - info: Website generation (lazy) complete! Total build time: 2.954s
+2025-05-01T08:28:50.023Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T08:28:50.023Z - info: Press CTRL+C to stop ...
+2025-05-01T08:35:22.703Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseOverview as some of its dependencies were changed since the last visit
+2025-05-01T08:35:22.896Z - info: Site data built
+2025-05-01T08:35:22.896Z - info: Lazy website regeneration complete! Total build time: 0.195s
+2025-05-01T08:35:59.288Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseExpectations as some of its dependencies were changed since the last visit
+2025-05-01T08:35:59.435Z - info: Site data built
+2025-05-01T08:35:59.435Z - info: Lazy website regeneration complete! Total build time: 0.147s
+2025-05-01T08:37:33.592Z - info: Website generation started at 16:37:33
+2025-05-01T08:37:33.849Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T08:37:33.849Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T08:37:33.869Z - info: Building assets...
+2025-05-01T08:37:35.241Z - info: Assets built
+2025-05-01T08:37:35.241Z - info: Generating pages...
+2025-05-01T08:37:41.798Z - debug:  
+2025-05-01T08:37:41.798Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:42.231Z - debug:  
+2025-05-01T08:37:43.653Z - debug:  
+2025-05-01T08:37:53.129Z - debug:  
+2025-05-01T08:38:39.630Z - debug:  
+2025-05-01T08:38:52.943Z - debug:  
+2025-05-01T08:38:52.956Z - debug:  
+2025-05-01T08:39:00.816Z - info: Pages built
+2025-05-01T08:39:00.890Z - info: Site data built
+2025-05-01T08:39:00.890Z - info: Website generation complete! Total build time: 87.857s
+2025-05-01T08:39:00.895Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T08:39:00.895Z - info: Press CTRL+C to stop ...
+2025-05-01T08:46:35.350Z - info: Website generation started at 16:46:34
+2025-05-01T08:46:35.604Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T08:46:35.604Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T08:46:35.623Z - info: Building assets...
+2025-05-01T08:46:37.005Z - info: Assets built
+2025-05-01T08:46:37.005Z - info: Generating pages...
+2025-05-01T08:46:43.688Z - debug:  
+2025-05-01T08:46:43.688Z - debug:  
+2025-05-01T08:46:44.123Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:44.124Z - debug:  
+2025-05-01T08:46:45.559Z - debug:  
+2025-05-01T08:46:55.873Z - debug:  
+2025-05-01T08:47:47.526Z - debug:  
+2025-05-01T08:47:59.318Z - debug:  
+2025-05-01T08:47:59.348Z - debug:  
+2025-05-01T08:48:06.959Z - info: Pages built
+2025-05-01T08:48:07.020Z - info: Site data built
+2025-05-01T08:48:07.020Z - info: Website generation complete! Total build time: 92.397s
+2025-05-01T08:48:07.028Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T08:48:07.028Z - info: Press CTRL+C to stop ...
+2025-05-01T08:57:23.698Z - info: Website generation started at 16:57:22
+2025-05-01T08:57:23.997Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T08:57:23.997Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T08:57:24.022Z - info: Building assets...
+2025-05-01T08:57:25.525Z - info: Assets built
+2025-05-01T08:57:25.526Z - info: Generating pages...
+2025-05-01T08:57:28.004Z - error:  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md)
+  Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md) [Line 6, Column 148]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:170:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Page.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:494:45)
+    at Generator.next (<anonymous>)
+2025-05-01T08:57:28.005Z - warn:  Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:970:28)
+    at Generator.throw (<anonymous>)
+    at rejected (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:29:65)
+2025-05-01T08:57:29.086Z - info: Site data built
+2025-05-01T08:57:29.086Z - info: Website generation complete! Total build time: 6.15s
+2025-05-01T08:57:29.094Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T08:57:29.094Z - info: Press CTRL+C to stop ...
+2025-05-01T08:57:30.164Z - debug:  
+2025-05-01T08:57:30.165Z - debug:  
+2025-05-01T08:57:32.206Z - debug:  
+2025-05-01T08:57:32.408Z - debug:  
+2025-05-01T08:57:32.497Z - debug:  
+2025-05-01T08:57:32.497Z - debug:  
+2025-05-01T08:57:32.513Z - debug:  
+2025-05-01T08:57:32.548Z - debug:  
+2025-05-01T08:57:34.371Z - debug:  
+2025-05-01T08:57:34.635Z - debug:  
+2025-05-01T08:57:34.750Z - debug:  
+2025-05-01T08:57:34.805Z - debug:  
+2025-05-01T08:57:34.836Z - debug:  
+2025-05-01T08:57:34.879Z - debug:  
+2025-05-01T08:57:34.926Z - debug:  
+2025-05-01T09:01:34.035Z - info: Website generation started at 17:01:33
+2025-05-01T09:01:34.296Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T09:01:34.296Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T09:01:34.316Z - info: Building assets...
+2025-05-01T09:01:35.665Z - info: Assets built
+2025-05-01T09:01:35.666Z - info: Generating pages...
+2025-05-01T09:01:41.561Z - debug:  
+2025-05-01T09:01:42.007Z - debug:  
+2025-05-01T09:01:42.007Z - debug:  
+2025-05-01T09:01:42.007Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:42.008Z - debug:  
+2025-05-01T09:01:43.579Z - debug:  
+2025-05-01T09:01:53.389Z - debug:  
+2025-05-01T09:02:42.833Z - debug:  
+2025-05-01T09:02:54.184Z - debug:  
+2025-05-01T09:02:54.218Z - debug:  
+2025-05-01T09:03:01.963Z - info: Pages built
+2025-05-01T09:03:02.032Z - info: Site data built
+2025-05-01T09:03:02.033Z - info: Website generation complete! Total build time: 88.061s
+2025-05-01T09:03:02.040Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T09:03:02.040Z - info: Press CTRL+C to stop ...
+2025-05-01T09:07:17.086Z - info: Website generation started at 17:07:16
+2025-05-01T09:07:17.294Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T09:07:17.294Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T09:07:17.314Z - info: Building assets...
+2025-05-01T09:07:18.691Z - info: Assets built
+2025-05-01T09:07:18.692Z - info: Generating pages...
+2025-05-01T09:07:24.906Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:25.388Z - debug:  
+2025-05-01T09:07:26.805Z - debug:  
+2025-05-01T09:07:37.444Z - debug:  
+2025-05-01T09:08:25.142Z - debug:  
+2025-05-01T09:08:39.021Z - debug:  
+2025-05-01T09:08:39.039Z - debug:  
+2025-05-01T09:08:46.930Z - info: Pages built
+2025-05-01T09:08:46.998Z - info: Site data built
+2025-05-01T09:08:46.998Z - info: Website generation complete! Total build time: 90.534s
+2025-05-01T09:08:47.006Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T09:08:47.006Z - info: Press CTRL+C to stop ...
+2025-05-01T09:15:03.085Z - info: Website generation started at 17:15:02
+2025-05-01T09:15:03.341Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T09:15:03.341Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T09:15:03.361Z - info: Building assets...
+2025-05-01T09:15:04.751Z - info: Assets built
+2025-05-01T09:15:04.751Z - info: Generating pages...
+2025-05-01T09:15:10.762Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:11.265Z - debug:  
+2025-05-01T09:15:12.675Z - debug:  
+2025-05-01T09:15:23.063Z - debug:  
+2025-05-01T09:16:12.039Z - debug:  
+2025-05-01T09:16:23.332Z - debug:  
+2025-05-01T09:16:23.349Z - debug:  
+2025-05-01T09:16:31.012Z - info: Pages built
+2025-05-01T09:16:31.075Z - info: Site data built
+2025-05-01T09:16:31.075Z - info: Website generation complete! Total build time: 88.73s
+2025-05-01T09:16:31.083Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T09:16:31.083Z - info: Press CTRL+C to stop ...
+2025-05-01T09:25:16.591Z - info: [17:25:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T09:25:17.621Z - info: Rebuilding 91 pages
+2025-05-01T09:25:57.551Z - info: Site data built
+2025-05-01T09:25:57.552Z - info: Pages rebuilt
+2025-05-01T09:25:57.552Z - info: Website regeneration complete! Total build time: 39.947s
+2025-05-01T09:26:15.761Z - info: [17:26:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T09:26:16.783Z - info: Rebuilding 91 pages
+2025-05-01T09:26:46.223Z - info: [17:26:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T09:26:57.303Z - info: Site data built
+2025-05-01T09:26:57.304Z - info: Pages rebuilt
+2025-05-01T09:26:57.304Z - info: Website regeneration complete! Total build time: 40.525s
+2025-05-01T09:26:57.305Z - info: Rebuilding 91 pages
+2025-05-01T09:27:37.925Z - info: Site data built
+2025-05-01T09:27:37.925Z - info: Pages rebuilt
+2025-05-01T09:27:37.925Z - info: Website regeneration complete! Total build time: 40.621s
+2025-05-01T09:29:07.934Z - info: [17:29:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T09:29:08.951Z - info: Rebuilding 91 pages
+2025-05-01T09:29:49.462Z - info: Site data built
+2025-05-01T09:29:49.462Z - info: Pages rebuilt
+2025-05-01T09:29:49.462Z - info: Website regeneration complete! Total build time: 40.519s
+2025-05-01T09:30:31.287Z - info: [17:30:31] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T09:30:32.301Z - info: Rebuilding 91 pages
+2025-05-01T09:31:12.410Z - info: [17:31:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T09:31:13.035Z - info: Site data built
+2025-05-01T09:31:13.035Z - info: Pages rebuilt
+2025-05-01T09:31:13.035Z - info: Website regeneration complete! Total build time: 40.74s
+2025-05-01T09:31:13.414Z - info: Rebuilding 91 pages
+2025-05-01T09:31:54.796Z - info: Site data built
+2025-05-01T09:31:54.796Z - info: Pages rebuilt
+2025-05-01T09:31:54.796Z - info: Website regeneration complete! Total build time: 41.384s
+2025-05-01T09:58:59.331Z - info: [17:58:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-05-01T09:59:00.357Z - info: Rebuilding 26 pages
+2025-05-01T09:59:18.018Z - info: Site data built
+2025-05-01T09:59:18.018Z - info: Pages rebuilt
+2025-05-01T09:59:18.018Z - info: Website regeneration complete! Total build time: 17.676s
+2025-05-01T09:59:45.686Z - info: [17:59:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-05-01T09:59:46.694Z - info: Rebuilding 26 pages
+2025-05-01T10:00:04.132Z - info: Site data built
+2025-05-01T10:00:04.132Z - info: Pages rebuilt
+2025-05-01T10:00:04.132Z - info: Website regeneration complete! Total build time: 17.441s
+2025-05-01T10:00:13.524Z - info: [18:00:13] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-05-01T10:00:14.538Z - info: Rebuilding 26 pages
+2025-05-01T10:00:32.194Z - info: Site data built
+2025-05-01T10:00:32.194Z - info: Pages rebuilt
+2025-05-01T10:00:32.194Z - info: Website regeneration complete! Total build time: 17.658s
+2025-05-01T10:00:42.463Z - info: [18:00:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-05-01T10:00:43.497Z - info: Rebuilding 26 pages
+2025-05-01T10:01:01.361Z - info: Site data built
+2025-05-01T10:01:01.361Z - info: Pages rebuilt
+2025-05-01T10:01:01.362Z - info: Website regeneration complete! Total build time: 17.882s
+2025-05-01T10:01:41.868Z - info: [18:01:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-05-01T10:01:42.898Z - info: Rebuilding 26 pages
+2025-05-01T10:02:00.555Z - info: Site data built
+2025-05-01T10:02:00.556Z - info: Pages rebuilt
+2025-05-01T10:02:00.556Z - info: Website regeneration complete! Total build time: 17.675s
+2025-05-01T10:02:09.142Z - info: [18:02:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/policies-fragment.md
+2025-05-01T10:02:10.150Z - info: Rebuilding 26 pages
+2025-05-01T10:02:27.972Z - info: Site data built
+2025-05-01T10:02:27.972Z - info: Pages rebuilt
+2025-05-01T10:02:27.972Z - info: Website regeneration complete! Total build time: 17.824s
+2025-05-01T11:12:55.623Z - info: [19:12:55] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+2025-05-01T11:12:56.758Z - info: Pages or site config modified, updating pages...
+2025-05-01T11:12:57.873Z - warn: Rebuilding all pages...
+2025-05-01T11:12:57.874Z - info: Generating pages...
+2025-05-01T11:13:42.811Z - info: [19:13:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+2025-05-01T11:13:43.829Z - info: Rebuilding 1 pages
+2025-05-01T11:13:43.833Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/acknowledgements.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:373:42
+    at Array.map (<anonymous>)
+    at DomHandler._callback (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:43)
+    at DomHandler._handleCallback.DomHandler.onerror (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:52:8)
+    at DomHandler.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:46:7)
+    at Parser.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:340:36)
+    at Tokenizer._finish (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:890:15)
+    at Tokenizer.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:881:29)
+    at Parser.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:367:21)
+2025-05-01T11:13:48.328Z - info: Site data built
+2025-05-01T11:13:48.328Z - info: Pages rebuilt
+2025-05-01T11:13:48.328Z - info: Website regeneration complete! Total build time: 4.5s
+2025-05-01T11:14:20.719Z - info: [19:14:20] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+2025-05-01T11:14:21.237Z - info: Pages built
+2025-05-01T11:14:21.736Z - info: Rebuilding 1 pages
+2025-05-01T11:14:21.738Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/acknowledgements.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:373:42
+    at Array.map (<anonymous>)
+    at DomHandler._callback (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:43)
+    at DomHandler._handleCallback.DomHandler.onerror (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:52:8)
+    at DomHandler.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:46:7)
+    at Parser.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:340:36)
+    at Tokenizer._finish (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:890:15)
+    at Tokenizer.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:881:29)
+    at Parser.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:367:21)
+2025-05-01T11:14:21.770Z - info: Site data built
+2025-05-01T11:14:21.770Z - info: Pages rebuilt
+2025-05-01T11:14:21.770Z - info: Website regeneration complete! Total build time: 0.037s
+2025-05-01T11:15:10.069Z - info: [19:15:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+2025-05-01T11:15:11.084Z - info: Rebuilding 1 pages
+2025-05-01T11:15:11.091Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/acknowledgements.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:373:42
+    at Array.map (<anonymous>)
+    at DomHandler._callback (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:43)
+    at DomHandler._handleCallback.DomHandler.onerror (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:52:8)
+    at DomHandler.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:46:7)
+    at Parser.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:340:36)
+    at Tokenizer._finish (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:890:15)
+    at Tokenizer.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:881:29)
+    at Parser.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:367:21)
+2025-05-01T11:15:11.143Z - info: Site data built
+2025-05-01T11:15:11.144Z - info: Pages rebuilt
+2025-05-01T11:15:11.144Z - info: Website regeneration complete! Total build time: 0.066s
+2025-05-01T11:17:40.395Z - info: [19:17:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/macros.njk
+2025-05-01T11:17:41.548Z - info: Rebuilding 782 pages
+2025-05-01T11:17:41.550Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/acknowledgements.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:373:42
+    at Array.map (<anonymous>)
+    at DomHandler._callback (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:43)
+    at DomHandler._handleCallback.DomHandler.onerror (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:52:8)
+    at DomHandler.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:46:7)
+    at Parser.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:340:36)
+    at Tokenizer._finish (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:890:15)
+    at Tokenizer.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:881:29)
+    at Parser.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:367:21)
+2025-05-01T11:18:08.126Z - info: [19:18:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/macros.njk
+2025-05-01T11:19:04.853Z - info: Site data built
+2025-05-01T11:19:04.853Z - info: Pages rebuilt
+2025-05-01T11:19:04.853Z - info: Website regeneration complete! Total build time: 83.311s
+2025-05-01T11:19:04.944Z - info: Rebuilding 782 pages
+2025-05-01T11:19:04.945Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/acknowledgements.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:373:42
+    at Array.map (<anonymous>)
+    at DomHandler._callback (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:43)
+    at DomHandler._handleCallback.DomHandler.onerror (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:52:8)
+    at DomHandler.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:46:7)
+    at Parser.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:340:36)
+    at Tokenizer._finish (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:890:15)
+    at Tokenizer.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:881:29)
+    at Parser.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:367:21)
+2025-05-01T11:20:12.828Z - info: Website generation started at 19:20:12
+2025-05-01T11:20:13.125Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T11:20:13.125Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T11:20:13.145Z - info: Building assets...
+2025-05-01T11:20:14.761Z - info: Assets built
+2025-05-01T11:20:14.762Z - info: Generating pages...
+2025-05-01T11:20:14.776Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/acknowledgements.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:373:42
+    at Array.map (<anonymous>)
+    at DomHandler._callback (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:370:43)
+    at DomHandler._handleCallback.DomHandler.onerror (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:52:8)
+    at DomHandler.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/domhandler/index.js:46:7)
+    at Parser.onend (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:340:36)
+    at Tokenizer._finish (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:890:15)
+    at Tokenizer.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Tokenizer.js:881:29)
+    at Parser.end (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/htmlparser2/lib/Parser.js:367:21)
+2025-05-01T11:20:54.003Z - info: Website generation started at 19:20:53
+2025-05-01T11:20:54.270Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T11:20:54.270Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T11:20:54.289Z - info: Building assets...
+2025-05-01T11:20:55.899Z - info: Assets built
+2025-05-01T11:20:55.899Z - info: Generating pages...
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:02.664Z - debug:  
+2025-05-01T11:21:04.112Z - debug:  
+2025-05-01T11:21:14.909Z - debug:  
+2025-05-01T11:22:06.297Z - debug:  
+2025-05-01T11:22:18.047Z - debug:  
+2025-05-01T11:22:18.061Z - debug:  
+2025-05-01T11:22:26.092Z - info: Pages built
+2025-05-01T11:22:26.169Z - info: Site data built
+2025-05-01T11:22:26.169Z - info: Website generation complete! Total build time: 92.762s
+2025-05-01T11:22:26.180Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T11:22:26.180Z - info: Press CTRL+C to stop ...
+2025-05-01T11:23:45.040Z - info: [19:23:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/macros.njk
+2025-05-01T11:23:46.215Z - info: Rebuilding 782 pages
+2025-05-01T11:25:10.253Z - info: Site data built
+2025-05-01T11:25:10.253Z - info: Pages rebuilt
+2025-05-01T11:25:10.253Z - info: Website regeneration complete! Total build time: 84.041s
+2025-05-01T11:34:57.812Z - info: [19:34:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/participation.md
+2025-05-01T11:34:57.817Z - info: [19:34:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T11:34:57.818Z - info: [19:34:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/common-commentary-fragment.md
+2025-05-01T11:34:58.838Z - info: Rebuilding 92 pages
+2025-05-01T11:35:39.712Z - info: Site data built
+2025-05-01T11:35:39.712Z - info: Pages rebuilt
+2025-05-01T11:35:39.712Z - info: Website regeneration complete! Total build time: 40.887s
+2025-05-01T11:38:08.651Z - info: [19:38:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/participation.md
+2025-05-01T11:38:08.660Z - info: [19:38:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T11:38:08.661Z - info: [19:38:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/common-commentary-fragment.md
+2025-05-01T11:38:09.684Z - info: Rebuilding 92 pages
+2025-05-01T11:38:50.387Z - info: Site data built
+2025-05-01T11:38:50.387Z - info: Pages rebuilt
+2025-05-01T11:38:50.387Z - info: Website regeneration complete! Total build time: 40.72s
+2025-05-01T11:39:46.836Z - info: [19:39:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/participation.md
+2025-05-01T11:39:46.847Z - info: [19:39:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/common/topics.njk
+2025-05-01T11:39:46.847Z - info: [19:39:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/common-commentary-fragment.md
+2025-05-01T11:39:47.873Z - info: Rebuilding 92 pages
+2025-05-01T11:40:28.516Z - info: Site data built
+2025-05-01T11:40:28.517Z - info: Pages rebuilt
+2025-05-01T11:40:28.517Z - info: Website regeneration complete! Total build time: 40.659s
+2025-05-01T11:52:02.846Z - info: [19:52:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:52:03.876Z - info: Rebuilding 16 pages
+2025-05-01T11:52:10.794Z - info: Site data built
+2025-05-01T11:52:10.794Z - info: Pages rebuilt
+2025-05-01T11:52:10.794Z - info: Website regeneration complete! Total build time: 6.928s
+2025-05-01T11:54:02.142Z - info: [19:54:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:54:03.167Z - info: Rebuilding 16 pages
+2025-05-01T11:54:09.887Z - info: Site data built
+2025-05-01T11:54:09.887Z - info: Pages rebuilt
+2025-05-01T11:54:09.887Z - info: Website regeneration complete! Total build time: 6.73s
+2025-05-01T11:55:03.114Z - info: [19:55:03] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:55:04.128Z - info: Rebuilding 16 pages
+2025-05-01T11:55:10.831Z - info: Site data built
+2025-05-01T11:55:10.832Z - info: Pages rebuilt
+2025-05-01T11:55:10.832Z - info: Website regeneration complete! Total build time: 6.709s
+2025-05-01T11:56:15.358Z - info: [19:56:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:56:16.370Z - info: Rebuilding 16 pages
+2025-05-01T11:56:23.161Z - info: Site data built
+2025-05-01T11:56:23.162Z - info: Pages rebuilt
+2025-05-01T11:56:23.162Z - info: Website regeneration complete! Total build time: 6.796s
+2025-05-01T11:56:54.066Z - info: [19:56:54] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:56:55.092Z - info: Rebuilding 16 pages
+2025-05-01T11:57:01.821Z - info: Site data built
+2025-05-01T11:57:01.821Z - info: Pages rebuilt
+2025-05-01T11:57:01.821Z - info: Website regeneration complete! Total build time: 6.733s
+2025-05-01T11:57:44.361Z - info: [19:57:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:57:45.368Z - info: Rebuilding 16 pages
+2025-05-01T11:57:52.201Z - info: Site data built
+2025-05-01T11:57:52.201Z - info: Pages rebuilt
+2025-05-01T11:57:52.201Z - info: Website regeneration complete! Total build time: 6.835s
+2025-05-01T11:58:23.147Z - info: [19:58:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:58:24.177Z - info: Rebuilding 16 pages
+2025-05-01T11:58:31.030Z - info: Site data built
+2025-05-01T11:58:31.030Z - info: Pages rebuilt
+2025-05-01T11:58:31.030Z - info: Website regeneration complete! Total build time: 6.856s
+2025-05-01T11:59:28.639Z - info: [19:59:28] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T11:59:29.670Z - info: Rebuilding 16 pages
+2025-05-01T11:59:36.847Z - info: Site data built
+2025-05-01T11:59:36.847Z - info: Pages rebuilt
+2025-05-01T11:59:36.847Z - info: Website regeneration complete! Total build time: 7.2s
+2025-05-01T12:01:40.826Z - info: [20:01:40] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:01:41.840Z - info: Rebuilding 16 pages
+2025-05-01T12:01:48.654Z - info: Site data built
+2025-05-01T12:01:48.655Z - info: Pages rebuilt
+2025-05-01T12:01:48.655Z - info: Website regeneration complete! Total build time: 6.823s
+2025-05-01T12:02:04.124Z - info: [20:02:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:02:05.141Z - info: Rebuilding 16 pages
+2025-05-01T12:02:11.951Z - info: Site data built
+2025-05-01T12:02:11.952Z - info: Pages rebuilt
+2025-05-01T12:02:11.952Z - info: Website regeneration complete! Total build time: 6.813s
+2025-05-01T12:02:51.398Z - info: [20:02:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:02:52.415Z - info: Rebuilding 16 pages
+2025-05-01T12:02:59.332Z - info: Site data built
+2025-05-01T12:02:59.333Z - info: Pages rebuilt
+2025-05-01T12:02:59.333Z - info: Website regeneration complete! Total build time: 6.923s
+2025-05-01T12:04:57.292Z - info: [20:04:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:04:58.314Z - info: Rebuilding 16 pages
+2025-05-01T12:05:05.196Z - info: Site data built
+2025-05-01T12:05:05.196Z - info: Pages rebuilt
+2025-05-01T12:05:05.196Z - info: Website regeneration complete! Total build time: 6.888s
+2025-05-01T12:05:56.908Z - info: [20:05:56] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:05:57.928Z - info: Rebuilding 16 pages
+2025-05-01T12:06:04.844Z - info: Site data built
+2025-05-01T12:06:04.844Z - info: Pages rebuilt
+2025-05-01T12:06:04.844Z - info: Website regeneration complete! Total build time: 6.928s
+2025-05-01T12:08:12.544Z - info: [20:08:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:08:13.575Z - info: Rebuilding 16 pages
+2025-05-01T12:08:21.292Z - info: Site data built
+2025-05-01T12:08:21.293Z - info: Pages rebuilt
+2025-05-01T12:08:21.293Z - info: Website regeneration complete! Total build time: 7.734s
+2025-05-01T12:10:18.651Z - info: [20:10:18] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:10:19.685Z - info: Rebuilding 16 pages
+2025-05-01T12:10:26.517Z - info: Site data built
+2025-05-01T12:10:26.517Z - info: Pages rebuilt
+2025-05-01T12:10:26.517Z - info: Website regeneration complete! Total build time: 6.844s
+2025-05-01T12:11:15.239Z - info: [20:11:15] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:11:16.278Z - info: Rebuilding 16 pages
+2025-05-01T12:11:23.058Z - info: Site data built
+2025-05-01T12:11:23.058Z - info: Pages rebuilt
+2025-05-01T12:11:23.058Z - info: Website regeneration complete! Total build time: 6.798s
+2025-05-01T12:11:42.898Z - info: [20:11:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:11:43.916Z - info: Rebuilding 16 pages
+2025-05-01T12:11:50.716Z - info: Site data built
+2025-05-01T12:11:50.716Z - info: Pages rebuilt
+2025-05-01T12:11:50.716Z - info: Website regeneration complete! Total build time: 6.802s
+2025-05-01T12:12:02.355Z - info: [20:12:02] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:12:03.369Z - info: Rebuilding 16 pages
+2025-05-01T12:12:10.140Z - info: Site data built
+2025-05-01T12:12:10.140Z - info: Pages rebuilt
+2025-05-01T12:12:10.140Z - info: Website regeneration complete! Total build time: 6.772s
+2025-05-01T12:12:27.124Z - info: [20:12:27] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:12:28.147Z - info: Rebuilding 16 pages
+2025-05-01T12:12:34.810Z - info: Site data built
+2025-05-01T12:12:34.811Z - info: Pages rebuilt
+2025-05-01T12:12:34.811Z - info: Website regeneration complete! Total build time: 6.666s
+2025-05-01T12:12:59.715Z - info: [20:12:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:13:00.775Z - info: Rebuilding 16 pages
+2025-05-01T12:13:07.776Z - info: Site data built
+2025-05-01T12:13:07.777Z - info: Pages rebuilt
+2025-05-01T12:13:07.777Z - info: Website regeneration complete! Total build time: 7.019s
+2025-05-01T12:13:22.439Z - info: [20:13:22] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:13:23.458Z - info: Rebuilding 16 pages
+2025-05-01T12:13:30.244Z - info: Site data built
+2025-05-01T12:13:30.244Z - info: Pages rebuilt
+2025-05-01T12:13:30.244Z - info: Website regeneration complete! Total build time: 6.789s
+2025-05-01T12:13:49.481Z - info: [20:13:49] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:13:50.491Z - info: Rebuilding 16 pages
+2025-05-01T12:13:57.334Z - info: Site data built
+2025-05-01T12:13:57.334Z - info: Pages rebuilt
+2025-05-01T12:13:57.334Z - info: Website regeneration complete! Total build time: 6.845s
+2025-05-01T12:14:35.564Z - info: [20:14:35] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:14:36.578Z - info: Rebuilding 16 pages
+2025-05-01T12:14:43.361Z - info: Site data built
+2025-05-01T12:14:43.361Z - info: Pages rebuilt
+2025-05-01T12:14:43.361Z - info: Website regeneration complete! Total build time: 6.785s
+2025-05-01T12:14:57.415Z - info: [20:14:57] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:14:58.433Z - info: Rebuilding 16 pages
+2025-05-01T12:15:05.248Z - info: Site data built
+2025-05-01T12:15:05.248Z - info: Pages rebuilt
+2025-05-01T12:15:05.248Z - info: Website regeneration complete! Total build time: 6.819s
+2025-05-01T12:15:23.036Z - info: [20:15:23] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:15:24.049Z - info: Rebuilding 16 pages
+2025-05-01T12:15:30.905Z - info: Site data built
+2025-05-01T12:15:30.906Z - info: Pages rebuilt
+2025-05-01T12:15:30.906Z - info: Website regeneration complete! Total build time: 6.86s
+2025-05-01T12:16:00.085Z - info: [20:16:00] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:16:01.110Z - info: Rebuilding 16 pages
+2025-05-01T12:16:07.937Z - info: Site data built
+2025-05-01T12:16:07.937Z - info: Pages rebuilt
+2025-05-01T12:16:07.937Z - info: Website regeneration complete! Total build time: 6.83s
+2025-05-01T12:16:39.825Z - info: [20:16:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:16:40.832Z - info: Rebuilding 16 pages
+2025-05-01T12:16:47.687Z - info: Site data built
+2025-05-01T12:16:47.687Z - info: Pages rebuilt
+2025-05-01T12:16:47.687Z - info: Website regeneration complete! Total build time: 6.857s
+2025-05-01T12:17:09.217Z - info: [20:17:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:17:10.233Z - info: Rebuilding 16 pages
+2025-05-01T12:17:17.063Z - info: Site data built
+2025-05-01T12:17:17.064Z - info: Pages rebuilt
+2025-05-01T12:17:17.064Z - info: Website regeneration complete! Total build time: 6.835s
+2025-05-01T12:17:58.054Z - info: [20:17:58] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:17:59.074Z - info: Rebuilding 16 pages
+2025-05-01T12:18:05.898Z - info: Site data built
+2025-05-01T12:18:05.898Z - info: Pages rebuilt
+2025-05-01T12:18:05.898Z - info: Website regeneration complete! Total build time: 6.829s
+2025-05-01T12:18:26.392Z - info: [20:18:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:18:27.407Z - info: Rebuilding 16 pages
+2025-05-01T12:18:34.213Z - info: Site data built
+2025-05-01T12:18:34.214Z - info: Pages rebuilt
+2025-05-01T12:18:34.214Z - info: Website regeneration complete! Total build time: 6.81s
+2025-05-01T12:19:46.594Z - info: [20:19:46] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:19:47.622Z - info: Rebuilding 16 pages
+2025-05-01T12:19:54.512Z - info: Site data built
+2025-05-01T12:19:54.512Z - info: Pages rebuilt
+2025-05-01T12:19:54.512Z - info: Website regeneration complete! Total build time: 6.899s
+2025-05-01T12:20:09.901Z - info: [20:20:09] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:20:10.918Z - info: Rebuilding 16 pages
+2025-05-01T12:20:17.761Z - info: Site data built
+2025-05-01T12:20:17.761Z - info: Pages rebuilt
+2025-05-01T12:20:17.761Z - info: Website regeneration complete! Total build time: 6.845s
+2025-05-01T12:20:36.892Z - info: [20:20:36] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:20:37.905Z - info: Rebuilding 16 pages
+2025-05-01T12:20:45.155Z - info: Site data built
+2025-05-01T12:20:45.155Z - info: Pages rebuilt
+2025-05-01T12:20:45.155Z - info: Website regeneration complete! Total build time: 7.255s
+2025-05-01T12:20:51.863Z - info: [20:20:51] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:20:52.886Z - info: Rebuilding 16 pages
+2025-05-01T12:20:59.868Z - info: Site data built
+2025-05-01T12:20:59.868Z - info: Pages rebuilt
+2025-05-01T12:20:59.868Z - info: Website regeneration complete! Total build time: 6.995s
+2025-05-01T12:21:14.547Z - info: [20:21:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:21:15.557Z - info: Rebuilding 16 pages
+2025-05-01T12:21:22.577Z - info: Site data built
+2025-05-01T12:21:22.577Z - info: Pages rebuilt
+2025-05-01T12:21:22.577Z - info: Website regeneration complete! Total build time: 7.026s
+2025-05-01T12:22:25.396Z - info: [20:22:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:22:26.442Z - info: Rebuilding 16 pages
+2025-05-01T12:22:33.207Z - info: Site data built
+2025-05-01T12:22:33.208Z - info: Pages rebuilt
+2025-05-01T12:22:33.208Z - info: Website regeneration complete! Total build time: 6.78s
+2025-05-01T12:33:05.454Z - info: [20:33:05] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:33:06.497Z - info: Rebuilding 16 pages
+2025-05-01T12:33:13.297Z - info: Site data built
+2025-05-01T12:33:13.298Z - info: Pages rebuilt
+2025-05-01T12:33:13.298Z - info: Website regeneration complete! Total build time: 6.829s
+2025-05-01T12:34:59.369Z - info: [20:34:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:35:00.385Z - info: Rebuilding 16 pages
+2025-05-01T12:35:07.463Z - info: Site data built
+2025-05-01T12:35:07.463Z - info: Pages rebuilt
+2025-05-01T12:35:07.463Z - info: Website regeneration complete! Total build time: 7.082s
+2025-05-01T12:43:45.796Z - info: [20:43:45] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:43:46.813Z - info: Rebuilding 16 pages
+2025-05-01T12:43:53.915Z - info: Site data built
+2025-05-01T12:43:53.915Z - info: Pages rebuilt
+2025-05-01T12:43:53.916Z - info: Website regeneration complete! Total build time: 7.113s
+2025-05-01T12:44:41.283Z - info: [20:44:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:44:42.292Z - info: Rebuilding 16 pages
+2025-05-01T12:44:49.165Z - info: Site data built
+2025-05-01T12:44:49.165Z - info: Pages rebuilt
+2025-05-01T12:44:49.165Z - info: Website regeneration complete! Total build time: 6.877s
+2025-05-01T12:45:26.332Z - info: [20:45:26] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:45:27.358Z - info: Rebuilding 16 pages
+2025-05-01T12:45:34.220Z - info: Site data built
+2025-05-01T12:45:34.220Z - info: Pages rebuilt
+2025-05-01T12:45:34.220Z - info: Website regeneration complete! Total build time: 6.864s
+2025-05-01T12:46:14.092Z - info: [20:46:14] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:46:15.103Z - info: Rebuilding 16 pages
+2025-05-01T12:46:21.949Z - info: Site data built
+2025-05-01T12:46:21.950Z - info: Pages rebuilt
+2025-05-01T12:46:21.950Z - info: Website regeneration complete! Total build time: 6.85s
+2025-05-01T12:46:41.162Z - info: [20:46:41] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:46:42.174Z - info: Rebuilding 16 pages
+2025-05-01T12:46:49.033Z - info: Site data built
+2025-05-01T12:46:49.034Z - info: Pages rebuilt
+2025-05-01T12:46:49.034Z - info: Website regeneration complete! Total build time: 6.862s
+2025-05-01T12:47:25.516Z - info: [20:47:25] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:47:26.533Z - info: Rebuilding 16 pages
+2025-05-01T12:47:33.350Z - info: Site data built
+2025-05-01T12:47:33.350Z - info: Pages rebuilt
+2025-05-01T12:47:33.350Z - info: Website regeneration complete! Total build time: 6.819s
+2025-05-01T12:48:12.765Z - info: [20:48:12] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:48:13.769Z - info: Rebuilding 16 pages
+2025-05-01T12:48:20.565Z - info: Site data built
+2025-05-01T12:48:20.565Z - info: Pages rebuilt
+2025-05-01T12:48:20.565Z - info: Website regeneration complete! Total build time: 6.798s
+2025-05-01T12:48:48.126Z - info: [20:48:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:48:49.149Z - info: Rebuilding 16 pages
+2025-05-01T12:48:56.360Z - info: Site data built
+2025-05-01T12:48:56.361Z - info: Pages rebuilt
+2025-05-01T12:48:56.361Z - info: Website regeneration complete! Total build time: 7.215s
+2025-05-01T12:49:55.711Z - info: [20:49:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:49:56.719Z - info: Rebuilding 16 pages
+2025-05-01T12:50:03.601Z - info: Site data built
+2025-05-01T12:50:03.601Z - info: Pages rebuilt
+2025-05-01T12:50:03.601Z - info: Website regeneration complete! Total build time: 6.884s
+2025-05-01T12:51:08.311Z - info: [20:51:08] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:51:09.324Z - info: Rebuilding 16 pages
+2025-05-01T12:51:16.244Z - info: Site data built
+2025-05-01T12:51:16.244Z - info: Pages rebuilt
+2025-05-01T12:51:16.244Z - info: Website regeneration complete! Total build time: 6.922s
+2025-05-01T12:51:59.693Z - info: [20:51:59] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:52:00.697Z - info: Rebuilding 16 pages
+2025-05-01T12:52:07.675Z - info: Site data built
+2025-05-01T12:52:07.675Z - info: Pages rebuilt
+2025-05-01T12:52:07.676Z - info: Website regeneration complete! Total build time: 6.98s
+2025-05-01T12:53:04.217Z - info: [20:53:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T12:53:05.238Z - info: Rebuilding 16 pages
+2025-05-01T12:53:12.346Z - info: Site data built
+2025-05-01T12:53:12.346Z - info: Pages rebuilt
+2025-05-01T12:53:12.347Z - info: Website regeneration complete! Total build time: 7.111s
+2025-05-01T13:45:17.743Z - info: Website generation (lazy) started at 21:45:17
+2025-05-01T13:45:18.105Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-01T13:45:18.106Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-01T13:45:18.126Z - info: Building assets...
+2025-05-01T13:45:19.519Z - info: Assets built
+2025-05-01T13:45:19.519Z - info: Generating landing page...
+2025-05-01T13:45:19.896Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-05-01T13:45:19.966Z - info: Site data built
+2025-05-01T13:45:19.966Z - info: Website generation (lazy) complete! Total build time: 2.959s
+2025-05-01T13:45:19.976Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-01T13:45:19.976Z - info: Press CTRL+C to stop ...
+2025-05-01T13:45:28.441Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/index as some of its dependencies were changed since the last visit
+2025-05-01T13:45:28.944Z - info: Site data built
+2025-05-01T13:45:28.945Z - info: Lazy website regeneration complete! Total build time: 0.505s
+2025-05-01T13:45:33.288Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics as some of its dependencies were changed since the last visit
+2025-05-01T13:45:36.604Z - debug:  
+2025-05-01T13:45:36.778Z - debug:  
+2025-05-01T13:45:36.802Z - debug:  
+2025-05-01T13:45:36.924Z - debug:  
+2025-05-01T13:45:36.976Z - debug:  
+2025-05-01T13:45:36.985Z - debug:  
+2025-05-01T13:45:36.987Z - debug:  
+2025-05-01T13:45:36.991Z - debug:  
+2025-05-01T13:45:36.993Z - debug:  
+2025-05-01T13:45:37.012Z - debug:  
+2025-05-01T13:45:37.038Z - debug:  
+2025-05-01T13:45:37.055Z - debug:  
+2025-05-01T13:45:37.060Z - debug:  
+2025-05-01T13:45:37.217Z - info: Site data built
+2025-05-01T13:45:37.217Z - info: Lazy website regeneration complete! Total build time: 3.93s
+2025-05-01T13:46:07.721Z - info: [21:46:07] Reload for file deletion: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/code1.md
+2025-05-01T13:46:07.722Z - info: Synchronizing opened pages list before reload
+2025-05-01T13:46:07.722Z - info: Current opened pages, from most-to-least recent:
+2025-05-01T13:46:07.722Z - info: 1. schedule/week4/topics
+2025-05-01T13:46:08.798Z - info: Pages or site config modified, updating pages...
+2025-05-01T13:46:09.931Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics as some of its dependencies were changed since the last visit
+2025-05-01T13:46:10.319Z - error:  Error: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/code1.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+    at _checkAndWarnFileExists (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:57:23)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:186:24)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+2025-05-01T13:46:10.745Z - info: Site data built
+2025-05-01T13:46:10.745Z - info: Lazy website regeneration complete! Total build time: 0.814s
+2025-05-01T13:46:16.155Z - info: [21:46:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T13:46:16.155Z - info: Synchronizing opened pages list before reload
+2025-05-01T13:46:16.155Z - info: Current opened pages, from most-to-least recent:
+2025-05-01T13:46:16.155Z - info: 1. schedule/week4/topics
+2025-05-01T13:46:16.253Z - info: [21:46:16] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/text.md
+2025-05-01T13:46:16.254Z - info: Synchronizing opened pages list before reload
+2025-05-01T13:46:16.254Z - info: Current opened pages, from most-to-least recent:
+2025-05-01T13:46:16.254Z - info: 1. schedule/week4/topics
+2025-05-01T13:46:17.165Z - info: Rebuilding 1 pages
+2025-05-01T13:46:17.850Z - info: Site data built
+2025-05-01T13:46:17.850Z - info: Pages rebuilt
+2025-05-01T13:46:17.850Z - info: Website regeneration complete! Total build time: 0.688s
