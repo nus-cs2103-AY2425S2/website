@@ -29,6 +29,6 @@ with(this){return _c('div',[_c('ul',[_c('li',[_c('strong',[_v("Weekly quiz")]),_
 with(this){return _c('h4',{attrs:{"id":"other-info-relevant-to-this-week"}},[_c('span',{staticClass:"badge rounded-pill bg-dark p-2",staticStyle:{"font-size":"larger"}},[_v("+")]),_v(" Other info relevant to this week:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#other-info-relevant-to-this-week","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Sun, 18 May 2025, 12:53:09 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 29 May 2025, 16:30:45 GMT+8]")])])])}
 }];
   

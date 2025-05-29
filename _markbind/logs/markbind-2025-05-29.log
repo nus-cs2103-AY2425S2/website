@@ -1,0 +1,81 @@
+2025-05-29T08:15:03.362Z - info: Website generation (lazy) started at 16:15:02
+2025-05-29T08:15:03.655Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-29T08:15:03.656Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-29T08:15:03.677Z - info: Building assets...
+2025-05-29T08:15:05.524Z - info: Assets built
+2025-05-29T08:15:05.525Z - info: Generating landing page...
+2025-05-29T08:15:05.752Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-05-29T08:15:05.812Z - info: Site data built
+2025-05-29T08:15:05.812Z - info: Website generation (lazy) complete! Total build time: 3.23s
+2025-05-29T08:15:05.821Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2025-05-29T08:15:05.821Z - info: Press CTRL+C to stop ...
+2025-05-29T08:15:15.939Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings as some of its dependencies were changed since the last visit
+2025-05-29T08:15:16.127Z - info: Site data built
+2025-05-29T08:15:16.127Z - info: Lazy website regeneration complete! Total build time: 0.189s
+2025-05-29T08:15:24.454Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/usingThisWebsite as some of its dependencies were changed since the last visit
+2025-05-29T08:15:24.654Z - info: Site data built
+2025-05-29T08:15:24.654Z - info: Lazy website regeneration complete! Total build time: 0.2s
+2025-05-29T08:15:30.689Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseOverview as some of its dependencies were changed since the last visit
+2025-05-29T08:15:30.801Z - info: Site data built
+2025-05-29T08:15:30.801Z - info: Lazy website regeneration complete! Total build time: 0.112s
+2025-05-29T08:16:24.676Z - info: [16:16:24] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseOverview.md
+2025-05-29T08:16:24.678Z - info: Synchronizing opened pages list before reload
+2025-05-29T08:16:24.681Z - info: Current opened pages, from most-to-least recent:
+2025-05-29T08:16:24.683Z - info: 1. admin/courseOverview
+2025-05-29T08:16:25.696Z - info: Rebuilding 1 pages
+2025-05-29T08:16:25.854Z - info: Site data built
+2025-05-29T08:16:25.855Z - info: Pages rebuilt
+2025-05-29T08:16:25.855Z - info: Website regeneration complete! Total build time: 0.162s
+2025-05-29T08:16:58.528Z - info: Website generation started at 16:16:57
+2025-05-29T08:16:58.705Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/book/_markbind/variables.md'
+2025-05-29T08:16:58.706Z - warn: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git/_markbind/variables.md'
+2025-05-29T08:16:58.725Z - info: Building assets...
+2025-05-29T08:17:00.231Z - info: Assets built
+2025-05-29T08:17:00.231Z - info: Generating pages...
+2025-05-29T08:17:08.317Z - debug:  
+2025-05-29T08:17:08.317Z - debug:  
+2025-05-29T08:17:08.317Z - debug:  
+2025-05-29T08:17:08.317Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:08.712Z - debug:  
+2025-05-29T08:17:09.470Z - debug:  
+2025-05-29T08:17:19.056Z - debug:  
+2025-05-29T08:18:04.233Z - debug:  
+2025-05-29T08:18:18.882Z - debug:  
+2025-05-29T08:18:18.921Z - debug:  
+2025-05-29T08:18:26.290Z - info: Pages built
+2025-05-29T08:18:26.350Z - info: Site data built
+2025-05-29T08:18:26.351Z - info: Website generation complete! Total build time: 88.393s
+2025-05-29T08:18:26.351Z - info: Build success!
+2025-05-29T08:26:08.420Z - error: uncaughtException: Cloning into '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git'...
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 4547 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+ date=Thu May 29 2025 16:26:08 GMT+0800 (Singapore Standard Time), pid=26749, uid=502, gid=20, cwd=/Users/damithch/Repos/nus-cs2103/cs2103-website-base, execPath=/opt/homebrew/Cellar/node@20/20.18.1/bin/node, version=v20.18.1, argv=[/opt/homebrew/Cellar/node@20/20.18.1/bin/node, /opt/homebrew/bin/markbind, deploy], rss=55803904, heapTotal=821280768, heapUsed=569027664, external=3249556, arrayBuffers=1016293, loadavg=[13.9296875, 15.18603515625, 11.990234375], uptime=453112
+ProcessError: Cloning into '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/node_modules/.cache/gh-pages/https!github.com!nus-cs2103-AY2425S2!website.git'...
+error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+error: 4547 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+    at ChildProcess.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/gh-pages/lib/git.js:42:16)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:518:28)
+    at Pipe.<anonymous> (node:net:343:12)
+2025-05-29T08:30:44.734Z - info: Website generation started at 16:30:43
+2025-05-29T08:30:44.943Z - info: Building assets...

@@ -416,6 +416,6 @@ with(this){return _c('div',{attrs:{"id":"D-Clients"}},[_c('div',[_c('h3',{attrs:
 with(this){return _c('div',{attrs:{"id":"D-Merchandise"}},[_c('div',[_c('h3',{attrs:{"id":"d-merchandise"}},[_c('span',{staticClass:"badge rounded-pill bg-danger"},[_v("D-Merchandise")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#d-merchandise","onclick":"event.stopPropagation()"}})]),_v(" "),_c('p',[_c('span',{staticClass:"large"},[_v("↳")]),_v(" "),_c('strong',[_v("Support managing merchandise info")])])]),_v(" "),_c('p',[_v("Support managing info about merchandise "),_c('span',{staticClass:"dimmed"},[_v("e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Sun, 18 May 2025, 12:53:09 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 29 May 2025, 16:30:45 GMT+8]")])])])}
 }];
   
